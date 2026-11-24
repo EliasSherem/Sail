@@ -1,0 +1,209 @@
+{
+  "ports": 293,
+  "failures": [],
+  "northernChain": [
+    "gibraltar",
+    "cadiz",
+    "lisbon",
+    "porto",
+    "vigo",
+    "a-coruna",
+    "brest",
+    "cork",
+    "killybegs",
+    "stornoway",
+    "torshavn",
+    "hofn",
+    "vestmannaeyjar",
+    "reykjavik",
+    "isafjordur",
+    "tasiilaq",
+    "prins-christian-sund",
+    "nanortalik",
+    "qaqortoq",
+    "paamiut",
+    "nuuk",
+    "sisimiut",
+    "qikiqtarjuaq",
+    "pangnirtung",
+    "iqaluit",
+    "saglek",
+    "nain",
+    "cartwright",
+    "st-anthony",
+    "st-johns",
+    "saint-pierre",
+    "halifax",
+    "boston",
+    "new-york"
+  ],
+  "legs": [
+    {
+      "from": "gibraltar",
+      "to": "cadiz",
+      "distance": 163313.57968660237
+    },
+    {
+      "from": "cadiz",
+      "to": "lisbon",
+      "distance": 433729.35820812726
+    },
+    {
+      "from": "lisbon",
+      "to": "porto",
+      "distance": 313363.56228778226
+    },
+    {
+      "from": "porto",
+      "to": "vigo",
+      "distance": 127941.59345161547
+    },
+    {
+      "from": "vigo",
+      "to": "a-coruna",
+      "distance": 201828.17578110905
+    },
+    {
+      "from": "a-coruna",
+      "to": "brest",
+      "distance": 626062.4812956487
+    },
+    {
+      "from": "brest",
+      "to": "cork",
+      "distance": 474161.8920081478
+    },
+    {
+      "from": "cork",
+      "to": "killybegs",
+      "distance": 593889.0345696762
+    },
+    {
+      "from": "killybegs",
+      "to": "stornoway",
+      "distance": 472488.1340148457
+    },
+    {
+      "from": "stornoway",
+      "to": "torshavn",
+      "distance": 455862.86986958067
+    },
+    {
+      "from": "torshavn",
+      "to": "hofn",
+      "distance": 553134.2081288026
+    },
+    {
+      "from": "hofn",
+      "to": "vestmannaeyjar",
+      "distance": 286061.97914946795
+    },
+    {
+      "from": "vestmannaeyjar",
+      "to": "reykjavik",
+      "distance": 223497.96417306282
+    },
+    {
+      "from": "reykjavik",
+      "to": "isafjordur",
+      "distance": 346753.0058928593
+    },
+    {
+      "from": "isafjordur",
+      "to": "tasiilaq",
+      "distance": 681708.7515498089
+    },
+    {
+      "from": "tasiilaq",
+      "to": "prins-christian-sund",
+      "distance": 680380.2583453322
+    },
+    {
+      "from": "prins-christian-sund",
+      "to": "nanortalik",
+      "distance": 157002.84874059478
+    },
+    {
+      "from": "nanortalik",
+      "to": "qaqortoq",
+      "distance": 97586.5201731728
+    },
+    {
+      "from": "qaqortoq",
+      "to": "paamiut",
+      "distance": 293347.10018236365
+    },
+    {
+      "from": "paamiut",
+      "to": "nuuk",
+      "distance": 269381.1000091301
+    },
+    {
+      "from": "nuuk",
+      "to": "sisimiut",
+      "distance": 356483.90338562935
+    },
+    {
+      "from": "sisimiut",
+      "to": "qikiqtarjuaq",
+      "distance": 483755.7489801343
+    },
+    {
+      "from": "qikiqtarjuaq",
+      "to": "pangnirtung",
+      "distance": 658838.7156321806
+    },
+    {
+      "from": "pangnirtung",
+      "to": "iqaluit",
+      "distance": 732453.7051033997
+    },
+    {
+      "from": "iqaluit",
+      "to": "saglek",
+      "distance": 673224.1107443733
+    },
+    {
+      "from": "saglek",
+      "to": "nain",
+      "distance": 303699.4124149975
+    },
+    {
+      "from": "nain",
+      "to": "cartwright",
+      "distance": 497185.17847261456
+    },
+    {
+      "from": "cartwright",
+      "to": "st-anthony",
+      "distance": 374888.72143703536
+    },
+    {
+      "from": "st-anthony",
+      "to": "st-johns",
+      "distance": 481099.57597701956
+    },
+    {
+      "from": "st-johns",
+      "to": "saint-pierre",
+      "distance": 375410.08876884344
+    },
+    {
+      "from": "saint-pierre",
+      "to": "halifax",
+      "distance": 635814.8976177442
+    },
+    {
+      "from": "halifax",
+      "to": "boston",
+      "distance": 710721.3271434128
+    },
+    {
+      "from": "boston",
+      "to": "new-york",
+      "distance": 522845.6975255676
+    }
+  ],
+  "maxLeg": 732453.7051033997,
+  "durationMs": 3383.6302499999997
+}

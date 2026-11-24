@@ -1,0 +1,396 @@
+{
+  "sources": [
+    "https://msi.nga.mil/api/publications/world-port-index?output=json",
+    "https://eng.geus.dk/media/14054/nr27_p37-68.pdf",
+    "https://www.geus.dk/media/13684/nr18_001-126.pdf",
+    "https://ocean.dmi.dk/arctic/timmiarmiut.php",
+    "https://tides.gc.ca/en/stations/03995",
+    "https://waves-vagues.dfo-mpo.gc.ca/Library/20190.pdf",
+    "https://publications.gc.ca/collections/collection_2023/mpo-dfo/Fs74-38-2021-12-eng.pdf"
+  ],
+  "note": "Regional coastal locations; refuelling installations fictional for the game, especially remote Arctic anchorages. No sea-ice or seasonal navigation simulation. Authoring relocates berths offshore against actual collision geometry.",
+  "seeds": [
+    {
+      "id": "gijon",
+      "name": "Gijón",
+      "country": "Spain",
+      "region": "Atlántico norte",
+      "lat": 43.55,
+      "lon": -5.666666666666667,
+      "bearing": 0
+    },
+    {
+      "id": "santander",
+      "name": "Santander",
+      "country": "Spain",
+      "region": "Atlántico norte",
+      "lat": 43.46666666666667,
+      "lon": -3.783333333333333,
+      "bearing": 0
+    },
+    {
+      "id": "la-rochelle",
+      "name": "La Rochelle",
+      "country": "France",
+      "region": "Atlántico norte",
+      "lat": 46.15,
+      "lon": -1.15,
+      "bearing": 260
+    },
+    {
+      "id": "newlyn",
+      "name": "Newlyn",
+      "country": "United Kingdom",
+      "region": "Atlántico norte",
+      "lat": 50.1,
+      "lon": -5.55,
+      "bearing": 150
+    },
+    {
+      "id": "galway",
+      "name": "Galway",
+      "country": "Ireland",
+      "region": "Atlántico norte",
+      "lat": 53.266666666666666,
+      "lon": -9.05,
+      "bearing": 210
+    },
+    {
+      "id": "oban",
+      "name": "Oban",
+      "country": "United Kingdom",
+      "region": "Atlántico norte",
+      "lat": 56.416666666666664,
+      "lon": -5.466666666666667,
+      "bearing": 290
+    },
+    {
+      "id": "scrabster",
+      "name": "Scrabster",
+      "country": "United Kingdom",
+      "region": "Atlántico norte",
+      "lat": 58.61666666666667,
+      "lon": -3.55,
+      "bearing": 10
+    },
+    {
+      "id": "stromness",
+      "name": "Stromness",
+      "country": "United Kingdom",
+      "region": "Atlántico norte",
+      "lat": 58.96666666666667,
+      "lon": -3.3,
+      "bearing": 180
+    },
+    {
+      "id": "lerwick",
+      "name": "Lerwick",
+      "country": "United Kingdom",
+      "region": "Atlántico norte",
+      "lat": 60.166999999999994,
+      "lon": -1.15,
+      "bearing": 100
+    },
+    {
+      "id": "sorvagur",
+      "name": "Sørvágur",
+      "country": "Faroe Islands",
+      "region": "Atlántico norte",
+      "lat": 62.083333333333336,
+      "lon": -7.25,
+      "bearing": 270
+    },
+    {
+      "id": "budir",
+      "name": "Fáskrúðsfjörður",
+      "country": "Iceland",
+      "region": "Atlántico norte",
+      "lat": 64.93333333333334,
+      "lon": -14.016666666666667,
+      "bearing": 130
+    },
+    {
+      "id": "seydisfjordur",
+      "name": "Seyðisfjörður",
+      "country": "Iceland",
+      "region": "Atlántico norte",
+      "lat": 65.26666666666667,
+      "lon": -14.0,
+      "bearing": 70
+    },
+    {
+      "id": "qutdleq",
+      "name": "Qutdleq · escala costera",
+      "country": "Greenland",
+      "region": "Atlántico norte",
+      "lat": 61.516666666666666,
+      "lon": -42.21666666666667,
+      "bearing": 110
+    },
+    {
+      "id": "north-sydney",
+      "name": "North Sydney",
+      "country": "Canada",
+      "region": "Atlántico norte",
+      "lat": 46.21666666666667,
+      "lon": -60.25,
+      "bearing": 70
+    },
+    {
+      "id": "port-hawkesbury",
+      "name": "Port Hawkesbury",
+      "country": "Canada",
+      "region": "Atlántico norte",
+      "lat": 45.61666666666667,
+      "lon": -61.36666666666667,
+      "bearing": 230
+    },
+    {
+      "id": "portland-maine",
+      "name": "Portland, Maine",
+      "country": "Estados Unidos",
+      "region": "Atlántico norte",
+      "lat": 43.666666666666664,
+      "lon": -70.25,
+      "bearing": 120
+    },
+    {
+      "id": "newport-rhode-island",
+      "name": "Newport, Rhode Island",
+      "country": "Estados Unidos",
+      "region": "Atlántico norte",
+      "lat": 41.5,
+      "lon": -71.33333333333333,
+      "bearing": 180
+    },
+    {
+      "id": "portimao",
+      "name": "Portimão",
+      "country": "Portugal",
+      "region": "Atlántico norte",
+      "lat": 37.112,
+      "lon": -8.533,
+      "bearing": 180
+    },
+    {
+      "id": "bayonne",
+      "name": "Bayona",
+      "country": "Francia",
+      "region": "Atlántico norte",
+      "lat": 43.533,
+      "lon": -1.529,
+      "bearing": 300
+    },
+    {
+      "id": "lorient",
+      "name": "Lorient",
+      "country": "Francia",
+      "region": "Atlántico norte",
+      "lat": 47.673,
+      "lon": -3.386,
+      "bearing": 210
+    },
+    {
+      "id": "dingle",
+      "name": "Dingle",
+      "country": "Irlanda",
+      "region": "Atlántico norte",
+      "lat": 52.1,
+      "lon": -10.27,
+      "bearing": 180
+    },
+    {
+      "id": "kangerlussuaq-east",
+      "name": "Kangerlussuaq Este · escala costera",
+      "country": "Groenlandia",
+      "region": "Atlántico norte",
+      "lat": 68.083333,
+      "lon": -31.666667,
+      "bearing": 150
+    },
+    {
+      "id": "kulusuk",
+      "name": "Kulusuk",
+      "country": "Groenlandia",
+      "region": "Atlántico norte",
+      "lat": 65.575,
+      "lon": -37.16,
+      "bearing": 100
+    },
+    {
+      "id": "skjoldungen",
+      "name": "Skjoldungen · escala costera",
+      "country": "Groenlandia",
+      "region": "Atlántico norte",
+      "lat": 63.37,
+      "lon": -41.18,
+      "bearing": 110
+    },
+    {
+      "id": "timmiarmiut",
+      "name": "Timmiarmiut · escala costera",
+      "country": "Groenlandia",
+      "region": "Atlántico norte",
+      "lat": 62.53,
+      "lon": -42.25,
+      "bearing": 110
+    },
+    {
+      "id": "cape-dyer",
+      "name": "Cape Dyer · escala costera",
+      "country": "Canadá",
+      "region": "Atlántico norte",
+      "lat": 66.558333,
+      "lon": -61.659444,
+      "bearing": 180
+    },
+    {
+      "id": "brevoort",
+      "name": "Brevoort Harbour · escala costera",
+      "country": "Canadá",
+      "region": "Atlántico norte",
+      "lat": 63.316667,
+      "lon": -64.133333,
+      "bearing": 120
+    },
+    {
+      "id": "resolution-harbour",
+      "name": "Resolution Harbour · escala costera",
+      "country": "Canadá",
+      "region": "Atlántico norte",
+      "lat": 61.3,
+      "lon": -64.85,
+      "bearing": 150
+    },
+    {
+      "id": "hopedale",
+      "name": "Hopedale",
+      "country": "Canadá",
+      "region": "Atlántico norte",
+      "lat": 55.459,
+      "lon": -60.204,
+      "bearing": 90
+    },
+    {
+      "id": "bonavista",
+      "name": "Bonavista",
+      "country": "Canadá",
+      "region": "Atlántico norte",
+      "lat": 48.655,
+      "lon": -53.115,
+      "bearing": 0
+    },
+    {
+      "id": "yarmouth-canada",
+      "name": "Yarmouth",
+      "country": "Canadá",
+      "region": "Atlántico norte",
+      "lat": 43.802,
+      "lon": -66.17,
+      "bearing": 230
+    }
+  ],
+  "networks": [
+    [
+      "cadiz",
+      "portimao",
+      "lisbon"
+    ],
+    [
+      "a-coruna",
+      "gijon",
+      "santander",
+      "bayonne",
+      "la-rochelle",
+      "lorient",
+      "brest"
+    ],
+    [
+      "brest",
+      "newlyn",
+      "cork"
+    ],
+    [
+      "newlyn",
+      "falmouth"
+    ],
+    [
+      "cork",
+      "dingle",
+      "galway",
+      "killybegs",
+      "oban",
+      "stornoway"
+    ],
+    [
+      "stornoway",
+      "scrabster",
+      "stromness",
+      "lerwick",
+      "torshavn",
+      "sorvagur",
+      "budir",
+      "hofn"
+    ],
+    [
+      "budir",
+      "seydisfjordur"
+    ],
+    [
+      "isafjordur",
+      "kangerlussuaq-east",
+      "kulusuk",
+      "tasiilaq"
+    ],
+    [
+      "tasiilaq",
+      "skjoldungen",
+      "timmiarmiut",
+      "qutdleq",
+      "prins-christian-sund"
+    ],
+    [
+      "sisimiut",
+      "cape-dyer",
+      "brevoort",
+      "resolution-harbour",
+      "saglek"
+    ],
+    [
+      "cape-dyer",
+      "qikiqtarjuaq"
+    ],
+    [
+      "brevoort",
+      "iqaluit"
+    ],
+    [
+      "nain",
+      "hopedale",
+      "cartwright"
+    ],
+    [
+      "st-anthony",
+      "bonavista",
+      "st-johns"
+    ],
+    [
+      "saint-pierre",
+      "north-sydney",
+      "port-hawkesbury",
+      "halifax",
+      "yarmouth-canada",
+      "portland-maine",
+      "boston"
+    ],
+    [
+      "atl-cape-cod",
+      "newport-rhode-island",
+      "new-york"
+    ],
+    [
+      "north-sydney",
+      "halifax"
+    ]
+  ]
+}

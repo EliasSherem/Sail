@@ -1,0 +1,32 @@
+{
+  "variant": "legacy-400L-180-to-950Lph",
+  "conditions": "35% load; evolving calm seed4821; real pilot/forces; requested100x; no refuelling",
+  "capacityLitres": 400,
+  "idleLitresPerHour": 180,
+  "fullLitresPerHour": 950,
+  "estimate": {
+    "distanceM": 347806.4443568101,
+    "durationSeconds": 12993.300454586193,
+    "estimatedFuelLitres": 991.9154395195893,
+    "cruiseSpeedKnots": 52.62223348441875,
+    "status": "insufficient",
+    "reserveLitres": 247.97885987989733,
+    "requiredFuelLitres": 1239.8942993994867,
+    "availableFuelLitres": 400,
+    "remainingFuelLitres": -591.9154395195893,
+    "reserveFraction": 0.25
+  },
+  "actual": {
+    "completed": false,
+    "collisions": 0,
+    "durationSeconds": 5225.866666677985,
+    "distanceM": 140766.50241791984,
+    "consumedLitres": 400,
+    "remainingLitres": 0,
+    "arrivalDistanceM": 202533.91281562584,
+    "arrivalSpeedMS": 25.616898255613165,
+    "reserveCoversConsumption": true,
+    "remainingTankFraction": 0
+  },
+  "cpuMilliseconds": 582.3004169999999
+}

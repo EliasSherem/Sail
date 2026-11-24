@@ -1,0 +1,58 @@
+{
+  "tolerance": "0.001",
+  "landmarks": [
+    {
+      "id": "one-world",
+      "oldCenter": false,
+      "newCenter": true,
+      "landPoints": 9
+    },
+    {
+      "id": "liberty",
+      "oldCenter": false,
+      "newCenter": false,
+      "landPoints": 0
+    },
+    {
+      "id": "eilat-hotel",
+      "oldCenter": false,
+      "newCenter": false,
+      "landPoints": 0
+    },
+    {
+      "id": "marina-bay-sands",
+      "oldCenter": false,
+      "newCenter": true,
+      "landPoints": 6
+    }
+  ],
+  "failures": [],
+  "blocked": [],
+  "changes": [],
+  "bytes": 1939499,
+  "source": "Natural Earth 5.1.1 land, 1:10,000,000",
+  "regions": {
+    "new-york": [
+      -74.32,
+      40.4,
+      -73.67,
+      41.0
+    ],
+    "singapore": [
+      103.55,
+      1.05,
+      104.17,
+      1.51
+    ],
+    "eilat": [
+      34.73,
+      29.32,
+      35.2,
+      29.79
+    ]
+  },
+  "sha256": "adaaf189f5359fdcf5023982d6cd9bb2c7df159301567511c3c3e8547defde98",
+  "generatorByteIdentical": true,
+  "verifiedPortCount": 105,
+  "landmarkSamples": "Centre, nominal footprint corners and edge midpoints; One WTC additionally tested with 10% expanded base."
+}

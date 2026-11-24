@@ -1,0 +1,593 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "checks": [
+    "camera/chart separation and clickable controls across six viewports",
+    "yacht estimates Cassis/Barcelona with sufficient fuel",
+    "12 regional routes and 100+ worldwide port choices",
+    "route activation and camera restoration",
+    "all six boats estimate short voyages from rest",
+    "map routes and missions preserve non-default ship selection",
+    "empty and reserve-low save fixtures show honest nonblocking advice",
+    "missions share planner estimates",
+    "new port departure and route activation with mobile touch",
+    "no JavaScript/WebGL errors or external requests"
+  ],
+  "errors": [],
+  "external": [],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "camera": {
+        "x": 1165,
+        "y": 397,
+        "right": 1402,
+        "bottom": 455,
+        "width": 237,
+        "height": 58
+      },
+      "map": {
+        "x": 1165,
+        "y": 465,
+        "right": 1402,
+        "bottom": 682,
+        "width": 237,
+        "height": 217
+      },
+      "mapVisible": true,
+      "overlap": 0,
+      "buttons": [
+        {
+          "name": "Cámara en tercera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara en primera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara orbital",
+          "clickable": true,
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "documentWidth": 1366,
+      "camera": {
+        "x": 1091,
+        "y": 265,
+        "right": 1328,
+        "bottom": 323,
+        "width": 237,
+        "height": 58
+      },
+      "map": {
+        "x": 1091,
+        "y": 333,
+        "right": 1328,
+        "bottom": 550,
+        "width": 237,
+        "height": 217
+      },
+      "mapVisible": true,
+      "overlap": 0,
+      "buttons": [
+        {
+          "name": "Cámara en tercera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara en primera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara orbital",
+          "clickable": true,
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 650,
+      "documentWidth": 1024,
+      "camera": {
+        "x": 776,
+        "y": 145,
+        "right": 996,
+        "bottom": 203,
+        "width": 220,
+        "height": 58
+      },
+      "map": {
+        "x": 776,
+        "y": 213,
+        "right": 996,
+        "bottom": 365,
+        "width": 220,
+        "height": 152
+      },
+      "mapVisible": true,
+      "overlap": 0,
+      "buttons": [
+        {
+          "name": "Cámara en tercera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara en primera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara orbital",
+          "clickable": true,
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "height": 650,
+      "documentWidth": 820,
+      "camera": {
+        "x": 578,
+        "y": 145,
+        "right": 798,
+        "bottom": 203,
+        "width": 220,
+        "height": 58
+      },
+      "map": {
+        "x": 578,
+        "y": 213,
+        "right": 798,
+        "bottom": 365,
+        "width": 220,
+        "height": 152
+      },
+      "mapVisible": true,
+      "overlap": 0,
+      "buttons": [
+        {
+          "name": "Cámara en tercera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara en primera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara orbital",
+          "clickable": true,
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "camera": {
+        "x": 526,
+        "y": 489,
+        "right": 746,
+        "bottom": 547,
+        "width": 220,
+        "height": 58
+      },
+      "map": {
+        "x": 526,
+        "y": 557,
+        "right": 746,
+        "bottom": 756,
+        "width": 220,
+        "height": 199
+      },
+      "mapVisible": true,
+      "overlap": 0,
+      "buttons": [
+        {
+          "name": "Cámara en tercera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara en primera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara orbital",
+          "clickable": true,
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "camera": {
+        "x": 267,
+        "y": 215,
+        "right": 375,
+        "bottom": 369,
+        "width": 108,
+        "height": 154
+      },
+      "map": {
+        "x": 0,
+        "y": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "mapVisible": false,
+      "overlap": 0,
+      "buttons": [
+        {
+          "name": "Cámara en tercera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara en primera persona",
+          "clickable": true,
+          "clipped": false
+        },
+        {
+          "name": "Cámara orbital",
+          "clickable": true,
+          "clipped": false
+        }
+      ]
+    }
+  ],
+  "estimates": [
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado75 L",
+        "Reserva (25%)19 L",
+        "Total con reserva94 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 75,
+      "required": 94
+    },
+    {
+      "id": "barcelona",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado901 L",
+        "Reserva (25%)225 L",
+        "Total con reserva1126 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 901,
+      "required": 1126
+    },
+    {
+      "id": "la-ciotat",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado98 L",
+        "Reserva (25%)25 L",
+        "Total con reserva123 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 98,
+      "required": 123
+    },
+    {
+      "id": "bandol",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado128 L",
+        "Reserva (25%)32 L",
+        "Total con reserva159 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 128,
+      "required": 159
+    },
+    {
+      "id": "hyeres",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado233 L",
+        "Reserva (25%)58 L",
+        "Total con reserva291 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 233,
+      "required": 291
+    },
+    {
+      "id": "nice",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado541 L",
+        "Reserva (25%)135 L",
+        "Total con reserva676 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 541,
+      "required": 676
+    },
+    {
+      "id": "monaco",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado583 L",
+        "Reserva (25%)146 L",
+        "Total con reserva729 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 583,
+      "required": 729
+    },
+    {
+      "id": "genoa",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado952 L",
+        "Reserva (25%)238 L",
+        "Total con reserva1190 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 952,
+      "required": 1190
+    },
+    {
+      "id": "ajaccio",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado1132 L",
+        "Reserva (25%)283 L",
+        "Total con reserva1415 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 1132,
+      "required": 1415
+    },
+    {
+      "id": "palma",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado1735 L",
+        "Reserva (25%)434 L",
+        "Total con reserva2169 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 1735,
+      "required": 2169
+    },
+    {
+      "id": "valencia",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado1715 L",
+        "Reserva (25%)429 L",
+        "Total con reserva2143 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 1715,
+      "required": 2143
+    },
+    {
+      "id": "cartagena",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado901 L",
+        "Reserva (25%)225 L",
+        "Total con reserva1126 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 901,
+      "required": 1126
+    },
+    {
+      "id": "malaga",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado901 L",
+        "Reserva (25%)225 L",
+        "Total con reserva1126 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 901,
+      "required": 1126
+    },
+    {
+      "id": "gibraltar",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado901 L",
+        "Reserva (25%)225 L",
+        "Total con reserva1126 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 901,
+      "required": 1126
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado75 L",
+        "Reserva (25%)19 L",
+        "Total con reserva94 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 75,
+      "required": 94
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado28 L",
+        "Reserva (25%)6,9 L",
+        "Total con reserva35 L",
+        "A bordo420 L"
+      ],
+      "consumption": 28,
+      "required": 35,
+      "shipId": "launch"
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado65 L",
+        "Reserva (25%)16 L",
+        "Total con reserva81 L",
+        "A bordo4800 L"
+      ],
+      "consumption": 65,
+      "required": 81,
+      "shipId": "fishing"
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado362 L",
+        "Reserva (25%)90 L",
+        "Total con reserva452 L",
+        "A bordo15.000 L"
+      ],
+      "consumption": 362,
+      "required": 452,
+      "shipId": "tug"
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado44 L",
+        "Reserva (25%)11 L",
+        "Total con reserva55 L",
+        "A bordo900 L"
+      ],
+      "consumption": 44,
+      "required": 55,
+      "shipId": "spirit"
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado1290 L",
+        "Reserva (25%)322 L",
+        "Total con reserva1612 L",
+        "A bordo650.000 L"
+      ],
+      "consumption": 1290,
+      "required": 1612,
+      "shipId": "cargo"
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado75 L",
+        "Reserva (25%)19 L",
+        "Total con reserva94 L",
+        "A bordo0 L"
+      ],
+      "consumption": 75,
+      "required": 94
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado75 L",
+        "Reserva (25%)19 L",
+        "Total con reserva94 L",
+        "A bordo84 L"
+      ],
+      "consumption": 75,
+      "required": 94
+    },
+    {
+      "id": "cassis",
+      "status": "sufficient",
+      "rows": [
+        "Consumo estimado40 L",
+        "Reserva (25%)9,9 L",
+        "Total con reserva50 L",
+        "A bordo2400 L"
+      ],
+      "consumption": 40,
+      "required": 50
+    }
+  ],
+  "newPorts": [
+    {
+      "id": "la-ciotat",
+      "name": "La Ciotat · Francia"
+    },
+    {
+      "id": "bandol",
+      "name": "Bandol · Francia"
+    },
+    {
+      "id": "hyeres",
+      "name": "Hyères · Francia"
+    },
+    {
+      "id": "nice",
+      "name": "Niza · Francia"
+    },
+    {
+      "id": "monaco",
+      "name": "Mónaco · Mónaco"
+    },
+    {
+      "id": "genoa",
+      "name": "Génova · Italia"
+    },
+    {
+      "id": "ajaccio",
+      "name": "Ajaccio · Francia"
+    },
+    {
+      "id": "palma",
+      "name": "Palma · España"
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia · España"
+    },
+    {
+      "id": "cartagena",
+      "name": "Cartagena · España"
+    },
+    {
+      "id": "malaga",
+      "name": "Málaga · España"
+    },
+    {
+      "id": "gibraltar",
+      "name": "Gibraltar · Gibraltar"
+    }
+  ]
+}

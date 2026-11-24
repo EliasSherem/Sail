@@ -1,0 +1,143 @@
+{
+  "source": "https://overpass-api.de/api/interpreter",
+  "ports": {
+    "marseille": {
+      "center": [
+        43.2964,
+        5.37
+      ],
+      "radiusM": 1600,
+      "downloaded": 24446,
+      "retained": 700,
+      "queryLimit": null
+    },
+    "barcelona": {
+      "center": [
+        41.367,
+        2.178
+      ],
+      "radiusM": 3000,
+      "downloaded": 6500,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "new-york": {
+      "center": [
+        40.71,
+        -74.007
+      ],
+      "bbox": [
+        40.699,
+        -74.023,
+        40.721,
+        -73.991
+      ],
+      "queryLimit": 4000,
+      "selection": "height > 50 m, tallest 400",
+      "downloaded": 3172,
+      "retained": 227,
+      "query": "[out:json][timeout:45];(way[building][height](40.699,-74.023,40.721,-73.991);way[building][\"building:levels\"](40.699,-74.023,40.721,-73.991););out tags geom 4000;"
+    },
+    "acapulco": {
+      "center": [
+        16.854,
+        -99.891
+      ],
+      "radiusM": 3500,
+      "downloaded": 6500,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "los-cabos": {
+      "center": [
+        22.888,
+        -109.914
+      ],
+      "radiusM": 2100,
+      "downloaded": 1515,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "cancun": {
+      "center": [
+        21.13,
+        -86.763
+      ],
+      "radiusM": 3000,
+      "downloaded": 310,
+      "retained": 243,
+      "queryLimit": 3500
+    },
+    "veracruz": {
+      "center": [
+        19.201,
+        -96.138
+      ],
+      "radiusM": 2600,
+      "downloaded": 496,
+      "retained": 433,
+      "queryLimit": 6500,
+      "endpoint": "https://overpass.kumi.systems/api/interpreter"
+    },
+    "haifa": {
+      "center": [
+        32.82,
+        34.993
+      ],
+      "radiusM": 3000,
+      "downloaded": 6500,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "ashdod": {
+      "center": [
+        31.813,
+        34.659
+      ],
+      "radiusM": 3200,
+      "downloaded": 3918,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "eilat": {
+      "center": [
+        29.549,
+        34.953
+      ],
+      "radiusM": 2200,
+      "downloaded": 3591,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "singapore": {
+      "center": [
+        1.289,
+        103.849
+      ],
+      "radiusM": 3600,
+      "downloaded": 6500,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "sydney": {
+      "center": [
+        -33.857,
+        151.213
+      ],
+      "radiusM": 3400,
+      "downloaded": 6500,
+      "retained": 700,
+      "queryLimit": 6500
+    },
+    "new-york-shore": {
+      "center": [
+        40.578,
+        -73.974
+      ],
+      "radiusM": 3000,
+      "downloaded": 3500,
+      "retained": 513,
+      "queryLimit": 3500
+    }
+  }
+}

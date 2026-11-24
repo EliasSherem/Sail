@@ -1,0 +1,265 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "checks": [
+    "1000× moves the physical boat, burns fuel and advances the solar clock with simulated time while environmental animation remains smooth",
+    "saved simulated solar clock restores without resetting its hour",
+    "dated local UTC offsets for New York, Cancún, Los Cabos, Haifa and Eilat; boat physically crosses a nautical time-zone boundary",
+    "1000× accessible in portrait/landscape mobile layouts; actual scale still drops near shore"
+  ],
+  "routes": [],
+  "time": {
+    "scales": [
+      {
+        "scale": 1,
+        "seconds": 1.6666666666666665,
+        "before": {
+          "hour": 17.300305555555557,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450281100
+        },
+        "after": {
+          "hour": 17.300768518541126,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450282766.6667
+        }
+      },
+      {
+        "scale": 5,
+        "seconds": 8.333333333333304,
+        "before": {
+          "hour": 17.300768518541126,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450282766.6667
+        },
+        "after": {
+          "hour": 17.303083333333333,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450291100
+        }
+      },
+      {
+        "scale": 20,
+        "seconds": 33.000000000000085,
+        "before": {
+          "hour": 17.303083333333333,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450291100
+        },
+        "after": {
+          "hour": 17.312250000000002,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450324100
+        }
+      },
+      {
+        "scale": 100,
+        "seconds": 164.99999999999065,
+        "before": {
+          "hour": 17.312250000000002,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450324100
+        },
+        "after": {
+          "hour": 17.358083333333333,
+          "date": "2026-09-26",
+          "timeZone": "Huso marítimo",
+          "offsetMinutes": -120,
+          "offsetLabel": "UTC−02:00",
+          "source": "maritime",
+          "utcMs": 1790450489100
+        }
+      }
+    ],
+    "start": {
+      "version": 1,
+      "savedAt": "2026-09-26T22:02:34.237Z",
+      "state": {
+        "lat": -0.0000772075755059369,
+        "lon": -29.99950936881868,
+        "shipId": "launch",
+        "heading": 1.4705905442291654,
+        "u": 0.21545276099120259,
+        "v": -0.03535882734696474,
+        "yawRate": -0.00038432175054950094,
+        "engine": 0,
+        "fuel": 419.95357979990325,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 209.0999999999907,
+        "distance": 55.38584388156508,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "sea": "calm",
+      "seed": 4821,
+      "routeTarget": null,
+      "environmentTime": 7.74990000000004,
+      "dayStartHour": 17.299999999999997,
+      "dayLengthSeconds": 86400,
+      "daylightClock": "utc",
+      "clockEpochMs": 1790450280000,
+      "marineLife": false,
+      "autopilot": false,
+      "routeCompleted": false,
+      "mission": "free",
+      "quality": "high",
+      "camera": "follow",
+      "tutorialComplete": true,
+      "tutorialStep": 0,
+      "tutorialStart": 0
+    },
+    "end": {
+      "version": 1,
+      "savedAt": "2026-09-26T22:02:47.038Z",
+      "state": {
+        "lat": 0.20183886418583924,
+        "lon": -28.47733175158885,
+        "shipId": "launch",
+        "heading": 1.3667288463555538,
+        "u": 14.06459169777092,
+        "v": -0.0004937175399870773,
+        "yawRate": -0.000009035298250547908,
+        "engine": 0.9999999999999957,
+        "fuel": 333.1657180829603,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 12241.99999999015,
+        "distance": 170850.23629027122,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "sea": "calm",
+      "seed": 4821,
+      "routeTarget": null,
+      "environmentTime": 19.782799999999867,
+      "dayStartHour": 17.299999999999997,
+      "dayLengthSeconds": 86400,
+      "daylightClock": "utc",
+      "clockEpochMs": 1790450280000,
+      "marineLife": false,
+      "autopilot": false,
+      "routeCompleted": false,
+      "mission": "free",
+      "quality": "high",
+      "camera": "follow",
+      "tutorialComplete": true,
+      "tutorialStep": 0,
+      "tutorialStart": 0
+    },
+    "simulatedSeconds": 12032.899999990159,
+    "solarHour": 20.802066772128455,
+    "local": {
+      "hour": 20.700555555555553,
+      "date": "2026-09-26",
+      "timeZone": "Huso marítimo",
+      "offsetMinutes": -120,
+      "offsetLabel": "UTC−02:00",
+      "source": "maritime",
+      "utcMs": 1790462522000
+    },
+    "shown": "20:42 · 2026-09-26 · UTC−02:00",
+    "zones": [
+      {
+        "id": "new-york",
+        "text": "08:00 UTC−04:00"
+      },
+      {
+        "id": "cancun",
+        "text": "07:00 UTC−05:00"
+      },
+      {
+        "id": "los-cabos",
+        "text": "05:00 UTC−07:00"
+      },
+      {
+        "id": "haifa",
+        "text": "15:00 UTC+03:00"
+      },
+      {
+        "id": "eilat",
+        "text": "15:00 UTC+03:00"
+      }
+    ],
+    "crossed": {
+      "version": 1,
+      "savedAt": "2026-09-26T22:03:10.324Z",
+      "state": {
+        "lat": 0.0009771781571481634,
+        "lon": -7.337657660467244,
+        "shipId": "launch",
+        "heading": 1.5477906634667953,
+        "u": 14.054598930926712,
+        "v": -0.0008115912955112524,
+        "yawRate": -0.000014850961841643318,
+        "engine": 0.9999999999999957,
+        "fuel": 410.2827682888489,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 1350.8999999994287,
+        "distance": 19164.344625999074,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "sea": "calm",
+      "seed": 4821,
+      "routeTarget": null,
+      "environmentTime": 2.2667000000000006,
+      "dayStartHour": 17.3,
+      "dayLengthSeconds": 86400,
+      "daylightClock": "utc",
+      "clockEpochMs": 1790510400000,
+      "marineLife": false,
+      "autopilot": false,
+      "routeCompleted": false,
+      "mission": "free",
+      "quality": "high",
+      "camera": "follow",
+      "tutorialComplete": true,
+      "tutorialStep": 0,
+      "tutorialStart": 0
+    }
+  },
+  "errors": [],
+  "external": []
+}

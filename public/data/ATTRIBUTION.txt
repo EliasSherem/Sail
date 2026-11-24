@@ -1,0 +1,23 @@
+Made with Natural Earth.
+
+Source: Natural Earth 1:10,000,000 land polygons, version 5.1.1.
+https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/
+https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip
+
+License: public domain.
+https://www.naturalearthdata.com/about/terms-of-use/
+
+Modified for DERIVA: topology-preserving simplification (0.001 degrees in the
+western Mediterranean and audited regional patches of New York, Singapore and
+Eilat, 0.04 degrees elsewhere), exterior rings only, five decimal source vertex
+rounding, omission of minute polygons outside the detailed regions. Calculated
+intersections at the rectangular patch limits retain their computed precision.
+Detailed region bounds [west, south, east, north], degrees:
+- Western Mediterranean: [-6, 35, 10, 45]
+- New York / Lower Bay: [-74.32, 40.40, -73.67, 41.00]
+- Singapore: [103.55, 1.05, 104.17, 1.51]
+- Eilat / northern Gulf of Aqaba: [34.73, 29.32, 35.20, 29.79]
+The three urban refinements replace only their local geometry; service port
+coordinates and validated ocean/canal corridors remain unchanged.
+Source resolution is 1:10 million cartographic scale, NOT ten-meter accuracy.
+See docs/GEOGRAPHY.md and docs/build_geography.py for reproduction and limitations.

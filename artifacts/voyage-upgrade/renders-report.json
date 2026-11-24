@@ -1,0 +1,916 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "checks": [
+    "seven rendered vessels in first person, third person and orbit",
+    "eight small-boat Atlantic/Mediterranean UI plans, every stage fuel/reserve displayed, selection/position/fuel preserved"
+  ],
+  "routes": [
+    {
+      "id": "launch",
+      "destination": "new-york",
+      "stages": [
+        {
+          "required": 227.1968348158774,
+          "available": 419.99929699999853,
+          "text": "Barcelona188 mn · 182 L · REPOSTARSalida: 420 L · llegada prevista: 238 L · reserva mínima: 45 L"
+        },
+        {
+          "required": 345.33145891512385,
+          "available": 420,
+          "text": "Cartagena287 mn · 276 L · REPOSTARSalida: 420 L · llegada prevista: 144 L · reserva mínima: 69 L"
+        },
+        {
+          "required": 389.7504889457863,
+          "available": 420,
+          "text": "Gibraltar321 mn · 312 L · REPOSTARSalida: 420 L · llegada prevista: 108 L · reserva mínima: 78 L"
+        },
+        {
+          "required": 390.58070533164874,
+          "available": 420,
+          "text": "Lisboa321 mn · 312 L · REPOSTARSalida: 420 L · llegada prevista: 108 L · reserva mínima: 78 L"
+        },
+        {
+          "required": 413.00041964119214,
+          "available": 420,
+          "text": "A Coruña342 mn · 330 L · REPOSTARSalida: 420 L · llegada prevista: 90 L · reserva mínima: 83 L"
+        },
+        {
+          "required": 404.95815395194836,
+          "available": 420,
+          "text": "Brest338 mn · 324 L · REPOSTARSalida: 420 L · llegada prevista: 96 L · reserva mínima: 81 L"
+        },
+        {
+          "required": 312.12262362669475,
+          "available": 420,
+          "text": "Cork256 mn · 250 L · REPOSTARSalida: 420 L · llegada prevista: 170 L · reserva mínima: 62 L"
+        },
+        {
+          "required": 386.8390996425404,
+          "available": 420,
+          "text": "Killybegs321 mn · 309 L · REPOSTARSalida: 420 L · llegada prevista: 111 L · reserva mínima: 77 L"
+        },
+        {
+          "required": 306.8804786898502,
+          "available": 420,
+          "text": "Stornoway255 mn · 246 L · REPOSTARSalida: 420 L · llegada prevista: 174 L · reserva mínima: 61 L"
+        },
+        {
+          "required": 297.89817111694697,
+          "available": 420,
+          "text": "Tórshavn246 mn · 238 L · REPOSTARSalida: 420 L · llegada prevista: 182 L · reserva mínima: 60 L"
+        },
+        {
+          "required": 364.79159398124403,
+          "available": 420,
+          "text": "Höfn299 mn · 292 L · REPOSTARSalida: 420 L · llegada prevista: 128 L · reserva mínima: 73 L"
+        },
+        {
+          "required": 329.5469775971458,
+          "available": 420,
+          "text": "Reikiavik271 mn · 264 L · REPOSTARSalida: 420 L · llegada prevista: 156 L · reserva mínima: 66 L"
+        },
+        {
+          "required": 226.6444292036147,
+          "available": 420,
+          "text": "Ísafjörður187 mn · 181 L · REPOSTARSalida: 420 L · llegada prevista: 239 L · reserva mínima: 45 L"
+        },
+        {
+          "required": 286.9817985231656,
+          "available": 420,
+          "text": "Kangerlussuaq Este · escala costera235 mn · 230 L · REPOSTARSalida: 420 L · llegada prevista: 190 L · reserva mínima: 57 L"
+        },
+        {
+          "required": 265.6618431746703,
+          "available": 420,
+          "text": "Kulusuk220 mn · 213 L · REPOSTARSalida: 420 L · llegada prevista: 207 L · reserva mínima: 53 L"
+        },
+        {
+          "required": 368.95983505915586,
+          "available": 420,
+          "text": "Qutdleq · escala costera307 mn · 295 L · REPOSTARSalida: 420 L · llegada prevista: 125 L · reserva mínima: 74 L"
+        },
+        {
+          "required": 110.0713436735337,
+          "available": 420,
+          "text": "Prins Christian Sund92 mn · 88 L · REPOSTARSalida: 420 L · llegada prevista: 332 L · reserva mínima: 22 L"
+        },
+        {
+          "required": 355.3921872582291,
+          "available": 420,
+          "text": "Paamiut292 mn · 284 L · REPOSTARSalida: 420 L · llegada prevista: 136 L · reserva mínima: 71 L"
+        },
+        {
+          "required": 177.09628875286657,
+          "available": 420,
+          "text": "Nuuk145 mn · 142 L · REPOSTARSalida: 420 L · llegada prevista: 278 L · reserva mínima: 35 L"
+        },
+        {
+          "required": 233.74038604457553,
+          "available": 420,
+          "text": "Sisimiut192 mn · 187 L · REPOSTARSalida: 420 L · llegada prevista: 233 L · reserva mínima: 47 L"
+        },
+        {
+          "required": 239.8624191738423,
+          "available": 420,
+          "text": "Cape Dyer · escala costera197 mn · 192 L · REPOSTARSalida: 420 L · llegada prevista: 228 L · reserva mínima: 48 L"
+        },
+        {
+          "required": 274.881628441036,
+          "available": 420,
+          "text": "Brevoort Harbour · escala costera229 mn · 220 L · REPOSTARSalida: 420 L · llegada prevista: 200 L · reserva mínima: 55 L"
+        },
+        {
+          "required": 374.08294069075635,
+          "available": 420,
+          "text": "Saglek · Torngat314 mn · 299 L · REPOSTARSalida: 420 L · llegada prevista: 121 L · reserva mínima: 75 L"
+        },
+        {
+          "required": 195.8134559677637,
+          "available": 420,
+          "text": "Nain164 mn · 157 L · REPOSTARSalida: 420 L · llegada prevista: 263 L · reserva mínima: 39 L"
+        },
+        {
+          "required": 318.0881589339884,
+          "available": 420,
+          "text": "Cartwright268 mn · 254 L · REPOSTARSalida: 420 L · llegada prevista: 166 L · reserva mínima: 64 L"
+        },
+        {
+          "required": 241.25826781924582,
+          "available": 420,
+          "text": "St. Anthony202 mn · 193 L · REPOSTARSalida: 420 L · llegada prevista: 227 L · reserva mínima: 48 L"
+        },
+        {
+          "required": 307.85065549303886,
+          "available": 420,
+          "text": "San Juan de Terranova260 mn · 246 L · REPOSTARSalida: 420 L · llegada prevista: 174 L · reserva mínima: 62 L"
+        },
+        {
+          "required": 246.2171546128585,
+          "available": 420,
+          "text": "Saint-Pierre203 mn · 197 L · REPOSTARSalida: 420 L · llegada prevista: 223 L · reserva mínima: 49 L"
+        },
+        {
+          "required": 417.1738317910007,
+          "available": 420,
+          "text": "Halifax343 mn · 334 L · REPOSTARSalida: 420 L · llegada prevista: 86 L · reserva mínima: 83 L"
+        },
+        {
+          "required": 214.60065632173956,
+          "available": 420,
+          "text": "Yarmouth177 mn · 172 L · REPOSTARSalida: 420 L · llegada prevista: 248 L · reserva mínima: 43 L"
+        },
+        {
+          "required": 339.56389054260177,
+          "available": 420,
+          "text": "Boston280 mn · 272 L · REPOSTARSalida: 420 L · llegada prevista: 148 L · reserva mínima: 68 L"
+        },
+        {
+          "required": 341.00069223776416,
+          "available": 420,
+          "text": "Nueva York282 mn · 273 L · DESTINOSalida: 420 L · llegada prevista: 147 L · reserva mínima: 68 L"
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "destination": "haifa",
+      "stages": [
+        {
+          "required": 246.13798654197407,
+          "available": 419.99929699999853,
+          "text": "Génova207 mn · 197 L · REPOSTARSalida: 420 L · llegada prevista: 223 L · reserva mínima: 49 L"
+        },
+        {
+          "required": 113.92550775161311,
+          "available": 420,
+          "text": "Livorno96 mn · 91 L · REPOSTARSalida: 420 L · llegada prevista: 329 L · reserva mínima: 23 L"
+        },
+        {
+          "required": 378.52044763388363,
+          "available": 420,
+          "text": "Salerno319 mn · 303 L · REPOSTARSalida: 420 L · llegada prevista: 117 L · reserva mínima: 76 L"
+        },
+        {
+          "required": 157.5228556146639,
+          "available": 420,
+          "text": "Vibo Valentia133 mn · 126 L · REPOSTARSalida: 420 L · llegada prevista: 294 L · reserva mínima: 32 L"
+        },
+        {
+          "required": 325.06007399891536,
+          "available": 420,
+          "text": "Crotone271 mn · 260 L · REPOSTARSalida: 420 L · llegada prevista: 160 L · reserva mínima: 65 L"
+        },
+        {
+          "required": 275.6231580588517,
+          "available": 420,
+          "text": "Brindisi229 mn · 220 L · REPOSTARSalida: 420 L · llegada prevista: 200 L · reserva mínima: 55 L"
+        },
+        {
+          "required": 392.23276122109894,
+          "available": 420,
+          "text": "Katakolon330 mn · 314 L · REPOSTARSalida: 420 L · llegada prevista: 106 L · reserva mínima: 78 L"
+        },
+        {
+          "required": 369.96243344732557,
+          "available": 420,
+          "text": "Heraclión312 mn · 296 L · REPOSTARSalida: 420 L · llegada prevista: 124 L · reserva mínima: 74 L"
+        },
+        {
+          "required": 212.50757978592023,
+          "available": 420,
+          "text": "Rodas179 mn · 170 L · REPOSTARSalida: 420 L · llegada prevista: 250 L · reserva mínima: 43 L"
+        },
+        {
+          "required": 333.9306876886699,
+          "available": 420,
+          "text": "Limassol283 mn · 267 L · REPOSTARSalida: 420 L · llegada prevista: 153 L · reserva mínima: 67 L"
+        },
+        {
+          "required": 172.20066413039476,
+          "available": 420,
+          "text": "Haifa146 mn · 138 L · DESTINOSalida: 420 L · llegada prevista: 282 L · reserva mínima: 34 L"
+        }
+      ]
+    },
+    {
+      "id": "yacht",
+      "destination": "new-york",
+      "stages": [
+        {
+          "required": 1310.1742678973349,
+          "available": 2399.9982610000097,
+          "text": "Barcelona188 mn · 1048 L · REPOSTARSalida: 2400 L · llegada prevista: 1352 L · reserva mínima: 262 L"
+        },
+        {
+          "required": 1988.7751094343143,
+          "available": 2400,
+          "text": "Cartagena287 mn · 1591 L · REPOSTARSalida: 2400 L · llegada prevista: 809 L · reserva mínima: 398 L"
+        },
+        {
+          "required": 2247.915144519491,
+          "available": 2400,
+          "text": "Gibraltar321 mn · 1798 L · REPOSTARSalida: 2400 L · llegada prevista: 602 L · reserva mínima: 450 L"
+        },
+        {
+          "required": 2253.374052176678,
+          "available": 2400,
+          "text": "Lisboa321 mn · 1803 L · REPOSTARSalida: 2400 L · llegada prevista: 597 L · reserva mínima: 451 L"
+        },
+        {
+          "required": 2376.3849069561174,
+          "available": 2400,
+          "text": "A Coruña342 mn · 1901 L · REPOSTARSalida: 2400 L · llegada prevista: 499 L · reserva mínima: 475 L"
+        },
+        {
+          "required": 2326.088829509124,
+          "available": 2400,
+          "text": "Brest338 mn · 1861 L · REPOSTARSalida: 2400 L · llegada prevista: 539 L · reserva mínima: 465 L"
+        },
+        {
+          "required": 1800.4004660615115,
+          "available": 2400,
+          "text": "Cork256 mn · 1440 L · REPOSTARSalida: 2400 L · llegada prevista: 960 L · reserva mínima: 360 L"
+        },
+        {
+          "required": 2226.534436484291,
+          "available": 2400,
+          "text": "Killybegs321 mn · 1781 L · REPOSTARSalida: 2400 L · llegada prevista: 619 L · reserva mínima: 445 L"
+        },
+        {
+          "required": 1764.8325327509515,
+          "available": 2400,
+          "text": "Stornoway255 mn · 1412 L · REPOSTARSalida: 2400 L · llegada prevista: 988 L · reserva mínima: 353 L"
+        },
+        {
+          "required": 1715.2673333562693,
+          "available": 2400,
+          "text": "Tórshavn246 mn · 1372 L · REPOSTARSalida: 2400 L · llegada prevista: 1028 L · reserva mínima: 343 L"
+        },
+        {
+          "required": 2106.281898775417,
+          "available": 2400,
+          "text": "Höfn299 mn · 1685 L · REPOSTARSalida: 2400 L · llegada prevista: 715 L · reserva mínima: 421 L"
+        },
+        {
+          "required": 1900.924177834202,
+          "available": 2400,
+          "text": "Reikiavik271 mn · 1521 L · REPOSTARSalida: 2400 L · llegada prevista: 879 L · reserva mínima: 380 L"
+        },
+        {
+          "required": 1305.6284484102982,
+          "available": 2400,
+          "text": "Ísafjörður187 mn · 1045 L · REPOSTARSalida: 2400 L · llegada prevista: 1355 L · reserva mínima: 261 L"
+        },
+        {
+          "required": 1657.266972834103,
+          "available": 2400,
+          "text": "Kangerlussuaq Este · escala costera235 mn · 1326 L · REPOSTARSalida: 2400 L · llegada prevista: 1074 L · reserva mínima: 331 L"
+        },
+        {
+          "required": 1530.8348091763648,
+          "available": 2400,
+          "text": "Kulusuk220 mn · 1225 L · REPOSTARSalida: 2400 L · llegada prevista: 1175 L · reserva mínima: 306 L"
+        },
+        {
+          "required": 2124.232732863211,
+          "available": 2400,
+          "text": "Qutdleq · escala costera307 mn · 1699 L · REPOSTARSalida: 2400 L · llegada prevista: 701 L · reserva mínima: 425 L"
+        },
+        {
+          "required": 633.6481685207714,
+          "available": 2400,
+          "text": "Prins Christian Sund92 mn · 507 L · REPOSTARSalida: 2400 L · llegada prevista: 1893 L · reserva mínima: 127 L"
+        },
+        {
+          "required": 2051.302386827993,
+          "available": 2400,
+          "text": "Paamiut292 mn · 1641 L · REPOSTARSalida: 2400 L · llegada prevista: 759 L · reserva mínima: 410 L"
+        },
+        {
+          "required": 1021.2143274067763,
+          "available": 2400,
+          "text": "Nuuk145 mn · 817 L · REPOSTARSalida: 2400 L · llegada prevista: 1583 L · reserva mínima: 204 L"
+        },
+        {
+          "required": 1347.052103973356,
+          "available": 2400,
+          "text": "Sisimiut192 mn · 1078 L · REPOSTARSalida: 2400 L · llegada prevista: 1322 L · reserva mínima: 269 L"
+        },
+        {
+          "required": 1385.380318228095,
+          "available": 2400,
+          "text": "Cape Dyer · escala costera197 mn · 1108 L · REPOSTARSalida: 2400 L · llegada prevista: 1292 L · reserva mínima: 277 L"
+        },
+        {
+          "required": 1582.1097227029961,
+          "available": 2400,
+          "text": "Brevoort Harbour · escala costera229 mn · 1266 L · REPOSTARSalida: 2400 L · llegada prevista: 1134 L · reserva mínima: 316 L"
+        },
+        {
+          "required": 2148.8494000301393,
+          "available": 2400,
+          "text": "Saglek · Torngat314 mn · 1719 L · REPOSTARSalida: 2400 L · llegada prevista: 681 L · reserva mínima: 430 L"
+        },
+        {
+          "required": 1125.9175019901145,
+          "available": 2400,
+          "text": "Nain164 mn · 901 L · REPOSTARSalida: 2400 L · llegada prevista: 1499 L · reserva mínima: 225 L"
+        },
+        {
+          "required": 1824.845666910258,
+          "available": 2400,
+          "text": "Cartwright268 mn · 1460 L · REPOSTARSalida: 2400 L · llegada prevista: 940 L · reserva mínima: 365 L"
+        },
+        {
+          "required": 1386.5416490889947,
+          "available": 2400,
+          "text": "St. Anthony202 mn · 1109 L · REPOSTARSalida: 2400 L · llegada prevista: 1291 L · reserva mínima: 277 L"
+        },
+        {
+          "required": 1766.2294908719969,
+          "available": 2400,
+          "text": "San Juan de Terranova260 mn · 1413 L · REPOSTARSalida: 2400 L · llegada prevista: 987 L · reserva mínima: 353 L"
+        },
+        {
+          "required": 1420.9225241953072,
+          "available": 2400,
+          "text": "Saint-Pierre203 mn · 1137 L · REPOSTARSalida: 2400 L · llegada prevista: 1263 L · reserva mínima: 284 L"
+        },
+        {
+          "required": 1295.8087986658843,
+          "available": 2400,
+          "text": "North Sydney184 mn · 1037 L · REPOSTARSalida: 2400 L · llegada prevista: 1363 L · reserva mínima: 259 L"
+        },
+        {
+          "required": 1849.2512095123102,
+          "available": 2400,
+          "text": "Halifax265 mn · 1479 L · REPOSTARSalida: 2400 L · llegada prevista: 921 L · reserva mínima: 370 L"
+        },
+        {
+          "required": 1237.7746689424107,
+          "available": 2400,
+          "text": "Yarmouth177 mn · 990 L · REPOSTARSalida: 2400 L · llegada prevista: 1410 L · reserva mínima: 248 L"
+        },
+        {
+          "required": 1959.1917225715547,
+          "available": 2400,
+          "text": "Boston280 mn · 1567 L · REPOSTARSalida: 2400 L · llegada prevista: 833 L · reserva mínima: 392 L"
+        },
+        {
+          "required": 1965.2139661772821,
+          "available": 2400,
+          "text": "Nueva York282 mn · 1572 L · DESTINOSalida: 2400 L · llegada prevista: 828 L · reserva mínima: 393 L"
+        }
+      ]
+    },
+    {
+      "id": "yacht",
+      "destination": "haifa",
+      "stages": [
+        {
+          "required": 1413.0163720618693,
+          "available": 2399.9982610000097,
+          "text": "Génova207 mn · 1130 L · REPOSTARSalida: 2400 L · llegada prevista: 1270 L · reserva mínima: 283 L"
+        },
+        {
+          "required": 654.4618614771694,
+          "available": 2400,
+          "text": "Livorno96 mn · 524 L · REPOSTARSalida: 2400 L · llegada prevista: 1876 L · reserva mínima: 131 L"
+        },
+        {
+          "required": 2171.6153585786715,
+          "available": 2400,
+          "text": "Salerno319 mn · 1737 L · REPOSTARSalida: 2400 L · llegada prevista: 663 L · reserva mínima: 434 L"
+        },
+        {
+          "required": 903.7154412803775,
+          "available": 2400,
+          "text": "Vibo Valentia133 mn · 723 L · REPOSTARSalida: 2400 L · llegada prevista: 1677 L · reserva mínima: 181 L"
+        },
+        {
+          "required": 1869.4760271410132,
+          "available": 2400,
+          "text": "Crotone271 mn · 1496 L · REPOSTARSalida: 2400 L · llegada prevista: 904 L · reserva mínima: 374 L"
+        },
+        {
+          "required": 1585.8928535972518,
+          "available": 2400,
+          "text": "Brindisi229 mn · 1269 L · REPOSTARSalida: 2400 L · llegada prevista: 1131 L · reserva mínima: 317 L"
+        },
+        {
+          "required": 2251.56136601469,
+          "available": 2400,
+          "text": "Katakolon330 mn · 1801 L · REPOSTARSalida: 2400 L · llegada prevista: 599 L · reserva mínima: 450 L"
+        },
+        {
+          "required": 2123.1449931521734,
+          "available": 2400,
+          "text": "Heraclión312 mn · 1699 L · REPOSTARSalida: 2400 L · llegada prevista: 701 L · reserva mínima: 425 L"
+        },
+        {
+          "required": 1218.9011143074536,
+          "available": 2400,
+          "text": "Rodas179 mn · 975 L · REPOSTARSalida: 2400 L · llegada prevista: 1425 L · reserva mínima: 244 L"
+        },
+        {
+          "required": 1913.9530063499374,
+          "available": 2400,
+          "text": "Limassol283 mn · 1531 L · REPOSTARSalida: 2400 L · llegada prevista: 869 L · reserva mínima: 383 L"
+        },
+        {
+          "required": 987.2108070096168,
+          "available": 2400,
+          "text": "Haifa146 mn · 790 L · DESTINOSalida: 2400 L · llegada prevista: 1610 L · reserva mínima: 197 L"
+        }
+      ]
+    },
+    {
+      "id": "speedboat",
+      "destination": "new-york",
+      "stages": [
+        {
+          "required": 770.6265851965143,
+          "available": 1399.998334999999,
+          "text": "Barcelona188 mn · 617 L · REPOSTARSalida: 1400 L · llegada prevista: 783 L · reserva mínima: 154 L"
+        },
+        {
+          "required": 1170.5385175114102,
+          "available": 1400,
+          "text": "Cartagena287 mn · 936 L · REPOSTARSalida: 1400 L · llegada prevista: 464 L · reserva mínima: 234 L"
+        },
+        {
+          "required": 1313.3581007291414,
+          "available": 1400,
+          "text": "Gibraltar321 mn · 1051 L · REPOSTARSalida: 1400 L · llegada prevista: 349 L · reserva mínima: 263 L"
+        },
+        {
+          "required": 1307.5279108303719,
+          "available": 1400,
+          "text": "Lisboa321 mn · 1046 L · REPOSTARSalida: 1400 L · llegada prevista: 354 L · reserva mínima: 262 L"
+        },
+        {
+          "required": 1385.8660110255305,
+          "available": 1400,
+          "text": "A Coruña342 mn · 1109 L · REPOSTARSalida: 1400 L · llegada prevista: 291 L · reserva mínima: 277 L"
+        },
+        {
+          "required": 1358.3761029125426,
+          "available": 1400,
+          "text": "Brest338 mn · 1087 L · REPOSTARSalida: 1400 L · llegada prevista: 313 L · reserva mínima: 272 L"
+        },
+        {
+          "required": 1041.8473977804344,
+          "available": 1400,
+          "text": "Cork256 mn · 833 L · REPOSTARSalida: 1400 L · llegada prevista: 567 L · reserva mínima: 208 L"
+        },
+        {
+          "required": 1298.6796245162225,
+          "available": 1400,
+          "text": "Killybegs321 mn · 1039 L · REPOSTARSalida: 1400 L · llegada prevista: 361 L · reserva mínima: 260 L"
+        },
+        {
+          "required": 1033.1170927316198,
+          "available": 1400,
+          "text": "Stornoway255 mn · 826 L · REPOSTARSalida: 1400 L · llegada prevista: 574 L · reserva mínima: 207 L"
+        },
+        {
+          "required": 998.4773386407423,
+          "available": 1400,
+          "text": "Tórshavn246 mn · 799 L · REPOSTARSalida: 1400 L · llegada prevista: 601 L · reserva mínima: 200 L"
+        },
+        {
+          "required": 1221.2033104357945,
+          "available": 1400,
+          "text": "Höfn299 mn · 977 L · REPOSTARSalida: 1400 L · llegada prevista: 423 L · reserva mínima: 244 L"
+        },
+        {
+          "required": 1108.1080265623,
+          "available": 1400,
+          "text": "Reikiavik271 mn · 886 L · REPOSTARSalida: 1400 L · llegada prevista: 514 L · reserva mínima: 222 L"
+        },
+        {
+          "required": 763.7516165007478,
+          "available": 1400,
+          "text": "Ísafjörður187 mn · 611 L · REPOSTARSalida: 1400 L · llegada prevista: 789 L · reserva mínima: 153 L"
+        },
+        {
+          "required": 958.9913477136434,
+          "available": 1400,
+          "text": "Kangerlussuaq Este · escala costera235 mn · 767 L · REPOSTARSalida: 1400 L · llegada prevista: 633 L · reserva mínima: 192 L"
+        },
+        {
+          "required": 901.6068522682458,
+          "available": 1400,
+          "text": "Kulusuk220 mn · 721 L · REPOSTARSalida: 1400 L · llegada prevista: 679 L · reserva mínima: 180 L"
+        },
+        {
+          "required": 1252.0472467966242,
+          "available": 1400,
+          "text": "Qutdleq · escala costera307 mn · 1002 L · REPOSTARSalida: 1400 L · llegada prevista: 398 L · reserva mínima: 250 L"
+        },
+        {
+          "required": 379.62268153883434,
+          "available": 1400,
+          "text": "Prins Christian Sund92 mn · 304 L · REPOSTARSalida: 1400 L · llegada prevista: 1096 L · reserva mínima: 76 L"
+        },
+        {
+          "required": 1193.6879792404043,
+          "available": 1400,
+          "text": "Paamiut292 mn · 955 L · REPOSTARSalida: 1400 L · llegada prevista: 445 L · reserva mínima: 239 L"
+        },
+        {
+          "required": 594.7873420529393,
+          "available": 1400,
+          "text": "Nuuk145 mn · 476 L · REPOSTARSalida: 1400 L · llegada prevista: 924 L · reserva mínima: 119 L"
+        },
+        {
+          "required": 784.2571038887281,
+          "available": 1400,
+          "text": "Sisimiut192 mn · 627 L · REPOSTARSalida: 1400 L · llegada prevista: 773 L · reserva mínima: 157 L"
+        },
+        {
+          "required": 807.3329492769926,
+          "available": 1400,
+          "text": "Cape Dyer · escala costera197 mn · 646 L · REPOSTARSalida: 1400 L · llegada prevista: 754 L · reserva mínima: 161 L"
+        },
+        {
+          "required": 938.3943093597084,
+          "available": 1400,
+          "text": "Brevoort Harbour · escala costera229 mn · 751 L · REPOSTARSalida: 1400 L · llegada prevista: 649 L · reserva mínima: 188 L"
+        },
+        {
+          "required": 1276.2951030746995,
+          "available": 1400,
+          "text": "Saglek · Torngat314 mn · 1021 L · REPOSTARSalida: 1400 L · llegada prevista: 379 L · reserva mínima: 255 L"
+        },
+        {
+          "required": 674.1293210595973,
+          "available": 1400,
+          "text": "Nain164 mn · 539 L · REPOSTARSalida: 1400 L · llegada prevista: 861 L · reserva mínima: 135 L"
+        },
+        {
+          "required": 1088.46601061962,
+          "available": 1400,
+          "text": "Cartwright268 mn · 871 L · REPOSTARSalida: 1400 L · llegada prevista: 529 L · reserva mínima: 218 L"
+        },
+        {
+          "required": 828.867429535697,
+          "available": 1400,
+          "text": "St. Anthony202 mn · 663 L · REPOSTARSalida: 1400 L · llegada prevista: 737 L · reserva mínima: 166 L"
+        },
+        {
+          "required": 1051.546446160837,
+          "available": 1400,
+          "text": "San Juan de Terranova260 mn · 841 L · REPOSTARSalida: 1400 L · llegada prevista: 559 L · reserva mínima: 210 L"
+        },
+        {
+          "required": 834.2115666655955,
+          "available": 1400,
+          "text": "Saint-Pierre203 mn · 667 L · REPOSTARSalida: 1400 L · llegada prevista: 733 L · reserva mínima: 167 L"
+        },
+        {
+          "required": 758.0398095276995,
+          "available": 1400,
+          "text": "North Sydney184 mn · 606 L · REPOSTARSalida: 1400 L · llegada prevista: 794 L · reserva mínima: 152 L"
+        },
+        {
+          "required": 1086.8496238218522,
+          "available": 1400,
+          "text": "Halifax265 mn · 869 L · REPOSTARSalida: 1400 L · llegada prevista: 531 L · reserva mínima: 217 L"
+        },
+        {
+          "required": 727.7264997909101,
+          "available": 1400,
+          "text": "Yarmouth177 mn · 582 L · REPOSTARSalida: 1400 L · llegada prevista: 818 L · reserva mínima: 146 L"
+        },
+        {
+          "required": 1146.2971778777112,
+          "available": 1400,
+          "text": "Boston280 mn · 917 L · REPOSTARSalida: 1400 L · llegada prevista: 483 L · reserva mínima: 229 L"
+        },
+        {
+          "required": 1153.719525557635,
+          "available": 1400,
+          "text": "Nueva York282 mn · 923 L · DESTINOSalida: 1400 L · llegada prevista: 477 L · reserva mínima: 231 L"
+        }
+      ]
+    },
+    {
+      "id": "speedboat",
+      "destination": "haifa",
+      "stages": [
+        {
+          "required": 840.9335098628054,
+          "available": 1399.998334999999,
+          "text": "Génova207 mn · 673 L · REPOSTARSalida: 1400 L · llegada prevista: 727 L · reserva mínima: 168 L"
+        },
+        {
+          "required": 396.92080500057307,
+          "available": 1400,
+          "text": "Livorno96 mn · 318 L · REPOSTARSalida: 1400 L · llegada prevista: 1082 L · reserva mínima: 79 L"
+        },
+        {
+          "required": 1295.05264435357,
+          "available": 1400,
+          "text": "Salerno319 mn · 1036 L · REPOSTARSalida: 1400 L · llegada prevista: 364 L · reserva mínima: 259 L"
+        },
+        {
+          "required": 541.2210371300115,
+          "available": 1400,
+          "text": "Vibo Valentia133 mn · 433 L · REPOSTARSalida: 1400 L · llegada prevista: 967 L · reserva mínima: 108 L"
+        },
+        {
+          "required": 1105.207571031427,
+          "available": 1400,
+          "text": "Crotone271 mn · 884 L · REPOSTARSalida: 1400 L · llegada prevista: 516 L · reserva mínima: 221 L"
+        },
+        {
+          "required": 934.4895460986787,
+          "available": 1400,
+          "text": "Brindisi229 mn · 748 L · REPOSTARSalida: 1400 L · llegada prevista: 652 L · reserva mínima: 187 L"
+        },
+        {
+          "required": 1339.039461621665,
+          "available": 1400,
+          "text": "Katakolon330 mn · 1071 L · REPOSTARSalida: 1400 L · llegada prevista: 329 L · reserva mínima: 268 L"
+        },
+        {
+          "required": 1264.9361755232048,
+          "available": 1400,
+          "text": "Heraclión312 mn · 1012 L · REPOSTARSalida: 1400 L · llegada prevista: 388 L · reserva mínima: 253 L"
+        },
+        {
+          "required": 723.4961424504992,
+          "available": 1400,
+          "text": "Rodas179 mn · 579 L · REPOSTARSalida: 1400 L · llegada prevista: 821 L · reserva mínima: 145 L"
+        },
+        {
+          "required": 1139.6006920392635,
+          "available": 1400,
+          "text": "Limassol283 mn · 912 L · REPOSTARSalida: 1400 L · llegada prevista: 488 L · reserva mínima: 228 L"
+        },
+        {
+          "required": 591.110684045464,
+          "available": 1400,
+          "text": "Haifa146 mn · 473 L · DESTINOSalida: 1400 L · llegada prevista: 927 L · reserva mínima: 118 L"
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "destination": "new-york",
+      "stages": [
+        {
+          "required": 463.9630544717987,
+          "available": 899.985570000001,
+          "text": "Barcelona188 mn · 371 L · REPOSTARSalida: 900 L · llegada prevista: 529 L · reserva mínima: 93 L"
+        },
+        {
+          "required": 692.5858523781743,
+          "available": 900,
+          "text": "Cartagena287 mn · 554 L · REPOSTARSalida: 900 L · llegada prevista: 346 L · reserva mínima: 139 L"
+        },
+        {
+          "required": 780.4055224943097,
+          "available": 900,
+          "text": "Gibraltar321 mn · 624 L · REPOSTARSalida: 900 L · llegada prevista: 276 L · reserva mínima: 156 L"
+        },
+        {
+          "required": 771.2149762218058,
+          "available": 900,
+          "text": "Lisboa321 mn · 617 L · REPOSTARSalida: 900 L · llegada prevista: 283 L · reserva mínima: 154 L"
+        },
+        {
+          "required": 809.5784863635604,
+          "available": 900,
+          "text": "A Coruña342 mn · 648 L · REPOSTARSalida: 900 L · llegada prevista: 252 L · reserva mínima: 162 L"
+        },
+        {
+          "required": 783.9966593949712,
+          "available": 900,
+          "text": "Brest338 mn · 627 L · REPOSTARSalida: 900 L · llegada prevista: 273 L · reserva mínima: 157 L"
+        },
+        {
+          "required": 612.0508450328283,
+          "available": 900,
+          "text": "Cork256 mn · 490 L · REPOSTARSalida: 900 L · llegada prevista: 410 L · reserva mínima: 122 L"
+        },
+        {
+          "required": 759.2835573338659,
+          "available": 900,
+          "text": "Killybegs321 mn · 607 L · REPOSTARSalida: 900 L · llegada prevista: 293 L · reserva mínima: 152 L"
+        },
+        {
+          "required": 607.5641658528185,
+          "available": 900,
+          "text": "Stornoway255 mn · 486 L · REPOSTARSalida: 900 L · llegada prevista: 414 L · reserva mínima: 122 L"
+        },
+        {
+          "required": 584.9529533057568,
+          "available": 900,
+          "text": "Tórshavn246 mn · 468 L · REPOSTARSalida: 900 L · llegada prevista: 432 L · reserva mínima: 117 L"
+        },
+        {
+          "required": 725.5226681081489,
+          "available": 900,
+          "text": "Höfn299 mn · 580 L · REPOSTARSalida: 900 L · llegada prevista: 320 L · reserva mínima: 145 L"
+        },
+        {
+          "required": 658.2740058044803,
+          "available": 900,
+          "text": "Reikiavik271 mn · 527 L · REPOSTARSalida: 900 L · llegada prevista: 373 L · reserva mínima: 132 L"
+        },
+        {
+          "required": 455.5028741658546,
+          "available": 900,
+          "text": "Ísafjörður187 mn · 364 L · REPOSTARSalida: 900 L · llegada prevista: 536 L · reserva mínima: 91 L"
+        },
+        {
+          "required": 886.4645924125103,
+          "available": 900,
+          "text": "Tasiilaq368 mn · 709 L · REPOSTARSalida: 900 L · llegada prevista: 191 L · reserva mínima: 177 L"
+        },
+        {
+          "required": 877.5464347062383,
+          "available": 900,
+          "text": "Prins Christian Sund367 mn · 702 L · REPOSTARSalida: 900 L · llegada prevista: 198 L · reserva mínima: 176 L"
+        },
+        {
+          "required": 712.4832098515587,
+          "available": 900,
+          "text": "Paamiut292 mn · 570 L · REPOSTARSalida: 900 L · llegada prevista: 330 L · reserva mínima: 142 L"
+        },
+        {
+          "required": 355.8157407410917,
+          "available": 900,
+          "text": "Nuuk145 mn · 285 L · REPOSTARSalida: 900 L · llegada prevista: 615 L · reserva mínima: 71 L"
+        },
+        {
+          "required": 464.64859544356193,
+          "available": 900,
+          "text": "Sisimiut192 mn · 372 L · REPOSTARSalida: 900 L · llegada prevista: 528 L · reserva mínima: 93 L"
+        },
+        {
+          "required": 485.65895918835406,
+          "available": 900,
+          "text": "Cape Dyer · escala costera197 mn · 389 L · REPOSTARSalida: 900 L · llegada prevista: 511 L · reserva mínima: 97 L"
+        },
+        {
+          "required": 873.3672263880272,
+          "available": 900,
+          "text": "Resolution Harbour · escala costera361 mn · 699 L · REPOSTARSalida: 900 L · llegada prevista: 201 L · reserva mínima: 175 L"
+        },
+        {
+          "required": 813.6545232638531,
+          "available": 900,
+          "text": "Nain342 mn · 651 L · REPOSTARSalida: 900 L · llegada prevista: 249 L · reserva mínima: 163 L"
+        },
+        {
+          "required": 644.236049405837,
+          "available": 900,
+          "text": "Cartwright268 mn · 515 L · REPOSTARSalida: 900 L · llegada prevista: 385 L · reserva mínima: 129 L"
+        },
+        {
+          "required": 501.4068362212589,
+          "available": 900,
+          "text": "St. Anthony202 mn · 401 L · REPOSTARSalida: 900 L · llegada prevista: 499 L · reserva mínima: 100 L"
+        },
+        {
+          "required": 615.8811421132513,
+          "available": 900,
+          "text": "San Juan de Terranova260 mn · 493 L · REPOSTARSalida: 900 L · llegada prevista: 407 L · reserva mínima: 123 L"
+        },
+        {
+          "required": 505.75779879181687,
+          "available": 900,
+          "text": "Saint-Pierre203 mn · 405 L · REPOSTARSalida: 900 L · llegada prevista: 495 L · reserva mínima: 101 L"
+        },
+        {
+          "required": 828.6246564559157,
+          "available": 900,
+          "text": "Halifax343 mn · 663 L · REPOSTARSalida: 900 L · llegada prevista: 237 L · reserva mínima: 166 L"
+        },
+        {
+          "required": 850.3445812782273,
+          "available": 900,
+          "text": "Portland, Maine352 mn · 680 L · REPOSTARSalida: 900 L · llegada prevista: 220 L · reserva mínima: 170 L"
+        },
+        {
+          "required": 272.4741343293633,
+          "available": 900,
+          "text": "Boston104 mn · 218 L · REPOSTARSalida: 900 L · llegada prevista: 682 L · reserva mínima: 54 L"
+        },
+        {
+          "required": 687.9706858034153,
+          "available": 900,
+          "text": "Nueva York282 mn · 550 L · DESTINOSalida: 900 L · llegada prevista: 350 L · reserva mínima: 138 L"
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "destination": "haifa",
+      "stages": [
+        {
+          "required": 505.63570340525564,
+          "available": 899.985570000001,
+          "text": "Génova207 mn · 405 L · REPOSTARSalida: 900 L · llegada prevista: 495 L · reserva mínima: 101 L"
+        },
+        {
+          "required": 250.36734683798787,
+          "available": 900,
+          "text": "Livorno96 mn · 200 L · REPOSTARSalida: 900 L · llegada prevista: 700 L · reserva mínima: 50 L"
+        },
+        {
+          "required": 766.4747971604544,
+          "available": 900,
+          "text": "Salerno319 mn · 613 L · REPOSTARSalida: 900 L · llegada prevista: 287 L · reserva mínima: 153 L"
+        },
+        {
+          "required": 323.41285352945613,
+          "available": 900,
+          "text": "Vibo Valentia133 mn · 259 L · REPOSTARSalida: 900 L · llegada prevista: 641 L · reserva mínima: 65 L"
+        },
+        {
+          "required": 661.2488198645264,
+          "available": 900,
+          "text": "Crotone271 mn · 529 L · REPOSTARSalida: 900 L · llegada prevista: 371 L · reserva mínima: 132 L"
+        },
+        {
+          "required": 558.787250713447,
+          "available": 900,
+          "text": "Brindisi229 mn · 447 L · REPOSTARSalida: 900 L · llegada prevista: 453 L · reserva mínima: 112 L"
+        },
+        {
+          "required": 790.9731391738221,
+          "available": 900,
+          "text": "Katakolon330 mn · 633 L · REPOSTARSalida: 900 L · llegada prevista: 267 L · reserva mínima: 158 L"
+        },
+        {
+          "required": 861.502892061716,
+          "available": 900,
+          "text": "Sitia361 mn · 689 L · REPOSTARSalida: 900 L · llegada prevista: 211 L · reserva mínima: 172 L"
+        },
+        {
+          "required": 314.87069040963115,
+          "available": 900,
+          "text": "Rodas130 mn · 252 L · REPOSTARSalida: 900 L · llegada prevista: 648 L · reserva mínima: 63 L"
+        },
+        {
+          "required": 668.4606186820305,
+          "available": 900,
+          "text": "Limassol283 mn · 535 L · REPOSTARSalida: 900 L · llegada prevista: 365 L · reserva mínima: 134 L"
+        },
+        {
+          "required": 351.7795473178904,
+          "available": 900,
+          "text": "Haifa146 mn · 281 L · DESTINOSalida: 900 L · llegada prevista: 619 L · reserva mínima: 70 L"
+        }
+      ]
+    }
+  ],
+  "time": {},
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,5221 @@
+{
+  "range": [
+    {
+      "id": "launch",
+      "capacity": 420,
+      "rangeKm": 656.3819403448259,
+      "required100Km": 63.98713526142352
+    },
+    {
+      "id": "fishing",
+      "capacity": 4800,
+      "rangeKm": 995.2697744756172,
+      "required100Km": 482.28129931193786
+    },
+    {
+      "id": "yacht",
+      "capacity": 2400,
+      "rangeKm": 654.0108368320883,
+      "required100Km": 366.9663964018045
+    },
+    {
+      "id": "tug",
+      "capacity": 15000,
+      "rangeKm": 613.6407535306755,
+      "required100Km": 2444.4269572539333
+    },
+    {
+      "id": "speedboat",
+      "capacity": 1400,
+      "rangeKm": 627.1034753620771,
+      "required100Km": 223.24864316716915
+    },
+    {
+      "id": "spirit",
+      "capacity": 900,
+      "rangeKm": 631.2556757443674,
+      "required100Km": 142.57297551245512
+    },
+    {
+      "id": "cargo",
+      "capacity": 650000,
+      "rangeKm": 7867.471765177545,
+      "required100Km": 8261.866319965515
+    }
+  ],
+  "gaps": [
+    {
+      "id": "fremantle",
+      "nearest": [
+        {
+          "id": "sydney",
+          "km": 3310.8227555550266
+        },
+        {
+          "id": "brisbane",
+          "km": 3638.832974920597
+        },
+        {
+          "id": "singapore",
+          "km": 3907.9707749120425
+        }
+      ]
+    },
+    {
+      "id": "auckland",
+      "nearest": [
+        {
+          "id": "sydney",
+          "km": 2150.3870799574665
+        },
+        {
+          "id": "brisbane",
+          "km": 2284.591111764024
+        },
+        {
+          "id": "fremantle",
+          "km": 5357.700712741656
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "nearest": [
+        {
+          "id": "shanghai",
+          "km": 1218.8839379690896
+        },
+        {
+          "id": "busan",
+          "km": 2032.1777673273257
+        },
+        {
+          "id": "phuket",
+          "km": 2324.5504870137815
+        }
+      ]
+    },
+    {
+      "id": "bermuda",
+      "nearest": [
+        {
+          "id": "morehead-city",
+          "km": 1136.6710566480917
+        },
+        {
+          "id": "norfolk",
+          "km": 1170.5787152508717
+        },
+        {
+          "id": "newport-rhode-island",
+          "km": 1180.059414001089
+        }
+      ]
+    },
+    {
+      "id": "yokohama",
+      "nearest": [
+        {
+          "id": "busan",
+          "km": 971.5903948577738
+        },
+        {
+          "id": "shanghai",
+          "km": 1729.686360384382
+        },
+        {
+          "id": "hong-kong",
+          "km": 2879.3177454165766
+        }
+      ]
+    },
+    {
+      "id": "shanghai",
+      "nearest": [
+        {
+          "id": "busan",
+          "km": 818.8858510447152
+        },
+        {
+          "id": "hong-kong",
+          "km": 1218.8839379690896
+        },
+        {
+          "id": "yokohama",
+          "km": 1729.686360384382
+        }
+      ]
+    },
+    {
+      "id": "busan",
+      "nearest": [
+        {
+          "id": "shanghai",
+          "km": 818.8858510447152
+        },
+        {
+          "id": "yokohama",
+          "km": 971.5903948577738
+        },
+        {
+          "id": "hong-kong",
+          "km": 2032.1777673273257
+        }
+      ]
+    },
+    {
+      "id": "sydney",
+      "nearest": [
+        {
+          "id": "brisbane",
+          "km": 743.7700850012812
+        },
+        {
+          "id": "auckland",
+          "km": 2150.3870799574665
+        },
+        {
+          "id": "fremantle",
+          "km": 3310.8227555550266
+        }
+      ]
+    },
+    {
+      "id": "brisbane",
+      "nearest": [
+        {
+          "id": "sydney",
+          "km": 743.7700850012812
+        },
+        {
+          "id": "auckland",
+          "km": 2284.591111764024
+        },
+        {
+          "id": "fremantle",
+          "km": 3638.832974920592
+        }
+      ]
+    },
+    {
+      "id": "sekondi",
+      "nearest": [
+        {
+          "id": "lagos",
+          "km": 586.8802493691195
+        },
+        {
+          "id": "cape-palmas",
+          "km": 670.468729220602
+        },
+        {
+          "id": "monrovia",
+          "km": 1020.1797890253786
+        }
+      ]
+    },
+    {
+      "id": "lagos",
+      "nearest": [
+        {
+          "id": "sekondi",
+          "km": 586.8802493691195
+        },
+        {
+          "id": "malabo",
+          "km": 664.7736089318347
+        },
+        {
+          "id": "bata",
+          "km": 866.1996057789952
+        }
+      ]
+    },
+    {
+      "id": "funchal",
+      "nearest": [
+        {
+          "id": "las-palmas",
+          "km": 520.184606130717
+        },
+        {
+          "id": "laayoune",
+          "km": 701.3640379878938
+        },
+        {
+          "id": "agadir",
+          "km": 731.4346312597338
+        }
+      ]
+    },
+    {
+      "id": "colombo",
+      "nearest": [
+        {
+          "id": "kochi",
+          "km": 514.4786433148138
+        },
+        {
+          "id": "new-mangalore",
+          "km": 861.9669409283085
+        },
+        {
+          "id": "mormugao",
+          "km": 1146.6742237621334
+        }
+      ]
+    },
+    {
+      "id": "rocky-point",
+      "nearest": [
+        {
+          "id": "matthew-town",
+          "km": 503.5528662485908
+        },
+        {
+          "id": "haina",
+          "km": 757.1805961726077
+        },
+        {
+          "id": "havana",
+          "km": 804.4817756611684
+        }
+      ]
+    },
+    {
+      "id": "rio-grande",
+      "nearest": [
+        {
+          "id": "montevideo",
+          "km": 499.6221695543558
+        },
+        {
+          "id": "buenos-aires",
+          "km": 645.3930203986835
+        },
+        {
+          "id": "itajai",
+          "km": 662.2803475766938
+        }
+      ]
+    },
+    {
+      "id": "salalah",
+      "nearest": [
+        {
+          "id": "duqm",
+          "km": 492.2424526790286
+        },
+        {
+          "id": "mukalla",
+          "km": 590.8269929820866
+        },
+        {
+          "id": "sohar",
+          "km": 884.8911520902492
+        }
+      ]
+    },
+    {
+      "id": "mukalla",
+      "nearest": [
+        {
+          "id": "aden",
+          "km": 482.23377961399575
+        },
+        {
+          "id": "salalah",
+          "km": 590.8269929820866
+        },
+        {
+          "id": "al-mukha",
+          "km": 647.2544438121433
+        }
+      ]
+    },
+    {
+      "id": "istanbul",
+      "nearest": [
+        {
+          "id": "fethiye",
+          "km": 480.1394875618363
+        },
+        {
+          "id": "antalya",
+          "km": 481.6978605307362
+        },
+        {
+          "id": "rhodes",
+          "km": 505.65162480327047
+        }
+      ]
+    },
+    {
+      "id": "matthew-town",
+      "nearest": [
+        {
+          "id": "haina",
+          "km": 477.37206601501424
+        },
+        {
+          "id": "rocky-point",
+          "km": 503.5528662485908
+        },
+        {
+          "id": "nassau",
+          "km": 593.3909981635139
+        }
+      ]
+    },
+    {
+      "id": "pointe-noire",
+      "nearest": [
+        {
+          "id": "luanda",
+          "km": 472.543979241473
+        },
+        {
+          "id": "port-gentil",
+          "km": 565.0942679292856
+        },
+        {
+          "id": "bata",
+          "km": 775.2014158625597
+        }
+      ]
+    },
+    {
+      "id": "point-lisas",
+      "nearest": [
+        {
+          "id": "fort-de-france",
+          "km": 469.3814061883235
+        },
+        {
+          "id": "st-johns-antigua",
+          "km": 747.8670393870955
+        },
+        {
+          "id": "san-juan",
+          "km": 1025.786268358149
+        }
+      ]
+    },
+    {
+      "id": "cartagena-colombia",
+      "nearest": [
+        {
+          "id": "balboa",
+          "km": 459.97157610282954
+        },
+        {
+          "id": "colon",
+          "km": 486.94949181100947
+        },
+        {
+          "id": "buenaventura",
+          "km": 733.8417570201524
+        }
+      ]
+    },
+    {
+      "id": "duqm",
+      "nearest": [
+        {
+          "id": "muscat",
+          "km": 453.77563302979956
+        },
+        {
+          "id": "salalah",
+          "km": 492.2424526790286
+        },
+        {
+          "id": "sohar",
+          "km": 552.4831990942243
+        }
+      ]
+    },
+    {
+      "id": "jazan",
+      "nearest": [
+        {
+          "id": "al-mukha",
+          "km": 452.1566646656499
+        },
+        {
+          "id": "jeddah",
+          "km": 573.2097164646062
+        },
+        {
+          "id": "aden",
+          "km": 581.1537318305915
+        }
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "nearest": [
+        {
+          "id": "natal",
+          "km": 434.46484066611094
+        },
+        {
+          "id": "recife",
+          "km": 629.9402559045647
+        },
+        {
+          "id": "salvador",
+          "km": 1031.5609952798409
+        }
+      ]
+    },
+    {
+      "id": "walvis-bay",
+      "nearest": [
+        {
+          "id": "luderitz",
+          "km": 416.8576466409052
+        },
+        {
+          "id": "namibe",
+          "km": 898.9750916294513
+        },
+        {
+          "id": "saldanha",
+          "km": 1172.3902852973408
+        }
+      ]
+    },
+    {
+      "id": "luderitz",
+      "nearest": [
+        {
+          "id": "walvis-bay",
+          "km": 416.8576466409052
+        },
+        {
+          "id": "saldanha",
+          "km": 760.4519291890861
+        },
+        {
+          "id": "cape-town",
+          "km": 860.5646924328867
+        }
+      ]
+    },
+    {
+      "id": "vitoria",
+      "nearest": [
+        {
+          "id": "rio-de-janeiro",
+          "km": 415.3026933434224
+        },
+        {
+          "id": "ilheus",
+          "km": 629.3149974657979
+        },
+        {
+          "id": "santos",
+          "km": 738.9673683019402
+        }
+      ]
+    },
+    {
+      "id": "san-juan",
+      "nearest": [
+        {
+          "id": "haina",
+          "km": 410.59503051060744
+        },
+        {
+          "id": "st-johns-antigua",
+          "km": 475.5107918008373
+        },
+        {
+          "id": "fort-de-france",
+          "km": 689.3394100560773
+        }
+      ]
+    },
+    {
+      "id": "haina",
+      "nearest": [
+        {
+          "id": "san-juan",
+          "km": 410.59503051060744
+        },
+        {
+          "id": "matthew-town",
+          "km": 477.37206601501424
+        },
+        {
+          "id": "rocky-point",
+          "km": 757.1805961726077
+        }
+      ]
+    },
+    {
+      "id": "gwadar",
+      "nearest": [
+        {
+          "id": "muscat",
+          "km": 410.47727791145604
+        },
+        {
+          "id": "karachi",
+          "km": 470.01612351805807
+        },
+        {
+          "id": "sohar",
+          "km": 578.7261362289638
+        }
+      ]
+    },
+    {
+      "id": "cape-palmas",
+      "nearest": [
+        {
+          "id": "monrovia",
+          "km": 406.079976546713
+        },
+        {
+          "id": "sekondi",
+          "km": 670.468729220602
+        },
+        {
+          "id": "freetown",
+          "km": 763.5185672719192
+        }
+      ]
+    },
+    {
+      "id": "sabang",
+      "nearest": [
+        {
+          "id": "phuket",
+          "km": 403.9637173833875
+        },
+        {
+          "id": "belawan",
+          "km": 442.39289653676286
+        },
+        {
+          "id": "penang",
+          "km": 559.3716068134596
+        }
+      ]
+    },
+    {
+      "id": "agadir",
+      "nearest": [
+        {
+          "id": "casablanca",
+          "km": 403.1202053011876
+        },
+        {
+          "id": "laayoune",
+          "km": 524.8192559500827
+        },
+        {
+          "id": "las-palmas",
+          "km": 614.2078608779987
+        }
+      ]
+    },
+    {
+      "id": "itajai",
+      "nearest": [
+        {
+          "id": "santos",
+          "km": 396.93233983990206
+        },
+        {
+          "id": "rio-grande",
+          "km": 662.2803475766938
+        },
+        {
+          "id": "rio-de-janeiro",
+          "km": 703.2245239541357
+        }
+      ]
+    },
+    {
+      "id": "luanda",
+      "nearest": [
+        {
+          "id": "lobito",
+          "km": 394.64048399606804
+        },
+        {
+          "id": "pointe-noire",
+          "km": 472.543979241473
+        },
+        {
+          "id": "namibe",
+          "km": 719.4909932683155
+        }
+      ]
+    },
+    {
+      "id": "san-nicolas",
+      "nearest": [
+        {
+          "id": "matarani",
+          "km": 384.83822420459916
+        },
+        {
+          "id": "callao",
+          "km": 413.06921267443767
+        },
+        {
+          "id": "arica",
+          "km": 632.7614421139218
+        }
+      ]
+    },
+    {
+      "id": "rotterdam",
+      "nearest": [
+        {
+          "id": "hamburg",
+          "km": 380.5674546129534
+        },
+        {
+          "id": "falmouth",
+          "km": 664.6544460322415
+        },
+        {
+          "id": "newlyn",
+          "km": 699.2772976036177
+        }
+      ]
+    },
+    {
+      "id": "hamburg",
+      "nearest": [
+        {
+          "id": "rotterdam",
+          "km": 380.5674546129534
+        },
+        {
+          "id": "oslo",
+          "km": 671.159385346279
+        },
+        {
+          "id": "bergen",
+          "km": 743.7802173268036
+        }
+      ]
+    },
+    {
+      "id": "antofagasta",
+      "nearest": [
+        {
+          "id": "caldera-chile",
+          "km": 379.2005237617809
+        },
+        {
+          "id": "iquique",
+          "km": 384.6440597991629
+        },
+        {
+          "id": "arica",
+          "km": 576.4637087736085
+        }
+      ]
+    },
+    {
+      "id": "cabo-blanco",
+      "nearest": [
+        {
+          "id": "manta",
+          "km": 373.2630145816443
+        },
+        {
+          "id": "salaverry",
+          "km": 509.39610124930346
+        },
+        {
+          "id": "esmeraldas",
+          "km": 608.9994943601621
+        }
+      ]
+    },
+    {
+      "id": "kangerlussuaq-east",
+      "nearest": [
+        {
+          "id": "kulusuk",
+          "km": 368.96199159116975
+        },
+        {
+          "id": "tasiilaq",
+          "km": 381.73656035338865
+        },
+        {
+          "id": "isafjordur",
+          "km": 431.62986171469055
+        }
+      ]
+    },
+    {
+      "id": "callao",
+      "nearest": [
+        {
+          "id": "chimbote",
+          "km": 366.384272159138
+        },
+        {
+          "id": "san-nicolas",
+          "km": 413.06921267443767
+        },
+        {
+          "id": "salaverry",
+          "km": 469.05215172408435
+        }
+      ]
+    },
+    {
+      "id": "kochi",
+      "nearest": [
+        {
+          "id": "new-mangalore",
+          "km": 366.3419316281365
+        },
+        {
+          "id": "colombo",
+          "km": 514.4786433148138
+        },
+        {
+          "id": "mormugao",
+          "km": 662.4399774171692
+        }
+      ]
+    },
+    {
+      "id": "eureka",
+      "nearest": [
+        {
+          "id": "san-francisco",
+          "km": 364.41356996635125
+        },
+        {
+          "id": "astoria",
+          "km": 600.9354447127656
+        },
+        {
+          "id": "morro-bay",
+          "km": 671.0553579142204
+        }
+      ]
+    },
+    {
+      "id": "monrovia",
+      "nearest": [
+        {
+          "id": "freetown",
+          "km": 360.4740721661121
+        },
+        {
+          "id": "cape-palmas",
+          "km": 406.079976546713
+        },
+        {
+          "id": "conakry",
+          "km": 477.3737596144423
+        }
+      ]
+    },
+    {
+      "id": "talcahuano",
+      "nearest": [
+        {
+          "id": "corral",
+          "km": 352.38471448456556
+        },
+        {
+          "id": "valparaiso",
+          "km": 429.79753867932277
+        },
+        {
+          "id": "coquimbo",
+          "km": 767.847203685843
+        }
+      ]
+    },
+    {
+      "id": "corral",
+      "nearest": [
+        {
+          "id": "talcahuano",
+          "km": 352.38471448456556
+        },
+        {
+          "id": "valparaiso",
+          "km": 777.0562575896188
+        },
+        {
+          "id": "coquimbo",
+          "km": 1118.173659308473
+        }
+      ]
+    },
+    {
+      "id": "lobito",
+      "nearest": [
+        {
+          "id": "namibe",
+          "km": 352.27452101953105
+        },
+        {
+          "id": "luanda",
+          "km": 394.64048399606804
+        },
+        {
+          "id": "pointe-noire",
+          "km": 860.2001875586075
+        }
+      ]
+    },
+    {
+      "id": "namibe",
+      "nearest": [
+        {
+          "id": "lobito",
+          "km": 352.27452101953105
+        },
+        {
+          "id": "luanda",
+          "km": 719.4909932683155
+        },
+        {
+          "id": "walvis-bay",
+          "km": 898.9750916294513
+        }
+      ]
+    },
+    {
+      "id": "phuket",
+      "nearest": [
+        {
+          "id": "penang",
+          "km": 343.41387254262946
+        },
+        {
+          "id": "sabang",
+          "km": 403.9637173833875
+        },
+        {
+          "id": "belawan",
+          "km": 444.28633967029043
+        }
+      ]
+    },
+    {
+      "id": "casablanca",
+      "nearest": [
+        {
+          "id": "gibraltar",
+          "km": 343.11237270517705
+        },
+        {
+          "id": "cadiz",
+          "km": 343.894343753906
+        },
+        {
+          "id": "portimao",
+          "km": 397.102895628814
+        }
+      ]
+    },
+    {
+      "id": "valparaiso",
+      "nearest": [
+        {
+          "id": "coquimbo",
+          "km": 342.84591137073625
+        },
+        {
+          "id": "talcahuano",
+          "km": 429.79753867932277
+        },
+        {
+          "id": "caldera-chile",
+          "km": 668.0744182684405
+        }
+      ]
+    },
+    {
+      "id": "rio-de-janeiro",
+      "nearest": [
+        {
+          "id": "santos",
+          "km": 341.3837639869696
+        },
+        {
+          "id": "vitoria",
+          "km": 415.3026933434224
+        },
+        {
+          "id": "itajai",
+          "km": 703.2245239541357
+        }
+      ]
+    },
+    {
+      "id": "santos",
+      "nearest": [
+        {
+          "id": "rio-de-janeiro",
+          "km": 341.3837639869696
+        },
+        {
+          "id": "itajai",
+          "km": 396.93233983990206
+        },
+        {
+          "id": "vitoria",
+          "km": 738.9673683019402
+        }
+      ]
+    },
+    {
+      "id": "mumbai",
+      "nearest": [
+        {
+          "id": "veraval",
+          "km": 340.2113740341438
+        },
+        {
+          "id": "mormugao",
+          "km": 399.5403104332711
+        },
+        {
+          "id": "okha",
+          "km": 556.4354231667796
+        }
+      ]
+    },
+    {
+      "id": "nouakchott",
+      "nearest": [
+        {
+          "id": "nouadhibou",
+          "km": 335.00874272395185
+        },
+        {
+          "id": "dakar",
+          "km": 401.32252854622703
+        },
+        {
+          "id": "banjul",
+          "km": 512.3935017936711
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "nearest": [
+        {
+          "id": "port-klang",
+          "km": 334.6684711290103
+        },
+        {
+          "id": "penang",
+          "km": 602.7689989741833
+        },
+        {
+          "id": "belawan",
+          "km": 632.208617897406
+        }
+      ]
+    },
+    {
+      "id": "karachi",
+      "nearest": [
+        {
+          "id": "okha",
+          "km": 334.48564714809544
+        },
+        {
+          "id": "gwadar",
+          "km": 470.01612351805807
+        },
+        {
+          "id": "veraval",
+          "km": 553.7043090630159
+        }
+      ]
+    },
+    {
+      "id": "dakhla",
+      "nearest": [
+        {
+          "id": "nouadhibou",
+          "km": 330.4482091690085
+        },
+        {
+          "id": "laayoune",
+          "km": 451.3665753906539
+        },
+        {
+          "id": "las-palmas",
+          "km": 495.3268022935589
+        }
+      ]
+    },
+    {
+      "id": "nouadhibou",
+      "nearest": [
+        {
+          "id": "dakhla",
+          "km": 330.4482091690085
+        },
+        {
+          "id": "nouakchott",
+          "km": 335.00874272395185
+        },
+        {
+          "id": "dakar",
+          "km": 695.4381399360938
+        }
+      ]
+    },
+    {
+      "id": "caldera-chile",
+      "nearest": [
+        {
+          "id": "coquimbo",
+          "km": 325.73635551801993
+        },
+        {
+          "id": "antofagasta",
+          "km": 379.2005237617809
+        },
+        {
+          "id": "valparaiso",
+          "km": 668.0744182684405
+        }
+      ]
+    },
+    {
+      "id": "coquimbo",
+      "nearest": [
+        {
+          "id": "caldera-chile",
+          "km": 325.73635551801993
+        },
+        {
+          "id": "valparaiso",
+          "km": 342.84591137073625
+        },
+        {
+          "id": "antofagasta",
+          "km": 704.7903976578824
+        }
+      ]
+    },
+    {
+      "id": "bahia-tortugas",
+      "nearest": [
+        {
+          "id": "san-quintin",
+          "km": 324.3108574123073
+        },
+        {
+          "id": "san-carlos",
+          "km": 423.86403756483776
+        },
+        {
+          "id": "ensenada",
+          "km": 493.9432904872562
+        }
+      ]
+    },
+    {
+      "id": "sisimiut",
+      "nearest": [
+        {
+          "id": "nuuk",
+          "km": 321.9052990666927
+        },
+        {
+          "id": "cape-dyer",
+          "km": 351.0413491334061
+        },
+        {
+          "id": "qikiqtarjuaq",
+          "km": 449.19764982975227
+        }
+      ]
+    },
+    {
+      "id": "corinto",
+      "nearest": [
+        {
+          "id": "acajutla",
+          "km": 315.24437108393
+        },
+        {
+          "id": "puerto-caldera",
+          "km": 390.96879896927965
+        },
+        {
+          "id": "trujillo-honduras",
+          "km": 405.3764043917146
+        }
+      ]
+    },
+    {
+      "id": "mazatlan",
+      "nearest": [
+        {
+          "id": "puerto-vallarta",
+          "km": 309.6416096694301
+        },
+        {
+          "id": "los-cabos",
+          "km": 356.0213716790743
+        },
+        {
+          "id": "la-paz",
+          "km": 410.4668352045081
+        }
+      ]
+    },
+    {
+      "id": "jeddah",
+      "nearest": [
+        {
+          "id": "yanbu",
+          "km": 309.27498136752496
+        },
+        {
+          "id": "jazan",
+          "km": 573.2097164646062
+        },
+        {
+          "id": "al-qusayr",
+          "km": 710.6448771776319
+        }
+      ]
+    },
+    {
+      "id": "yanbu",
+      "nearest": [
+        {
+          "id": "jeddah",
+          "km": 309.27498136752496
+        },
+        {
+          "id": "duba",
+          "km": 433.86121918272704
+        },
+        {
+          "id": "al-qusayr",
+          "km": 438.0419669839009
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "nearest": [
+        {
+          "id": "morro-bay",
+          "km": 307.76839143940254
+        },
+        {
+          "id": "eureka",
+          "km": 364.41356996635125
+        },
+        {
+          "id": "los-angeles",
+          "km": 596.8096793863766
+        }
+      ]
+    },
+    {
+      "id": "bergen",
+      "nearest": [
+        {
+          "id": "oslo",
+          "km": 307.0894016395476
+        },
+        {
+          "id": "lerwick",
+          "km": 354.0967041027498
+        },
+        {
+          "id": "stromness",
+          "km": 506.8598288530123
+        }
+      ]
+    },
+    {
+      "id": "oslo",
+      "nearest": [
+        {
+          "id": "bergen",
+          "km": 307.0894016395476
+        },
+        {
+          "id": "lerwick",
+          "km": 659.1106301144221
+        },
+        {
+          "id": "hamburg",
+          "km": 671.159385346279
+        }
+      ]
+    },
+    {
+      "id": "port-gentil",
+      "nearest": [
+        {
+          "id": "bata",
+          "km": 304.44039023444066
+        },
+        {
+          "id": "malabo",
+          "km": 495.4215667909825
+        },
+        {
+          "id": "pointe-noire",
+          "km": 565.0942679292856
+        }
+      ]
+    },
+    {
+      "id": "charleston",
+      "nearest": [
+        {
+          "id": "jacksonville",
+          "km": 303.4413184725452
+        },
+        {
+          "id": "morehead-city",
+          "km": 366.9250327047129
+        },
+        {
+          "id": "canaveral",
+          "km": 458.9442453461544
+        }
+      ]
+    },
+    {
+      "id": "morro-bay",
+      "nearest": [
+        {
+          "id": "los-angeles",
+          "km": 302.8563090259679
+        },
+        {
+          "id": "san-francisco",
+          "km": 307.76839143940254
+        },
+        {
+          "id": "san-diego",
+          "km": 451.7107131877676
+        }
+      ]
+    },
+    {
+      "id": "mormugao",
+      "nearest": [
+        {
+          "id": "new-mangalore",
+          "km": 296.66207599372444
+        },
+        {
+          "id": "mumbai",
+          "km": 399.5403104332711
+        },
+        {
+          "id": "kochi",
+          "km": 662.4399774171692
+        }
+      ]
+    },
+    {
+      "id": "new-mangalore",
+      "nearest": [
+        {
+          "id": "mormugao",
+          "km": 296.66207599372444
+        },
+        {
+          "id": "kochi",
+          "km": 366.3419316281365
+        },
+        {
+          "id": "mumbai",
+          "km": 694.9815196711393
+        }
+      ]
+    },
+    {
+      "id": "buenaventura",
+      "nearest": [
+        {
+          "id": "tumaco",
+          "km": 295.90735914528597
+        },
+        {
+          "id": "esmeraldas",
+          "km": 429.90693084618243
+        },
+        {
+          "id": "balboa",
+          "km": 621.941953883311
+        }
+      ]
+    },
+    {
+      "id": "trujillo-honduras",
+      "nearest": [
+        {
+          "id": "belize-city",
+          "km": 293.4592503393992
+        },
+        {
+          "id": "corinto",
+          "km": 405.3764043917146
+        },
+        {
+          "id": "acajutla",
+          "km": 495.9287698211745
+        }
+      ]
+    },
+    {
+      "id": "belize-city",
+      "nearest": [
+        {
+          "id": "trujillo-honduras",
+          "km": 293.4592503393992
+        },
+        {
+          "id": "champoton",
+          "km": 341.3174644371504
+        },
+        {
+          "id": "campeche",
+          "km": 364.92404305176933
+        }
+      ]
+    },
+    {
+      "id": "st-johns-antigua",
+      "nearest": [
+        {
+          "id": "fort-de-france",
+          "km": 292.40310699296435
+        },
+        {
+          "id": "san-juan",
+          "km": 475.5107918008373
+        },
+        {
+          "id": "point-lisas",
+          "km": 747.8670393870955
+        }
+      ]
+    },
+    {
+      "id": "fort-de-france",
+      "nearest": [
+        {
+          "id": "st-johns-antigua",
+          "km": 292.40310699296435
+        },
+        {
+          "id": "point-lisas",
+          "km": 469.3814061883235
+        },
+        {
+          "id": "san-juan",
+          "km": 689.3394100560773
+        }
+      ]
+    },
+    {
+      "id": "port-klang",
+      "nearest": [
+        {
+          "id": "penang",
+          "km": 291.2959320757527
+        },
+        {
+          "id": "belawan",
+          "km": 305.3503713677274
+        },
+        {
+          "id": "singapore",
+          "km": 334.6684711290103
+        }
+      ]
+    },
+    {
+      "id": "nassau",
+      "nearest": [
+        {
+          "id": "miami",
+          "km": 287.67831044625683
+        },
+        {
+          "id": "key-west",
+          "km": 457.17711059842304
+        },
+        {
+          "id": "canaveral",
+          "km": 516.1357997017385
+        }
+      ]
+    },
+    {
+      "id": "cartwright",
+      "nearest": [
+        {
+          "id": "st-anthony",
+          "km": 279.0592439906826
+        },
+        {
+          "id": "hopedale",
+          "km": 282.9616550260763
+        },
+        {
+          "id": "nain",
+          "km": 431.20883348059454
+        }
+      ]
+    },
+    {
+      "id": "st-anthony",
+      "nearest": [
+        {
+          "id": "cartwright",
+          "km": 279.0592439906826
+        },
+        {
+          "id": "bonavista",
+          "km": 345.55045666621373
+        },
+        {
+          "id": "st-johns",
+          "km": 470.8854582395316
+        }
+      ]
+    },
+    {
+      "id": "saint-pierre",
+      "nearest": [
+        {
+          "id": "st-johns",
+          "km": 276.9991489695319
+        },
+        {
+          "id": "bonavista",
+          "km": 309.21645599333607
+        },
+        {
+          "id": "north-sydney",
+          "km": 319.36657647394566
+        }
+      ]
+    },
+    {
+      "id": "ponta-delgada",
+      "nearest": [
+        {
+          "id": "horta",
+          "km": 272.122981688217
+        },
+        {
+          "id": "funchal",
+          "km": 976.0706985345723
+        },
+        {
+          "id": "lisbon",
+          "km": 1431.6983909281516
+        }
+      ]
+    },
+    {
+      "id": "horta",
+      "nearest": [
+        {
+          "id": "ponta-delgada",
+          "km": 272.122981688217
+        },
+        {
+          "id": "funchal",
+          "km": 1242.7835379144224
+        },
+        {
+          "id": "lisbon",
+          "km": 1674.3933866766731
+        }
+      ]
+    },
+    {
+      "id": "nuuk",
+      "nearest": [
+        {
+          "id": "paamiut",
+          "km": 263.6529969922885
+        },
+        {
+          "id": "sisimiut",
+          "km": 321.9052990666927
+        },
+        {
+          "id": "qaqortoq",
+          "km": 482.9221347471571
+        }
+      ]
+    },
+    {
+      "id": "recife",
+      "nearest": [
+        {
+          "id": "natal",
+          "km": 256.39571634393667
+        },
+        {
+          "id": "fortaleza",
+          "km": 629.9402559045647
+        },
+        {
+          "id": "salvador",
+          "km": 674.7965303020625
+        }
+      ]
+    },
+    {
+      "id": "natal",
+      "nearest": [
+        {
+          "id": "recife",
+          "km": 256.39571634393667
+        },
+        {
+          "id": "fortaleza",
+          "km": 434.46484066611094
+        },
+        {
+          "id": "salvador",
+          "km": 878.8562310534558
+        }
+      ]
+    },
+    {
+      "id": "matarani",
+      "nearest": [
+        {
+          "id": "arica",
+          "km": 250.5251369158786
+        },
+        {
+          "id": "san-nicolas",
+          "km": 384.83822420459916
+        },
+        {
+          "id": "iquique",
+          "km": 410.88233780323066
+        }
+      ]
+    },
+    {
+      "id": "penang",
+      "nearest": [
+        {
+          "id": "belawan",
+          "km": 249.0514330543987
+        },
+        {
+          "id": "port-klang",
+          "km": 291.2959320757527
+        },
+        {
+          "id": "phuket",
+          "km": 343.41387254262946
+        }
+      ]
+    },
+    {
+      "id": "belawan",
+      "nearest": [
+        {
+          "id": "penang",
+          "km": 249.0514330543987
+        },
+        {
+          "id": "port-klang",
+          "km": 305.3503713677274
+        },
+        {
+          "id": "sabang",
+          "km": 442.39289653676286
+        }
+      ]
+    },
+    {
+      "id": "manta",
+      "nearest": [
+        {
+          "id": "esmeraldas",
+          "km": 244.98678564784942
+        },
+        {
+          "id": "cabo-blanco",
+          "km": 373.2630145816443
+        },
+        {
+          "id": "tumaco",
+          "km": 375.524124525738
+        }
+      ]
+    },
+    {
+      "id": "new-york",
+      "nearest": [
+        {
+          "id": "newport-rhode-island",
+          "km": 241.90914462534067
+        },
+        {
+          "id": "boston",
+          "km": 323.34450242438777
+        },
+        {
+          "id": "norfolk",
+          "km": 451.9623348480537
+        }
+      ]
+    },
+    {
+      "id": "norfolk",
+      "nearest": [
+        {
+          "id": "morehead-city",
+          "km": 241.36453298671
+        },
+        {
+          "id": "new-york",
+          "km": 451.9623348480537
+        },
+        {
+          "id": "charleston",
+          "km": 560.8084030420084
+        }
+      ]
+    },
+    {
+      "id": "morehead-city",
+      "nearest": [
+        {
+          "id": "norfolk",
+          "km": 241.36453298671
+        },
+        {
+          "id": "charleston",
+          "km": 366.9250327047129
+        },
+        {
+          "id": "jacksonville",
+          "km": 651.1905436125556
+        }
+      ]
+    },
+    {
+      "id": "paamiut",
+      "nearest": [
+        {
+          "id": "qaqortoq",
+          "km": 240.72370615976715
+        },
+        {
+          "id": "nuuk",
+          "km": 263.6529969922885
+        },
+        {
+          "id": "nanortalik",
+          "km": 315.22899651202283
+        }
+      ]
+    },
+    {
+      "id": "salina-cruz",
+      "nearest": [
+        {
+          "id": "coatzacoalcos",
+          "km": 239.18955410822707
+        },
+        {
+          "id": "alvarado",
+          "km": 297.83158603252394
+        },
+        {
+          "id": "dos-bocas",
+          "km": 332.93763493940605
+        }
+      ]
+    },
+    {
+      "id": "la-rochelle",
+      "nearest": [
+        {
+          "id": "lorient",
+          "km": 238.15291191861704
+        },
+        {
+          "id": "bayonne",
+          "km": 291.5882875035199
+        },
+        {
+          "id": "brest",
+          "km": 356.0297946322404
+        }
+      ]
+    },
+    {
+      "id": "malabo",
+      "nearest": [
+        {
+          "id": "bata",
+          "km": 236.0253599938164
+        },
+        {
+          "id": "port-gentil",
+          "km": 495.4215667909825
+        },
+        {
+          "id": "lagos",
+          "km": 664.7736089318347
+        }
+      ]
+    },
+    {
+      "id": "bata",
+      "nearest": [
+        {
+          "id": "malabo",
+          "km": 236.0253599938164
+        },
+        {
+          "id": "port-gentil",
+          "km": 304.44039023444066
+        },
+        {
+          "id": "pointe-noire",
+          "km": 775.2014158625597
+        }
+      ]
+    },
+    {
+      "id": "resolution-harbour",
+      "nearest": [
+        {
+          "id": "brevoort",
+          "km": 227.90783414303112
+        },
+        {
+          "id": "iqaluit",
+          "km": 328.654384252331
+        },
+        {
+          "id": "saglek",
+          "km": 337.29847109793445
+        }
+      ]
+    },
+    {
+      "id": "yarmouth-canada",
+      "nearest": [
+        {
+          "id": "halifax",
+          "km": 227.3294936535783
+        },
+        {
+          "id": "portland-maine",
+          "km": 328.1167807071219
+        },
+        {
+          "id": "boston",
+          "km": 417.4736932927825
+        }
+      ]
+    },
+    {
+      "id": "las-palmas",
+      "nearest": [
+        {
+          "id": "laayoune",
+          "km": 225.7854359868876
+        },
+        {
+          "id": "dakhla",
+          "km": 495.3268022935589
+        },
+        {
+          "id": "funchal",
+          "km": 520.184606130717
+        }
+      ]
+    },
+    {
+      "id": "laayoune",
+      "nearest": [
+        {
+          "id": "las-palmas",
+          "km": 225.7854359868876
+        },
+        {
+          "id": "dakhla",
+          "km": 451.3665753906539
+        },
+        {
+          "id": "agadir",
+          "km": 524.8192559500827
+        }
+      ]
+    },
+    {
+      "id": "saglek",
+      "nearest": [
+        {
+          "id": "nain",
+          "km": 224.1539261736747
+        },
+        {
+          "id": "resolution-harbour",
+          "km": 337.29847109793445
+        },
+        {
+          "id": "hopedale",
+          "km": 366.3686679438532
+        }
+      ]
+    },
+    {
+      "id": "iqaluit",
+      "nearest": [
+        {
+          "id": "brevoort",
+          "km": 223.83665405197095
+        },
+        {
+          "id": "pangnirtung",
+          "km": 297.3600554646759
+        },
+        {
+          "id": "resolution-harbour",
+          "km": 328.654384252331
+        }
+      ]
+    },
+    {
+      "id": "brevoort",
+      "nearest": [
+        {
+          "id": "iqaluit",
+          "km": 223.83665405197095
+        },
+        {
+          "id": "resolution-harbour",
+          "km": 227.90783414303112
+        },
+        {
+          "id": "pangnirtung",
+          "km": 322.30301486708566
+        }
+      ]
+    },
+    {
+      "id": "muscat",
+      "nearest": [
+        {
+          "id": "sohar",
+          "km": 221.68948480343423
+        },
+        {
+          "id": "fujairah",
+          "km": 279.96900787193147
+        },
+        {
+          "id": "dubai",
+          "km": 383.56600936733463
+        }
+      ]
+    },
+    {
+      "id": "isafjordur",
+      "nearest": [
+        {
+          "id": "reykjavik",
+          "km": 220.56628959289463
+        },
+        {
+          "id": "vestmannaeyjar",
+          "km": 325.7185688342241
+        },
+        {
+          "id": "hofn",
+          "km": 422.8830830400887
+        }
+      ]
+    },
+    {
+      "id": "okha",
+      "nearest": [
+        {
+          "id": "veraval",
+          "km": 219.27645601499756
+        },
+        {
+          "id": "karachi",
+          "km": 334.48564714809544
+        },
+        {
+          "id": "mumbai",
+          "km": 556.4354231667796
+        }
+      ]
+    },
+    {
+      "id": "veraval",
+      "nearest": [
+        {
+          "id": "okha",
+          "km": 219.27645601499756
+        },
+        {
+          "id": "mumbai",
+          "km": 340.2113740341438
+        },
+        {
+          "id": "karachi",
+          "km": 553.7043090630159
+        }
+      ]
+    },
+    {
+      "id": "miami",
+      "nearest": [
+        {
+          "id": "key-west",
+          "km": 219.26864370073815
+        },
+        {
+          "id": "nassau",
+          "km": 287.67831044625683
+        },
+        {
+          "id": "canaveral",
+          "km": 330.8791299952308
+        }
+      ]
+    },
+    {
+      "id": "valencia",
+      "nearest": [
+        {
+          "id": "cartagena",
+          "km": 216.50991741375265
+        },
+        {
+          "id": "palma",
+          "km": 248.99150889228278
+        },
+        {
+          "id": "barcelona",
+          "km": 296.2538114467341
+        }
+      ]
+    },
+    {
+      "id": "cartagena",
+      "nearest": [
+        {
+          "id": "valencia",
+          "km": 216.50991741375265
+        },
+        {
+          "id": "malaga",
+          "km": 320.3117320644655
+        },
+        {
+          "id": "palma",
+          "km": 382.0725809193932
+        }
+      ]
+    },
+    {
+      "id": "ilheus",
+      "nearest": [
+        {
+          "id": "salvador",
+          "km": 209.0903776552729
+        },
+        {
+          "id": "vitoria",
+          "km": 629.3149974657979
+        },
+        {
+          "id": "recife",
+          "km": 872.5318376274716
+        }
+      ]
+    },
+    {
+      "id": "salvador",
+      "nearest": [
+        {
+          "id": "ilheus",
+          "km": 209.0903776552729
+        },
+        {
+          "id": "recife",
+          "km": 674.7965303020625
+        },
+        {
+          "id": "vitoria",
+          "km": 838.2896346075211
+        }
+      ]
+    },
+    {
+      "id": "halifax",
+      "nearest": [
+        {
+          "id": "port-hawkesbury",
+          "km": 204.0474927097679
+        },
+        {
+          "id": "yarmouth-canada",
+          "km": 227.3294936535783
+        },
+        {
+          "id": "north-sydney",
+          "km": 314.5897489071029
+        }
+      ]
+    },
+    {
+      "id": "al-mukha",
+      "nearest": [
+        {
+          "id": "aden",
+          "km": 203.0966434395545
+        },
+        {
+          "id": "jazan",
+          "km": 452.1566646656499
+        },
+        {
+          "id": "mukalla",
+          "km": 647.2544438121433
+        }
+      ]
+    },
+    {
+      "id": "aden",
+      "nearest": [
+        {
+          "id": "al-mukha",
+          "km": 203.0966434395545
+        },
+        {
+          "id": "mukalla",
+          "km": 482.23377961399575
+        },
+        {
+          "id": "jazan",
+          "km": 581.1537318305915
+        }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "nearest": [
+        {
+          "id": "palma",
+          "km": 201.7777049935057
+        },
+        {
+          "id": "valencia",
+          "km": 296.2538114467341
+        },
+        {
+          "id": "marseille",
+          "km": 340.0326578879732
+        }
+      ]
+    },
+    {
+      "id": "palma",
+      "nearest": [
+        {
+          "id": "barcelona",
+          "km": 201.7777049935057
+        },
+        {
+          "id": "valencia",
+          "km": 248.99150889228278
+        },
+        {
+          "id": "cartagena",
+          "km": 382.0725809193932
+        }
+      ]
+    },
+    {
+      "id": "manzanillo",
+      "nearest": [
+        {
+          "id": "puerto-vallarta",
+          "km": 201.4228952326693
+        },
+        {
+          "id": "lazaro-cardenas",
+          "km": 260.23939200359086
+        },
+        {
+          "id": "zihuatanejo",
+          "km": 331.72227507225847
+        }
+      ]
+    },
+    {
+      "id": "puerto-vallarta",
+      "nearest": [
+        {
+          "id": "manzanillo",
+          "km": 201.4228952326693
+        },
+        {
+          "id": "mazatlan",
+          "km": 309.6416096694301
+        },
+        {
+          "id": "lazaro-cardenas",
+          "km": 443.0860178053867
+        }
+      ]
+    },
+    {
+      "id": "oban",
+      "nearest": [
+        {
+          "id": "stornoway",
+          "km": 201.19871224034353
+        },
+        {
+          "id": "scrabster",
+          "km": 270.17122277215987
+        },
+        {
+          "id": "killybegs",
+          "km": 275.19419112591606
+        }
+      ]
+    },
+    {
+      "id": "eilat",
+      "nearest": [
+        {
+          "id": "sharm-el-sheikh",
+          "km": 198.5597510651192
+        },
+        {
+          "id": "suez",
+          "km": 234.62942820746838
+        },
+        {
+          "id": "duba",
+          "km": 255.13768978231298
+        }
+      ]
+    },
+    {
+      "id": "vancouver",
+      "nearest": [
+        {
+          "id": "seattle",
+          "km": 195.7518170445496
+        },
+        {
+          "id": "astoria",
+          "km": 342.953621662148
+        },
+        {
+          "id": "eureka",
+          "km": 943.2514430614884
+        }
+      ]
+    },
+    {
+      "id": "acapulco",
+      "nearest": [
+        {
+          "id": "zihuatanejo",
+          "km": 195.5958751665656
+        },
+        {
+          "id": "lazaro-cardenas",
+          "km": 267.1321693459796
+        },
+        {
+          "id": "veracruz",
+          "km": 482.26700667177
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "nearest": [
+        {
+          "id": "montevideo",
+          "km": 195.08440604977812
+        },
+        {
+          "id": "rio-grande",
+          "km": 645.3930203986835
+        },
+        {
+          "id": "valparaiso",
+          "km": 1241.5787896534544
+        }
+      ]
+    },
+    {
+      "id": "montevideo",
+      "nearest": [
+        {
+          "id": "buenos-aires",
+          "km": 195.08440604977812
+        },
+        {
+          "id": "rio-grande",
+          "km": 499.6221695543558
+        },
+        {
+          "id": "itajai",
+          "km": 1148.3724344320597
+        }
+      ]
+    },
+    {
+      "id": "san-carlos",
+      "nearest": [
+        {
+          "id": "la-paz",
+          "km": 194.29423578659217
+        },
+        {
+          "id": "los-cabos",
+          "km": 310.472845531996
+        },
+        {
+          "id": "bahia-tortugas",
+          "km": 423.86403756483776
+        }
+      ]
+    },
+    {
+      "id": "arica",
+      "nearest": [
+        {
+          "id": "iquique",
+          "km": 193.52971869810068
+        },
+        {
+          "id": "matarani",
+          "km": 250.5251369158786
+        },
+        {
+          "id": "antofagasta",
+          "km": 576.4637087736085
+        }
+      ]
+    },
+    {
+      "id": "iquique",
+      "nearest": [
+        {
+          "id": "arica",
+          "km": 193.52971869810068
+        },
+        {
+          "id": "antofagasta",
+          "km": 384.6440597991629
+        },
+        {
+          "id": "matarani",
+          "km": 410.88233780323066
+        }
+      ]
+    },
+    {
+      "id": "jacksonville",
+      "nearest": [
+        {
+          "id": "canaveral",
+          "km": 191.00388847732228
+        },
+        {
+          "id": "charleston",
+          "km": 303.4413184725452
+        },
+        {
+          "id": "miami",
+          "km": 519.7960235118272
+        }
+      ]
+    },
+    {
+      "id": "canaveral",
+      "nearest": [
+        {
+          "id": "jacksonville",
+          "km": 191.00388847732228
+        },
+        {
+          "id": "miami",
+          "km": 330.8791299952308
+        },
+        {
+          "id": "charleston",
+          "km": 458.9442453461544
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "nearest": [
+        {
+          "id": "astoria",
+          "km": 189.5090647888061
+        },
+        {
+          "id": "vancouver",
+          "km": 195.7518170445496
+        },
+        {
+          "id": "eureka",
+          "km": 768.268840549194
+        }
+      ]
+    },
+    {
+      "id": "astoria",
+      "nearest": [
+        {
+          "id": "seattle",
+          "km": 189.5090647888061
+        },
+        {
+          "id": "vancouver",
+          "km": 342.953621662148
+        },
+        {
+          "id": "eureka",
+          "km": 600.9354447127656
+        }
+      ]
+    },
+    {
+      "id": "ajaccio",
+      "nearest": [
+        {
+          "id": "piombino",
+          "km": 189.4566126901528
+        },
+        {
+          "id": "livorno",
+          "km": 222.9339674275266
+        },
+        {
+          "id": "monaco",
+          "km": 227.72488286215247
+        }
+      ]
+    },
+    {
+      "id": "puerto-caldera",
+      "nearest": [
+        {
+          "id": "puerto-limon",
+          "km": 185.45299365189717
+        },
+        {
+          "id": "golfito",
+          "km": 221.60755424983216
+        },
+        {
+          "id": "puerto-armuelles",
+          "km": 277.0183425933846
+        }
+      ]
+    },
+    {
+      "id": "lisbon",
+      "nearest": [
+        {
+          "id": "portimao",
+          "km": 185.42153344663876
+        },
+        {
+          "id": "porto",
+          "km": 282.65667934812217
+        },
+        {
+          "id": "cadiz",
+          "km": 354.2098155326815
+        }
+      ]
+    },
+    {
+      "id": "portimao",
+      "nearest": [
+        {
+          "id": "lisbon",
+          "km": 185.42153344663876
+        },
+        {
+          "id": "cadiz",
+          "km": 207.24737982883858
+        },
+        {
+          "id": "gibraltar",
+          "km": 300.8828997625918
+        }
+      ]
+    },
+    {
+      "id": "lerwick",
+      "nearest": [
+        {
+          "id": "stromness",
+          "km": 183.21527677040558
+        },
+        {
+          "id": "scrabster",
+          "km": 221.18075552145737
+        },
+        {
+          "id": "bergen",
+          "km": 354.0967041027498
+        }
+      ]
+    },
+    {
+      "id": "bayonne",
+      "nearest": [
+        {
+          "id": "santander",
+          "km": 181.7190113668976
+        },
+        {
+          "id": "la-rochelle",
+          "km": 291.5882875035199
+        },
+        {
+          "id": "gijon",
+          "km": 333.17746177036406
+        }
+      ]
+    },
+    {
+      "id": "pangnirtung",
+      "nearest": [
+        {
+          "id": "qikiqtarjuaq",
+          "km": 175.3598169492374
+        },
+        {
+          "id": "cape-dyer",
+          "km": 190.1543010861132
+        },
+        {
+          "id": "iqaluit",
+          "km": 297.3600554646759
+        }
+      ]
+    },
+    {
+      "id": "stornoway",
+      "nearest": [
+        {
+          "id": "scrabster",
+          "km": 170.54865351989667
+        },
+        {
+          "id": "stromness",
+          "km": 196.71460720963378
+        },
+        {
+          "id": "oban",
+          "km": 201.19871224034353
+        }
+      ]
+    },
+    {
+      "id": "san-quintin",
+      "nearest": [
+        {
+          "id": "ensenada",
+          "km": 169.70491511618891
+        },
+        {
+          "id": "san-diego",
+          "km": 272.71826014368514
+        },
+        {
+          "id": "bahia-tortugas",
+          "km": 324.3108574123073
+        }
+      ]
+    },
+    {
+      "id": "corfu",
+      "nearest": [
+        {
+          "id": "argostoli",
+          "km": 168.01541529455568
+        },
+        {
+          "id": "brindisi",
+          "km": 201.5334140529478
+        },
+        {
+          "id": "crotone",
+          "km": 247.30137173074104
+        }
+      ]
+    },
+    {
+      "id": "palermo",
+      "nearest": [
+        {
+          "id": "catania",
+          "km": 166.5844381964039
+        },
+        {
+          "id": "messina",
+          "km": 192.68999904736233
+        },
+        {
+          "id": "vibo-valentia",
+          "km": 247.65702906116968
+        }
+      ]
+    },
+    {
+      "id": "piraeus",
+      "nearest": [
+        {
+          "id": "kalamata",
+          "km": 166.31746367765783
+        },
+        {
+          "id": "katakolon",
+          "km": 205.2282107664534
+        },
+        {
+          "id": "kissamos",
+          "km": 265.746973385111
+        }
+      ]
+    },
+    {
+      "id": "dakar",
+      "nearest": [
+        {
+          "id": "banjul",
+          "km": 164.2529265003295
+        },
+        {
+          "id": "nouakchott",
+          "km": 401.32252854622703
+        },
+        {
+          "id": "nouadhibou",
+          "km": 695.4381399360938
+        }
+      ]
+    },
+    {
+      "id": "banjul",
+      "nearest": [
+        {
+          "id": "dakar",
+          "km": 164.2529265003295
+        },
+        {
+          "id": "nouakchott",
+          "km": 512.3935017936711
+        },
+        {
+          "id": "conakry",
+          "km": 537.1911868105532
+        }
+      ]
+    },
+    {
+      "id": "havana",
+      "nearest": [
+        {
+          "id": "key-west",
+          "km": 163.94837406007832
+        },
+        {
+          "id": "miami",
+          "km": 368.6357877906645
+        },
+        {
+          "id": "cancun",
+          "km": 504.0946873423503
+        }
+      ]
+    },
+    {
+      "id": "key-west",
+      "nearest": [
+        {
+          "id": "havana",
+          "km": 163.94837406007832
+        },
+        {
+          "id": "miami",
+          "km": 219.26864370073815
+        },
+        {
+          "id": "nassau",
+          "km": 457.17711059842304
+        }
+      ]
+    },
+    {
+      "id": "portland-maine",
+      "nearest": [
+        {
+          "id": "boston",
+          "km": 158.2590852114337
+        },
+        {
+          "id": "newport-rhode-island",
+          "km": 256.91612265271596
+        },
+        {
+          "id": "yarmouth-canada",
+          "km": 328.1167807071219
+        }
+      ]
+    },
+    {
+      "id": "port-said",
+      "nearest": [
+        {
+          "id": "suez",
+          "km": 156.12060066079613
+        },
+        {
+          "id": "ashdod",
+          "km": 225.10137878470806
+        },
+        {
+          "id": "haifa",
+          "km": 303.8924648405899
+        }
+      ]
+    },
+    {
+      "id": "suez",
+      "nearest": [
+        {
+          "id": "port-said",
+          "km": 156.12060066079613
+        },
+        {
+          "id": "eilat",
+          "km": 234.62942820746838
+        },
+        {
+          "id": "sharm-el-sheikh",
+          "km": 284.3455843996187
+        }
+      ]
+    },
+    {
+      "id": "cancun",
+      "nearest": [
+        {
+          "id": "rio-lagartos",
+          "km": 155.9160062671548
+        },
+        {
+          "id": "progreso",
+          "km": 303.64376071820624
+        },
+        {
+          "id": "celestun",
+          "km": 383.96084185783155
+        }
+      ]
+    },
+    {
+      "id": "rio-lagartos",
+      "nearest": [
+        {
+          "id": "cancun",
+          "km": 155.9160062671548
+        },
+        {
+          "id": "progreso",
+          "km": 159.44005166518622
+        },
+        {
+          "id": "celestun",
+          "km": 249.93748529889675
+        }
+      ]
+    },
+    {
+      "id": "killybegs",
+      "nearest": [
+        {
+          "id": "galway",
+          "km": 153.3732462569003
+        },
+        {
+          "id": "oban",
+          "km": 275.19419112591606
+        },
+        {
+          "id": "dingle",
+          "km": 303.07559648452826
+        }
+      ]
+    },
+    {
+      "id": "galway",
+      "nearest": [
+        {
+          "id": "killybegs",
+          "km": 153.3732462569003
+        },
+        {
+          "id": "dingle",
+          "km": 153.593061052352
+        },
+        {
+          "id": "cork",
+          "km": 174.1535948219943
+        }
+      ]
+    },
+    {
+      "id": "gijon",
+      "nearest": [
+        {
+          "id": "santander",
+          "km": 152.28911571656374
+        },
+        {
+          "id": "a-coruna",
+          "km": 219.0225679775931
+        },
+        {
+          "id": "vigo",
+          "km": 294.67094542648533
+        }
+      ]
+    },
+    {
+      "id": "santander",
+      "nearest": [
+        {
+          "id": "gijon",
+          "km": 152.28911571656374
+        },
+        {
+          "id": "bayonne",
+          "km": 181.7190113668976
+        },
+        {
+          "id": "la-rochelle",
+          "km": 361.37822963079446
+        }
+      ]
+    },
+    {
+      "id": "puerto-limon",
+      "nearest": [
+        {
+          "id": "golfito",
+          "km": 152.16902185201562
+        },
+        {
+          "id": "puerto-caldera",
+          "km": 185.45299365189717
+        },
+        {
+          "id": "puerto-armuelles",
+          "km": 194.71951087748147
+        }
+      ]
+    },
+    {
+      "id": "los-cabos",
+      "nearest": [
+        {
+          "id": "la-paz",
+          "km": 151.78112426039925
+        },
+        {
+          "id": "san-carlos",
+          "km": 310.472845531996
+        },
+        {
+          "id": "mazatlan",
+          "km": 356.0213716790743
+        }
+      ]
+    },
+    {
+      "id": "la-paz",
+      "nearest": [
+        {
+          "id": "los-cabos",
+          "km": 151.78112426039925
+        },
+        {
+          "id": "san-carlos",
+          "km": 194.29423578659217
+        },
+        {
+          "id": "mazatlan",
+          "km": 410.4668352045081
+        }
+      ]
+    },
+    {
+      "id": "qikiqtarjuaq",
+      "nearest": [
+        {
+          "id": "cape-dyer",
+          "km": 151.11740219592195
+        },
+        {
+          "id": "pangnirtung",
+          "km": 175.3598169492374
+        },
+        {
+          "id": "sisimiut",
+          "km": 449.19764982975227
+        }
+      ]
+    },
+    {
+      "id": "cape-dyer",
+      "nearest": [
+        {
+          "id": "qikiqtarjuaq",
+          "km": 151.11740219592195
+        },
+        {
+          "id": "pangnirtung",
+          "km": 190.1543010861132
+        },
+        {
+          "id": "sisimiut",
+          "km": 351.0413491334061
+        }
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "nearest": [
+        {
+          "id": "san-diego",
+          "km": 150.55457430958606
+        },
+        {
+          "id": "ensenada",
+          "km": 253.21642863300823
+        },
+        {
+          "id": "morro-bay",
+          "km": 302.8563090259679
+        }
+      ]
+    },
+    {
+      "id": "nain",
+      "nearest": [
+        {
+          "id": "hopedale",
+          "km": 149.97296015786856
+        },
+        {
+          "id": "saglek",
+          "km": 224.1539261736747
+        },
+        {
+          "id": "cartwright",
+          "km": 431.20883348059454
+        }
+      ]
+    },
+    {
+      "id": "hopedale",
+      "nearest": [
+        {
+          "id": "nain",
+          "km": 149.97296015786856
+        },
+        {
+          "id": "cartwright",
+          "km": 282.9616550260763
+        },
+        {
+          "id": "saglek",
+          "km": 366.3686679438532
+        }
+      ]
+    },
+    {
+      "id": "duba",
+      "nearest": [
+        {
+          "id": "sharm-el-sheikh",
+          "km": 145.97532917084396
+        },
+        {
+          "id": "hurghada",
+          "km": 177.9545613721462
+        },
+        {
+          "id": "al-qusayr",
+          "km": 189.3192580681808
+        }
+      ]
+    },
+    {
+      "id": "cork",
+      "nearest": [
+        {
+          "id": "dingle",
+          "km": 143.6287860201265
+        },
+        {
+          "id": "galway",
+          "km": 174.1535948219943
+        },
+        {
+          "id": "newlyn",
+          "km": 265.6295638326284
+        }
+      ]
+    },
+    {
+      "id": "dingle",
+      "nearest": [
+        {
+          "id": "cork",
+          "km": 143.6287860201265
+        },
+        {
+          "id": "galway",
+          "km": 153.593061052352
+        },
+        {
+          "id": "killybegs",
+          "km": 303.07559648452826
+        }
+      ]
+    },
+    {
+      "id": "ciudad-carmen",
+      "nearest": [
+        {
+          "id": "champoton",
+          "km": 139.69646990864018
+        },
+        {
+          "id": "dos-bocas",
+          "km": 143.99625556265153
+        },
+        {
+          "id": "campeche",
+          "km": 185.94510864933477
+        }
+      ]
+    },
+    {
+      "id": "kissamos",
+      "nearest": [
+        {
+          "id": "heraklion",
+          "km": 138.85076130817038
+        },
+        {
+          "id": "kalamata",
+          "km": 213.25341117419222
+        },
+        {
+          "id": "sitia",
+          "km": 229.3282463209247
+        }
+      ]
+    },
+    {
+      "id": "tumaco",
+      "nearest": [
+        {
+          "id": "esmeraldas",
+          "km": 135.11195014985077
+        },
+        {
+          "id": "buenaventura",
+          "km": 295.90735914528597
+        },
+        {
+          "id": "manta",
+          "km": 375.524124525738
+        }
+      ]
+    },
+    {
+      "id": "esmeraldas",
+      "nearest": [
+        {
+          "id": "tumaco",
+          "km": 135.11195014985077
+        },
+        {
+          "id": "manta",
+          "km": 244.98678564784942
+        },
+        {
+          "id": "buenaventura",
+          "km": 429.90693084618243
+        }
+      ]
+    },
+    {
+      "id": "a-coruna",
+      "nearest": [
+        {
+          "id": "vigo",
+          "km": 134.32863639096598
+        },
+        {
+          "id": "gijon",
+          "km": 219.0225679775931
+        },
+        {
+          "id": "porto",
+          "km": 249.53726414247546
+        }
+      ]
+    },
+    {
+      "id": "dos-bocas",
+      "nearest": [
+        {
+          "id": "coatzacoalcos",
+          "km": 133.09639090227176
+        },
+        {
+          "id": "ciudad-carmen",
+          "km": 143.99625556265153
+        },
+        {
+          "id": "alvarado",
+          "km": 273.42780959134654
+        }
+      ]
+    },
+    {
+      "id": "coatzacoalcos",
+      "nearest": [
+        {
+          "id": "dos-bocas",
+          "km": 133.09639090227176
+        },
+        {
+          "id": "alvarado",
+          "km": 157.29878677605228
+        },
+        {
+          "id": "veracruz",
+          "km": 211.4135284061656
+        }
+      ]
+    },
+    {
+      "id": "al-qusayr",
+      "nearest": [
+        {
+          "id": "hurghada",
+          "km": 132.43125828770596
+        },
+        {
+          "id": "duba",
+          "km": 189.3192580681808
+        },
+        {
+          "id": "sharm-el-sheikh",
+          "km": 193.89783519015455
+        }
+      ]
+    },
+    {
+      "id": "st-johns",
+      "nearest": [
+        {
+          "id": "bonavista",
+          "km": 127.85360802607732
+        },
+        {
+          "id": "saint-pierre",
+          "km": 276.9991489695319
+        },
+        {
+          "id": "st-anthony",
+          "km": 470.8854582395316
+        }
+      ]
+    },
+    {
+      "id": "bonavista",
+      "nearest": [
+        {
+          "id": "st-johns",
+          "km": 127.85360802607732
+        },
+        {
+          "id": "saint-pierre",
+          "km": 309.21645599333607
+        },
+        {
+          "id": "st-anthony",
+          "km": 345.55045666621373
+        }
+      ]
+    },
+    {
+      "id": "antalya",
+      "nearest": [
+        {
+          "id": "alanya",
+          "km": 126.93694697862047
+        },
+        {
+          "id": "fethiye",
+          "km": 139.8971229964981
+        },
+        {
+          "id": "rhodes",
+          "km": 217.11677350222342
+        }
+      ]
+    },
+    {
+      "id": "alanya",
+      "nearest": [
+        {
+          "id": "antalya",
+          "km": 126.93694697862047
+        },
+        {
+          "id": "limassol",
+          "km": 229.73503771781947
+        },
+        {
+          "id": "larnaca",
+          "km": 234.9188093873112
+        }
+      ]
+    },
+    {
+      "id": "conakry",
+      "nearest": [
+        {
+          "id": "freetown",
+          "km": 123.98576406726852
+        },
+        {
+          "id": "monrovia",
+          "km": 477.3737596144423
+        },
+        {
+          "id": "banjul",
+          "km": 537.1911868105532
+        }
+      ]
+    },
+    {
+      "id": "freetown",
+      "nearest": [
+        {
+          "id": "conakry",
+          "km": 123.98576406726852
+        },
+        {
+          "id": "monrovia",
+          "km": 360.4740721661121
+        },
+        {
+          "id": "banjul",
+          "km": 659.747428224251
+        }
+      ]
+    },
+    {
+      "id": "prins-christian-sund",
+      "nearest": [
+        {
+          "id": "nanortalik",
+          "km": 120.02921478955211
+        },
+        {
+          "id": "qutdleq",
+          "km": 169.98326959195703
+        },
+        {
+          "id": "qaqortoq",
+          "km": 177.06130679682934
+        }
+      ]
+    },
+    {
+      "id": "vestmannaeyjar",
+      "nearest": [
+        {
+          "id": "reykjavik",
+          "km": 118.59964722081601
+        },
+        {
+          "id": "hofn",
+          "km": 262.7307393640076
+        },
+        {
+          "id": "isafjordur",
+          "km": 325.7185688342241
+        }
+      ]
+    },
+    {
+      "id": "reykjavik",
+      "nearest": [
+        {
+          "id": "vestmannaeyjar",
+          "km": 118.59964722081601
+        },
+        {
+          "id": "isafjordur",
+          "km": 220.56628959289463
+        },
+        {
+          "id": "hofn",
+          "km": 328.5561501084793
+        }
+      ]
+    },
+    {
+      "id": "brest",
+      "nearest": [
+        {
+          "id": "lorient",
+          "km": 118.13744175437078
+        },
+        {
+          "id": "falmouth",
+          "km": 199.27514474664164
+        },
+        {
+          "id": "newlyn",
+          "km": 205.91782700177913
+        }
+      ]
+    },
+    {
+      "id": "lorient",
+      "nearest": [
+        {
+          "id": "brest",
+          "km": 118.13744175437078
+        },
+        {
+          "id": "la-rochelle",
+          "km": 238.15291191861704
+        },
+        {
+          "id": "falmouth",
+          "km": 297.73005848913715
+        }
+      ]
+    },
+    {
+      "id": "porto",
+      "nearest": [
+        {
+          "id": "vigo",
+          "km": 118.01000237457042
+        },
+        {
+          "id": "a-coruna",
+          "km": 249.53726414247546
+        },
+        {
+          "id": "lisbon",
+          "km": 282.65667934812217
+        }
+      ]
+    },
+    {
+      "id": "vigo",
+      "nearest": [
+        {
+          "id": "porto",
+          "km": 118.01000237457042
+        },
+        {
+          "id": "a-coruna",
+          "km": 134.32863639096598
+        },
+        {
+          "id": "gijon",
+          "km": 294.67094542648533
+        }
+      ]
+    },
+    {
+      "id": "haifa",
+      "nearest": [
+        {
+          "id": "ashdod",
+          "km": 117.6956118670925
+        },
+        {
+          "id": "larnaca",
+          "km": 259.508956266192
+        },
+        {
+          "id": "limassol",
+          "km": 268.782550108479
+        }
+      ]
+    },
+    {
+      "id": "ashdod",
+      "nearest": [
+        {
+          "id": "haifa",
+          "km": 117.6956118670925
+        },
+        {
+          "id": "port-said",
+          "km": 225.10137878470806
+        },
+        {
+          "id": "eilat",
+          "km": 258.79128617008695
+        }
+      ]
+    },
+    {
+      "id": "dubai",
+      "nearest": [
+        {
+          "id": "fujairah",
+          "km": 115.18534273547765
+        },
+        {
+          "id": "sohar",
+          "km": 162.4502896452942
+        },
+        {
+          "id": "muscat",
+          "km": 383.56600936733463
+        }
+      ]
+    },
+    {
+      "id": "qutdleq",
+      "nearest": [
+        {
+          "id": "timmiarmiut",
+          "km": 111.81075595731292
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 169.98326959195703
+        },
+        {
+          "id": "skjoldungen",
+          "km": 212.8624591164716
+        }
+      ]
+    },
+    {
+      "id": "north-sydney",
+      "nearest": [
+        {
+          "id": "port-hawkesbury",
+          "km": 110.7863338112004
+        },
+        {
+          "id": "halifax",
+          "km": 314.5897489071029
+        },
+        {
+          "id": "saint-pierre",
+          "km": 319.36657647394566
+        }
+      ]
+    },
+    {
+      "id": "port-hawkesbury",
+      "nearest": [
+        {
+          "id": "north-sydney",
+          "km": 110.7863338112004
+        },
+        {
+          "id": "halifax",
+          "km": 204.0474927097679
+        },
+        {
+          "id": "saint-pierre",
+          "km": 423.15171488584565
+        }
+      ]
+    },
+    {
+      "id": "skjoldungen",
+      "nearest": [
+        {
+          "id": "timmiarmiut",
+          "km": 109.74158608664669
+        },
+        {
+          "id": "qutdleq",
+          "km": 212.8624591164716
+        },
+        {
+          "id": "tasiilaq",
+          "km": 298.14742952017673
+        }
+      ]
+    },
+    {
+      "id": "timmiarmiut",
+      "nearest": [
+        {
+          "id": "skjoldungen",
+          "km": 109.74158608664669
+        },
+        {
+          "id": "qutdleq",
+          "km": 111.81075595731292
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 278.222850080844
+        }
+      ]
+    },
+    {
+      "id": "acajutla",
+      "nearest": [
+        {
+          "id": "puerto-quetzal",
+          "km": 107.25770060719523
+        },
+        {
+          "id": "corinto",
+          "km": 315.24437108393
+        },
+        {
+          "id": "belize-city",
+          "km": 470.64226754301234
+        }
+      ]
+    },
+    {
+      "id": "puerto-quetzal",
+      "nearest": [
+        {
+          "id": "acajutla",
+          "km": 107.25770060719523
+        },
+        {
+          "id": "corinto",
+          "km": 422.49919912121857
+        },
+        {
+          "id": "belize-city",
+          "km": 483.7233205207223
+        }
+      ]
+    },
+    {
+      "id": "malaga",
+      "nearest": [
+        {
+          "id": "gibraltar",
+          "km": 106.88114579684604
+        },
+        {
+          "id": "cadiz",
+          "km": 170.3680456860494
+        },
+        {
+          "id": "cartagena",
+          "km": 320.3117320644655
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "nearest": [
+        {
+          "id": "ensenada",
+          "km": 103.6117097438104
+        },
+        {
+          "id": "los-angeles",
+          "km": 150.55457430958606
+        },
+        {
+          "id": "san-quintin",
+          "km": 272.71826014368514
+        }
+      ]
+    },
+    {
+      "id": "ensenada",
+      "nearest": [
+        {
+          "id": "san-diego",
+          "km": 103.6117097438104
+        },
+        {
+          "id": "san-quintin",
+          "km": 169.70491511618891
+        },
+        {
+          "id": "los-angeles",
+          "km": 253.21642863300823
+        }
+      ]
+    },
+    {
+      "id": "salaverry",
+      "nearest": [
+        {
+          "id": "chimbote",
+          "km": 102.71560666210819
+        },
+        {
+          "id": "callao",
+          "km": 469.05215172408435
+        },
+        {
+          "id": "cabo-blanco",
+          "km": 509.39610124930346
+        }
+      ]
+    },
+    {
+      "id": "chimbote",
+      "nearest": [
+        {
+          "id": "salaverry",
+          "km": 102.71560666210819
+        },
+        {
+          "id": "callao",
+          "km": 366.384272159138
+        },
+        {
+          "id": "cabo-blanco",
+          "km": 611.6077025121256
+        }
+      ]
+    },
+    {
+      "id": "civitavecchia",
+      "nearest": [
+        {
+          "id": "anzio",
+          "km": 102.37124593572835
+        },
+        {
+          "id": "piombino",
+          "km": 135.1894757205302
+        },
+        {
+          "id": "gaeta",
+          "km": 180.33254506563605
+        }
+      ]
+    },
+    {
+      "id": "kalamata",
+      "nearest": [
+        {
+          "id": "katakolon",
+          "km": 101.16387163784276
+        },
+        {
+          "id": "piraeus",
+          "km": 166.31746367765783
+        },
+        {
+          "id": "argostoli",
+          "km": 193.4970332145851
+        }
+      ]
+    },
+    {
+      "id": "cape-town",
+      "nearest": [
+        {
+          "id": "saldanha",
+          "km": 100.16277192640732
+        },
+        {
+          "id": "luderitz",
+          "km": 860.5646924328867
+        },
+        {
+          "id": "walvis-bay",
+          "km": 1272.0776481739708
+        }
+      ]
+    },
+    {
+      "id": "saldanha",
+      "nearest": [
+        {
+          "id": "cape-town",
+          "km": 100.16277192640732
+        },
+        {
+          "id": "luderitz",
+          "km": 760.4519291890861
+        },
+        {
+          "id": "walvis-bay",
+          "km": 1172.3902852973408
+        }
+      ]
+    },
+    {
+      "id": "boston",
+      "nearest": [
+        {
+          "id": "newport-rhode-island",
+          "km": 98.72720521919189
+        },
+        {
+          "id": "portland-maine",
+          "km": 158.2590852114337
+        },
+        {
+          "id": "new-york",
+          "km": 323.34450242438777
+        }
+      ]
+    },
+    {
+      "id": "newport-rhode-island",
+      "nearest": [
+        {
+          "id": "boston",
+          "km": 98.72720521919189
+        },
+        {
+          "id": "new-york",
+          "km": 241.90914462534067
+        },
+        {
+          "id": "portland-maine",
+          "km": 256.91612265271596
+        }
+      ]
+    },
+    {
+      "id": "hofn",
+      "nearest": [
+        {
+          "id": "budir",
+          "km": 98.24313677598903
+        },
+        {
+          "id": "seydisfjordur",
+          "km": 133.6081054190706
+        },
+        {
+          "id": "vestmannaeyjar",
+          "km": 262.7307393640076
+        }
+      ]
+    },
+    {
+      "id": "crotone",
+      "nearest": [
+        {
+          "id": "vibo-valentia",
+          "km": 96.61457778227602
+        },
+        {
+          "id": "taranto",
+          "km": 153.77979045576717
+        },
+        {
+          "id": "messina",
+          "km": 167.4257757905584
+        }
+      ]
+    },
+    {
+      "id": "gibraltar",
+      "nearest": [
+        {
+          "id": "cadiz",
+          "km": 94.57984101101034
+        },
+        {
+          "id": "malaga",
+          "km": 106.88114579684604
+        },
+        {
+          "id": "portimao",
+          "km": 300.8828997625918
+        }
+      ]
+    },
+    {
+      "id": "cadiz",
+      "nearest": [
+        {
+          "id": "gibraltar",
+          "km": 94.57984101101034
+        },
+        {
+          "id": "malaga",
+          "km": 170.3680456860494
+        },
+        {
+          "id": "portimao",
+          "km": 207.24737982883858
+        }
+      ]
+    },
+    {
+      "id": "progreso",
+      "nearest": [
+        {
+          "id": "celestun",
+          "km": 94.26142266867944
+        },
+        {
+          "id": "rio-lagartos",
+          "km": 159.44005166518622
+        },
+        {
+          "id": "campeche",
+          "km": 190.68262611313884
+        }
+      ]
+    },
+    {
+      "id": "celestun",
+      "nearest": [
+        {
+          "id": "progreso",
+          "km": 94.26142266867944
+        },
+        {
+          "id": "campeche",
+          "km": 114.00788762031155
+        },
+        {
+          "id": "champoton",
+          "km": 169.0490800285343
+        }
+      ]
+    },
+    {
+      "id": "argostoli",
+      "nearest": [
+        {
+          "id": "katakolon",
+          "km": 92.54291432290024
+        },
+        {
+          "id": "corfu",
+          "km": 168.01541529455568
+        },
+        {
+          "id": "kalamata",
+          "km": 193.4970332145851
+        }
+      ]
+    },
+    {
+      "id": "katakolon",
+      "nearest": [
+        {
+          "id": "argostoli",
+          "km": 92.54291432290024
+        },
+        {
+          "id": "kalamata",
+          "km": 101.16387163784276
+        },
+        {
+          "id": "piraeus",
+          "km": 205.2282107664534
+        }
+      ]
+    },
+    {
+      "id": "heraklion",
+      "nearest": [
+        {
+          "id": "sitia",
+          "km": 90.47890444767734
+        },
+        {
+          "id": "kissamos",
+          "km": 138.85076130817038
+        },
+        {
+          "id": "rhodes",
+          "km": 303.4451784546879
+        }
+      ]
+    },
+    {
+      "id": "sitia",
+      "nearest": [
+        {
+          "id": "heraklion",
+          "km": 90.47890444767734
+        },
+        {
+          "id": "kissamos",
+          "km": 229.3282463209247
+        },
+        {
+          "id": "rhodes",
+          "km": 233.75533280965575
+        }
+      ]
+    },
+    {
+      "id": "catania",
+      "nearest": [
+        {
+          "id": "messina",
+          "km": 87.81074404692957
+        },
+        {
+          "id": "vibo-valentia",
+          "km": 163.03808842079806
+        },
+        {
+          "id": "palermo",
+          "km": 166.5844381964039
+        }
+      ]
+    },
+    {
+      "id": "anzio",
+      "nearest": [
+        {
+          "id": "gaeta",
+          "km": 83.60817397883811
+        },
+        {
+          "id": "civitavecchia",
+          "km": 102.37124593572835
+        },
+        {
+          "id": "naples",
+          "km": 153.63671793167072
+        }
+      ]
+    },
+    {
+      "id": "sharm-el-sheikh",
+      "nearest": [
+        {
+          "id": "hurghada",
+          "km": 82.1411219081075
+        },
+        {
+          "id": "duba",
+          "km": 145.97532917084396
+        },
+        {
+          "id": "al-qusayr",
+          "km": 193.89783519015455
+        }
+      ]
+    },
+    {
+      "id": "hurghada",
+      "nearest": [
+        {
+          "id": "sharm-el-sheikh",
+          "km": 82.1411219081075
+        },
+        {
+          "id": "al-qusayr",
+          "km": 132.43125828770596
+        },
+        {
+          "id": "duba",
+          "km": 177.9545613721462
+        }
+      ]
+    },
+    {
+      "id": "genoa",
+      "nearest": [
+        {
+          "id": "la-spezia",
+          "km": 78.59317240112759
+        },
+        {
+          "id": "monaco",
+          "km": 139.0121988516705
+        },
+        {
+          "id": "livorno",
+          "km": 142.92860219830052
+        }
+      ]
+    },
+    {
+      "id": "nanortalik",
+      "nearest": [
+        {
+          "id": "qaqortoq",
+          "km": 77.70276214001093
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 120.02921478955211
+        },
+        {
+          "id": "qutdleq",
+          "km": 226.5487265754819
+        }
+      ]
+    },
+    {
+      "id": "qaqortoq",
+      "nearest": [
+        {
+          "id": "nanortalik",
+          "km": 77.70276214001093
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 177.06130679682934
+        },
+        {
+          "id": "qutdleq",
+          "km": 224.2498210988599
+        }
+      ]
+    },
+    {
+      "id": "rhodes",
+      "nearest": [
+        {
+          "id": "fethiye",
+          "km": 77.60967523736325
+        },
+        {
+          "id": "antalya",
+          "km": 217.11677350222342
+        },
+        {
+          "id": "sitia",
+          "km": 233.75533280965575
+        }
+      ]
+    },
+    {
+      "id": "fethiye",
+      "nearest": [
+        {
+          "id": "rhodes",
+          "km": 77.60967523736325
+        },
+        {
+          "id": "antalya",
+          "km": 139.8971229964981
+        },
+        {
+          "id": "alanya",
+          "km": 262.0140280655531
+        }
+      ]
+    },
+    {
+      "id": "sohar",
+      "nearest": [
+        {
+          "id": "fujairah",
+          "km": 76.7220184794751
+        },
+        {
+          "id": "dubai",
+          "km": 162.4502896452942
+        },
+        {
+          "id": "muscat",
+          "km": 221.68948480343423
+        }
+      ]
+    },
+    {
+      "id": "fujairah",
+      "nearest": [
+        {
+          "id": "sohar",
+          "km": 76.7220184794751
+        },
+        {
+          "id": "dubai",
+          "km": 115.18534273547765
+        },
+        {
+          "id": "muscat",
+          "km": 279.96900787193147
+        }
+      ]
+    },
+    {
+      "id": "vibo-valentia",
+      "nearest": [
+        {
+          "id": "messina",
+          "km": 75.72232350907386
+        },
+        {
+          "id": "crotone",
+          "km": 96.61457778227602
+        },
+        {
+          "id": "catania",
+          "km": 163.03808842079806
+        }
+      ]
+    },
+    {
+      "id": "messina",
+      "nearest": [
+        {
+          "id": "vibo-valentia",
+          "km": 75.72232350907386
+        },
+        {
+          "id": "catania",
+          "km": 87.81074404692957
+        },
+        {
+          "id": "crotone",
+          "km": 167.4257757905584
+        }
+      ]
+    },
+    {
+      "id": "gaeta",
+      "nearest": [
+        {
+          "id": "naples",
+          "km": 71.90531150304179
+        },
+        {
+          "id": "anzio",
+          "km": 83.60817397883811
+        },
+        {
+          "id": "salerno",
+          "km": 115.88301214731962
+        }
+      ]
+    },
+    {
+      "id": "piombino",
+      "nearest": [
+        {
+          "id": "livorno",
+          "km": 71.64317141008001
+        },
+        {
+          "id": "civitavecchia",
+          "km": 135.1894757205302
+        },
+        {
+          "id": "la-spezia",
+          "km": 141.94744157039275
+        }
+      ]
+    },
+    {
+      "id": "lazaro-cardenas",
+      "nearest": [
+        {
+          "id": "zihuatanejo",
+          "km": 71.53637911049579
+        },
+        {
+          "id": "manzanillo",
+          "km": 260.23939200359086
+        },
+        {
+          "id": "acapulco",
+          "km": 267.1321693459796
+        }
+      ]
+    },
+    {
+      "id": "zihuatanejo",
+      "nearest": [
+        {
+          "id": "lazaro-cardenas",
+          "km": 71.53637911049579
+        },
+        {
+          "id": "acapulco",
+          "km": 195.5958751665656
+        },
+        {
+          "id": "manzanillo",
+          "km": 331.72227507225847
+        }
+      ]
+    },
+    {
+      "id": "la-spezia",
+      "nearest": [
+        {
+          "id": "livorno",
+          "km": 71.19818071759494
+        },
+        {
+          "id": "genoa",
+          "km": 78.59317240112759
+        },
+        {
+          "id": "piombino",
+          "km": 141.94744157039275
+        }
+      ]
+    },
+    {
+      "id": "livorno",
+      "nearest": [
+        {
+          "id": "la-spezia",
+          "km": 71.19818071759494
+        },
+        {
+          "id": "piombino",
+          "km": 71.64317141008001
+        },
+        {
+          "id": "genoa",
+          "km": 142.92860219830052
+        }
+      ]
+    },
+    {
+      "id": "taranto",
+      "nearest": [
+        {
+          "id": "brindisi",
+          "km": 71.19201373218839
+        },
+        {
+          "id": "crotone",
+          "km": 153.77979045576717
+        },
+        {
+          "id": "salerno",
+          "km": 208.00021770872638
+        }
+      ]
+    },
+    {
+      "id": "brindisi",
+      "nearest": [
+        {
+          "id": "taranto",
+          "km": 71.19201373218839
+        },
+        {
+          "id": "crotone",
+          "km": 190.28049040787906
+        },
+        {
+          "id": "corfu",
+          "km": 201.5334140529478
+        }
+      ]
+    },
+    {
+      "id": "colon",
+      "nearest": [
+        {
+          "id": "balboa",
+          "km": 67.90864298617494
+        },
+        {
+          "id": "puerto-armuelles",
+          "km": 344.8690622610668
+        },
+        {
+          "id": "puerto-limon",
+          "km": 346.2719843080112
+        }
+      ]
+    },
+    {
+      "id": "balboa",
+      "nearest": [
+        {
+          "id": "colon",
+          "km": 67.90864298617494
+        },
+        {
+          "id": "puerto-armuelles",
+          "km": 371.8603204369548
+        },
+        {
+          "id": "puerto-limon",
+          "km": 401.3791485254297
+        }
+      ]
+    },
+    {
+      "id": "limassol",
+      "nearest": [
+        {
+          "id": "larnaca",
+          "km": 62.21609578638669
+        },
+        {
+          "id": "alanya",
+          "km": 229.73503771781947
+        },
+        {
+          "id": "haifa",
+          "km": 268.782550108479
+        }
+      ]
+    },
+    {
+      "id": "larnaca",
+      "nearest": [
+        {
+          "id": "limassol",
+          "km": 62.21609578638669
+        },
+        {
+          "id": "alanya",
+          "km": 234.9188093873112
+        },
+        {
+          "id": "haifa",
+          "km": 259.508956266192
+        }
+      ]
+    },
+    {
+      "id": "veracruz",
+      "nearest": [
+        {
+          "id": "alvarado",
+          "km": 59.568038997511366
+        },
+        {
+          "id": "coatzacoalcos",
+          "km": 211.4135284061656
+        },
+        {
+          "id": "dos-bocas",
+          "km": 317.08925132721845
+        }
+      ]
+    },
+    {
+      "id": "alvarado",
+      "nearest": [
+        {
+          "id": "veracruz",
+          "km": 59.568038997511366
+        },
+        {
+          "id": "coatzacoalcos",
+          "km": 157.29878677605228
+        },
+        {
+          "id": "dos-bocas",
+          "km": 273.42780959134654
+        }
+      ]
+    },
+    {
+      "id": "golfito",
+      "nearest": [
+        {
+          "id": "puerto-armuelles",
+          "km": 55.951782023775756
+        },
+        {
+          "id": "puerto-limon",
+          "km": 152.16902185201562
+        },
+        {
+          "id": "puerto-caldera",
+          "km": 221.60755424983216
+        }
+      ]
+    },
+    {
+      "id": "puerto-armuelles",
+      "nearest": [
+        {
+          "id": "golfito",
+          "km": 55.951782023775756
+        },
+        {
+          "id": "puerto-limon",
+          "km": 194.71951087748147
+        },
+        {
+          "id": "puerto-caldera",
+          "km": 277.0183425933846
+        }
+      ]
+    },
+    {
+      "id": "campeche",
+      "nearest": [
+        {
+          "id": "champoton",
+          "km": 55.340489619516106
+        },
+        {
+          "id": "celestun",
+          "km": 114.00788762031155
+        },
+        {
+          "id": "ciudad-carmen",
+          "km": 185.94510864933477
+        }
+      ]
+    },
+    {
+      "id": "champoton",
+      "nearest": [
+        {
+          "id": "campeche",
+          "km": 55.340489619516106
+        },
+        {
+          "id": "ciudad-carmen",
+          "km": 139.69646990864018
+        },
+        {
+          "id": "celestun",
+          "km": 169.0490800285343
+        }
+      ]
+    },
+    {
+      "id": "naples",
+      "nearest": [
+        {
+          "id": "salerno",
+          "km": 44.4709266146069
+        },
+        {
+          "id": "gaeta",
+          "km": 71.90531150304179
+        },
+        {
+          "id": "anzio",
+          "km": 153.63671793167072
+        }
+      ]
+    },
+    {
+      "id": "salerno",
+      "nearest": [
+        {
+          "id": "naples",
+          "km": 44.4709266146069
+        },
+        {
+          "id": "gaeta",
+          "km": 115.88301214731962
+        },
+        {
+          "id": "anzio",
+          "km": 198.09948367787104
+        }
+      ]
+    },
+    {
+      "id": "budir",
+      "nearest": [
+        {
+          "id": "seydisfjordur",
+          "km": 40.095547713006056
+        },
+        {
+          "id": "hofn",
+          "km": 98.24313677598903
+        },
+        {
+          "id": "vestmannaeyjar",
+          "km": 346.9347820198473
+        }
+      ]
+    },
+    {
+      "id": "seydisfjordur",
+      "nearest": [
+        {
+          "id": "budir",
+          "km": 40.095547713006056
+        },
+        {
+          "id": "hofn",
+          "km": 133.6081054190706
+        },
+        {
+          "id": "vestmannaeyjar",
+          "km": 368.7666183104323
+        }
+      ]
+    },
+    {
+      "id": "scrabster",
+      "nearest": [
+        {
+          "id": "stromness",
+          "km": 39.998239009108445
+        },
+        {
+          "id": "stornoway",
+          "km": 170.54865351989667
+        },
+        {
+          "id": "lerwick",
+          "km": 221.18075552145737
+        }
+      ]
+    },
+    {
+      "id": "stromness",
+      "nearest": [
+        {
+          "id": "scrabster",
+          "km": 39.998239009108445
+        },
+        {
+          "id": "lerwick",
+          "km": 183.21527677040558
+        },
+        {
+          "id": "stornoway",
+          "km": 196.71460720963378
+        }
+      ]
+    },
+    {
+      "id": "falmouth",
+      "nearest": [
+        {
+          "id": "newlyn",
+          "km": 36.30459934699145
+        },
+        {
+          "id": "brest",
+          "km": 199.27514474664164
+        },
+        {
+          "id": "cork",
+          "km": 290.33665963823233
+        }
+      ]
+    },
+    {
+      "id": "newlyn",
+      "nearest": [
+        {
+          "id": "falmouth",
+          "km": 36.30459934699145
+        },
+        {
+          "id": "brest",
+          "km": 205.91782700177913
+        },
+        {
+          "id": "cork",
+          "km": 265.6295638326284
+        }
+      ]
+    },
+    {
+      "id": "torshavn",
+      "nearest": [
+        {
+          "id": "sorvagur",
+          "km": 34.55173636690482
+        },
+        {
+          "id": "lerwick",
+          "km": 358.5116155233624
+        },
+        {
+          "id": "stromness",
+          "km": 384.78126141903925
+        }
+      ]
+    },
+    {
+      "id": "sorvagur",
+      "nearest": [
+        {
+          "id": "torshavn",
+          "km": 34.55173636690482
+        },
+        {
+          "id": "lerwick",
+          "km": 391.8183193886402
+        },
+        {
+          "id": "stromness",
+          "km": 410.1727133441641
+        }
+      ]
+    },
+    {
+      "id": "hyeres",
+      "nearest": [
+        {
+          "id": "toulon",
+          "km": 20.067776311349576
+        },
+        {
+          "id": "bandol",
+          "km": 36.59470593351203
+        },
+        {
+          "id": "la-ciotat",
+          "km": 47.34780945202063
+        }
+      ]
+    },
+    {
+      "id": "tasiilaq",
+      "nearest": [
+        {
+          "id": "kulusuk",
+          "km": 19.00729885110975
+        },
+        {
+          "id": "skjoldungen",
+          "km": 298.14742952017673
+        },
+        {
+          "id": "kangerlussuaq-east",
+          "km": 381.73656035338865
+        }
+      ]
+    },
+    {
+      "id": "kulusuk",
+      "nearest": [
+        {
+          "id": "tasiilaq",
+          "km": 19.00729885110975
+        },
+        {
+          "id": "skjoldungen",
+          "km": 310.58952729416006
+        },
+        {
+          "id": "kangerlussuaq-east",
+          "km": 368.96199159116975
+        }
+      ]
+    },
+    {
+      "id": "marseille",
+      "nearest": [
+        {
+          "id": "cassis",
+          "km": 17.579903630841148
+        },
+        {
+          "id": "la-ciotat",
+          "km": 26.446045359590983
+        },
+        {
+          "id": "bandol",
+          "km": 37.685083027006186
+        }
+      ]
+    },
+    {
+      "id": "toulon",
+      "nearest": [
+        {
+          "id": "bandol",
+          "km": 16.975817216625476
+        },
+        {
+          "id": "hyeres",
+          "km": 20.067776311349576
+        },
+        {
+          "id": "la-ciotat",
+          "km": 28.1243739031373
+        }
+      ]
+    },
+    {
+      "id": "nice",
+      "nearest": [
+        {
+          "id": "monaco",
+          "km": 14.05741041978575
+        },
+        {
+          "id": "hyeres",
+          "km": 111.05521862689747
+        },
+        {
+          "id": "toulon",
+          "km": 127.29618981943922
+        }
+      ]
+    },
+    {
+      "id": "monaco",
+      "nearest": [
+        {
+          "id": "nice",
+          "km": 14.05741041978575
+        },
+        {
+          "id": "hyeres",
+          "km": 124.7786369819727
+        },
+        {
+          "id": "genoa",
+          "km": 139.0121988516705
+        }
+      ]
+    },
+    {
+      "id": "bandol",
+      "nearest": [
+        {
+          "id": "la-ciotat",
+          "km": 11.245874523985352
+        },
+        {
+          "id": "toulon",
+          "km": 16.975817216625476
+        },
+        {
+          "id": "cassis",
+          "km": 20.141374622752455
+        }
+      ]
+    },
+    {
+      "id": "cassis",
+      "nearest": [
+        {
+          "id": "la-ciotat",
+          "km": 8.897248318144147
+        },
+        {
+          "id": "marseille",
+          "km": 17.579903630841148
+        },
+        {
+          "id": "bandol",
+          "km": 20.141374622752455
+        }
+      ]
+    },
+    {
+      "id": "la-ciotat",
+      "nearest": [
+        {
+          "id": "cassis",
+          "km": 8.897248318144147
+        },
+        {
+          "id": "bandol",
+          "km": 11.245874523985352
+        },
+        {
+          "id": "marseille",
+          "km": 26.446045359590983
+        }
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "ship": "spirit",
+      "from": "marseille",
+      "to": "haifa",
+      "status": "feasible",
+      "seconds": 7.396652667000001,
+      "distanceKm": 4637.269474025783,
+      "legs": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "fuel": 509.9664326739172
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "fuel": 250.36627307399073
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "fuel": 766.477503135219
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "fuel": 323.41230528889025
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "fuel": 661.2575037158153
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "fuel": 558.7873169374669
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "fuel": 790.9756083042746
+        },
+        {
+          "to": "sitia",
+          "km": 668.1166130243229,
+          "fuel": 861.5039461655227
+        },
+        {
+          "to": "rhodes",
+          "km": 240.0242212537714,
+          "fuel": 314.87308195541755
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "fuel": 668.4630296147242
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "fuel": 351.7795888122181
+        }
+      ],
+      "reason": "10 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "speedboat",
+      "from": "marseille",
+      "to": "haifa",
+      "status": "feasible",
+      "seconds": 0.9410739999999996,
+      "distanceKm": 4637.835023171192,
+      "legs": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "fuel": 842.9257653480339
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "fuel": 396.92000390493433
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "fuel": 1295.0539654797606
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "fuel": 541.2191987026296
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "fuel": 1105.2173618836396
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "fuel": 934.4891483863615
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "fuel": 1339.0412224815884
+        },
+        {
+          "to": "heraklion",
+          "km": 577.3330119832412,
+          "fuel": 1264.9376910820465
+        },
+        {
+          "to": "rhodes",
+          "km": 331.3733714402618,
+          "fuel": 723.5013457247406
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "fuel": 1139.6048765321068
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "fuel": 591.1110291328048
+        }
+      ],
+      "reason": "10 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "fishing",
+      "from": "marseille",
+      "to": "haifa",
+      "status": "feasible",
+      "seconds": 1.4914560000000001,
+      "distanceKm": 4612.453728137896,
+      "legs": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "fuel": 1867.554778008267
+        },
+        {
+          "to": "salerno",
+          "km": 767.5809489099915,
+          "fuel": 3698.87424780769
+        },
+        {
+          "to": "taranto",
+          "km": 896.2805820934695,
+          "fuel": 4401.299190260028
+        },
+        {
+          "to": "katakolon",
+          "km": 876.1835120389651,
+          "fuel": 4263.1311496695425
+        },
+        {
+          "to": "rhodes",
+          "km": 903.4683612953122,
+          "fuel": 4370.762778621901
+        },
+        {
+          "to": "haifa",
+          "km": 786.0398447482569,
+          "fuel": 3768.7640755101547
+        }
+      ],
+      "reason": "5 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "spirit",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "status": "feasible",
+      "seconds": 0.3074419160000016,
+      "distanceKm": 1505.4278203876113,
+      "legs": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "fuel": 697.2723923029243
+        },
+        {
+          "to": "mazatlan",
+          "km": 609.4077276729894,
+          "fuel": 786.0815455476138
+        },
+        {
+          "to": "los-cabos",
+          "km": 359.96274332577525,
+          "fuel": 479.0481448141055
+        }
+      ],
+      "reason": "2 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "speedboat",
+      "from": "cancun",
+      "to": "veracruz",
+      "status": "feasible",
+      "seconds": 0.22047491599999922,
+      "distanceKm": 1109.890662248804,
+      "legs": [
+        {
+          "to": "celestun",
+          "km": 475.5129182128606,
+          "fuel": 1054.1707863095169
+        },
+        {
+          "to": "veracruz",
+          "km": 634.3777440359435,
+          "fuel": 1397.5206295871114
+        }
+      ],
+      "reason": "1 escala obligatoria: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "yacht",
+      "from": "cancun",
+      "to": "veracruz",
+      "status": "feasible",
+      "seconds": 0.20744220799999857,
+      "distanceKm": 1341.740937184282,
+      "legs": [
+        {
+          "to": "celestun",
+          "km": 475.5129182128606,
+          "fuel": 1805.039092274898
+        },
+        {
+          "to": "champoton",
+          "km": 172.10999595941874,
+          "fuel": 641.021389349055
+        },
+        {
+          "to": "dos-bocas",
+          "km": 299.03572955259006,
+          "fuel": 1133.4088961563261
+        },
+        {
+          "to": "veracruz",
+          "km": 395.08229345941265,
+          "fuel": 1505.6010060904564
+        }
+      ],
+      "reason": "3 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "fishing",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "status": "feasible",
+      "seconds": 0.17378070900000056,
+      "distanceKm": 1258.320198597754,
+      "legs": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "fuel": 2749.111649257739
+        },
+        {
+          "to": "los-cabos",
+          "km": 722.2628492089071,
+          "fuel": 3701.6016898710805
+        }
+      ],
+      "reason": "1 escala obligatoria: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "spirit",
+      "from": "marseille",
+      "to": "new-york",
+      "status": "feasible",
+      "seconds": 4.1480883749999995,
+      "distanceKm": 14655.559850882955,
+      "legs": [
+        {
+          "to": "barcelona",
+          "km": 347.8064443568101,
+          "fuel": 467.31405721271733
+        },
+        {
+          "to": "cartagena",
+          "km": 531.7183119699631,
+          "fuel": 692.6026071044396
+        },
+        {
+          "to": "gibraltar",
+          "km": 595.3625343600359,
+          "fuel": 780.387446266181
+        },
+        {
+          "to": "lisbon",
+          "km": 594.0287700756405,
+          "fuel": 771.1995836527962
+        },
+        {
+          "to": "a-coruna",
+          "km": 634.2753056593987,
+          "fuel": 809.5775661511848
+        },
+        {
+          "to": "brest",
+          "km": 626.0624812956487,
+          "fuel": 783.9959749486886
+        },
+        {
+          "to": "cork",
+          "km": 474.1618920081478,
+          "fuel": 612.0450519520335
+        },
+        {
+          "to": "killybegs",
+          "km": 593.8890345696761,
+          "fuel": 759.2792361650024
+        },
+        {
+          "to": "stornoway",
+          "km": 472.4881340148457,
+          "fuel": 607.5637828724175
+        },
+        {
+          "to": "torshavn",
+          "km": 455.86286986958066,
+          "fuel": 584.9520795930907
+        },
+        {
+          "to": "hofn",
+          "km": 553.1342081288026,
+          "fuel": 725.5068556188963
+        },
+        {
+          "to": "reykjavik",
+          "km": 502.559943322529,
+          "fuel": 658.2587596446015
+        },
+        {
+          "to": "isafjordur",
+          "km": 346.7530058928593,
+          "fuel": 455.501104256042
+        },
+        {
+          "to": "tasiilaq",
+          "km": 681.7087515498089,
+          "fuel": 886.4311473815131
+        },
+        {
+          "to": "prins-christian-sund",
+          "km": 680.3802583453322,
+          "fuel": 877.5727741497104
+        },
+        {
+          "to": "paamiut",
+          "km": 539.9284368575462,
+          "fuel": 712.4781056196709
+        },
+        {
+          "to": "nuuk",
+          "km": 269.3811000091301,
+          "fuel": 355.8171895198638
+        },
+        {
+          "to": "sisimiut",
+          "km": 356.48390338562933,
+          "fuel": 464.64817906288005
+        },
+        {
+          "to": "cape-dyer",
+          "km": 364.0445771071637,
+          "fuel": 485.64083856061336
+        },
+        {
+          "to": "resolution-harbour",
+          "km": 669.421248970979,
+          "fuel": 873.3880418095727
+        },
+        {
+          "to": "nain",
+          "km": 634.1471393448006,
+          "fuel": 813.6456829243963
+        },
+        {
+          "to": "cartwright",
+          "km": 497.18517847261455,
+          "fuel": 644.2402319040042
+        },
+        {
+          "to": "st-anthony",
+          "km": 374.8887214370354,
+          "fuel": 501.4134159867673
+        },
+        {
+          "to": "st-johns",
+          "km": 481.0995759770196,
+          "fuel": 615.8799958740697
+        },
+        {
+          "to": "saint-pierre",
+          "km": 375.4100887688434,
+          "fuel": 505.7544222881456
+        },
+        {
+          "to": "halifax",
+          "km": 635.8148976177441,
+          "fuel": 828.6256138221416
+        },
+        {
+          "to": "portland-maine",
+          "km": 651.7788911199158,
+          "fuel": 850.3129299845771
+        },
+        {
+          "to": "boston",
+          "km": 192.93844886988444,
+          "fuel": 272.4793235136498
+        },
+        {
+          "to": "new-york",
+          "km": 522.8456975255676,
+          "fuel": 687.9495250902878
+        }
+      ],
+      "reason": "28 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    }
+  ]
+}

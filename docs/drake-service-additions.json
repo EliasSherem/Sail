@@ -1,0 +1,334 @@
+{
+  "sources": [
+    "https://msi.nga.mil/api/publications/world-port-index?output=json",
+    "https://www.directemar.cl/directemar/site/edic/base/port/estrechodemagallanes_es.html",
+    "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=Id4Ohl6oWafOr9Cco2k9Xg%3D%3D",
+    "https://www.ats.aq/devAS/Ats/Guideline/e36c1a8f-3ae7-4187-9b24-194c8cf5e780",
+    "https://www.britishantarcticterritory.org.uk/heritage/port-lockroy/",
+    "https://www.inach.cl/expedicion-antartica/bases-chilenas-en-antartica-2/base-profesor-julio-escudero/",
+    "https://data.aad.gov.au/aadc/gaz/display_name.cfm?gaz_id=109880"
+  ],
+  "note": "Primary geographic locations for the game, not navigational data. All game fuel, repair and berthing services are fictional representations; Antarctic research/historic sites and Cape Horn are not presented as real public fuel ports. No invented island or service in the middle of Drake Passage. Actual route feasibility must use the simulated boat fuel budget and water-safe geometry.",
+  "seeds": [
+    {
+      "id": "puerto-montt",
+      "name": "Puerto Montt",
+      "country": "Chile",
+      "region": "Patagonia y Tierra del Fuego",
+      "lat": -41.4833333,
+      "lon": -72.9666667,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "puerto-chacabuco",
+      "name": "Puerto Chacabuco",
+      "country": "Chile",
+      "region": "Patagonia y Tierra del Fuego",
+      "lat": -45.4666667,
+      "lon": -72.8333333,
+      "bearing": 270,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json",
+      "note": "Aysen fjord locality. Verify water connectivity and limit any offshore simplification to 50 km."
+    },
+    {
+      "id": "puerto-natales",
+      "name": "Puerto Natales",
+      "country": "Chile",
+      "region": "Patagonia y Tierra del Fuego",
+      "lat": -51.7166667,
+      "lon": -72.5666667,
+      "bearing": 270,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json",
+      "note": "Interior fjord locality. Verify water connectivity, not only berth clearance; any simplified exterior anchorage must stay within 50 km of the cited location."
+    },
+    {
+      "id": "punta-arenas",
+      "name": "Punta Arenas",
+      "country": "Chile",
+      "region": "Patagonia y Tierra del Fuego",
+      "lat": -53.1666667,
+      "lon": -70.9,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "ushuaia",
+      "name": "Ushuaia",
+      "country": "Argentina",
+      "region": "Patagonia y Tierra del Fuego",
+      "lat": -54.8166667,
+      "lon": -68.3,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "puerto-williams",
+      "name": "Puerto Williams",
+      "country": "Chile",
+      "region": "Patagonia y Tierra del Fuego",
+      "lat": -54.9333333,
+      "lon": -67.6,
+      "bearing": 0,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "cape-horn",
+      "name": "Cabo de Hornos",
+      "country": "Chile",
+      "region": "Paso Drake",
+      "lat": -55.943,
+      "lon": -67.2093333,
+      "bearing": 90,
+      "source": "https://www.directemar.cl/directemar/site/edic/base/port/estrechodemagallanes_es.html",
+      "note": "Regional seed at the DIRECTEMAR Cape Horn pilot transfer area; the exterior game anchorage and fuel service are fictional, not a claim of a real harbour or fuel station."
+    },
+    {
+      "id": "fildes-bay",
+      "name": "Bahía Fildes · Isla Rey Jorge",
+      "country": "Antártida",
+      "region": "Península Antártica",
+      "lat": -62.2158333,
+      "lon": -58.9597222,
+      "bearing": 135,
+      "source": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=Id4Ohl6oWafOr9Cco2k9Xg%3D%3D",
+      "note": "INACH Escudero regional coastal position in Fildes/Maxwell Bay. This is a research-station locality; game berthing/refuelling is fictional."
+    },
+    {
+      "id": "deception-island",
+      "name": "Isla Decepción · Whalers Bay",
+      "country": "Antártida",
+      "region": "Península Antártica",
+      "lat": -62.9833333,
+      "lon": -60.5666667,
+      "bearing": 135,
+      "source": "https://www.ats.aq/devAS/Ats/Guideline/e36c1a8f-3ae7-4187-9b24-194c8cf5e780",
+      "note": "ATS Whalers Bay location inside Port Foster. If simplified land closes Neptunes Bellows, use a clearly described exterior anchorage within 50 km rather than crossing the volcanic island."
+    },
+    {
+      "id": "port-lockroy",
+      "name": "Port Lockroy",
+      "country": "Antártida",
+      "region": "Península Antártica",
+      "lat": -64.8166667,
+      "lon": -63.5,
+      "bearing": 300,
+      "source": "https://www.britishantarcticterritory.org.uk/heritage/port-lockroy/",
+      "note": "Historic Base A locality on Goudier Island, not an operating commercial fuel port. Regional exterior game anchorage; no claim of public refuelling."
+    },
+    {
+      "id": "bahia-blanca",
+      "name": "Bahía Blanca",
+      "country": "Argentina",
+      "region": "Patagonia atlántica",
+      "lat": -38.7833333,
+      "lon": -62.2666667,
+      "bearing": 135,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "puerto-madryn",
+      "name": "Puerto Madryn",
+      "country": "Argentina",
+      "region": "Patagonia atlántica",
+      "lat": -42.7666667,
+      "lon": -65.0333333,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "puerto-deseado",
+      "name": "Puerto Deseado",
+      "country": "Argentina",
+      "region": "Patagonia atlántica",
+      "lat": -47.75,
+      "lon": -65.9,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "rio-gallegos",
+      "name": "Río Gallegos",
+      "country": "Argentina",
+      "region": "Patagonia atlántica",
+      "lat": -51.6166667,
+      "lon": -68.9666667,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json",
+      "note": "WPI seaward regional point east of the city; use an exterior estuary approach instead of inventing a navigable river to the town."
+    }
+  ],
+  "networks": [
+    [
+      "corral",
+      "puerto-montt",
+      "puerto-chacabuco",
+      "pac-chile-south",
+      "puerto-natales",
+      "punta-arenas",
+      "ushuaia",
+      "puerto-williams",
+      "cape-horn",
+      "fildes-bay",
+      "deception-island",
+      "port-lockroy"
+    ],
+    [
+      "montevideo",
+      "bahia-blanca",
+      "puerto-madryn",
+      "puerto-deseado",
+      "rio-gallegos",
+      "punta-arenas"
+    ],
+    [
+      "buenos-aires",
+      "bahia-blanca"
+    ],
+    [
+      "pac-cape-horn-west",
+      "cape-horn",
+      "pac-cape-horn-east"
+    ]
+  ],
+  "authoringNotes": [
+    "Chains specify regional connectivity goals. They are not straight-line navigable tracks; root must generate and sweep-check the resulting water routes against the game coast.",
+    "Magellan Strait, the Beagle Channel, Chacao and the Aysen/Natales fjords may be closed by simplified Natural Earth geometry. Do not move a named berth beyond 50 km or cut unrelated land to force a route.",
+    "Cape Horn to Fildes is a genuine long open-water crossing. There is no intermediate real island selected for refuelling. Preserve an infeasible result for boats whose actual conservative range cannot cover it.",
+    "Puerto Chacabuco to Puerto Natales is another long stage; it must not be made feasible by understating distance or fuel. Puerto Eden is a possible later real coastal addition if needed, outside this bounded 14-location bundle.",
+    "Antarctic country labels describe the continent and do not encode territorial claims."
+  ],
+  "distanceAudit": {
+    "method": "Great-circle distances between geographic seeds, rounded to kilometres. Lower bounds only; not navigable path length or fuel estimates.",
+    "legs": [
+      {
+        "from": "puerto-montt",
+        "to": "puerto-chacabuco",
+        "directKm": 443
+      },
+      {
+        "from": "puerto-chacabuco",
+        "to": "puerto-natales",
+        "directKm": 695
+      },
+      {
+        "from": "puerto-natales",
+        "to": "punta-arenas",
+        "directKm": 197
+      },
+      {
+        "from": "punta-arenas",
+        "to": "ushuaia",
+        "directKm": 250
+      },
+      {
+        "from": "ushuaia",
+        "to": "puerto-williams",
+        "directKm": 47
+      },
+      {
+        "from": "puerto-williams",
+        "to": "cape-horn",
+        "directKm": 115
+      },
+      {
+        "from": "cape-horn",
+        "to": "fildes-bay",
+        "directKm": 840
+      },
+      {
+        "from": "fildes-bay",
+        "to": "deception-island",
+        "directKm": 119
+      },
+      {
+        "from": "deception-island",
+        "to": "port-lockroy",
+        "directKm": 249
+      },
+      {
+        "from": "bahia-blanca",
+        "to": "puerto-madryn",
+        "directKm": 500
+      },
+      {
+        "from": "puerto-madryn",
+        "to": "puerto-deseado",
+        "directKm": 558
+      },
+      {
+        "from": "puerto-deseado",
+        "to": "rio-gallegos",
+        "directKm": 483
+      },
+      {
+        "from": "rio-gallegos",
+        "to": "punta-arenas",
+        "directKm": 217
+      }
+    ]
+  },
+  "placementProbe": {
+    "method": "Read-only reproduction of scripts/build-port-network.ts against public/data/land.geojson, before route generation. Berth clearance is not proof of connected water.",
+    "minimumClearanceMeters": 650,
+    "maximumOffsetMeters": 5500,
+    "results": [
+      {
+        "id": "puerto-montt",
+        "offsetMeters": 1500
+      },
+      {
+        "id": "puerto-chacabuco",
+        "offsetMeters": 3000
+      },
+      {
+        "id": "puerto-natales",
+        "offsetMeters": 0
+      },
+      {
+        "id": "punta-arenas",
+        "offsetMeters": 1000
+      },
+      {
+        "id": "ushuaia",
+        "offsetMeters": 0
+      },
+      {
+        "id": "puerto-williams",
+        "offsetMeters": 1000
+      },
+      {
+        "id": "cape-horn",
+        "offsetMeters": 0
+      },
+      {
+        "id": "fildes-bay",
+        "offsetMeters": 0
+      },
+      {
+        "id": "deception-island",
+        "offsetMeters": 0
+      },
+      {
+        "id": "port-lockroy",
+        "offsetMeters": 0
+      },
+      {
+        "id": "bahia-blanca",
+        "offsetMeters": 4000
+      },
+      {
+        "id": "puerto-madryn",
+        "offsetMeters": 5500
+      },
+      {
+        "id": "puerto-deseado",
+        "offsetMeters": 0
+      },
+      {
+        "id": "rio-gallegos",
+        "offsetMeters": 300
+      }
+    ]
+  }
+}

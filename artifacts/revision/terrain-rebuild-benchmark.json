@@ -1,0 +1,37 @@
+[
+  {
+    "meters": 0,
+    "ms": 295,
+    "triangles": 89182
+  },
+  {
+    "meters": 0,
+    "ms": 244,
+    "triangles": 89182
+  },
+  {
+    "meters": 0,
+    "ms": 231,
+    "triangles": 89182
+  },
+  {
+    "meters": 0,
+    "ms": 223,
+    "triangles": 89182
+  },
+  {
+    "meters": 6000,
+    "ms": 192,
+    "triangles": 77069
+  },
+  {
+    "meters": 8000,
+    "ms": 157,
+    "triangles": 58941
+  },
+  {
+    "meters": 10000,
+    "ms": 91,
+    "triangles": 29819
+  }
+]

@@ -1,0 +1,329 @@
+{
+  "passed": true,
+  "testUrl": "http://localhost:4173",
+  "errors": [],
+  "webgl": [],
+  "external": [],
+  "checks": [
+    "empty offshore Spirit disables Fijar rumbo, explains missing fuel and preserves the existing Cassis itinerary",
+    "250.00 L yacht diversion inserts Palma before Barcelona while preserving Cartagena",
+    "button and repeated T toggles preserve ship, fuel, position, stop order and active leg"
+  ],
+  "details": {
+    "unreachable": {
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T22:07:38.242Z",
+        "state": {
+          "lat": 41.999997651159674,
+          "lon": 4.000004968247822,
+          "shipId": "spirit",
+          "heading": 3.1413509621053546,
+          "u": -0.0016472832960744309,
+          "v": -0.0031530878052897704,
+          "yawRate": -0.00015244333118697568,
+          "engine": 0,
+          "fuel": 0,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 2.8,
+          "distance": 0.4865893706415197,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "cassis",
+          "stopIds": [
+            "cassis"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 2.816599999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 86400,
+        "daylightClock": "utc",
+        "clockEpochMs": 1790424000000,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "after": {
+        "version": 1,
+        "savedAt": "2026-09-26T22:07:39.671Z",
+        "state": {
+          "lat": 41.999997651159674,
+          "lon": 4.000004968247822,
+          "shipId": "spirit",
+          "heading": 3.1413509621053546,
+          "u": -0.0016472832960744309,
+          "v": -0.0031530878052897704,
+          "yawRate": -0.00015244333118697568,
+          "engine": 0,
+          "fuel": 0,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 2.8,
+          "distance": 0.4865893706415197,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "cassis",
+          "stopIds": [
+            "cassis"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 2.816599999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 86400,
+        "daylightClock": "utc",
+        "clockEpochMs": 1790424000000,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "warning": "PLANIFICADOR DE RUTATu posición actual42.000° N · 4.000° EPuerto de destino · 279 disponiblesMarsella · FranciaCassis · FranciaTolón · FranciaBarcelona · EspañaLa Ciotat · FranciaBandol · FranciaHyères · FranciaNiza · FranciaMónaco · MónacoGénova · ItaliaAjaccio · FranciaPalma · EspañaValencia · EspañaCartagena · EspañaMálaga · EspañaGibraltar · GibraltarNueva York · EE. UU.Ciudad del Cabo · SudáfricaSídney · AustraliaYokohama · JapónCádiz · EspañaLisboa · PortugalOporto · PortugalVigo · EspañaA Coruña · EspañaBrest · FranciaCork · IrlandaFalmouth · Reino UnidoKillybegs · IrlandaStornoway · Reino UnidoTórshavn · Islas FeroeHöfn · IslandiaVestmannaeyjar · IslandiaReikiavik · IslandiaÍsafjörður · IslandiaTasiilaq · GroenlandiaPrins Christian Sund · GroenlandiaNanortalik · GroenlandiaQaqortoq · GroenlandiaPaamiut · GroenlandiaNuuk · GroenlandiaSisimiut · GroenlandiaQikiqtarjuaq · CanadáPangnirtung · CanadáIqaluit · CanadáSaglek · Torngat · CanadáNain · CanadáCartwright · CanadáSan Juan de Terranova · CanadáHalifax · CanadáBoston · EE. UU.Funchal · Madeira · PortugalLas Palmas · EspañaPonta Delgada · PortugalHorta · Azores · PortugalBermudas · BermudasMiami · EE. UU.Nassau · BahamasLa Habana · CubaCancún · MéxicoVeracruz · MéxicoSan Juan de Puerto Rico · Puerto RicoCartagena de Indias · ColombiaColón · Panamá · PanamáBalboa · Panamá · PanamáAcapulco · MéxicoLos Cabos · MéxicoManzanillo · MéxicoSan Diego · EE. UU.Los Ángeles · EE. UU.San Francisco · EE. UU.Seattle · EE. UU.Vancouver · CanadáLima · Callao · PerúValparaíso · ChileRío de Janeiro · BrasilSantos · BrasilBuenos Aires · ArgentinaMontevideo · UruguayDakar · SenegalCasablanca · MarruecosRóterdam · Países BajosHamburgo · Elba · AlemaniaBergen · NoruegaOslo · NoruegaAtenas · El Pireo · GreciaEstambul · TurquíaPort Said · EgiptoHaifa · IsraelAshdod · IsraelSuez · EgiptoEilat · IsraelYeda · Arabia SaudíDubái · Emiratos Árabes UnidosBombay · IndiaColombo · Sri LankaSingapur · SingapurHong Kong · ChinaShanghái · Yangshan · ChinaBusan · Corea del SurAuckland · Nueva ZelandaBrisbane · AustraliaPerth · Fremantle · AustraliaSt. Anthony · CanadáSaint-Pierre · FranciaLa Spezia · ItaliaLivorno · ItaliaPiombino · ItaliaCivitavecchia · ItaliaAnzio · ItaliaGaeta · ItaliaNápoles · ItaliaSalerno · ItaliaVibo Valentia · ItaliaPalermo · ItaliaMessina · ItaliaCatania · ItaliaCrotone · ItaliaTaranto · ItaliaBrindisi · ItaliaCorfú · GreciaArgostoli · GreciaKatakolon · GreciaKalamata · GreciaKissamos · GreciaHeraclión · GreciaSitia · GreciaRodas · GreciaFethiye · TurquíaAntalya · TurquíaAlanya · TurquíaLimassol · ChipreLárnaca · ChipreProgreso · MéxicoLázaro Cárdenas · MéxicoPuerto Vallarta · MéxicoMazatlán · MéxicoLa Paz · MéxicoEnsenada · MéxicoRío Lagartos · MéxicoCelestún · MéxicoCampeche · MéxicoChampotón · MéxicoCiudad del Carmen · MéxicoDos Bocas · MéxicoCoatzacoalcos · MéxicoAlvarado · MéxicoZihuatanejo · MéxicoPuerto San Carlos · Magdalena · MéxicoBahía Tortugas · MéxicoSan Quintín · MéxicoGijón · EspañaSantander · EspañaLa Rochelle · FranciaNewlyn · Reino UnidoGalway · IrlandaOban · Reino UnidoScrabster · Reino UnidoStromness · Reino UnidoLerwick · Reino UnidoSørvágur · Faroe IslandsFáskrúðsfjörður · IslandiaSeyðisfjörður · IslandiaQutdleq · escala costera · GroenlandiaNorth Sydney · CanadáPort Hawkesbury · CanadáPortland, Maine · Estados UnidosNewport, Rhode Island · Estados UnidosPortimão · PortugalBayona · FranciaLorient · FranciaDingle · IrlandaKangerlussuaq Este · escala costera · GroenlandiaKulusuk · GroenlandiaSkjoldungen · escala costera · GroenlandiaTimmiarmiut · escala costera · GroenlandiaCape Dyer · escala costera · CanadáBrevoort Harbour · escala costera · CanadáResolution Harbour · escala costera · CanadáHopedale · CanadáBonavista · CanadáYarmouth · CanadáMorro Bay · EE. UU.Eureka · EE. UU.Astoria · EE. UU.Acajutla · El SalvadorPuerto Caldera · Costa RicaGolfito · Costa RicaPuerto Armuelles · PanamáBuenaventura · ColombiaTumaco · ColombiaEsmeraldas · EcuadorManta · EcuadorCabo Blanco · PerúSalaverry · PerúChimbote · PerúSan Nicolás · PerúMatarani · PerúArica · ChileIquique · ChileAntofagasta · ChileCaldera · ChileCoquimbo · ChileTalcahuano · ChileCorral · ChileNorfolk · EE. UU.Morehead City · EE. UU.Charleston · EE. UU.Jacksonville · EE. UU.Cabo Cañaveral · EE. UU.Cayo Hueso · EE. UU.Matthew Town · BahamasHaina · Rep. DominicanaRocky Point · JamaicaTrujillo · HondurasSaint John’s · Antigua y BarbudaFort-de-France · MartinicaPoint Lisas · Trinidad y TobagoRio Grande · BrasilItajaí · BrasilVitória · BrasilIlhéus · BrasilSalvador · BrasilRecife · BrasilNatal · BrasilFortaleza · BrasilAgadir · MarruecosEl Aaiún · Sáhara OccidentalDajla · Sáhara OccidentalNuadibú · MauritaniaNuakchot · MauritaniaBanjul · GambiaConakri · GuineaFreetown · Sierra LeonaMonrovia · LiberiaCabo Palmas · LiberiaSekondi · GhanaLagos · NigeriaMalabo · Guinea EcuatorialBata · Guinea EcuatorialPort-Gentil · GabónPointe-Noire · Rep. del CongoLuanda · AngolaLobito · AngolaNamibe · AngolaWalvis Bay · NamibiaLüderitz · NamibiaSaldanha · SudáfricaSharm el-Sheij · EgiptoHurghada · EgiptoEl Quseir · EgiptoDuba · Arabia SauditaMoca · YemenMascate · OmánSohar · OmánFuyaira · Emiratos Árabes UnidosKarachi · PakistánOkha · IndiaVeraval · IndiaPenang · MalasiaPort Klang · MalasiaSabang · IndonesiaBelawan · IndonesiaPhuket · TailandiaSalina Cruz · MéxicoPuerto Quetzal · GuatemalaCorinto · NicaraguaCiudad de Belice · BelicePuerto Limón · Costa RicaYanbu · Arabia SauditaJazán · Arabia SauditaAdén · YemenMukalla · YemenSalalah · OmánDuqm · OmánGwadar · PakistánMormugao · Goa · IndiaNew Mangalore · IndiaKochi · IndiaCalcular ruta navegable Comprobada contra la costaRuta navegable4174.1 mnDistancia directa3387.8 mnTiempo de crucero aprox.80 h 06 minCorredor de juego validado contra la costa simplificada. Gibraltar, Panamá y Suez son navegables; los canales son aproximados, ensanchados y sin esclusas. Las escalas son fondeos ficticios: no se reproducen hielo, tráfico ni restricciones reales.Consumo estimado7814 LReserva (25%)1954 LTotal con reserva9768 LA bordo0 LFaltarían unos 7814 L para llegar. Planifica una escala para repostar.Consumo conservador: contempla crucero del piloto y máxima potencia, carga, daño, corrientes y maniobras. Reserva adicional del 25%. El tiempo corresponde al crucero del piloto (52.6 kn).Fijar rumbo El combustible actual no permite alcanzar ninguna escala con la reserva recomendada. No hay repostaje en mar abierto.Cartografía simplificada. Los atraques son genéricos junto a puertos reales. Canales de Panamá y Suez: pasos navegables simplificados."
+    },
+    "palma": {
+      "fixtureFuel": 250,
+      "palmaRequired": 107.2738909101545,
+      "barcelonaRequired": 1104.0076686770944,
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T22:07:44.573Z",
+        "state": {
+          "lat": 39.37027539253401,
+          "lon": 2.354749421694578,
+          "shipId": "yacht",
+          "heading": 0.0002736142589760959,
+          "u": 0.003126457049049476,
+          "v": 0.007505487217407421,
+          "yawRate": 0.00016164576570414392,
+          "engine": 0,
+          "fuel": 249.99652200000077,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 3.133333333333332,
+          "distance": 0.5489124167397872,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 3.166599999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 86400,
+        "daylightClock": "utc",
+        "clockEpochMs": 1790424000000,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "inserted": {
+        "version": 1,
+        "savedAt": "2026-09-26T22:07:44.903Z",
+        "state": {
+          "lat": 39.37027539253401,
+          "lon": 2.354749421694578,
+          "shipId": "yacht",
+          "heading": 0.0002736142589760959,
+          "u": 0.003126457049049476,
+          "v": 0.007505487217407421,
+          "yawRate": 0.00016164576570414392,
+          "engine": 0,
+          "fuel": 249.99652200000077,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 3.133333333333332,
+          "distance": 0.5489124167397872,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "palma",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "palma",
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 3.166599999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 86400,
+        "daylightClock": "utc",
+        "clockEpochMs": 1790424000000,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "disabled": {
+        "version": 1,
+        "savedAt": "2026-09-26T22:07:45.669Z",
+        "state": {
+          "lat": 39.37027539253401,
+          "lon": 2.354749421694578,
+          "shipId": "yacht",
+          "heading": 0.0002736142589760959,
+          "u": 0.003126457049049476,
+          "v": 0.007505487217407421,
+          "yawRate": 0.00016164576570414392,
+          "engine": 0,
+          "fuel": 249.99652200000077,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 3.133333333333332,
+          "distance": 0.5489124167397872,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "palma",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "palma",
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 3.166599999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 86400,
+        "daylightClock": "utc",
+        "clockEpochMs": 1790424000000,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "repeated": {
+        "version": 1,
+        "savedAt": "2026-09-26T22:07:45.937Z",
+        "state": {
+          "lat": 39.37027539253401,
+          "lon": 2.354749421694578,
+          "shipId": "yacht",
+          "heading": 0.0002736142589760959,
+          "u": 0.003126457049049476,
+          "v": 0.007505487217407421,
+          "yawRate": 0.00016164576570414392,
+          "engine": 0,
+          "fuel": 249.99652200000077,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 3.133333333333332,
+          "distance": 0.5489124167397872,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "palma",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "palma",
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 3.166599999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 86400,
+        "daylightClock": "utc",
+        "clockEpochMs": 1790424000000,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      }
+    }
+  }
+}

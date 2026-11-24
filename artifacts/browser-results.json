@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "url": "http://localhost:4173",
+  "fps": "54 FPS © OpenStreetMap · Mapzen · Natural Earth",
+  "errors": [],
+  "unexpectedRequests": []
+}

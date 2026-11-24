@@ -1,0 +1,1020 @@
+{
+  "passed": true,
+  "testUrl": "http://localhost:4173",
+  "browser": "153.0.8010.54",
+  "checks": [
+    "desktop-large: clear forward view, reachable controls, trip/map disclosure, first/third person, chart dialog and real navigation",
+    "desktop-laptop: clear forward view, reachable controls, trip/map disclosure, first/third person, chart dialog and real navigation",
+    "desktop-compact: clear forward view, reachable controls, trip/map disclosure, first/third person, chart dialog and real navigation",
+    "mobile-portrait: clear forward view, reachable controls, trip/map disclosure, first/third person, chart dialog and real navigation",
+    "mobile-landscape: clear forward view, reachable controls, trip/map disclosure, first/third person, chart dialog and real navigation",
+    "mobile-portrait-docked: refuelling, repair, ship change and undocking actions remain reachable; real services and departure work"
+  ],
+  "cases": [
+    {
+      "viewport": {
+        "name": "desktop-large",
+        "width": 1440,
+        "height": 1000
+      },
+      "corridor": {
+        "x": 460.8,
+        "y": 240,
+        "width": 518.4,
+        "height": 380
+      },
+      "panels": [
+        {
+          "selector": ".voyage-dock",
+          "box": {
+            "x": 16,
+            "y": 686.75,
+            "width": 350,
+            "height": 191.25
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".ship-status",
+          "box": {
+            "x": 16,
+            "y": 801,
+            "width": 350,
+            "height": 28
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".compass-strip",
+          "box": {
+            "x": 662,
+            "y": 65,
+            "width": 116,
+            "height": 41
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".navigation-tools",
+          "box": {
+            "x": 1214,
+            "y": 670,
+            "width": 210,
+            "height": 208
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".helm-console",
+          "box": {
+            "x": 16,
+            "y": 888,
+            "width": 1408,
+            "height": 96
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".dock-prompt",
+          "box": {
+            "x": 16,
+            "y": 835,
+            "width": 350,
+            "height": 43
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".environment-strip",
+          "box": {
+            "x": 1146.015625,
+            "y": 73,
+            "width": 277.984375,
+            "height": 17
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".location-label",
+          "box": {
+            "x": 16,
+            "y": 73,
+            "width": 211.328125,
+            "height": 12
+          },
+          "corridorOverlap": 0
+        }
+      ],
+      "controlBounds": [
+        {
+          "label": "travel details",
+          "box": {
+            "x": 324,
+            "y": 697.75,
+            "width": 29,
+            "height": 26
+          }
+        },
+        {
+          "label": "local chart",
+          "box": {
+            "x": 1392,
+            "y": 670,
+            "width": 32,
+            "height": 40
+          }
+        },
+        {
+          "label": "throttle",
+          "box": {
+            "x": 184,
+            "y": 933,
+            "width": 253.8125,
+            "height": 4
+          }
+        },
+        {
+          "label": "helm",
+          "box": {
+            "x": 461.8125,
+            "y": 933.5,
+            "width": 274.109375,
+            "height": 4
+          }
+        },
+        {
+          "label": "first person",
+          "box": {
+            "x": 1273.65625,
+            "y": 674,
+            "width": 52.671875,
+            "height": 32
+          }
+        },
+        {
+          "label": "third person",
+          "box": {
+            "x": 1218,
+            "y": 674,
+            "width": 52.65625,
+            "height": 32
+          }
+        },
+        {
+          "label": "pause",
+          "box": {
+            "x": 1387,
+            "y": 13,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "save",
+          "box": {
+            "x": 1261,
+            "y": 13,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "pilot",
+          "box": {
+            "x": 29,
+            "y": 755,
+            "width": 176,
+            "height": 29
+          }
+        },
+        {
+          "label": "dock",
+          "box": {
+            "x": 16,
+            "y": 835,
+            "width": 350,
+            "height": 43
+          }
+        }
+      ],
+      "mapInitiallyExpanded": true,
+      "navigation": {
+        "advancedM": 27.82099246840195,
+        "consumedLitres": 0.44512360269573037
+      }
+    },
+    {
+      "viewport": {
+        "name": "desktop-laptop",
+        "width": 1366,
+        "height": 768
+      },
+      "corridor": {
+        "x": 437.12,
+        "y": 184.32,
+        "width": 491.76,
+        "height": 291.84000000000003
+      },
+      "panels": [
+        {
+          "selector": ".voyage-dock",
+          "box": {
+            "x": 16,
+            "y": 454.75,
+            "width": 350,
+            "height": 191.25
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".ship-status",
+          "box": {
+            "x": 16,
+            "y": 569,
+            "width": 350,
+            "height": 28
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".compass-strip",
+          "box": {
+            "x": 625,
+            "y": 65,
+            "width": 116,
+            "height": 41
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".navigation-tools",
+          "box": {
+            "x": 1140,
+            "y": 438,
+            "width": 210,
+            "height": 208
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".helm-console",
+          "box": {
+            "x": 16,
+            "y": 656,
+            "width": 1334,
+            "height": 96
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".dock-prompt",
+          "box": {
+            "x": 16,
+            "y": 603,
+            "width": 350,
+            "height": 43
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".environment-strip",
+          "box": {
+            "x": 1071.859375,
+            "y": 73,
+            "width": 278.140625,
+            "height": 17
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".location-label",
+          "box": {
+            "x": 16,
+            "y": 73,
+            "width": 211.328125,
+            "height": 12
+          },
+          "corridorOverlap": 0
+        }
+      ],
+      "controlBounds": [
+        {
+          "label": "travel details",
+          "box": {
+            "x": 324,
+            "y": 465.75,
+            "width": 29,
+            "height": 26
+          }
+        },
+        {
+          "label": "local chart",
+          "box": {
+            "x": 1318,
+            "y": 438,
+            "width": 32,
+            "height": 40
+          }
+        },
+        {
+          "label": "throttle",
+          "box": {
+            "x": 184,
+            "y": 701,
+            "width": 236.71875,
+            "height": 4
+          }
+        },
+        {
+          "label": "helm",
+          "box": {
+            "x": 444.71875,
+            "y": 701.5,
+            "width": 255.65625,
+            "height": 4
+          }
+        },
+        {
+          "label": "first person",
+          "box": {
+            "x": 1199.65625,
+            "y": 442,
+            "width": 52.671875,
+            "height": 32
+          }
+        },
+        {
+          "label": "third person",
+          "box": {
+            "x": 1144,
+            "y": 442,
+            "width": 52.65625,
+            "height": 32
+          }
+        },
+        {
+          "label": "pause",
+          "box": {
+            "x": 1313,
+            "y": 13,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "save",
+          "box": {
+            "x": 1187,
+            "y": 13,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "pilot",
+          "box": {
+            "x": 29,
+            "y": 523,
+            "width": 176,
+            "height": 29
+          }
+        },
+        {
+          "label": "dock",
+          "box": {
+            "x": 16,
+            "y": 603,
+            "width": 350,
+            "height": 43
+          }
+        }
+      ],
+      "mapInitiallyExpanded": true,
+      "navigation": {
+        "advancedM": 27.82099246840195,
+        "consumedLitres": 0.44512360269573037
+      }
+    },
+    {
+      "viewport": {
+        "name": "desktop-compact",
+        "width": 1024,
+        "height": 650
+      },
+      "corridor": {
+        "x": 327.68,
+        "y": 156,
+        "width": 368.64,
+        "height": 247
+      },
+      "panels": [
+        {
+          "selector": ".voyage-dock",
+          "box": {
+            "x": 12,
+            "y": 350,
+            "width": 303.671875,
+            "height": 188
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".ship-status",
+          "box": {
+            "x": 12,
+            "y": 461,
+            "width": 303.671875,
+            "height": 28
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".compass-strip",
+          "box": {
+            "x": 454,
+            "y": 65,
+            "width": 116,
+            "height": 41
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".navigation-tools",
+          "box": {
+            "x": 822,
+            "y": 330,
+            "width": 190,
+            "height": 208
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".helm-console",
+          "box": {
+            "x": 12,
+            "y": 548,
+            "width": 1000,
+            "height": 90
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".dock-prompt",
+          "box": {
+            "x": 12,
+            "y": 495,
+            "width": 303.671875,
+            "height": 43
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".environment-strip",
+          "box": {
+            "x": 815.25,
+            "y": 73,
+            "width": 196.75,
+            "height": 17
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".location-label",
+          "box": {
+            "x": 12,
+            "y": 73,
+            "width": 94.375,
+            "height": 10
+          },
+          "corridorOverlap": 0
+        }
+      ],
+      "controlBounds": [
+        {
+          "label": "travel details",
+          "box": {
+            "x": 275.671875,
+            "y": 360,
+            "width": 29,
+            "height": 26
+          }
+        },
+        {
+          "label": "local chart",
+          "box": {
+            "x": 980,
+            "y": 330,
+            "width": 32,
+            "height": 40
+          }
+        },
+        {
+          "label": "throttle",
+          "box": {
+            "x": 132,
+            "y": 590,
+            "width": 187.984375,
+            "height": 4
+          }
+        },
+        {
+          "label": "helm",
+          "box": {
+            "x": 336.984375,
+            "y": 590.5,
+            "width": 203.03125,
+            "height": 4
+          }
+        },
+        {
+          "label": "first person",
+          "box": {
+            "x": 875,
+            "y": 334,
+            "width": 46,
+            "height": 32
+          }
+        },
+        {
+          "label": "third person",
+          "box": {
+            "x": 826,
+            "y": 334,
+            "width": 46,
+            "height": 32
+          }
+        },
+        {
+          "label": "pause",
+          "box": {
+            "x": 975,
+            "y": 13,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "save",
+          "box": {
+            "x": 849,
+            "y": 13,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "pilot",
+          "box": {
+            "x": 23,
+            "y": 416,
+            "width": 147.671875,
+            "height": 29
+          }
+        },
+        {
+          "label": "dock",
+          "box": {
+            "x": 12,
+            "y": 495,
+            "width": 303.671875,
+            "height": 43
+          }
+        }
+      ],
+      "mapInitiallyExpanded": true,
+      "navigation": {
+        "advancedM": 27.821681530455525,
+        "consumedLitres": 0.44512360269573037
+      }
+    },
+    {
+      "viewport": {
+        "name": "mobile-portrait",
+        "width": 390,
+        "height": 844
+      },
+      "corridor": {
+        "x": 78,
+        "y": 202.56,
+        "width": 234,
+        "height": 320.72
+      },
+      "panels": [
+        {
+          "selector": ".voyage-dock",
+          "box": {
+            "x": 10,
+            "y": 562,
+            "width": 370,
+            "height": 112
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".ship-status",
+          "box": {
+            "x": 10,
+            "y": 642,
+            "width": 182,
+            "height": 32
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".compass-strip",
+          "box": {
+            "x": 12,
+            "y": 84,
+            "width": 110,
+            "height": 44
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".navigation-tools",
+          "box": {
+            "x": 194,
+            "y": 82,
+            "width": 184,
+            "height": 38
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".helm-console",
+          "box": {
+            "x": 10,
+            "y": 684,
+            "width": 370,
+            "height": 150
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".dock-prompt",
+          "box": {
+            "x": 198,
+            "y": 642,
+            "width": 182,
+            "height": 32
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".environment-strip",
+          "box": {
+            "x": 283.34375,
+            "y": 58,
+            "width": 94.65625,
+            "height": 12
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".location-label",
+          "box": {
+            "x": 12,
+            "y": 60,
+            "width": 66.375,
+            "height": 8
+          },
+          "corridorOverlap": 0
+        }
+      ],
+      "controlBounds": [
+        {
+          "label": "travel details",
+          "box": {
+            "x": 337,
+            "y": 583,
+            "width": 32,
+            "height": 32
+          }
+        },
+        {
+          "label": "local chart",
+          "box": {
+            "x": 346,
+            "y": 82,
+            "width": 32,
+            "height": 38
+          }
+        },
+        {
+          "label": "throttle",
+          "box": {
+            "x": 111,
+            "y": 726,
+            "width": 121,
+            "height": 4
+          }
+        },
+        {
+          "label": "helm",
+          "box": {
+            "x": 246,
+            "y": 726,
+            "width": 121,
+            "height": 4
+          }
+        },
+        {
+          "label": "first person",
+          "box": {
+            "x": 245.328125,
+            "y": 86,
+            "width": 44.328125,
+            "height": 30
+          }
+        },
+        {
+          "label": "third person",
+          "box": {
+            "x": 198,
+            "y": 86,
+            "width": 44.328125,
+            "height": 30
+          }
+        },
+        {
+          "label": "pause",
+          "box": {
+            "x": 350,
+            "y": 9.5,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "label": "save",
+          "box": {
+            "x": 268,
+            "y": 7,
+            "width": 26,
+            "height": 33
+          }
+        },
+        {
+          "label": "pilot",
+          "box": {
+            "x": 20,
+            "y": 598,
+            "width": 210,
+            "height": 30
+          }
+        },
+        {
+          "label": "dock",
+          "box": {
+            "x": 198,
+            "y": 642,
+            "width": 182,
+            "height": 32
+          }
+        }
+      ],
+      "mapInitiallyExpanded": false,
+      "navigation": {
+        "advancedM": 27.82199253012406,
+        "consumedLitres": 0.44512360269573037
+      }
+    },
+    {
+      "viewport": {
+        "name": "mobile-landscape",
+        "width": 844,
+        "height": 390
+      },
+      "corridor": {
+        "x": 270.08,
+        "y": 93.6,
+        "width": 303.84,
+        "height": 148.2
+      },
+      "panels": [
+        {
+          "selector": ".voyage-dock",
+          "box": {
+            "x": 9,
+            "y": 111,
+            "width": 232,
+            "height": 178
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".ship-status",
+          "box": {
+            "x": 9,
+            "y": 214,
+            "width": 232,
+            "height": 26
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".compass-strip",
+          "box": {
+            "x": 367,
+            "y": 48,
+            "width": 110,
+            "height": 38
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".navigation-tools",
+          "box": {
+            "x": 661,
+            "y": 254,
+            "width": 174,
+            "height": 35
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".helm-console",
+          "box": {
+            "x": 9,
+            "y": 299,
+            "width": 826,
+            "height": 82
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".dock-prompt",
+          "box": {
+            "x": 9,
+            "y": 246,
+            "width": 232,
+            "height": 43
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".environment-strip",
+          "box": {
+            "x": 654.984375,
+            "y": 53,
+            "width": 177.015625,
+            "height": 17
+          },
+          "corridorOverlap": 0
+        },
+        {
+          "selector": ".location-label",
+          "box": {
+            "x": 12,
+            "y": 54,
+            "width": 86.671875,
+            "height": 9
+          },
+          "corridorOverlap": 0
+        }
+      ],
+      "controlBounds": [
+        {
+          "label": "travel details",
+          "box": {
+            "x": 205,
+            "y": 119,
+            "width": 26,
+            "height": 26
+          }
+        },
+        {
+          "label": "local chart",
+          "box": {
+            "x": 803,
+            "y": 254,
+            "width": 32,
+            "height": 35
+          }
+        },
+        {
+          "label": "throttle",
+          "box": {
+            "x": 114,
+            "y": 337,
+            "width": 153.125,
+            "height": 4
+          }
+        },
+        {
+          "label": "helm",
+          "box": {
+            "x": 282.125,
+            "y": 337.5,
+            "width": 165.359375,
+            "height": 4
+          }
+        },
+        {
+          "label": "first person",
+          "box": {
+            "x": 708.65625,
+            "y": 258,
+            "width": 40.671875,
+            "height": 27
+          }
+        },
+        {
+          "label": "third person",
+          "box": {
+            "x": 665,
+            "y": 258,
+            "width": 40.65625,
+            "height": 27
+          }
+        },
+        {
+          "label": "pause",
+          "box": {
+            "x": 799,
+            "y": 5,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "save",
+          "box": {
+            "x": 691,
+            "y": 5,
+            "width": 33,
+            "height": 33
+          }
+        },
+        {
+          "label": "pilot",
+          "box": {
+            "x": 19,
+            "y": 173,
+            "width": 111,
+            "height": 27
+          }
+        },
+        {
+          "label": "dock",
+          "box": {
+            "x": 9,
+            "y": 246,
+            "width": 232,
+            "height": 43
+          }
+        }
+      ],
+      "mapInitiallyExpanded": false,
+      "navigation": {
+        "advancedM": 27.82193044537287,
+        "consumedLitres": 0.44512360269573037
+      }
+    },
+    {
+      "viewport": {
+        "name": "mobile-portrait-docked",
+        "width": 390,
+        "height": 844
+      },
+      "serviceControls": [
+        {
+          "label": "refuel and repair",
+          "box": {
+            "x": 22,
+            "y": 557,
+            "width": 346,
+            "height": 28
+          }
+        },
+        {
+          "label": "change boat",
+          "box": {
+            "x": 22,
+            "y": 593,
+            "width": 346,
+            "height": 28
+          }
+        },
+        {
+          "label": "undock",
+          "box": {
+            "x": 22,
+            "y": 632,
+            "width": 346,
+            "height": 32
+          }
+        }
+      ],
+      "services": {
+        "fuelBefore": 600,
+        "fuelAfter": 900,
+        "repairedDamage": 0,
+        "released": true
+      }
+    }
+  ],
+  "errors": [],
+  "webgl": [],
+  "external": []
+}

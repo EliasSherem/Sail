@@ -1,0 +1,34 @@
+[
+  {
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "trialButton": {
+      "x": 60,
+      "y": 712.09375,
+      "width": 270,
+      "height": 38
+    },
+    "ships": 6,
+    "massKg": 1524,
+    "loadKg": 42,
+    "overflow": false
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 667
+    },
+    "trialButton": {
+      "x": 36,
+      "y": 616.875,
+      "width": 214,
+      "height": 34
+    },
+    "ships": 6,
+    "massKg": 1524,
+    "loadKg": 42,
+    "overflow": false
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "variant": "touring-900L-60-to-650Lph",
+  "conditions": "35% load; evolving calm seed4821; real pilot/forces; requested100x; no refuelling",
+  "capacityLitres": 900,
+  "idleLitresPerHour": 60,
+  "fullLitresPerHour": 650,
+  "estimate": {
+    "distanceM": 347806.4443568101,
+    "durationSeconds": 12993.300454586193,
+    "estimatedFuelLitres": 479.08007369830835,
+    "cruiseSpeedKnots": 52.62223348441875,
+    "status": "sufficient",
+    "reserveLitres": 119.77001842457709,
+    "requiredFuelLitres": 598.8500921228855,
+    "availableFuelLitres": 900,
+    "remainingFuelLitres": 420.91992630169165,
+    "reserveFraction": 0.25
+  },
+  "actual": {
+    "completed": true,
+    "collisions": 0,
+    "durationSeconds": 13110.36666664418,
+    "distanceM": 347717.06422794104,
+    "consumedLitres": 488.48275397652833,
+    "remainingLitres": 411.51724602347167,
+    "arrivalDistanceM": 26.300263437291544,
+    "arrivalSpeedMS": 0.7473353287646924,
+    "reserveCoversConsumption": true,
+    "remainingTankFraction": 0.4572413844705241
+  },
+  "cpuMilliseconds": 1174.906125
+}

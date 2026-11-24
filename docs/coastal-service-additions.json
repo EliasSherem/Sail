@@ -1,0 +1,1052 @@
+{
+  "seeds": [
+    {
+      "id": "morro-bay",
+      "name": "Morro Bay",
+      "country": "EE. UU.",
+      "region": "Pacífico americano",
+      "lat": 35.366667,
+      "lon": -120.85,
+      "bearing": 240
+    },
+    {
+      "id": "eureka",
+      "name": "Eureka",
+      "country": "EE. UU.",
+      "region": "Pacífico americano",
+      "lat": 40.8,
+      "lon": -124.183333,
+      "bearing": 270
+    },
+    {
+      "id": "astoria",
+      "name": "Astoria",
+      "country": "EE. UU.",
+      "region": "Pacífico americano",
+      "lat": 46.2,
+      "lon": -123.833333,
+      "bearing": 270
+    },
+    {
+      "id": "acajutla",
+      "name": "Acajutla",
+      "country": "El Salvador",
+      "region": "Pacífico americano",
+      "lat": 13.583333,
+      "lon": -89.833333,
+      "bearing": 225
+    },
+    {
+      "id": "puerto-caldera",
+      "name": "Puerto Caldera",
+      "country": "Costa Rica",
+      "region": "Pacífico americano",
+      "lat": 9.916667,
+      "lon": -84.716667,
+      "bearing": 240
+    },
+    {
+      "id": "golfito",
+      "name": "Golfito",
+      "country": "Costa Rica",
+      "region": "Pacífico americano",
+      "lat": 8.633333,
+      "lon": -83.166667,
+      "bearing": 225
+    },
+    {
+      "id": "puerto-armuelles",
+      "name": "Puerto Armuelles",
+      "country": "Panamá",
+      "region": "Pacífico americano",
+      "lat": 8.266667,
+      "lon": -82.85,
+      "bearing": 180
+    },
+    {
+      "id": "buenaventura",
+      "name": "Buenaventura",
+      "country": "Colombia",
+      "region": "Pacífico americano",
+      "lat": 3.883333,
+      "lon": -77.066667,
+      "bearing": 270
+    },
+    {
+      "id": "tumaco",
+      "name": "Tumaco",
+      "country": "Colombia",
+      "region": "Pacífico americano",
+      "lat": 1.816667,
+      "lon": -78.75,
+      "bearing": 300
+    },
+    {
+      "id": "esmeraldas",
+      "name": "Esmeraldas",
+      "country": "Ecuador",
+      "region": "Pacífico americano",
+      "lat": 1.0,
+      "lon": -79.65,
+      "bearing": 0
+    },
+    {
+      "id": "manta",
+      "name": "Manta",
+      "country": "Ecuador",
+      "region": "Pacífico americano",
+      "lat": -0.95,
+      "lon": -80.716667,
+      "bearing": 300
+    },
+    {
+      "id": "cabo-blanco",
+      "name": "Cabo Blanco",
+      "country": "Perú",
+      "region": "Pacífico americano",
+      "lat": -4.25,
+      "lon": -81.233333,
+      "bearing": 270
+    },
+    {
+      "id": "salaverry",
+      "name": "Salaverry",
+      "country": "Perú",
+      "region": "Pacífico americano",
+      "lat": -8.233333,
+      "lon": -78.983333,
+      "bearing": 240
+    },
+    {
+      "id": "chimbote",
+      "name": "Chimbote",
+      "country": "Perú",
+      "region": "Pacífico americano",
+      "lat": -9.083333,
+      "lon": -78.616667,
+      "bearing": 225
+    },
+    {
+      "id": "san-nicolas",
+      "name": "San Nicolás",
+      "country": "Perú",
+      "region": "Pacífico americano",
+      "lat": -15.25,
+      "lon": -75.233333,
+      "bearing": 270
+    },
+    {
+      "id": "matarani",
+      "name": "Matarani",
+      "country": "Perú",
+      "region": "Pacífico americano",
+      "lat": -17.0,
+      "lon": -72.116667,
+      "bearing": 240
+    },
+    {
+      "id": "arica",
+      "name": "Arica",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -18.466667,
+      "lon": -70.333333,
+      "bearing": 270
+    },
+    {
+      "id": "iquique",
+      "name": "Iquique",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -20.2,
+      "lon": -70.166667,
+      "bearing": 270
+    },
+    {
+      "id": "antofagasta",
+      "name": "Antofagasta",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -23.65,
+      "lon": -70.416667,
+      "bearing": 270
+    },
+    {
+      "id": "caldera-chile",
+      "name": "Caldera",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -27.05,
+      "lon": -70.833333,
+      "bearing": 270
+    },
+    {
+      "id": "coquimbo",
+      "name": "Coquimbo",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -29.95,
+      "lon": -71.333333,
+      "bearing": 315
+    },
+    {
+      "id": "talcahuano",
+      "name": "Talcahuano",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -36.7,
+      "lon": -73.1,
+      "bearing": 0
+    },
+    {
+      "id": "corral",
+      "name": "Corral",
+      "country": "Chile",
+      "region": "Pacífico americano",
+      "lat": -39.866667,
+      "lon": -73.433333,
+      "bearing": 270
+    },
+    {
+      "id": "norfolk",
+      "name": "Norfolk",
+      "country": "EE. UU.",
+      "region": "Atlántico americano",
+      "lat": 36.85,
+      "lon": -76.3,
+      "bearing": 90
+    },
+    {
+      "id": "morehead-city",
+      "name": "Morehead City",
+      "country": "EE. UU.",
+      "region": "Atlántico americano",
+      "lat": 34.716667,
+      "lon": -76.7,
+      "bearing": 180
+    },
+    {
+      "id": "charleston",
+      "name": "Charleston",
+      "country": "EE. UU.",
+      "region": "Atlántico americano",
+      "lat": 32.783333,
+      "lon": -79.916667,
+      "bearing": 135
+    },
+    {
+      "id": "jacksonville",
+      "name": "Jacksonville",
+      "country": "EE. UU.",
+      "region": "Atlántico americano",
+      "lat": 30.316667,
+      "lon": -81.65,
+      "bearing": 90
+    },
+    {
+      "id": "canaveral",
+      "name": "Cabo Cañaveral",
+      "country": "EE. UU.",
+      "region": "Atlántico americano",
+      "lat": 28.7,
+      "lon": -80.616667,
+      "bearing": 90
+    },
+    {
+      "id": "key-west",
+      "name": "Cayo Hueso",
+      "country": "EE. UU.",
+      "region": "Atlántico americano",
+      "lat": 24.55,
+      "lon": -81.816667,
+      "bearing": 180
+    },
+    {
+      "id": "matthew-town",
+      "name": "Matthew Town",
+      "country": "Bahamas",
+      "region": "Caribe",
+      "lat": 20.95,
+      "lon": -73.683333,
+      "bearing": 270
+    },
+    {
+      "id": "haina",
+      "name": "Haina",
+      "country": "Rep. Dominicana",
+      "region": "Caribe",
+      "lat": 18.416667,
+      "lon": -70.016667,
+      "bearing": 180
+    },
+    {
+      "id": "rocky-point",
+      "name": "Rocky Point",
+      "country": "Jamaica",
+      "region": "Caribe",
+      "lat": 17.816667,
+      "lon": -77.15,
+      "bearing": 180
+    },
+    {
+      "id": "trujillo-honduras",
+      "name": "Trujillo",
+      "country": "Honduras",
+      "region": "Caribe",
+      "lat": 15.916667,
+      "lon": -85.95,
+      "bearing": 0
+    },
+    {
+      "id": "st-johns-antigua",
+      "name": "Saint John’s",
+      "country": "Antigua y Barbuda",
+      "region": "Caribe",
+      "lat": 17.116667,
+      "lon": -61.85,
+      "bearing": 270
+    },
+    {
+      "id": "fort-de-france",
+      "name": "Fort-de-France",
+      "country": "Martinica",
+      "region": "Caribe",
+      "lat": 14.6,
+      "lon": -61.066667,
+      "bearing": 240
+    },
+    {
+      "id": "point-lisas",
+      "name": "Point Lisas",
+      "country": "Trinidad y Tobago",
+      "region": "Caribe",
+      "lat": 10.4,
+      "lon": -61.5,
+      "bearing": 270
+    },
+    {
+      "id": "rio-grande",
+      "name": "Rio Grande",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -32.05,
+      "lon": -52.083333,
+      "bearing": 135
+    },
+    {
+      "id": "itajai",
+      "name": "Itajaí",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -26.916667,
+      "lon": -48.633333,
+      "bearing": 90
+    },
+    {
+      "id": "vitoria",
+      "name": "Vitória",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -20.316667,
+      "lon": -40.333333,
+      "bearing": 135
+    },
+    {
+      "id": "ilheus",
+      "name": "Ilhéus",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -14.783333,
+      "lon": -39.016667,
+      "bearing": 90
+    },
+    {
+      "id": "salvador",
+      "name": "Salvador",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -12.966667,
+      "lon": -38.516667,
+      "bearing": 225
+    },
+    {
+      "id": "recife",
+      "name": "Recife",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -8.05,
+      "lon": -34.866667,
+      "bearing": 90
+    },
+    {
+      "id": "natal",
+      "name": "Natal",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -5.783333,
+      "lon": -35.2,
+      "bearing": 90
+    },
+    {
+      "id": "fortaleza",
+      "name": "Fortaleza",
+      "country": "Brasil",
+      "region": "Atlántico sur",
+      "lat": -3.716667,
+      "lon": -38.483333,
+      "bearing": 0
+    },
+    {
+      "id": "agadir",
+      "name": "Agadir",
+      "country": "Marruecos",
+      "region": "Atlántico africano",
+      "lat": 30.433333,
+      "lon": -9.633333,
+      "bearing": 270
+    },
+    {
+      "id": "laayoune",
+      "name": "El Aaiún",
+      "country": "Sáhara Occidental",
+      "region": "Atlántico africano",
+      "lat": 27.083333,
+      "lon": -13.433333,
+      "bearing": 270
+    },
+    {
+      "id": "dakhla",
+      "name": "Dajla",
+      "country": "Sáhara Occidental",
+      "region": "Atlántico africano",
+      "lat": 23.7,
+      "lon": -15.916667,
+      "bearing": 270
+    },
+    {
+      "id": "nouadhibou",
+      "name": "Nuadibú",
+      "country": "Mauritania",
+      "region": "Atlántico africano",
+      "lat": 20.916667,
+      "lon": -17.05,
+      "bearing": 240
+    },
+    {
+      "id": "nouakchott",
+      "name": "Nuakchot",
+      "country": "Mauritania",
+      "region": "Atlántico africano",
+      "lat": 18.033333,
+      "lon": -16.033333,
+      "bearing": 270
+    },
+    {
+      "id": "banjul",
+      "name": "Banjul",
+      "country": "Gambia",
+      "region": "Atlántico africano",
+      "lat": 13.45,
+      "lon": -16.566667,
+      "bearing": 270
+    },
+    {
+      "id": "conakry",
+      "name": "Conakri",
+      "country": "Guinea",
+      "region": "Atlántico africano",
+      "lat": 9.516667,
+      "lon": -13.716667,
+      "bearing": 225
+    },
+    {
+      "id": "freetown",
+      "name": "Freetown",
+      "country": "Sierra Leona",
+      "region": "Atlántico africano",
+      "lat": 8.5,
+      "lon": -13.233333,
+      "bearing": 270
+    },
+    {
+      "id": "monrovia",
+      "name": "Monrovia",
+      "country": "Liberia",
+      "region": "Atlántico africano",
+      "lat": 6.316667,
+      "lon": -10.816667,
+      "bearing": 225
+    },
+    {
+      "id": "cape-palmas",
+      "name": "Cabo Palmas",
+      "country": "Liberia",
+      "region": "Atlántico africano",
+      "lat": 4.366667,
+      "lon": -7.716667,
+      "bearing": 225
+    },
+    {
+      "id": "sekondi",
+      "name": "Sekondi",
+      "country": "Ghana",
+      "region": "Atlántico africano",
+      "lat": 4.95,
+      "lon": -1.7,
+      "bearing": 180
+    },
+    {
+      "id": "lagos",
+      "name": "Lagos",
+      "country": "Nigeria",
+      "region": "Atlántico africano",
+      "lat": 6.4,
+      "lon": 3.4,
+      "bearing": 180
+    },
+    {
+      "id": "malabo",
+      "name": "Malabo",
+      "country": "Guinea Ecuatorial",
+      "region": "Atlántico africano",
+      "lat": 3.75,
+      "lon": 8.783333,
+      "bearing": 0
+    },
+    {
+      "id": "bata",
+      "name": "Bata",
+      "country": "Guinea Ecuatorial",
+      "region": "Atlántico africano",
+      "lat": 1.866667,
+      "lon": 9.766667,
+      "bearing": 270
+    },
+    {
+      "id": "port-gentil",
+      "name": "Port-Gentil",
+      "country": "Gabón",
+      "region": "Atlántico africano",
+      "lat": -0.7,
+      "lon": 8.8,
+      "bearing": 270
+    },
+    {
+      "id": "pointe-noire",
+      "name": "Pointe-Noire",
+      "country": "Rep. del Congo",
+      "region": "Atlántico africano",
+      "lat": -4.783333,
+      "lon": 11.833333,
+      "bearing": 240
+    },
+    {
+      "id": "luanda",
+      "name": "Luanda",
+      "country": "Angola",
+      "region": "Atlántico africano",
+      "lat": -8.8,
+      "lon": 13.25,
+      "bearing": 270
+    },
+    {
+      "id": "lobito",
+      "name": "Lobito",
+      "country": "Angola",
+      "region": "Atlántico africano",
+      "lat": -12.333333,
+      "lon": 13.566667,
+      "bearing": 270
+    },
+    {
+      "id": "namibe",
+      "name": "Namibe",
+      "country": "Angola",
+      "region": "Atlántico africano",
+      "lat": -15.2,
+      "lon": 12.15,
+      "bearing": 270
+    },
+    {
+      "id": "walvis-bay",
+      "name": "Walvis Bay",
+      "country": "Namibia",
+      "region": "Atlántico africano",
+      "lat": -22.95,
+      "lon": 14.5,
+      "bearing": 270
+    },
+    {
+      "id": "luderitz",
+      "name": "Lüderitz",
+      "country": "Namibia",
+      "region": "Atlántico africano",
+      "lat": -26.65,
+      "lon": 15.15,
+      "bearing": 270
+    },
+    {
+      "id": "saldanha",
+      "name": "Saldanha",
+      "country": "Sudáfrica",
+      "region": "Atlántico africano",
+      "lat": -33.033333,
+      "lon": 17.966667,
+      "bearing": 240
+    },
+    {
+      "id": "sharm-el-sheikh",
+      "name": "Sharm el-Sheij",
+      "country": "Egipto",
+      "region": "Mar Rojo",
+      "lat": 27.85,
+      "lon": 34.283333,
+      "bearing": 135
+    },
+    {
+      "id": "hurghada",
+      "name": "Hurghada",
+      "country": "Egipto",
+      "region": "Mar Rojo",
+      "lat": 27.216667,
+      "lon": 33.85,
+      "bearing": 90
+    },
+    {
+      "id": "al-qusayr",
+      "name": "El Quseir",
+      "country": "Egipto",
+      "region": "Mar Rojo",
+      "lat": 26.1,
+      "lon": 34.283333,
+      "bearing": 90
+    },
+    {
+      "id": "duba",
+      "name": "Duba",
+      "country": "Arabia Saudita",
+      "region": "Mar Rojo",
+      "lat": 27.316667,
+      "lon": 35.9,
+      "bearing": 270
+    },
+    {
+      "id": "al-mukha",
+      "name": "Moca",
+      "country": "Yemen",
+      "region": "Mar Rojo",
+      "lat": 13.316667,
+      "lon": 43.25,
+      "bearing": 270
+    },
+    {
+      "id": "muscat",
+      "name": "Mascate",
+      "country": "Omán",
+      "region": "Mar Arábigo",
+      "lat": 23.633333,
+      "lon": 58.583333,
+      "bearing": 45
+    },
+    {
+      "id": "sohar",
+      "name": "Sohar",
+      "country": "Omán",
+      "region": "Mar Arábigo",
+      "lat": 24.516667,
+      "lon": 56.633333,
+      "bearing": 45
+    },
+    {
+      "id": "fujairah",
+      "name": "Fuyaira",
+      "country": "Emiratos Árabes Unidos",
+      "region": "Mar Arábigo",
+      "lat": 25.1730556,
+      "lon": 56.3691667,
+      "bearing": 90
+    },
+    {
+      "id": "karachi",
+      "name": "Karachi",
+      "country": "Pakistán",
+      "region": "Mar Arábigo",
+      "lat": 24.783333,
+      "lon": 66.983333,
+      "bearing": 180
+    },
+    {
+      "id": "okha",
+      "name": "Okha",
+      "country": "India",
+      "region": "Mar Arábigo",
+      "lat": 22.4680556,
+      "lon": 69.0797222,
+      "bearing": 270
+    },
+    {
+      "id": "veraval",
+      "name": "Veraval",
+      "country": "India",
+      "region": "Mar Arábigo",
+      "lat": 20.9,
+      "lon": 70.366667,
+      "bearing": 180
+    },
+    {
+      "id": "penang",
+      "name": "Penang",
+      "country": "Malasia",
+      "region": "Sudeste asiático",
+      "lat": 5.416667,
+      "lon": 100.35,
+      "bearing": 270
+    },
+    {
+      "id": "port-klang",
+      "name": "Port Klang",
+      "country": "Malasia",
+      "region": "Sudeste asiático",
+      "lat": 3.0,
+      "lon": 101.4,
+      "bearing": 225
+    },
+    {
+      "id": "sabang",
+      "name": "Sabang",
+      "country": "Indonesia",
+      "region": "Sudeste asiático",
+      "lat": 5.883333,
+      "lon": 95.316667,
+      "bearing": 0
+    },
+    {
+      "id": "belawan",
+      "name": "Belawan",
+      "country": "Indonesia",
+      "region": "Sudeste asiático",
+      "lat": 3.783333,
+      "lon": 98.683333,
+      "bearing": 45
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "country": "Tailandia",
+      "region": "Sudeste asiático",
+      "lat": 7.833333,
+      "lon": 98.4,
+      "bearing": 225
+    },
+    {
+      "id": "salina-cruz",
+      "name": "Salina Cruz",
+      "country": "México",
+      "region": "Pacífico americano",
+      "lat": 16.165,
+      "lon": -95.193,
+      "bearing": 180
+    },
+    {
+      "id": "puerto-quetzal",
+      "name": "Puerto Quetzal",
+      "country": "Guatemala",
+      "region": "Pacífico americano",
+      "lat": 13.9184,
+      "lon": -90.7842,
+      "bearing": 180
+    },
+    {
+      "id": "corinto",
+      "name": "Corinto",
+      "country": "Nicaragua",
+      "region": "Pacífico americano",
+      "lat": 12.4833,
+      "lon": -87.1667,
+      "bearing": 225
+    },
+    {
+      "id": "belize-city",
+      "name": "Ciudad de Belice",
+      "country": "Belice",
+      "region": "Caribe",
+      "lat": 17.475,
+      "lon": -88.195,
+      "bearing": 90
+    },
+    {
+      "id": "puerto-limon",
+      "name": "Puerto Limón",
+      "country": "Costa Rica",
+      "region": "Caribe",
+      "lat": 9.99,
+      "lon": -83.025,
+      "bearing": 90
+    },
+    {
+      "id": "yanbu",
+      "name": "Yanbu",
+      "country": "Arabia Saudita",
+      "region": "Mar Rojo",
+      "lat": 24.0667,
+      "lon": 38.05,
+      "bearing": 270
+    },
+    {
+      "id": "jazan",
+      "name": "Jazán",
+      "country": "Arabia Saudita",
+      "region": "Mar Rojo",
+      "lat": 17.2833,
+      "lon": 42.3333,
+      "bearing": 270
+    },
+    {
+      "id": "aden",
+      "name": "Adén",
+      "country": "Yemen",
+      "region": "Mar Arábigo",
+      "lat": 12.7667,
+      "lon": 45.0333,
+      "bearing": 180
+    },
+    {
+      "id": "mukalla",
+      "name": "Mukalla",
+      "country": "Yemen",
+      "region": "Mar Arábigo",
+      "lat": 14.5167,
+      "lon": 49.1167,
+      "bearing": 180
+    },
+    {
+      "id": "salalah",
+      "name": "Salalah",
+      "country": "Omán",
+      "region": "Mar Arábigo",
+      "lat": 16.95,
+      "lon": 54.0167,
+      "bearing": 135
+    },
+    {
+      "id": "duqm",
+      "name": "Duqm",
+      "country": "Omán",
+      "region": "Mar Arábigo",
+      "lat": 19.65,
+      "lon": 57.7,
+      "bearing": 90
+    },
+    {
+      "id": "gwadar",
+      "name": "Gwadar",
+      "country": "Pakistán",
+      "region": "Mar Arábigo",
+      "lat": 25.1167,
+      "lon": 62.3333,
+      "bearing": 180
+    },
+    {
+      "id": "mormugao",
+      "name": "Mormugao · Goa",
+      "country": "India",
+      "region": "Mar Arábigo",
+      "lat": 15.4167,
+      "lon": 73.7833,
+      "bearing": 270
+    },
+    {
+      "id": "new-mangalore",
+      "name": "New Mangalore",
+      "country": "India",
+      "region": "Mar Arábigo",
+      "lat": 12.9333,
+      "lon": 74.8167,
+      "bearing": 270
+    },
+    {
+      "id": "kochi",
+      "name": "Kochi",
+      "country": "India",
+      "region": "Mar Arábigo",
+      "lat": 9.97,
+      "lon": 76.2583,
+      "bearing": 270
+    }
+  ],
+  "networks": [
+    [
+      "san-diego",
+      "los-angeles",
+      "morro-bay",
+      "san-francisco",
+      "eureka",
+      "astoria",
+      "seattle",
+      "vancouver"
+    ],
+    [
+      "acapulco",
+      "salina-cruz",
+      "puerto-quetzal",
+      "acajutla",
+      "corinto",
+      "puerto-caldera",
+      "golfito",
+      "puerto-armuelles",
+      "balboa"
+    ],
+    [
+      "balboa",
+      "buenaventura",
+      "tumaco",
+      "esmeraldas",
+      "manta",
+      "cabo-blanco",
+      "salaverry",
+      "chimbote",
+      "callao",
+      "san-nicolas",
+      "matarani",
+      "arica",
+      "iquique",
+      "antofagasta",
+      "caldera-chile",
+      "coquimbo",
+      "valparaiso",
+      "talcahuano",
+      "corral"
+    ],
+    [
+      "new-york",
+      "norfolk",
+      "morehead-city",
+      "charleston",
+      "jacksonville",
+      "canaveral",
+      "miami",
+      "key-west",
+      "havana"
+    ],
+    [
+      "miami",
+      "nassau",
+      "matthew-town",
+      "haina",
+      "san-juan",
+      "st-johns-antigua",
+      "fort-de-france",
+      "point-lisas"
+    ],
+    [
+      "haina",
+      "rocky-point"
+    ],
+    [
+      "cancun",
+      "belize-city",
+      "trujillo-honduras",
+      "puerto-limon",
+      "colon",
+      "cartagena-colombia"
+    ],
+    [
+      "montevideo",
+      "rio-grande",
+      "itajai",
+      "santos",
+      "rio-de-janeiro",
+      "vitoria",
+      "ilheus",
+      "salvador",
+      "recife",
+      "natal",
+      "fortaleza"
+    ],
+    [
+      "casablanca",
+      "agadir",
+      "laayoune",
+      "dakhla",
+      "nouadhibou",
+      "nouakchott",
+      "dakar",
+      "banjul",
+      "conakry",
+      "freetown",
+      "monrovia",
+      "cape-palmas",
+      "sekondi",
+      "lagos",
+      "malabo",
+      "bata",
+      "port-gentil",
+      "pointe-noire",
+      "luanda",
+      "lobito",
+      "namibe",
+      "walvis-bay",
+      "luderitz",
+      "saldanha",
+      "cape-town"
+    ],
+    [
+      "las-palmas",
+      "laayoune"
+    ],
+    [
+      "suez",
+      "hurghada",
+      "al-qusayr",
+      "yanbu",
+      "jeddah",
+      "jazan",
+      "al-mukha",
+      "aden",
+      "mukalla",
+      "salalah",
+      "duqm",
+      "muscat",
+      "sohar",
+      "fujairah",
+      "dubai"
+    ],
+    [
+      "suez",
+      "sharm-el-sheikh",
+      "eilat"
+    ],
+    [
+      "sharm-el-sheikh",
+      "hurghada"
+    ],
+    [
+      "sharm-el-sheikh",
+      "duba",
+      "yanbu"
+    ],
+    [
+      "muscat",
+      "gwadar",
+      "karachi",
+      "okha",
+      "veraval",
+      "mumbai",
+      "mormugao",
+      "new-mangalore",
+      "kochi",
+      "colombo"
+    ],
+    [
+      "sabang",
+      "belawan",
+      "penang",
+      "port-klang",
+      "singapore"
+    ],
+    [
+      "phuket",
+      "penang"
+    ]
+  ]
+}

@@ -1,0 +1,3203 @@
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/dm-sans-400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/dm-sans-500.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/dm-sans-600.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/dm-sans-700.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/manrope-400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/manrope-500.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/manrope-600.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/manrope-700.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/manrope-800.ttf") format("truetype");
+}
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #163b43;
+  background: #d0e2df;
+  font-synthesis: none;
+  font-weight: 400;
+  --ink: #163b43;
+  --muted: #728780;
+  --orange: #da8255;
+  --cream: #faf9f0;
+  --line: #d9e1d7;
+  --navy: #183e48;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  color: inherit;
+  background: none;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 4px;
+}
+button {
+  transition:
+    background 0.18s,
+    color 0.18s,
+    transform 0.18s;
+}
+button:hover:not(:disabled) {
+  filter: brightness(0.96);
+}
+button svg {
+  flex-shrink: 0;
+}
+select {
+  cursor: pointer;
+}
+input[type="range"] {
+  width: 100%;
+  height: 4px;
+  accent-color: var(--orange);
+  cursor: pointer;
+  margin: 15px 0;
+  touch-action: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 12px;
+  width: 12px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Manrope", sans-serif;
+}
+strong {
+  font-weight: 600;
+}
+kbd {
+  font:
+    10px "DM Sans",
+    sans-serif;
+  border: 1px solid #ffffff35;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+small {
+  font-size: 10px;
+}
+button.active,
+button.selected {
+  color: var(--ink);
+}
+.app {
+  height: 100dvh;
+  min-height: 680px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#d6e1dc, #658f92);
+}
+.scene-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, #dce7dc42, transparent 40%),
+    linear-gradient(
+      0deg,
+      #082d3960,
+      transparent 35%,
+      transparent 70%,
+      #e2e9d627
+    );
+  z-index: 1;
+}
+.ocean-scene {
+  position: absolute;
+  inset: 0;
+}
+.topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 87px;
+  padding: 0 37px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #32566024;
+  z-index: 10;
+  background: linear-gradient(#e2eadeb3, #e2eade18);
+  gap: 48px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 0;
+}
+.brand > span {
+  font-family: Manrope, sans-serif;
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 800;
+  line-height: 1;
+}
+.brand small {
+  display: block;
+  font-size: 7px;
+  letter-spacing: 2.4px;
+  margin-top: 8px;
+  font-weight: 650;
+}
+.topbar nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 29px;
+}
+.topbar nav button {
+  font-size: 12px;
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #59716e;
+}
+.topbar nav button.active {
+  color: #163b43;
+}
+.topbar nav button.active:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: var(--ink);
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.topbar nav button span {
+  font-size: 8px;
+  border: 1px solid #8ca7a0;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.header-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.live-indicator {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  font-weight: 650;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: 16px;
+  white-space: nowrap;
+}
+.live-indicator i,
+.location-label .eyebrow i {
+  width: 5px;
+  height: 5px;
+  background: #527f67;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #47705b10;
+}
+.icon-button {
+  width: 33px;
+  height: 33px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #496660;
+}
+.icon-button:hover {
+  background: #e9eee76e;
+}
+.pause-button {
+  background: var(--ink);
+  color: #f3f4e5;
+  width: 33px;
+  height: 33px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+.location-label {
+  position: absolute;
+  z-index: 3;
+  top: 111px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.65px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.location-label > span:last-child {
+  font-size: 10px;
+  letter-spacing: 0.7px;
+  color: #50716c;
+}
+.location-label b {
+  margin: 0 5px;
+}
+.environment-strip {
+  position: absolute;
+  top: 110px;
+  right: 39px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 3;
+  font-size: 11px;
+  color: #335755;
+}
+.environment-strip strong {
+  font-weight: 500;
+}
+.environment-strip .divider {
+  width: 1px;
+  height: 13px;
+  background: #7f9a864d;
+  margin: 0 3px;
+}
+.environment-strip small {
+  font-size: 7px;
+  letter-spacing: 1px;
+  border: 1px solid #6f91844a;
+  border-radius: 3px;
+  padding: 4px 5px;
+  margin-left: 4px;
+}
+.welcome-panel {
+  position: absolute;
+  top: 158px;
+  bottom: 16px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  left: 40px;
+  width: 330px;
+  z-index: 4;
+}
+.welcome-tag {
+  font-size: 8px;
+  letter-spacing: 1.7px;
+  font-weight: 650;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.welcome-panel h1 {
+  font-size: 52px;
+  letter-spacing: -2.8px;
+  line-height: 1.09;
+  font-weight: 650;
+}
+.welcome-panel h1 > span,
+.modal-heading h2 > span {
+  color: var(--orange);
+}
+.welcome-copy {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #55756c;
+  margin-top: 13px;
+}
+.departure-card {
+  margin-top: 23px;
+  padding: 18px 21px 15px;
+  background: #f9faedeb;
+  border: 1px solid #ffffff80;
+  border-radius: 9px;
+  box-shadow: 0 8px 35px #153b4420;
+  backdrop-filter: blur(16px);
+}
+.field-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 8px;
+  letter-spacing: 1.2px;
+  font-weight: 650;
+}
+.field-label > span,
+.port-field label > span {
+  color: #9ca891;
+}
+.field-label > button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.ship-drawing {
+  width: 100%;
+  height: 104px;
+  margin-top: 3px;
+  overflow: visible;
+  display: block;
+}
+.ship-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1px;
+}
+.ship-title h2 {
+  font-size: 17px;
+  letter-spacing: -0.5px;
+}
+.ship-title > span {
+  font-size: 10px;
+  color: #8b9889;
+}
+.ship-choice {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+.ship-choice button {
+  height: 25px;
+  width: 34px;
+  border: 1px solid #dfe5d8;
+  border-radius: 4px;
+  color: #92a696;
+}
+.ship-choice button.selected {
+  background: #e6ebdf;
+  border-color: #91a999;
+  color: #385a50;
+}
+.departure-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: #8b998d;
+  padding: 12px 0;
+}
+.departure-stats strong {
+  color: #3e6157;
+}
+.port-field {
+  border-top: 1px solid #d6dfd1;
+  padding-top: 12px;
+  margin-bottom: 14px;
+}
+.port-field label {
+  font-size: 8px;
+  letter-spacing: 1.2px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 650;
+}
+.port-field > div {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  gap: 8px;
+}
+.port-field select {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  width: 100%;
+  font-size: 12px;
+  outline: none;
+  padding: 4px 0;
+}
+.primary-button {
+  background: var(--orange);
+  color: #fffdf2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 13px 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 3px 7px #aa5c2820;
+}
+.sail-button {
+  width: 100%;
+  justify-content: space-between;
+}
+.continue-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  font-size: 9px;
+  margin-top: 10px;
+  color: #687e6e;
+}
+.welcome-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 9px;
+  color: #496b60;
+  margin-top: 12px;
+}
+.compass-strip {
+  position: absolute;
+  top: 160px;
+  left: 57%;
+  transform: translateX(-50%);
+  z-index: 3;
+  width: 265px;
+  text-align: center;
+  color: #325854;
+  pointer-events: none;
+}
+.compass-heading > span {
+  display: block;
+  font-size: 7px;
+  letter-spacing: 2px;
+  color: #759183;
+}
+.compass-heading > strong {
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 1.45;
+}
+.compass-heading small {
+  font-size: 15px;
+  color: #5a7a70;
+}
+.compass-ticks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  font-weight: 500;
+  opacity: 0.9;
+  border-bottom: 1px solid #698b762e;
+  padding: 8px 0;
+}
+.compass-ticks span {
+  width: 19px;
+}
+.compass-ticks .central {
+  font-weight: 700;
+}
+.compass-strip > i {
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5px solid var(--orange);
+  display: block;
+  margin: 0 auto;
+}
+.underway .compass-strip {
+  background: #12343bd6;
+  border: 1px solid #dbece42e;
+  border-radius: 7px;
+  padding: 8px 12px;
+  color: #eff6ef;
+  backdrop-filter: blur(8px);
+}
+.underway .compass-heading > span,
+.underway .compass-heading small {
+  color: #d9e9e3;
+}
+.camera-controls {
+  position: absolute;
+  right: 37px;
+  top: 176px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 166px;
+  padding: 10px;
+  border: 1px solid #dbece433;
+  border-radius: 9px;
+  background: #12343bec;
+  box-shadow: 0 5px 20px #082d3930;
+  color: #e8f1e9;
+  backdrop-filter: blur(12px);
+}
+.camera-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8px;
+  letter-spacing: 1.4px;
+  padding: 0 3px 5px;
+}
+.camera-label kbd {
+  font-size: 9px;
+  border: 1px solid #dbece44d;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.camera-hint {
+  margin: 4px 3px 1px;
+  font-size: 9px;
+  line-height: 1.5;
+  color: #b5cfc5;
+}
+.camera-controls button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  justify-content: flex-start;
+  border: 1px solid #e5f0db45;
+  background: #f0f6e527;
+  color: #ebf4e9;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  backdrop-filter: blur(12px);
+  position: relative;
+}
+.camera-controls button.selected {
+  background: #fcfae9e6;
+  color: var(--ink);
+  border-color: #fbf9e8;
+}
+.camera-controls button span {
+  position: static;
+  white-space: nowrap;
+  font-size: 11px;
+  color: inherit;
+}
+.camera-controls button:hover {
+  border-color: #e8f1e9;
+}
+.camera-controls button:focus-visible {
+  outline: 2px solid #edbb83;
+  outline-offset: 2px;
+}
+.mini-chart {
+  position: absolute;
+  right: 38px;
+  bottom: 74px;
+  width: 252px;
+  background: #f4f6e8ec;
+  z-index: 3;
+  border-radius: 7px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 3px 22px #10394626;
+  border: 1px solid #f1f2eab2;
+}
+.mini-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  padding: 0 12px;
+}
+.mini-chart-header > span {
+  font-size: 8px;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.mini-chart-header button {
+  padding: 3px;
+  display: flex;
+}
+.nautical-map {
+  height: 168px;
+  position: relative;
+  background: #dce9e6;
+  overflow: hidden;
+}
+.nautical-map canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+  cursor: grab;
+}
+.nautical-map canvas:active {
+  cursor: grabbing;
+}
+.nautical-map .map-north {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font: 8px Manrope;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  pointer-events: none;
+}
+.map-north span {
+  font-size: 21px;
+}
+.map-zoom {
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bad0c5;
+  background: #f6f8eddd;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.map-zoom button {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #bad0c580;
+}
+.map-zoom button:last-child {
+  border: 0;
+}
+.mini-chart-footer {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9px;
+  padding: 0 12px;
+  color: #5c786b;
+}
+.mini-chart-footer > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.mini-chart-footer i {
+  width: 4px;
+  height: 4px;
+  background: var(--orange);
+  border-radius: 50%;
+}
+.scene-caption {
+  position: absolute;
+  z-index: 3;
+  left: 43%;
+  bottom: 80px;
+  color: #f4f6e4;
+  text-shadow: 0 2px 12px #164b4e55;
+}
+.scene-caption > span {
+  font-size: 7px;
+  letter-spacing: 2.5px;
+  opacity: 0.75;
+}
+.scene-caption p {
+  font-size: 25px;
+  font-family: Manrope;
+  letter-spacing: -0.8px;
+  line-height: 1.4;
+  margin-top: 13px;
+  font-weight: 500;
+}
+.bottom-meta {
+  position: absolute;
+  z-index: 3;
+  bottom: 21px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 7px;
+  letter-spacing: 1.4px;
+  color: #e2eddf90;
+  align-items: center;
+}
+.bottom-meta > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.bottom-meta i {
+  width: 3px;
+  height: 3px;
+  background: #e2eddf90;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+.bottom-meta b {
+  margin: 0 5px;
+}
+.glass-panel {
+  background: #fbfbefe8;
+  backdrop-filter: blur(16px);
+  border: 1px solid #ffffff75;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px #173c4012;
+}
+.voyage-card {
+  position: absolute;
+  left: 39px;
+  top: 161px;
+  z-index: 4;
+  width: 281px;
+  padding: 20px;
+}
+.card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+.card-topline > .eyebrow {
+  font-size: 8px;
+  color: #7c8d74;
+  letter-spacing: 1.3px;
+}
+.card-topline button {
+  display: flex;
+  padding: 0;
+  color: #84967e;
+}
+.voyage-card h2 {
+  font-size: 23px;
+  font-weight: 650;
+  letter-spacing: -0.9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.voyage-card h2 svg {
+  transform: rotate(35deg);
+  color: #d1875b;
+}
+.voyage-card p {
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 9px;
+  color: #7a8976;
+}
+.text-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #dfe5d6;
+  padding: 15px 0 0;
+  margin-top: 18px;
+  font-size: 11px;
+  color: #bd7651;
+  font-weight: 600;
+}
+.tutorial-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 9px;
+  color: #7c8a77;
+  padding: 12px 0 0;
+}
+.tutorial-dots {
+  display: flex;
+  gap: 5px;
+  margin-top: 18px;
+}
+.tutorial-dots i {
+  height: 3px;
+  flex: 1;
+  background: #d7dfd1;
+  border-radius: 10px;
+}
+.tutorial-dots .done {
+  background: #d38356;
+}
+.ship-status {
+  position: absolute;
+  top: 467px;
+  left: 42px;
+  color: #e9f3e5;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-shadow: 0 1px 8px #27495366;
+  width: 275px;
+}
+.ship-status strong {
+  font-size: 13px;
+  display: block;
+}
+.ship-status div > span {
+  display: block;
+  font-size: 9px;
+  margin-top: 4px;
+  color: #e9f3e5af;
+}
+.hull-health {
+  margin-left: auto;
+  font-size: 12px;
+  text-align: right;
+}
+.hull-health small {
+  font-size: 6px;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-top: 4px;
+  opacity: 0.65;
+}
+.warning {
+  color: #e5996c !important;
+}
+.route-progress {
+  height: 3px;
+  background: #dbe2d4;
+  margin: 20px 0 16px;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.route-progress span {
+  height: 100%;
+  display: block;
+  background: var(--orange);
+}
+.voyage-stats {
+  display: flex;
+  justify-content: space-between;
+}
+.voyage-stats strong {
+  font-size: 20px;
+  letter-spacing: -0.8px;
+  display: block;
+}
+.voyage-stats strong small {
+  font-size: 10px;
+  color: #7e8b76;
+  letter-spacing: 0;
+}
+.voyage-stats div > span {
+  display: block;
+  font-size: 8px;
+  margin-top: 3px;
+  color: #84907d;
+}
+.autopilot-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d6decc;
+  border-radius: 4px;
+  padding: 9px 10px;
+  width: 100%;
+  margin-top: 18px;
+  font-size: 9px;
+  color: #697f64;
+}
+.autopilot-button > span {
+  margin-left: auto;
+  border: 1px solid #cbd9bf;
+  border-radius: 2px;
+  padding: 1px 4px;
+  font-size: 7px;
+}
+.autopilot-button.enabled {
+  background: #dce5d4;
+  border-color: #aabf9f;
+  color: #39644c;
+}
+.dock-prompt {
+  position: absolute;
+  left: 40px;
+  bottom: 219px;
+  z-index: 4;
+  background: #eff3e4ec;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-radius: 6px;
+  box-shadow: 0 3px 16px #16394617;
+}
+.dock-prompt span {
+  font-size: 11px;
+  text-align: left;
+}
+.dock-prompt small {
+  display: block;
+  color: #7b907c;
+  font-size: 8px;
+  margin-top: 4px;
+}
+.dock-prompt kbd {
+  border-color: #b7c7b2;
+  margin-left: 8px;
+}
+.port-services {
+  position: absolute;
+  left: 40px;
+  bottom: 224px;
+  z-index: 5;
+  padding: 18px;
+  width: 281px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  align-items: center;
+}
+.port-services > strong {
+  font-size: 14px;
+}
+.port-services > button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  width: 100%;
+}
+.port-services .primary-button {
+  font-size: 11px;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.underway .mini-chart {
+  bottom: 218px;
+  width: 237px;
+}
+.underway .nautical-map:not(.large) {
+  height: 150px;
+}
+.underway .camera-controls {
+  top: 176px;
+}
+.helm-console {
+  position: absolute;
+  left: 39px;
+  right: 39px;
+  bottom: 55px;
+  min-height: 121px;
+  z-index: 6;
+  background: #143b46ed;
+  border: 1px solid #d7ebd921;
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  padding: 19px 27px;
+  color: #e8efdf;
+  box-shadow: 0 6px 30px #08262c40;
+}
+.speed-instrument {
+  min-width: 142px;
+}
+.speed-instrument .eyebrow {
+  font-size: 7px;
+  letter-spacing: 1.4px;
+  color: #95b7ac;
+}
+.speed-reading {
+  font: 500 43px Manrope;
+  letter-spacing: -1.6px;
+  line-height: 1.17;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+}
+.speed-reading > span {
+  font: 10px "DM Sans";
+  letter-spacing: 0;
+  color: #99b6a9;
+}
+.water-speed {
+  font-size: 8px;
+  color: #9bb8aa;
+  margin-top: 3px;
+}
+.helm-separator {
+  height: 65px;
+  width: 1px;
+  background: #c2ddc521;
+  flex-shrink: 0;
+}
+.engine-control {
+  flex: 1;
+  min-width: 110px;
+}
+.instrument-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.instrument-label > span {
+  font-size: 7px;
+  letter-spacing: 1.25px;
+  color: #8faf9f;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.instrument-label > strong {
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.instrument-label small {
+  font-size: 8px;
+  color: #8dab9b;
+  margin-left: 2px;
+}
+.helm-console input[type="range"] {
+  margin: 13px 0;
+}
+.gear-controls {
+  display: flex;
+  gap: 4px;
+}
+.gear-controls button {
+  flex: 1;
+  font-size: 7px;
+  letter-spacing: 0.65px;
+  border: 1px solid #7fa59530;
+  color: #809e93;
+  border-radius: 3px;
+  padding: 5px 6px;
+}
+.gear-controls button.active {
+  background: #e7b180;
+  color: #263f36;
+  border-color: #e7b180;
+}
+.rudder-control {
+  flex: 1.08;
+  min-width: 128px;
+}
+.rudder-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7px;
+  color: #91b0a0;
+  height: 22px;
+}
+.rudder-labels button {
+  font-size: 8px;
+  color: #bfd0b9;
+}
+.fuel-instrument {
+  flex: 1.2;
+  min-width: 130px;
+}
+.fuel-bar {
+  height: 4px;
+  background: #c3ddc11f;
+  border-radius: 4px;
+  margin: 16px 0 10px;
+  overflow: hidden;
+}
+.fuel-bar > span {
+  height: 100%;
+  display: block;
+  background: #aec1a0;
+}
+.fuel-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: #bdceba;
+}
+.fuel-instrument > small {
+  display: block;
+  font-size: 6px;
+  letter-spacing: 0.2px;
+  color: #76998b;
+  margin-top: 6px;
+}
+.time-instrument {
+  flex: 1.15;
+  min-width: 138px;
+}
+.time-controls {
+  display: flex;
+  gap: 2px;
+  margin: 10px 0;
+}
+.time-controls button {
+  border-radius: 3px;
+  color: #8baea0;
+  font-size: 9px;
+  flex: 1;
+  padding: 6px 2px;
+}
+.time-controls button.active {
+  background: #d2dec224;
+  color: #e4edce;
+}
+.time-instrument > small {
+  font-size: 7px;
+  white-space: nowrap;
+  color: #95b09b;
+}
+.pause-overlay {
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f6f9e8ee;
+  padding: 18px 21px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px #183c4022;
+}
+.pause-overlay span {
+  font-size: 13px;
+}
+.pause-overlay button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  background: var(--orange);
+  color: #fff9e9;
+  border-radius: 4px;
+  padding: 9px 11px;
+  margin-left: 12px;
+}
+.toast {
+  position: absolute;
+  bottom: 190px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 580px;
+  background: #f9faeefa;
+  padding: 15px 18px;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  box-shadow: 0 6px 30px #113c4829;
+  font-size: 11px;
+  line-height: 1.55;
+  animation: toast-in 0.2s ease-out;
+}
+.toast > svg {
+  flex-shrink: 0;
+  color: var(--orange);
+}
+.toast button {
+  display: flex;
+  padding: 0;
+  margin-left: 5px;
+}
+.at-start .toast {
+  bottom: 35px;
+}
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  background: #082c3c5c;
+  backdrop-filter: blur(9px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  animation: toast-in 0.18s ease-out;
+}
+.modal {
+  background: #f8f8ed;
+  border-radius: 12px;
+  width: 760px;
+  max-width: 100%;
+  max-height: calc(100dvh - 70px);
+  overflow: auto;
+  position: relative;
+  padding: 38px 38px 30px;
+  box-shadow: 0 30px 90px #0a293a30;
+}
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 25px;
+  width: 29px;
+  height: 29px;
+  display: grid;
+  place-items: center;
+  color: #7d8f7c;
+  border-radius: 50%;
+  z-index: 2;
+}
+.modal-close:hover {
+  background: #e7edde;
+}
+.modal-heading {
+  margin-bottom: 29px;
+  padding-right: 30px;
+}
+.modal-heading .eyebrow {
+  font-size: 8px;
+  letter-spacing: 1.7px;
+  color: #929c86;
+}
+.modal-heading h2 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+.modal-heading p {
+  font-size: 11px;
+  color: #8d9783;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+.modal-heading h2 > span {
+  margin-left: 1px;
+}
+.map-modal {
+  width: 1160px;
+  padding: 30px;
+}
+.map-modal .modal-heading {
+  margin-bottom: 25px;
+}
+.map-layout {
+  display: flex;
+  gap: 25px;
+}
+.nautical-map.large {
+  flex: 1;
+  height: 440px;
+  min-width: 0;
+  border: 1px solid #c9d9c9;
+  border-radius: 6px;
+}
+.map-attribution {
+  position: absolute;
+  bottom: 6px;
+  left: 11px;
+  font-size: 7px;
+  color: #6b8b7c;
+  pointer-events: none;
+}
+.large .map-zoom {
+  bottom: 30px;
+  right: 15px;
+}
+.large .map-north {
+  right: 21px;
+  top: 17px;
+}
+.large .map-zoom button {
+  padding: 7px;
+}
+.route-planner {
+  width: 249px;
+  flex-shrink: 0;
+}
+.route-planner > .eyebrow {
+  font-size: 8px;
+  color: #929d88;
+  letter-spacing: 1.5px;
+}
+.route-origin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 23px 0;
+}
+.route-origin > i {
+  background: var(--orange);
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #d3815420;
+}
+.route-origin > span {
+  font-size: 12px;
+}
+.route-origin small {
+  display: block;
+  font-size: 8px;
+  color: #91a18a;
+  margin-top: 6px;
+}
+.route-planner label {
+  font-size: 9px;
+  display: block;
+  color: #829478;
+  margin-bottom: 7px;
+}
+.route-planner select {
+  border: 1px solid #d5dfca;
+  border-radius: 5px;
+  color: #375d48;
+  background: #fffef8;
+  padding: 10px;
+  width: 100%;
+  font-size: 11px;
+}
+.secondary-button {
+  border: 1px solid #cbd8be;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #547150;
+  padding: 11px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.route-planner > .secondary-button {
+  margin-top: 9px;
+  width: 100%;
+}
+.planned-route {
+  margin-top: 20px;
+}
+.route-safe {
+  font-size: 9px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #708e60;
+  margin-bottom: 14px;
+}
+.planned-route > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #84967b;
+  padding: 7px 0;
+  border-bottom: 1px solid #e2e8d9;
+}
+.planned-route strong {
+  color: #32563f;
+  font-size: 11px;
+}
+.planned-route p {
+  font-size: 9px;
+  line-height: 1.6;
+  color: #8a9b7e;
+  margin: 12px 0;
+}
+.planned-route > .primary-button {
+  width: 100%;
+  margin-top: 15px;
+}
+.route-warning {
+  background: #eddcc433;
+  border: 1px solid #d3b28148;
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 1.6;
+  font-size: 10px;
+  color: #b3875b;
+  margin-top: 13px;
+}
+.chart-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: #98a88a;
+  margin-top: 24px;
+}
+.chart-note > svg {
+  flex-shrink: 0;
+}
+.chart-note p {
+  font-size: 9px;
+  line-height: 1.7;
+}
+.fleet-modal {
+  width: 1170px;
+}
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+.fleet-card {
+  background: #f0f3e5;
+  border: 1px solid #dce4cf;
+  border-radius: 7px;
+  padding: 14px 13px 18px;
+  text-align: left;
+  position: relative;
+  transition:
+    border 0.2s,
+    background 0.2s,
+    transform 0.2s;
+}
+.fleet-card.selected {
+  background: #f3f3e0;
+  border-color: #b4ad7c;
+  box-shadow: 0 0 0 1px #b4ad7c;
+}
+.fleet-card:hover {
+  transform: translateY(-3px);
+}
+.fleet-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  font-size: 9px;
+  color: #8a977e;
+}
+.fleet-card-top svg {
+  color: var(--orange);
+}
+.selection-circle {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #cad6bd;
+  border-radius: 50%;
+}
+.fleet-card .ship-drawing {
+  margin: 18px -5px 10px;
+  width: calc(100% + 10px);
+  height: 95px;
+}
+.fleet-card h3 {
+  font-size: 17px;
+  letter-spacing: -0.65px;
+}
+.fleet-card > p {
+  font-size: 10px;
+  line-height: 1.7;
+  color: #849478;
+  min-height: 91px;
+  margin-top: 10px;
+}
+.fleet-numbers {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dce4ce;
+  padding-top: 14px;
+  gap: 5px;
+}
+.fleet-numbers span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 7px;
+  color: #98a589;
+}
+.fleet-numbers strong {
+  color: #57734e;
+  font-size: 10px;
+}
+.fleet-bottom {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.fleet-bottom > div {
+  flex: 1;
+  max-width: 440px;
+}
+.fleet-bottom label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+}
+.fleet-bottom strong {
+  font-size: 10px;
+  color: #7e8f70;
+}
+.fleet-bottom input {
+  margin: 14px 0;
+}
+.fleet-bottom p,
+.fine-print {
+  font-size: 9px;
+  line-height: 1.7;
+  color: #96a18a;
+}
+.fine-print {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #e0e5d6;
+}
+.mission-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mission-list > button {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  background: #eff3e4;
+  border: 1px solid #dce6ce;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: left;
+}
+.mission-list > button > svg {
+  margin-left: auto;
+  color: #9eb48a;
+  flex-shrink: 0;
+}
+.mission-icon {
+  border: 1px solid #d4dfc3;
+  background: #e9eedc;
+  width: 49px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: #819c6c;
+  border-radius: 5px;
+}
+.mission-list .eyebrow {
+  font-size: 7px;
+  color: #a1ab8e;
+  letter-spacing: 1.3px;
+}
+.mission-list h3 {
+  font-size: 19px;
+  letter-spacing: -0.6px;
+  margin-top: 5px;
+}
+.mission-list p {
+  font-size: 10px;
+  color: #8b9c7c;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.mission-list small {
+  font-size: 8px;
+  color: #a58f63;
+  display: block;
+  margin-top: 9px;
+}
+.settings-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e1e6d5;
+}
+.settings-section > label {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.settings-section label > span {
+  display: block;
+  font-size: 9px;
+  color: #91a080;
+  margin-top: 4px;
+  max-width: 285px;
+}
+.segmented {
+  display: flex;
+  padding: 3px;
+  background: #e8eedb;
+  border-radius: 5px;
+  gap: 2px;
+}
+.segmented button {
+  font-size: 10px;
+  padding: 8px 14px;
+  color: #8a9b75;
+  border-radius: 3px;
+}
+.segmented button.selected {
+  background: #fffff7;
+  box-shadow: 0 1px 4px #63835917;
+  color: #506b42;
+}
+.settings-section > input {
+  max-width: 240px;
+}
+.settings-data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  padding: 20px 0;
+}
+.settings-data > span {
+  font-size: 8px;
+  color: #9cab89;
+}
+.settings-data strong {
+  display: block;
+  font-size: 11px;
+  color: #6a8258;
+  margin-top: 6px;
+}
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px 25px;
+}
+.help-grid > div {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 10px;
+  color: #7f9270;
+}
+.help-grid kbd {
+  border-color: #c8d7b6;
+  color: #62804d;
+  min-width: 81px;
+  text-align: center;
+  padding: 5px 7px;
+  font-size: 9px;
+  white-space: nowrap;
+  background: #edf2df;
+}
+.help-notes {
+  margin-top: 25px;
+  padding-top: 8px;
+  border-top: 1px solid #dce4cd;
+}
+.help-notes > p {
+  display: flex;
+  gap: 13px;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #899b78;
+  margin-top: 15px;
+}
+.help-notes svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: #a4b491;
+}
+.help-notes strong {
+  color: #5e7b4e;
+}
+.log-metrics {
+  display: flex;
+  gap: 28px;
+  padding: 12px 0 20px;
+  border-bottom: 1px solid #dce6ce;
+}
+.log-metrics > span {
+  font-size: 9px;
+  color: #8ca17b;
+}
+.log-metrics strong {
+  display: block;
+  font-size: 16px;
+  color: #5b7949;
+  margin-top: 7px;
+}
+.journal {
+  margin: 25px 0;
+  max-height: 250px;
+  overflow: auto;
+}
+.journal p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #7e976a;
+  margin-bottom: 13px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+.journal i {
+  height: 4px;
+  width: 4px;
+  background: #bf9b65;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.loading-screen {
+  min-height: 100dvh;
+  background: #e7eee0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #345957;
+}
+.loading-screen h1 {
+  font: 700 29px Manrope;
+  letter-spacing: 6px;
+  margin-top: 20px;
+}
+.loading-screen h1 > span {
+  display: block;
+  font: 600 7px "DM Sans";
+  letter-spacing: 3px;
+  margin-top: 8px;
+  text-align: center;
+}
+.loading-screen > p {
+  font-size: 12px;
+  margin-top: 29px;
+  color: #839789;
+}
+.loading-line {
+  width: 150px;
+  height: 2px;
+  background: #c7d6bd;
+  margin-top: 25px;
+  overflow: hidden;
+}
+.loading-line:after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 100%;
+  background: var(--orange);
+  animation: loading 1.5s infinite;
+}
+.loading-icon {
+  animation: bob 3s ease-in-out infinite;
+}
+.loading-screen > button {
+  padding: 15px;
+  border: 1px solid #becfbc;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+@keyframes loading {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(360%);
+  }
+}
+@keyframes bob {
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    translate: 0 5px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+@media (min-height: 900px) {
+  .welcome-panel {
+    top: 185px;
+    width: 353px;
+  }
+  .welcome-panel h1 {
+    font-size: 65px;
+  }
+  .welcome-copy {
+    font-size: 13px;
+    margin-top: 19px;
+  }
+  .departure-card {
+    margin-top: 27px;
+    padding: 22px 24px;
+  }
+  .departure-card .ship-drawing {
+    height: 125px;
+  }
+  .departure-stats {
+    padding: 17px 0;
+  }
+  .port-field {
+    padding-top: 15px;
+    margin-bottom: 19px;
+  }
+  .sail-button {
+    padding: 15px 18px;
+  }
+  .compass-strip {
+    top: 178px;
+  }
+  .mini-chart {
+    bottom: 85px;
+  }
+  .scene-caption {
+    bottom: 100px;
+  }
+  .underway .mini-chart {
+    bottom: 229px;
+  }
+}
+@media (max-width: 1150px) {
+  .topbar {
+    gap: 30px;
+    padding: 0 26px;
+  }
+  .topbar nav {
+    gap: 20px;
+  }
+  .live-indicator {
+    display: none;
+  }
+  .location-label {
+    left: 30px;
+  }
+  .welcome-panel {
+    left: 30px;
+    width: 306px;
+  }
+  .welcome-panel h1 {
+    font-size: 49px;
+  }
+  .location-label > span:last-child {
+    display: none;
+  }
+  .helm-console {
+    gap: 18px;
+    padding: 18px 21px;
+    left: 28px;
+    right: 28px;
+  }
+  .speed-instrument {
+    min-width: 110px;
+  }
+  .fuel-separator {
+    display: none;
+  }
+  .engine-control {
+    min-width: 100px;
+  }
+  .rudder-control {
+    min-width: 112px;
+  }
+  .time-instrument {
+    min-width: 118px;
+  }
+  .fuel-instrument {
+    min-width: 117px;
+  }
+  .instrument-label > span {
+    font-size: 6px;
+    letter-spacing: 0.8px;
+  }
+  .mini-chart {
+    right: 28px;
+    width: 222px;
+  }
+  .voyage-card {
+    left: 29px;
+    width: 263px;
+  }
+  .ship-status {
+    left: 33px;
+  }
+  .dock-prompt {
+    left: 29px;
+  }
+  .fleet-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fleet-card .ship-drawing {
+    height: 90px;
+    margin: 10px 0;
+  }
+  .fleet-card > p {
+    min-height: 53px;
+  }
+  .fleet-card {
+    padding: 12px;
+  }
+  .fleet-modal {
+    max-height: 90dvh;
+  }
+  .fleet-bottom {
+    gap: 20px;
+  }
+  .scene-caption {
+    left: 39%;
+  }
+  .map-modal {
+    padding: 26px;
+  }
+  .route-planner {
+    width: 226px;
+  }
+  .map-layout {
+    gap: 20px;
+  }
+  .camera-controls {
+    right: 28px;
+  }
+}
+@media (max-width: 850px) {
+  .topbar nav {
+    gap: 13px;
+  }
+  .topbar {
+    gap: 25px;
+    height: 75px;
+    padding: 0 22px;
+  }
+  .brand > span {
+    font-size: 20px;
+  }
+  .brand small {
+    font-size: 6px;
+  }
+  .topbar nav button {
+    font-size: 10px;
+  }
+  .header-actions {
+    gap: 0;
+  }
+  .location-label {
+    top: 94px;
+    left: 25px;
+  }
+  .environment-strip {
+    top: 95px;
+    right: 23px;
+    font-size: 10px;
+    gap: 7px;
+  }
+  .environment-strip small {
+    display: none;
+  }
+  .welcome-panel {
+    left: 25px;
+    top: 139px;
+    width: 287px;
+  }
+  .welcome-panel h1 {
+    font-size: 44px;
+  }
+  .welcome-copy {
+    font-size: 11px;
+  }
+  .departure-card {
+    margin-top: 17px;
+    padding: 16px 18px;
+  }
+  .ship-drawing {
+    height: 93px;
+  }
+  .compass-strip {
+    left: 65%;
+    top: 150px;
+    width: 192px;
+  }
+  .compass-heading > strong {
+    font-size: 26px;
+  }
+  .camera-controls {
+    right: 20px;
+    top: 37%;
+  }
+  .mini-chart {
+    width: 199px;
+    right: 22px;
+    bottom: 62px;
+  }
+  .scene-caption {
+    display: none;
+  }
+  .helm-console {
+    left: 22px;
+    right: 22px;
+    gap: 20px;
+    padding: 15px 18px;
+    bottom: 47px;
+    flex-wrap: wrap;
+  }
+  .helm-console .time-separator {
+    display: none;
+  }
+  .speed-instrument {
+    width: 95px;
+    min-width: 95px;
+  }
+  .time-instrument {
+    flex: unset;
+    width: 155px;
+    position: absolute;
+    bottom: calc(100% + 13px);
+    right: 0;
+    background: #183e47e0;
+    padding: 12px;
+    border: 1px solid #d7ebd921;
+    border-radius: 5px;
+  }
+  .time-instrument .time-controls {
+    margin: 5px 0;
+  }
+  .fuel-instrument {
+    min-width: 95px;
+  }
+  .helm-console .helm-separator {
+    display: none;
+  }
+  .speed-reading {
+    font-size: 37px;
+  }
+  .underway .mini-chart {
+    bottom: 268px;
+    width: 200px;
+  }
+  .underway .nautical-map:not(.large) {
+    height: 132px;
+  }
+  .underway .camera-controls {
+    top: 190px;
+  }
+  .voyage-card {
+    left: 23px;
+    top: 140px;
+    width: 246px;
+    padding: 18px;
+  }
+  .ship-status {
+    left: 28px;
+    top: 407px;
+    width: 241px;
+  }
+  .dock-prompt {
+    left: 23px;
+    bottom: 206px;
+    max-width: 260px;
+  }
+  .dock-prompt small {
+    font-size: 7px;
+  }
+  .bottom-meta {
+    left: 24px;
+    right: 24px;
+    bottom: 15px;
+    font-size: 6px;
+    letter-spacing: 0.8px;
+  }
+  .bottom-meta > span {
+    gap: 3px;
+  }
+  .bottom-meta b {
+    margin: 0 3px;
+  }
+  .modal {
+    padding: 30px 25px;
+  }
+  .modal-backdrop {
+    padding: 20px;
+  }
+  .map-layout {
+    flex-direction: column;
+  }
+  .nautical-map.large {
+    flex: unset;
+    height: 310px;
+  }
+  .route-planner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    align-items: center;
+  }
+  .route-planner > .eyebrow {
+    grid-column: 1/-1;
+  }
+  .route-origin {
+    margin: 10px 0;
+  }
+  .route-planner > label {
+    display: none;
+  }
+  .route-planner > .secondary-button {
+    margin-top: 0;
+  }
+  .planned-route {
+    grid-column: 1/-1;
+    margin-top: 5px;
+  }
+  .chart-note {
+    margin-top: 10px;
+  }
+  .fleet-bottom {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .settings-data {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .settings-section {
+    gap: 15px;
+  }
+  .segmented button {
+    padding: 7px 9px;
+  }
+  .help-grid {
+    gap: 12px 16px;
+  }
+  .help-grid kbd {
+    min-width: 72px;
+    font-size: 8px;
+  }
+  .help-grid > div {
+    font-size: 9px;
+    gap: 7px;
+  }
+  .toast {
+    max-width: calc(100% - 60px);
+    width: max-content;
+    font-size: 10px;
+  }
+  .port-services {
+    left: 23px;
+    bottom: 205px;
+    width: 245px;
+  }
+}
+@media (max-width: 600px) {
+  .app {
+    min-height: 640px;
+  }
+  .topbar {
+    height: 67px;
+    padding: 0 17px;
+  }
+  .brand > svg {
+    width: 24px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brand > span {
+    font-size: 19px;
+    letter-spacing: 3px;
+  }
+  .brand small {
+    font-size: 5px;
+    letter-spacing: 1.8px;
+    margin-top: 6px;
+  }
+  .topbar nav {
+    margin-left: auto;
+    gap: 7px;
+  }
+  .topbar nav button {
+    font-size: 0;
+    width: 25px;
+  }
+  .topbar nav button:before {
+    font-size: 14px;
+    content: "⌖";
+  }
+  .topbar nav button:nth-child(1) {
+    display: none;
+  }
+  .topbar nav button:nth-child(3):before {
+    content: "⚓";
+  }
+  .topbar nav button span {
+    display: none;
+  }
+  .header-actions {
+    margin-left: 0;
+  }
+  .header-actions .icon-button {
+    width: 26px;
+  }
+  .header-actions .icon-button svg {
+    width: 15px;
+  }
+  .header-actions .icon-button:first-of-type {
+    display: none;
+  }
+  .pause-button {
+    width: 27px;
+    height: 27px;
+    margin-left: 4px;
+  }
+  .topbar {
+    gap: 13px;
+  }
+  .location-label {
+    top: 86px;
+    left: 20px;
+  }
+  .location-label .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .environment-strip {
+    top: 83px;
+    right: 17px;
+    font-size: 9px;
+    gap: 5px;
+  }
+  .environment-strip > .divider,
+  .environment-strip > svg:nth-last-of-type(1),
+  .environment-strip > span:last-of-type {
+    display: none;
+  }
+  .environment-strip svg {
+    width: 13px;
+  }
+  .welcome-panel {
+    top: 120px;
+    left: 20px;
+    width: 257px;
+  }
+  .welcome-tag {
+    font-size: 6px;
+    letter-spacing: 1.2px;
+    margin-bottom: 11px;
+  }
+  .welcome-panel h1 {
+    font-size: 41px;
+  }
+  .welcome-copy {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .departure-card {
+    margin-top: 17px;
+    padding: 15px 17px 13px;
+  }
+  .departure-card .ship-drawing {
+    height: 85px;
+  }
+  .field-label {
+    font-size: 7px;
+  }
+  .field-label > button {
+    font-size: 8px;
+  }
+  .ship-title h2 {
+    font-size: 16px;
+  }
+  .ship-title > span {
+    font-size: 9px;
+  }
+  .departure-stats {
+    font-size: 8px;
+    padding: 11px 0;
+  }
+  .ship-choice {
+    gap: 6px;
+    margin-top: 7px;
+  }
+  .ship-choice button {
+    height: 22px;
+    width: 29px;
+  }
+  .port-field {
+    padding-top: 11px;
+    margin-bottom: 12px;
+  }
+  .port-field select {
+    font-size: 11px;
+  }
+  .primary-button {
+    font-size: 11px;
+    padding: 12px 16px;
+  }
+  .welcome-foot {
+    font-size: 8px;
+    margin-top: 10px;
+  }
+  .at-start .mini-chart {
+    display: none;
+  }
+  .at-start .compass-strip {
+    display: none;
+  }
+  .camera-controls {
+    width: 108px;
+    padding: 7px;
+  }
+  .camera-controls button {
+    height: 44px;
+    padding: 0 6px;
+    gap: 6px;
+  }
+  .camera-controls button span {
+    font-size: 10px;
+  }
+  .camera-controls button svg {
+    width: 15px;
+    flex-shrink: 0;
+  }
+  .camera-hint {
+    font-size: 8px;
+  }
+  .bottom-meta {
+    left: 20px;
+    right: 20px;
+    font-size: 5px;
+    letter-spacing: 0.8px;
+    bottom: 14px;
+  }
+  .bottom-meta > span:last-child {
+    display: none;
+  }
+  .voyage-card {
+    top: 116px;
+    left: 18px;
+    width: 218px;
+    padding: 15px;
+  }
+  .voyage-card h2 {
+    font-size: 20px;
+  }
+  .voyage-card p {
+    font-size: 10px;
+  }
+  .card-topline {
+    margin-bottom: 13px;
+  }
+  .card-topline > .eyebrow {
+    font-size: 7px;
+  }
+  .voyage-stats strong {
+    font-size: 17px;
+  }
+  .voyage-stats div > span {
+    font-size: 7px;
+  }
+  .autopilot-button {
+    font-size: 8px;
+    padding: 8px;
+    margin-top: 14px;
+  }
+  .underway .compass-strip {
+    top: 125px;
+    left: auto;
+    right: 14px;
+    transform: none;
+    width: 100px;
+  }
+  .compass-ticks {
+    display: none;
+  }
+  .compass-strip .compass-heading > span {
+    font-size: 5px;
+    letter-spacing: 0.8px;
+  }
+  .compass-strip .compass-heading > strong {
+    font-size: 29px;
+  }
+  .compass-strip > i {
+    margin-top: 4px;
+  }
+  .underway .camera-controls {
+    right: 15px;
+    top: 215px;
+  }
+  .underway .mini-chart {
+    display: none;
+  }
+  .ship-status {
+    top: auto;
+    bottom: 277px;
+    left: 22px;
+    width: 214px;
+  }
+  .ship-status strong {
+    font-size: 11px;
+  }
+  .ship-status div > span {
+    font-size: 8px;
+  }
+  .helm-console {
+    left: 13px;
+    right: 13px;
+    bottom: 35px;
+    gap: 16px 21px;
+    min-height: 180px;
+    padding: 14px 16px;
+    border-radius: 7px;
+  }
+  .speed-instrument {
+    width: 83px;
+    min-width: 83px;
+  }
+  .speed-reading {
+    font-size: 36px;
+  }
+  .speed-instrument .eyebrow {
+    font-size: 6px;
+    letter-spacing: 0.6px;
+  }
+  .water-speed {
+    font-size: 7px;
+  }
+  .engine-control {
+    min-width: 105px;
+  }
+  .rudder-control {
+    min-width: 100px;
+  }
+  .fuel-instrument {
+    width: 46%;
+    flex: unset;
+    min-width: 0;
+  }
+  .time-instrument {
+    position: static;
+    padding: 0;
+    border: 0;
+    background: none;
+    width: 46%;
+    flex: 1;
+  }
+  .time-instrument .time-controls {
+    margin: 5px 0 3px;
+  }
+  .fuel-bar {
+    margin: 10px 0 7px;
+  }
+  .fuel-details {
+    font-size: 8px;
+  }
+  .fuel-instrument > small {
+    font-size: 6px;
+  }
+  .time-instrument > small {
+    font-size: 6px;
+  }
+  .instrument-label > strong {
+    font-size: 12px;
+  }
+  .instrument-label > span {
+    font-size: 6px;
+  }
+  .instrument-label small {
+    font-size: 6px;
+  }
+  .gear-controls button {
+    padding: 5px 3px;
+    font-size: 6px;
+  }
+  .rudder-labels {
+    font-size: 6px;
+  }
+  .rudder-labels button {
+    font-size: 7px;
+  }
+  .underway .bottom-meta {
+    bottom: 12px;
+    font-size: 5px;
+    letter-spacing: 0;
+    left: 16px;
+  }
+  .bottom-meta kbd {
+    font-size: 7px;
+    padding: 1px 2px;
+  }
+  .bottom-meta b {
+    margin: 0 2px;
+  }
+  .dock-prompt {
+    bottom: 226px;
+    left: 18px;
+    padding: 9px 12px;
+    gap: 9px;
+    max-width: 245px;
+  }
+  .dock-prompt span {
+    font-size: 10px;
+  }
+  .dock-prompt small {
+    font-size: 6px;
+  }
+  .dock-prompt kbd {
+    font-size: 8px;
+    margin-left: 0;
+  }
+  .port-services {
+    bottom: 229px;
+    left: 18px;
+    width: 218px;
+    padding: 13px;
+    gap: 9px;
+  }
+  .port-services > strong {
+    font-size: 12px;
+  }
+  .port-services > button {
+    font-size: 9px;
+  }
+  .port-services .primary-button {
+    padding: 9px 11px;
+  }
+  .modal-backdrop {
+    padding: 12px;
+  }
+  .modal {
+    max-height: calc(100dvh - 24px);
+    padding: 26px 20px 22px;
+    border-radius: 9px;
+  }
+  .modal-heading {
+    margin-bottom: 23px;
+    padding-right: 14px;
+  }
+  .modal-heading h2 {
+    font-size: 26px;
+    letter-spacing: -1.1px;
+  }
+  .modal-heading .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .modal-heading p {
+    font-size: 10px;
+    margin-top: 9px;
+  }
+  .modal-close {
+    top: 13px;
+    right: 12px;
+    width: 24px;
+    height: 24px;
+  }
+  .modal-close svg {
+    width: 18px;
+  }
+  .fleet-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+  }
+  .fleet-card {
+    padding: 12px 10px;
+  }
+  .fleet-card-top {
+    font-size: 8px;
+  }
+  .fleet-card .ship-drawing {
+    height: 62px;
+    margin: 12px -4px 8px;
+    width: calc(100% + 8px);
+  }
+  .fleet-card h3 {
+    font-size: 14px;
+  }
+  .fleet-card > p {
+    font-size: 8px;
+    min-height: 62px;
+    margin-top: 8px;
+  }
+  .fleet-numbers {
+    padding-top: 10px;
+  }
+  .fleet-numbers strong {
+    font-size: 8px;
+  }
+  .fleet-numbers span {
+    font-size: 6px;
+  }
+  .fleet-card:last-child:nth-child(odd) {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 10px;
+  }
+  .fleet-card:last-child:nth-child(odd) > .ship-drawing {
+    grid-row: 2/4;
+    grid-column: 2;
+    margin: 0;
+  }
+  .fleet-card:last-child:nth-child(odd) > p {
+    min-height: 0;
+    margin-top: 0;
+  }
+  .fleet-card:last-child:nth-child(odd) > .fleet-numbers {
+    grid-column: 1/-1;
+  }
+  .fleet-bottom {
+    margin-top: 19px;
+    gap: 15px;
+  }
+  .fleet-bottom label {
+    font-size: 10px;
+  }
+  .fleet-bottom strong {
+    font-size: 9px;
+  }
+  .fine-print {
+    font-size: 8px;
+    margin-top: 18px;
+    padding-top: 12px;
+  }
+  .mission-list > button {
+    gap: 12px;
+    padding: 15px 12px;
+  }
+  .mission-icon {
+    width: 36px;
+    height: 46px;
+  }
+  .mission-icon svg {
+    width: 18px;
+  }
+  .mission-list h3 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .mission-list .eyebrow {
+    font-size: 6px;
+  }
+  .mission-list p {
+    font-size: 9px;
+  }
+  .mission-list small {
+    font-size: 7px;
+  }
+  .mission-list > button > svg {
+    width: 15px;
+  }
+  .settings-section {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px 0;
+  }
+  .settings-section > label {
+    font-size: 11px;
+  }
+  .settings-section label > span {
+    font-size: 9px;
+  }
+  .settings-section > input {
+    max-width: 100%;
+  }
+  .settings-data {
+    padding: 17px 0;
+    gap: 13px;
+  }
+  .help-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+  .help-grid > div {
+    font-size: 10px;
+  }
+  .help-grid kbd {
+    min-width: 84px;
+  }
+  .help-notes > p {
+    font-size: 10px;
+    gap: 10px;
+    margin-top: 13px;
+  }
+  .help-notes svg {
+    width: 16px;
+  }
+  .nautical-map.large {
+    height: 245px;
+  }
+  .route-planner {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .route-origin {
+    margin: 4px 0;
+  }
+  .route-planner > .eyebrow {
+    margin-top: 4px;
+  }
+  .route-planner label {
+    display: block;
+    margin: 0;
+    font-size: 9px;
+  }
+  .chart-note {
+    margin-top: 1px;
+  }
+  .planned-route {
+    grid-column: auto;
+  }
+  .log-metrics {
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 0;
+  }
+  .log-metrics > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .log-metrics strong {
+    margin-top: 0;
+    font-size: 13px;
+  }
+  .toast {
+    bottom: 310px;
+    padding: 12px 14px;
+    max-width: calc(100% - 34px);
+    font-size: 10px;
+  }
+  .pause-overlay {
+    padding: 14px;
+    gap: 10px;
+    width: max-content;
+    max-width: 94%;
+    top: 52%;
+  }
+  .pause-overlay button {
+    margin-left: 3px;
+  }
+  .at-start .toast {
+    bottom: 35px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+.current-readout {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 9px;
+  margin-left: 3px;
+}
+.day-clock {
+  font-size: 12px;
+  color: #6f8563;
+}
+.underway .toast {
+  bottom: 190px;
+}
+@media (max-width: 850px) {
+  .current-readout {
+    font-size: 8px;
+  }
+  .environment-strip {
+    gap: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .current-readout {
+    display: none;
+  }
+  .underway .toast {
+    bottom: 310px;
+  }
+}
+@media (max-height: 820px) and (min-width: 601px) {
+  .welcome-panel {
+    top: 148px;
+    width: 310px;
+  }
+  .welcome-panel h1 {
+    font-size: 43px;
+  }
+  .welcome-tag {
+    margin-bottom: 11px;
+  }
+  .welcome-copy {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .departure-card {
+    margin-top: 16px;
+    padding: 15px 19px;
+  }
+  .departure-card .ship-drawing {
+    height: 82px;
+  }
+  .departure-stats {
+    padding: 10px 0;
+  }
+  .welcome-foot {
+    margin-top: 9px;
+    font-size: 8px;
+  }
+}
+@media (max-height: 740px) and (max-width: 600px) {
+  .welcome-panel {
+    top: 112px;
+    width: 246px;
+  }
+  .welcome-panel h1 {
+    font-size: 35px;
+  }
+  .welcome-copy {
+    font-size: 9px;
+  }
+  .departure-card {
+    margin-top: 13px;
+    padding: 12px 15px;
+  }
+  .departure-card .ship-drawing {
+    height: 73px;
+  }
+  .welcome-foot {
+    margin-top: 8px;
+    font-size: 7px;
+  }
+}
+/* Driving feedback: actual distance, gear and an actionable neutral warning. */
+.night .topbar {
+  background: linear-gradient(#0b2333e6, #0b233370);
+  border-bottom-color: #accbca30;
+}
+.night .brand,
+.night .live-indicator,
+.night .topbar nav button,
+.night .header-actions .icon-button,
+.night .location-label,
+.night .location-label > span:last-child,
+.night .environment-strip,
+.night .compass-strip,
+.night .compass-heading > span,
+.night .compass-heading small {
+  color: #d9e9e3;
+}
+.night .topbar nav button.active {
+  color: #ffffff;
+}
+.night .topbar nav button.active:after {
+  background: #d9e9e3;
+}
+.night .compass-strip,
+.night .location-label,
+.night .environment-strip {
+  text-shadow: 0 1px 6px #00131d;
+}
+.distance-readout {
+  font-size: 8px;
+  color: #9ebdac;
+  margin-top: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.record-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 4px;
+  padding: 7px 9px;
+  margin: -2px 0 9px;
+  color: #765225;
+  background: #e4ba692b;
+  font-size: 10px;
+  font-weight: 650;
+}
+.speed-trial-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 7px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #b895565e;
+  background: #edd8ac6b;
+  color: #765225;
+  font-size: 11px;
+  font-weight: 650;
+}
+.speed-trial-button:hover { background: #e8cfa0; }
+@media (min-width: 601px) {
+  .record-welcome h1 { font-size: 43px; }
+  .record-welcome .welcome-copy { font-size: 11px; margin-top: 10px; }
+  .record-welcome .departure-card { margin-top: 16px; padding: 15px 19px; }
+  .record-welcome .departure-card .ship-drawing { height: 82px; }
+  .record-welcome .departure-stats { padding: 10px 0; }
+}
+.fleet-record {
+  display: inline-block;
+  margin: 2px 0 7px;
+  padding: 4px 7px;
+  color: #765225;
+  background: #e4ba692b;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 700;
+}
+.record-brief {
+  display: flex;
+  gap: 13px;
+  background: #e5dac43d;
+  border: 1px solid #bc985844;
+  border-radius: 7px;
+  margin-top: 16px;
+  padding: 14px 17px;
+  color: #52665f;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.record-brief > svg { color: #a77c3e; flex-shrink: 0; margin-top: 3px; }
+.record-brief strong { color: #284c4d; font-size: 12px; }
+.record-brief p { margin: 3px 0; }
+.record-brief a { color: #82613a; text-underline-offset: 3px; }
+.kmh-reading { color: #edba7b; font-size: 18px; font-weight: 650; line-height: 1.2; margin: 3px 0; font-variant-numeric: tabular-nums; }
+.kmh-reading span { font-size: 10px; font-weight: 400; }
+@media (max-width: 600px) {
+  .record-badge { font-size: 8px; padding: 5px 7px; margin-bottom: 6px; }
+  .speed-trial-button { font-size: 9px; padding: 8px 9px; }
+  .hydroplane-speed .speed-reading { font-size: 29px; }
+  .kmh-reading { font-size: 15px; }
+  .kmh-reading span { font-size: 8px; }
+}
+.neutral-notice {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 16px);
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff8e9f5;
+  color: #37505a;
+  border: 1px solid #e9bb78;
+  border-radius: 7px;
+  padding: 12px 15px;
+  box-shadow: 0 5px 20px #062f3f33;
+  min-width: 490px;
+}
+.neutral-notice > svg {
+  color: #bc7841;
+  flex-shrink: 0;
+}
+.neutral-notice > span {
+  font-size: 10px;
+  line-height: 1.5;
+}
+.neutral-notice strong {
+  display: block;
+  font-size: 12px;
+  color: #9e612e;
+}
+.neutral-notice button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 10px;
+  padding: 10px 12px;
+  background: #c77c48;
+  color: #fff8e9;
+  border-radius: 4px;
+}
+.scene-vignette {
+  background: linear-gradient(
+    0deg,
+    #061c342f,
+    transparent 28%,
+    transparent 78%,
+    #e2e9d61a
+  );
+}
+@media (max-width: 600px) {
+  .distance-readout {
+    font-size: 6px;
+  }
+  .neutral-notice {
+    min-width: 0;
+    width: calc(100% + 8px);
+    padding: 10px;
+    gap: 7px;
+    bottom: calc(100% + 12px);
+  }
+  .neutral-notice > span {
+    font-size: 8px;
+  }
+  .neutral-notice strong {
+    font-size: 10px;
+  }
+  .neutral-notice button {
+    font-size: 8px;
+    padding: 9px 8px;
+    gap: 4px;
+  }
+  .neutral-notice > svg {
+    width: 15px;
+  }
+}
+
+/* Camera and local chart share a flowing rail, so their hit areas never overlap. */
+.navigation-tools[hidden] { display: none; }
+.underway .navigation-tools {
+  position: absolute;
+  right: 38px;
+  bottom: 218px;
+  width: 237px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 4;
+}
+.underway .navigation-tools[hidden] { display: none; }
+.underway .navigation-tools .camera-controls {
+  position: static;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  padding: 6px;
+}
+.underway .navigation-tools .camera-label,
+.underway .navigation-tools .camera-hint { display: none; }
+.underway .navigation-tools .camera-controls button {
+  height: 44px;
+  padding: 0 4px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+}
+.underway .navigation-tools .camera-controls button span { font-size: 9px; }
+.underway .navigation-tools .camera-controls button svg { width: 14px; flex-shrink: 0; }
+.underway .navigation-tools .mini-chart { position: static; width: 100%; }
+@media (max-width: 1150px) {
+  .underway .navigation-tools { right: 28px; }
+}
+@media (max-width: 850px) and (min-width: 601px) {
+  .underway .navigation-tools { right: 22px; bottom: 268px; width: 220px; }
+}
+@media (max-height: 700px) and (min-width: 601px) {
+  .underway .navigation-tools { top: 145px; bottom: auto; width: 220px; }
+  .underway .navigation-tools .nautical-map:not(.large) { height: 85px; }
+}
+@media (max-width: 600px) {
+  .underway .navigation-tools { top: 215px; bottom: auto; right: 15px; width: 108px; }
+  .underway .navigation-tools .camera-controls { grid-template-columns: 1fr; }
+  .underway .navigation-tools .camera-controls button { flex-direction: row; justify-content: flex-start; padding: 0 6px; gap: 6px; }
+  .underway .navigation-tools .camera-controls button span { font-size: 10px; }
+}
+
+.route-fuel { border-top: 1px solid #bccbc2; padding-top: 12px; margin: 12px 0; }
+.route-fuel > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 7px 0; font-size: 11px; }
+.route-fuel > div strong { white-space: nowrap; }
+.route-fuel > small { display: block; font-size: 10px; line-height: 1.5; color: #607873; }
+.planned-route .fuel-sufficient { color: #346750; font-weight: 600; }
+
+@media (min-width: 851px) {
+  .map-modal .route-planner { max-height: calc(100dvh - 245px); overflow-y: auto; padding-right: 8px; scrollbar-width: thin; }
+  .map-modal .nautical-map.large { height: auto; min-height: 340px; }
+}
+
+.journey-stage { font-size: 10px; line-height: 1.5; color: #436b62; padding: 7px 0; }
+.itinerary-summary { margin: 14px 0; padding: 12px; border: 1px solid #b8cfc0; border-radius: 6px; background: #eaf1e5; }
+.itinerary-summary > strong { font-size: 12px; }
+.itinerary-summary small { display: block; font-size: 10px; line-height: 1.5; margin-top: 4px; color: #57776b; }
+.itinerary-summary ol { padding-left: 18px; padding-right: 6px; margin: 12px 0 0; max-height: min(280px, 34vh); overflow-y: auto; overscroll-behavior: contain; }
+.itinerary-summary li { padding: 4px 0 9px; font-size: 11px; border-bottom: 1px solid #ccd9cd; }
+.itinerary-summary li:last-child { border-bottom: 0; padding-bottom: 0; }
+.route-fuel > strong { display: block; font-size: 11px; margin-bottom: 12px; }
+
+/* Global navigation and environment options stay usable on narrow screens. */
+.weather-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.weather-options button { white-space: nowrap; }
+.daylight-settings { flex-wrap: wrap; gap: 14px; }
+.daylight-settings > label { flex: 1 0 50%; }
+.daylight-settings > input { width: 100%; max-width: none; }
+.daylight-settings .segmented { width: 100%; }
+.daylight-settings .segmented button { flex: 1; }
+.marine-life-toggle input { accent-color: #758752; margin-right: 8px; }
+@media (max-width: 600px) { .weather-options { width: 100%; } }
+
+.bottom-meta a { color: inherit; text-decoration: none; letter-spacing: .5px; }
+.bottom-meta a:hover { text-decoration: underline; }
+
+.mini-chart-footer > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.mini-chart-footer > span:last-child { flex-shrink: 0; white-space: nowrap; }

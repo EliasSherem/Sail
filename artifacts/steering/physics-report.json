@@ -1,0 +1,903 @@
+{
+  "calibration": {
+    "load": 0.35,
+    "windMS": 0,
+    "currentMS": 0,
+    "controls": "full throttle/full rudder; engine initially1; starting speeds in before/after rows",
+    "grip": "dragLat*(|v|+0.12+|u|*grip), applied semi-implicitly",
+    "gripFactors": {
+      "launch": 1.1,
+      "fishing": 0.25,
+      "yacht": 0.6,
+      "tug": 0.14,
+      "cargo": 0.06,
+      "spirit": 0.32
+    },
+    "spiritRudderAttenuation": "1/(1+(|u|/45)^2)",
+    "rudderAuthority": {
+      "launch": 225,
+      "yacht": 640
+    }
+  },
+  "before": [
+    {
+      "id": "spirit",
+      "initialSpeed": 142,
+      "one": {
+        "t": 1,
+        "yaw": 1.2087731034380436,
+        "angle": 1.1970992577792794,
+        "u": 141.96659874297086,
+        "v": -1.9323106944667805,
+        "slipRatio": 0.01361102337857097,
+        "slipDeg": 0.779806041213467
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 1.2104624898606615,
+        "angle": 12.085152497579994,
+        "u": 141.76213758957948,
+        "v": -1.9367919502837916,
+        "slipRatio": 0.013662265420200319,
+        "slipDeg": 0.7827414480692256
+      },
+      "timeToOneDegree": 0.8666666666666667,
+      "timeTo90percentFirstSecondYaw": 0.06666666666666667
+    },
+    {
+      "id": "spirit",
+      "initialSpeed": 30,
+      "one": {
+        "t": 1,
+        "yaw": 3.6776646962305564,
+        "angle": 3.747554511307953,
+        "u": 38.55210630565945,
+        "v": -1.7327049066486337,
+        "slipRatio": 0.044944493899008384,
+        "slipDeg": 2.5733979840590595
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 1.703101910497681,
+        "angle": 25.204654784634865,
+        "u": 99.09113108777947,
+        "v": -1.9194340009824427,
+        "slipRatio": 0.019370391476126354,
+        "slipDeg": 1.1097029016763704
+      },
+      "timeToOneDegree": 0.3,
+      "timeTo90percentFirstSecondYaw": 0.1
+    },
+    {
+      "id": "spirit",
+      "initialSpeed": 50,
+      "one": {
+        "t": 1,
+        "yaw": 2.738542136858173,
+        "angle": 2.812206556570409,
+        "u": 57.884715032807286,
+        "v": -1.8488215796218215,
+        "slipRatio": 0.031939719813321464,
+        "slipDeg": 1.8293892320862606
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 1.5538401224893865,
+        "angle": 20.592711543657508,
+        "u": 109.24358194542545,
+        "v": -1.9254685888587604,
+        "slipRatio": 0.017625461876750452,
+        "slipDeg": 1.009760023192319
+      },
+      "timeToOneDegree": 0.36666666666666664,
+      "timeTo90percentFirstSecondYaw": 0.1
+    },
+    {
+      "id": "launch",
+      "initialSpeed": 12,
+      "one": {
+        "t": 1,
+        "yaw": 10.129937384498895,
+        "angle": 9.361535848618567,
+        "u": 12.40068463023244,
+        "v": -3.891401550280968,
+        "slipRatio": 0.31380537980893936,
+        "slipDeg": 17.422137884795855
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 10.067785430337864,
+        "angle": 100.15033919152891,
+        "u": 12.315515232062207,
+        "v": -4.492566426022144,
+        "slipRatio": 0.3647891575275875,
+        "slipDeg": 20.041421241063304
+      },
+      "timeToOneDegree": 0.16666666666666666,
+      "timeTo90percentFirstSecondYaw": 0.23333333333333334
+    },
+    {
+      "id": "yacht",
+      "initialSpeed": 10,
+      "one": {
+        "t": 1,
+        "yaw": 3.959929778008796,
+        "angle": 3.1020448002033327,
+        "u": 10.34237643291958,
+        "v": -1.3453859516087583,
+        "slipRatio": 0.13008479824099434,
+        "slipDeg": 7.411689912582797
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 4.2578337309642995,
+        "angle": 40.811375575159495,
+        "u": 10.935645618124996,
+        "v": -2.6000850841349554,
+        "slipRatio": 0.23776237589717733,
+        "slipDeg": 13.374447955943035
+      },
+      "timeToOneDegree": 0.4666666666666667,
+      "timeTo90percentFirstSecondYaw": 0.5666666666666667
+    },
+    {
+      "id": "fishing",
+      "initialSpeed": 6,
+      "one": {
+        "t": 1,
+        "yaw": 1.818286173682876,
+        "angle": 1.0896939018737108,
+        "u": 6.152229477771311,
+        "v": -0.3432092259318255,
+        "slipRatio": 0.055786154786956275,
+        "slipDeg": 3.1930016607043696
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 2.778945268018691,
+        "angle": 25.10081728378703,
+        "u": 6.445404542037071,
+        "v": -1.3791767799269672,
+        "slipRatio": 0.21397831135841758,
+        "slipDeg": 12.077916375368071
+      },
+      "timeToOneDegree": 0.9666666666666667,
+      "timeTo90percentFirstSecondYaw": 0.8666666666666667
+    },
+    {
+      "id": "cargo",
+      "initialSpeed": 8,
+      "one": {
+        "t": 1,
+        "yaw": 0.022805208522949722,
+        "angle": 0.011875842789951588,
+        "u": 8.001323354296362,
+        "v": -0.012655619246403953,
+        "slipRatio": 0.0015816907636420463,
+        "slipDeg": 0.0906241296787225
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 0.18294920044808546,
+        "angle": 0.997187160068436,
+        "u": 8.010314726614094,
+        "v": -0.22729096786096661,
+        "slipRatio": 0.02837478621230666,
+        "slipDeg": 1.6253193911797925
+      },
+      "timeToOneDegree": null,
+      "timeTo90percentFirstSecondYaw": 0.9
+    }
+  ],
+  "after": [
+    {
+      "id": "spirit",
+      "initialSpeed": 142,
+      "one": {
+        "t": 1,
+        "yaw": 6.937179554026402,
+        "angle": 6.871246625918027,
+        "u": 141.9135845152951,
+        "v": -1.039763770984714,
+        "slipRatio": 0.0073267388357218955,
+        "slipDeg": 0.4197837015050879
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 6.954577392342143,
+        "angle": 69.39942926423637,
+        "u": 141.47337163479656,
+        "v": -1.0405612086543585,
+        "slipRatio": 0.007355173603556245,
+        "slipDeg": 0.42141280590147423
+      },
+      "timeToOneDegree": 0.16666666666666666,
+      "timeTo90percentFirstSecondYaw": 0.06666666666666667
+    },
+    {
+      "id": "spirit",
+      "initialSpeed": 30,
+      "one": {
+        "t": 1,
+        "yaw": 11.382616812838483,
+        "angle": 10.588143221393597,
+        "u": 38.493689797598336,
+        "v": -0.9905018750429864,
+        "slipRatio": 0.025731538863930495,
+        "slipDeg": 1.4739833206385071
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 9.050719376493499,
+        "angle": 105.48903448732992,
+        "u": 98.45970032715071,
+        "v": -1.1223937727998181,
+        "slipRatio": 0.0113995245676196,
+        "slipDeg": 0.6531163565198722
+      },
+      "timeToOneDegree": 0.13333333333333333,
+      "timeTo90percentFirstSecondYaw": 0.2
+    },
+    {
+      "id": "spirit",
+      "initialSpeed": 50,
+      "one": {
+        "t": 1,
+        "yaw": 11.407913855267767,
+        "angle": 11.239786050305788,
+        "u": 57.78117017956876,
+        "v": -1.1315520434263522,
+        "slipRatio": 0.01958340476507804,
+        "slipDeg": 1.1219030359518671
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 8.479707794228611,
+        "angle": 99.36533364376866,
+        "u": 108.6528032495072,
+        "v": -1.1033823552258184,
+        "slipRatio": 0.010155120919356702,
+        "slipDeg": 0.5818255691329997
+      },
+      "timeToOneDegree": 0.13333333333333333,
+      "timeTo90percentFirstSecondYaw": 0.1
+    },
+    {
+      "id": "launch",
+      "initialSpeed": 12,
+      "one": {
+        "t": 1,
+        "yaw": 11.369872013636073,
+        "angle": 10.448707380496455,
+        "u": 12.558784943813645,
+        "v": -1.5819333314918667,
+        "slipRatio": 0.12596229162050537,
+        "slipDeg": 7.179296917816222
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 12.05154112152045,
+        "angle": 117.6751424572546,
+        "u": 13.26860539455347,
+        "v": -1.7097757246244636,
+        "slipRatio": 0.12885873637679335,
+        "slipDeg": 7.342599902026222
+      },
+      "timeToOneDegree": 0.16666666666666666,
+      "timeTo90percentFirstSecondYaw": 0.23333333333333334
+    },
+    {
+      "id": "yacht",
+      "initialSpeed": 10,
+      "one": {
+        "t": 1,
+        "yaw": 4.681197806598572,
+        "angle": 3.6872070175219402,
+        "u": 10.346986272903896,
+        "v": -0.870259967800213,
+        "slipRatio": 0.08410757923582064,
+        "slipDeg": 4.807693943805593
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 5.16498824663806,
+        "angle": 48.94906415724696,
+        "u": 11.252000344093387,
+        "v": -1.142001295259737,
+        "slipRatio": 0.10149317990904771,
+        "slipDeg": 5.795286403145879
+      },
+      "timeToOneDegree": 0.4,
+      "timeTo90percentFirstSecondYaw": 0.5333333333333333
+    },
+    {
+      "id": "fishing",
+      "initialSpeed": 6,
+      "one": {
+        "t": 1,
+        "yaw": 1.8183426132163705,
+        "angle": 1.08970535998026,
+        "u": 6.1527379469634935,
+        "v": -0.2858916992628654,
+        "slipRatio": 0.046465768854004094,
+        "slipDeg": 2.660378902249462
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 2.814674695454407,
+        "angle": 25.251380282305576,
+        "u": 6.533568683631952,
+        "v": -0.8285910894326256,
+        "slipRatio": 0.1268205982908592,
+        "slipDeg": 7.22770101906205
+      },
+      "timeToOneDegree": 0.9666666666666667,
+      "timeTo90percentFirstSecondYaw": 0.8666666666666667
+    },
+    {
+      "id": "cargo",
+      "initialSpeed": 8,
+      "one": {
+        "t": 1,
+        "yaw": 0.022805208544280614,
+        "angle": 0.011875842793699928,
+        "u": 8.001323381923285,
+        "v": -0.012395486916670478,
+        "slipRatio": 0.0015491795950498084,
+        "slipDeg": 0.08876138149634012
+      },
+      "ten": {
+        "t": 10,
+        "yaw": 0.1829514421693542,
+        "angle": 0.9971910682335755,
+        "u": 8.010582132489768,
+        "v": -0.19416130789092698,
+        "slipRatio": 0.024238102135353767,
+        "slipDeg": 1.3884690964821242
+      },
+      "timeToOneDegree": null,
+      "timeTo90percentFirstSecondYaw": 0.9
+    }
+  ],
+  "benchmark": [
+    {
+      "shipId": "launch",
+      "name": "Aguja 9",
+      "speedAfter60SecondsKnots": 27.22297579256159,
+      "fullAsternStopFrom6MpsMeters": 8.345407233138808,
+      "fullAsternStopFrom6MpsSeconds": 2.999999999999999,
+      "turnAfter10SecondsDegrees": 104.77495649118003,
+      "fuelUsedIn60SecondsLitres": 1.4714321200435165
+    },
+    {
+      "shipId": "fishing",
+      "name": "Bruma 24",
+      "speedAfter60SecondsKnots": 13.09216497487091,
+      "fullAsternStopFrom6MpsMeters": 22.94793470366799,
+      "fullAsternStopFrom6MpsSeconds": 9.033333333333312,
+      "turnAfter10SecondsDegrees": 25.25138028230534,
+      "fuelUsedIn60SecondsLitres": 1.3117962240949055
+    },
+    {
+      "shipId": "yacht",
+      "name": "Nácar 18",
+      "speedAfter60SecondsKnots": 22.799585345824667,
+      "fullAsternStopFrom6MpsMeters": 18.14519528262309,
+      "fullAsternStopFrom6MpsSeconds": 6.566666666666653,
+      "turnAfter10SecondsDegrees": 41.54682604972264,
+      "fuelUsedIn60SecondsLitres": 3.151360139598637
+    },
+    {
+      "shipId": "tug",
+      "name": "Atlas 28",
+      "speedAfter60SecondsKnots": 8.354441774485107,
+      "fullAsternStopFrom6MpsMeters": 12.965428641363822,
+      "fullAsternStopFrom6MpsSeconds": 5.5333333333333234,
+      "turnAfter10SecondsDegrees": 27.042835122222847,
+      "fuelUsedIn60SecondsLitres": 4.616635783830134
+    },
+    {
+      "shipId": "spirit",
+      "name": "Spirit of Australia",
+      "speedAfter60SecondsKnots": 275.49789905188806,
+      "fullAsternStopFrom6MpsMeters": 35.17171578961874,
+      "fullAsternStopFrom6MpsSeconds": 16.56666666666665,
+      "turnAfter10SecondsDegrees": 98.59848505497133,
+      "fuelUsedIn60SecondsLitres": 14.795420937134566
+    },
+    {
+      "shipId": "cargo",
+      "name": "Meridiano 180",
+      "speedAfter60SecondsKnots": 3.275308815027812,
+      "fullAsternStopFrom6MpsMeters": 543.6598330689051,
+      "fullAsternStopFrom6MpsSeconds": 210.76666666665727,
+      "turnAfter10SecondsDegrees": 0.599300872625322,
+      "fuelUsedIn60SecondsLitres": 13.906959222746082
+    }
+  ],
+  "voyageConditions": {
+    "from": "marseille",
+    "to": "cassis",
+    "load": 0.35,
+    "weather": "evolving calm",
+    "seed": 4821,
+    "fixedStep": 0.03333333333333333,
+    "renderFPS": 30
+  },
+  "voyages": [
+    {
+      "ship": "launch",
+      "runs": [
+        {
+          "scale": 1,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": false,
+          "arrivalScale": 1,
+          "simSeconds": 2737.066666664835,
+          "distanceM": 29608.534452724558,
+          "arrivalDistanceM": 21.61934951890477,
+          "arrivalSpeedMS": 0.7468816205154193,
+          "fuelUsedL": 27.367468464394108,
+          "fuelRemainingL": 392.6325315356059,
+          "state": {
+            "lat": 43.20080624721718,
+            "lon": 5.529977803598285,
+            "shipId": "launch",
+            "heading": 0.08716561478846074,
+            "u": 0.8139066088022073,
+            "v": 0.05861995590983916,
+            "yawRate": -0.0037116594317792634,
+            "engine": 0.24577910855515858,
+            "fuel": 392.6325315356059,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 2737.066666664835,
+            "distance": 29608.534452724558,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        },
+        {
+          "scale": 100,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": true,
+          "arrivalScale": 1,
+          "simSeconds": 2737.066666664835,
+          "distanceM": 29608.534452724558,
+          "arrivalDistanceM": 21.61934951890477,
+          "arrivalSpeedMS": 0.7468816205154193,
+          "fuelUsedL": 27.367468464394108,
+          "fuelRemainingL": 392.6325315356059,
+          "state": {
+            "lat": 43.20080624721718,
+            "lon": 5.529977803598285,
+            "shipId": "launch",
+            "heading": 0.08716561478846074,
+            "u": 0.8139066088022073,
+            "v": 0.05861995590983916,
+            "yawRate": -0.0037116594317792634,
+            "engine": 0.24577910855515858,
+            "fuel": 392.6325315356059,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 2737.066666664835,
+            "distance": 29608.534452724558,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        }
+      ],
+      "equivalent": {
+        "positionDeltaM": 0,
+        "fuelDeltaL": 0,
+        "simTimeDeltaS": 0,
+        "headingDeltaRad": 0
+      }
+    },
+    {
+      "ship": "fishing",
+      "runs": [
+        {
+          "scale": 1,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": false,
+          "arrivalScale": 1,
+          "simSeconds": 5468.333333347739,
+          "distanceM": 29661.07624482185,
+          "arrivalDistanceM": 25.384495532059518,
+          "arrivalSpeedMS": 0.7479291896759175,
+          "fuelUsedL": 63.70218312668658,
+          "fuelRemainingL": 4736.297816873313,
+          "state": {
+            "lat": 43.20077171478607,
+            "lon": 5.530001529768697,
+            "shipId": "fishing",
+            "heading": 0.038478376358584754,
+            "u": 0.8465537848635717,
+            "v": 0.0704651867845542,
+            "yawRate": -0.002402584475656401,
+            "engine": 0.2347099797946326,
+            "fuel": 4736.297816873313,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 5468.333333347739,
+            "distance": 29661.07624482185,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        },
+        {
+          "scale": 100,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": true,
+          "arrivalScale": 1,
+          "simSeconds": 5468.333333347739,
+          "distanceM": 29661.07624482185,
+          "arrivalDistanceM": 25.384495532059518,
+          "arrivalSpeedMS": 0.7479291896759175,
+          "fuelUsedL": 63.70218312668658,
+          "fuelRemainingL": 4736.297816873313,
+          "state": {
+            "lat": 43.20077171478607,
+            "lon": 5.530001529768697,
+            "shipId": "fishing",
+            "heading": 0.038478376358584754,
+            "u": 0.8465537848635717,
+            "v": 0.0704651867845542,
+            "yawRate": -0.002402584475656401,
+            "engine": 0.2347099797946326,
+            "fuel": 4736.297816873313,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 5468.333333347739,
+            "distance": 29661.07624482185,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        }
+      ],
+      "equivalent": {
+        "positionDeltaM": 0,
+        "fuelDeltaL": 0,
+        "simTimeDeltaS": 0,
+        "headingDeltaRad": 0
+      }
+    },
+    {
+      "ship": "yacht",
+      "runs": [
+        {
+          "scale": 1,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": false,
+          "arrivalScale": 1,
+          "simSeconds": 3299.299999997657,
+          "distanceM": 29628.754899256463,
+          "arrivalDistanceM": 23.391488069569686,
+          "arrivalSpeedMS": 0.748712005538178,
+          "fuelUsedL": 73.74731367788218,
+          "fuelRemainingL": 2326.252686322118,
+          "state": {
+            "lat": 43.200789739232526,
+            "lon": 5.529990942134418,
+            "shipId": "yacht",
+            "heading": 0.06677328006728267,
+            "u": 0.8264911324156983,
+            "v": 0.05231460447808104,
+            "yawRate": -0.002680821730696716,
+            "engine": 0.265699583287825,
+            "fuel": 2326.252686322118,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 3299.299999997657,
+            "distance": 29628.754899256463,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        },
+        {
+          "scale": 100,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": true,
+          "arrivalScale": 1,
+          "simSeconds": 3299.299999997657,
+          "distanceM": 29628.754899256463,
+          "arrivalDistanceM": 23.391488069569686,
+          "arrivalSpeedMS": 0.748712005538178,
+          "fuelUsedL": 73.74731367788218,
+          "fuelRemainingL": 2326.252686322118,
+          "state": {
+            "lat": 43.200789739232526,
+            "lon": 5.529990942134418,
+            "shipId": "yacht",
+            "heading": 0.06677328006728267,
+            "u": 0.8264911324156983,
+            "v": 0.05231460447808104,
+            "yawRate": -0.002680821730696716,
+            "engine": 0.265699583287825,
+            "fuel": 2326.252686322118,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 3299.299999997657,
+            "distance": 29628.754899256463,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        }
+      ],
+      "equivalent": {
+        "positionDeltaM": 0,
+        "fuelDeltaL": 0,
+        "simTimeDeltaS": 0,
+        "headingDeltaRad": 0
+      }
+    },
+    {
+      "ship": "tug",
+      "runs": [
+        {
+          "scale": 1,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": false,
+          "arrivalScale": 1,
+          "simSeconds": 8129.700000048293,
+          "distanceM": 29634.34316468793,
+          "arrivalDistanceM": 23.33694022474078,
+          "arrivalSpeedMS": 0.7477763848937056,
+          "fuelUsedL": 354.15056085345896,
+          "fuelRemainingL": 14645.849439146541,
+          "state": {
+            "lat": 43.200790510907765,
+            "lon": 5.529982574330006,
+            "shipId": "tug",
+            "heading": 0.04186507765034708,
+            "u": 0.873686039689551,
+            "v": 0.06050265594473331,
+            "yawRate": -0.0046803691978377976,
+            "engine": 0.23575091368499945,
+            "fuel": 14645.849439146541,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 8129.700000048293,
+            "distance": 29634.34316468793,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        },
+        {
+          "scale": 100,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": true,
+          "arrivalScale": 1,
+          "simSeconds": 8129.700000048293,
+          "distanceM": 29634.34316468793,
+          "arrivalDistanceM": 23.33694022474078,
+          "arrivalSpeedMS": 0.7477763848937056,
+          "fuelUsedL": 354.15056085345896,
+          "fuelRemainingL": 14645.849439146541,
+          "state": {
+            "lat": 43.200790510907765,
+            "lon": 5.529982574330006,
+            "shipId": "tug",
+            "heading": 0.04186507765034708,
+            "u": 0.873686039689551,
+            "v": 0.06050265594473331,
+            "yawRate": -0.0046803691978377976,
+            "engine": 0.23575091368499945,
+            "fuel": 14645.849439146541,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 8129.700000048293,
+            "distance": 29634.34316468793,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        }
+      ],
+      "equivalent": {
+        "positionDeltaM": 0,
+        "fuelDeltaL": 0,
+        "simTimeDeltaS": 0,
+        "headingDeltaRad": 0
+      }
+    },
+    {
+      "ship": "spirit",
+      "runs": [
+        {
+          "scale": 1,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": false,
+          "arrivalScale": 1,
+          "simSeconds": 1346.4999999994327,
+          "distanceM": 29550.27264538441,
+          "arrivalDistanceM": 24.893412066548564,
+          "arrivalSpeedMS": 0.7488145435675102,
+          "fuelUsedL": 107.04148742544163,
+          "fuelRemainingL": 292.95851257455837,
+          "state": {
+            "lat": 43.20077627765559,
+            "lon": 5.52998879029542,
+            "shipId": "spirit",
+            "heading": 0.05124043208663398,
+            "u": 0.825547733605313,
+            "v": 0.009847283199604663,
+            "yawRate": -0.0014179753728217053,
+            "engine": 0.24712783271801764,
+            "fuel": 292.95851257455837,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 1346.4999999994327,
+            "distance": 29550.27264538441,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        },
+        {
+          "scale": 100,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": true,
+          "arrivalScale": 1,
+          "simSeconds": 1346.4999999994327,
+          "distanceM": 29550.27264538441,
+          "arrivalDistanceM": 24.893412066548564,
+          "arrivalSpeedMS": 0.7488145435675102,
+          "fuelUsedL": 107.04148742544163,
+          "fuelRemainingL": 292.95851257455837,
+          "state": {
+            "lat": 43.20077627765559,
+            "lon": 5.52998879029542,
+            "shipId": "spirit",
+            "heading": 0.05124043208663398,
+            "u": 0.825547733605313,
+            "v": 0.009847283199604663,
+            "yawRate": -0.0014179753728217053,
+            "engine": 0.24712783271801764,
+            "fuel": 292.95851257455837,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 1346.4999999994327,
+            "distance": 29550.27264538441,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        }
+      ],
+      "equivalent": {
+        "positionDeltaM": 0,
+        "fuelDeltaL": 0,
+        "simTimeDeltaS": 0,
+        "headingDeltaRad": 0
+      }
+    },
+    {
+      "ship": "cargo",
+      "runs": [
+        {
+          "scale": 1,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": false,
+          "arrivalScale": 1,
+          "simSeconds": 5099.900000009715,
+          "distanceM": 29795.1583585566,
+          "arrivalDistanceM": 117.58640778712997,
+          "arrivalSpeedMS": 0.7499488378672128,
+          "fuelUsedL": 1054.0559655668912,
+          "fuelRemainingL": 648945.9440344331,
+          "state": {
+            "lat": 43.200058212369115,
+            "lon": 5.530659750601217,
+            "shipId": "cargo",
+            "heading": 6.010851226550919,
+            "u": 0.9133717786708632,
+            "v": 0.037440751380743265,
+            "yawRate": -0.0002967050354825582,
+            "engine": 0.4648902195200812,
+            "fuel": 648945.9440344331,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 5099.900000009715,
+            "distance": 29795.1583585566,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        },
+        {
+          "scale": 100,
+          "completed": true,
+          "collisions": 0,
+          "achieved100": true,
+          "arrivalScale": 1,
+          "simSeconds": 5099.900000009715,
+          "distanceM": 29795.1583585566,
+          "arrivalDistanceM": 117.58640778712997,
+          "arrivalSpeedMS": 0.7499488378672128,
+          "fuelUsedL": 1054.0559655668912,
+          "fuelRemainingL": 648945.9440344331,
+          "state": {
+            "lat": 43.200058212369115,
+            "lon": 5.530659750601217,
+            "shipId": "cargo",
+            "heading": 6.010851226550919,
+            "u": 0.9133717786708632,
+            "v": 0.037440751380743265,
+            "yawRate": -0.0002967050354825582,
+            "engine": 0.4648902195200812,
+            "fuel": 648945.9440344331,
+            "damage": 0,
+            "load": 0.35,
+            "simTime": 5099.900000009715,
+            "distance": 29795.1583585566,
+            "controls": {
+              "throttle": 0,
+              "rudder": 0,
+              "gear": 0
+            },
+            "docked": null
+          }
+        }
+      ],
+      "equivalent": {
+        "positionDeltaM": 0,
+        "fuelDeltaL": 0,
+        "simTimeDeltaS": 0,
+        "headingDeltaRad": 0
+      }
+    }
+  ]
+}

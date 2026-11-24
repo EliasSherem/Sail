@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "checks": [
+    "seven rendered vessels in first person, third person and orbit"
+  ],
+  "routes": [],
+  "time": {},
+  "errors": [],
+  "external": []
+}

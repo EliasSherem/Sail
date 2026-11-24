@@ -1,0 +1,614 @@
+{
+  "passed": true,
+  "testUrl": "http://localhost:4173",
+  "errors": [],
+  "webgl": [],
+  "external": [],
+  "checks": [
+    "button: manual diagonal deviation and actual-position replan preserve Spirit, fuel and Barcelona→Cartagena itinerary",
+    "keyboard: manual diagonal deviation and actual-position replan preserve Spirit, fuel and Barcelona→Cartagena itinerary",
+    "Marseille→Cassis coastal route drawn from actual vessel position"
+  ],
+  "cases": [
+    {
+      "trigger": "button",
+      "travelled": 10052.650374772262,
+      "crossTrackM": 6158.911610475947,
+      "previous": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:06:51.345Z",
+        "state": {
+          "lat": 41.99999912917715,
+          "lon": 4.000001816410418,
+          "shipId": "spirit",
+          "heading": 4.250914728625039,
+          "u": -0.0010210410599414946,
+          "v": 0.0003501073338941474,
+          "yawRate": 0.000017471894284612176,
+          "engine": 0,
+          "fuel": 899.9827950000011,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 1.0333333333333332,
+          "distance": 0.17862139617646403,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.0666,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:06:56.561Z",
+        "state": {
+          "lat": 42.03410573776986,
+          "lon": 3.887308306294244,
+          "shipId": "spirit",
+          "heading": 5.409768853312077,
+          "u": 141.89462768687702,
+          "v": 0.0000419896227574521,
+          "yawRate": 0.0000021879363130196776,
+          "engine": 0.9999999982061266,
+          "fuel": 883.3296994068709,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 97.69999999999702,
+          "distance": 11412.453710106603,
+          "controls": {
+            "throttle": 1,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 5.899700000000017,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "after": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:06:56.961Z",
+        "state": {
+          "lat": 42.03410573776986,
+          "lon": 3.887308306294244,
+          "shipId": "spirit",
+          "heading": 5.409768853312077,
+          "u": 141.89462768687702,
+          "v": 0.0000419896227574521,
+          "yawRate": 0.0000021879363130196776,
+          "engine": 0.9999999982061266,
+          "fuel": 883.3296994068709,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 97.69999999999702,
+          "distance": 11412.453710106603,
+          "controls": {
+            "throttle": 1,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 5.899700000000017,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "navigating": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:06:58.613Z",
+        "state": {
+          "lat": 42.03480064608416,
+          "lon": 3.8860724671873186,
+          "shipId": "spirit",
+          "heading": 5.298092690647959,
+          "u": 133.37826684535312,
+          "v": 1.0027115920738063,
+          "yawRate": -0.12077909688805817,
+          "engine": 0.9999999985231186,
+          "fuel": 883.1613494071189,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 98.6333333333303,
+          "distance": 11540.537526479027,
+          "controls": {
+            "throttle": 1,
+            "rudder": -1,
+            "gear": -1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 6.833000000000028,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "oldRoute": {
+        "start": {
+          "lat": 41.99999912917715,
+          "lon": 4.000001816410418
+        },
+        "next": {
+          "lat": 41.98024497943301,
+          "lon": 3.904890535842128
+        },
+        "distanceM": 172478.38585405995
+      },
+      "manuallyDrawn": {
+        "start": {
+          "lat": 42.03410573776986,
+          "lon": 3.887308306294244
+        },
+        "next": {
+          "lat": 41.996912834358554,
+          "lon": 3.802849360006917
+        },
+        "distanceM": 165136.49809723574
+      },
+      "route": {
+        "start": {
+          "lat": 42.03410573776986,
+          "lon": 3.887308306294244
+        },
+        "next": {
+          "lat": 42.00079649879865,
+          "lon": 3.7966000479240165
+        },
+        "distanceM": 165105.5797774482
+      },
+      "enlarged": {
+        "start": {
+          "lat": 42.03410573776986,
+          "lon": 3.887308306294244
+        },
+        "next": {
+          "lat": 42.00079649879865,
+          "lon": 3.7966000479240165
+        },
+        "distanceM": 165105.5797774482
+      }
+    },
+    {
+      "trigger": "keyboard",
+      "travelled": 9440.675414174322,
+      "crossTrackM": 8027.272575243817,
+      "previous": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:06:58.716Z",
+        "state": {
+          "lat": 42.03480064608416,
+          "lon": 3.8860724671873186,
+          "shipId": "spirit",
+          "heading": 5.298092690647959,
+          "u": 133.37826684535312,
+          "v": 1.0027115920738063,
+          "yawRate": -0.12077909688805817,
+          "engine": 0.9999999985231186,
+          "fuel": 883.1613494071189,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 98.6333333333303,
+          "distance": 11540.537526479027,
+          "controls": {
+            "throttle": 1,
+            "rudder": -1,
+            "gear": -1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 6.833000000000028,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:07:03.713Z",
+        "state": {
+          "lat": 41.99080233024359,
+          "lon": 3.9838010522328204,
+          "shipId": "spirit",
+          "heading": 1.9713790407306142,
+          "u": 142.377116461452,
+          "v": -0.000038345799070892184,
+          "yawRate": -0.000001999748233686204,
+          "engine": 0.999999999999992,
+          "fuel": 865.7852244082758,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 194.96666666665817,
+          "distance": 25150.86031161657,
+          "controls": {
+            "throttle": 1,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 11.649499999999989,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "after": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:07:03.996Z",
+        "state": {
+          "lat": 41.99080233024359,
+          "lon": 3.9838010522328204,
+          "shipId": "spirit",
+          "heading": 1.9713790407306142,
+          "u": 142.377116461452,
+          "v": -0.000038345799070892184,
+          "yawRate": -0.000001999748233686204,
+          "engine": 0.999999999999992,
+          "fuel": 865.7852244082758,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 194.96666666665817,
+          "distance": 25150.86031161657,
+          "controls": {
+            "throttle": 1,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 11.649499999999989,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "navigating": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:07:05.645Z",
+        "state": {
+          "lat": 41.99029829755808,
+          "lon": 3.9852040791213312,
+          "shipId": "spirit",
+          "heading": 2.0830673359721406,
+          "u": 133.86063692378428,
+          "v": -1.0047450726922031,
+          "yawRate": 0.12078859396376689,
+          "engine": 0.999999999999992,
+          "fuel": 865.6168744082759,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 195.89999999999145,
+          "distance": 25279.716449781645,
+          "controls": {
+            "throttle": 1,
+            "rudder": 1,
+            "gear": -1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "barcelona",
+        "itinerary": {
+          "destinationId": "cartagena",
+          "stopIds": [
+            "barcelona",
+            "cartagena"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 12.582799999999972,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "oldRoute": {
+        "start": {
+          "lat": 42.03480064608416,
+          "lon": 3.8860724671873186
+        },
+        "next": {
+          "lat": 42.00079649879865,
+          "lon": 3.7966000479240165
+        },
+        "distanceM": 165049.0471294016
+      },
+      "manuallyDrawn": {
+        "start": {
+          "lat": 41.99080233024359,
+          "lon": 3.9838010522328204
+        },
+        "next": {
+          "lat": 41.96875732840456,
+          "lon": 3.8677990126926716
+        },
+        "distanceM": 170919.27952885488
+      },
+      "route": {
+        "start": {
+          "lat": 41.99080233024359,
+          "lon": 3.9838010522328204
+        },
+        "next": {
+          "lat": 41.96838338704161,
+          "lon": 3.868990356964673
+        },
+        "distanceM": 170918.99149960064
+      },
+      "enlarged": {
+        "start": {
+          "lat": 41.99080233024359,
+          "lon": 3.9838010522328204
+        },
+        "next": {
+          "lat": 41.96838338704161,
+          "lon": 3.868990356964673
+        },
+        "distanceM": 170918.99149960064
+      }
+    },
+    {
+      "trigger": "coastal",
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:07:07.773Z",
+        "state": {
+          "lat": 43.28599893536788,
+          "lon": 5.347002292457205,
+          "shipId": "yacht",
+          "heading": 3.141543516436144,
+          "u": -0.0012679188729278754,
+          "v": -0.003146746449204913,
+          "yawRate": -0.00007359759284253694,
+          "engine": 0,
+          "fuel": 2399.998594000008,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 1.2666666666666673,
+          "distance": 0.22010795415475717,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "cassis",
+          "stopIds": [
+            "cassis"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.2998999999999998,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "after": {
+        "version": 1,
+        "savedAt": "2026-09-26T19:07:07.920Z",
+        "state": {
+          "lat": 43.28599893536788,
+          "lon": 5.347002292457205,
+          "shipId": "yacht",
+          "heading": 3.141543516436144,
+          "u": -0.0012679188729278754,
+          "v": -0.003146746449204913,
+          "yawRate": -0.00007359759284253694,
+          "engine": 0,
+          "fuel": 2399.998594000008,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 1.2666666666666673,
+          "distance": 0.22010795415475717,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "cassis",
+          "stopIds": [
+            "cassis"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.2998999999999998,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "route": {
+        "start": {
+          "lat": 43.28599893536788,
+          "lon": 5.347002292457205
+        },
+        "next": {
+          "lat": 43.21,
+          "lon": 5.318
+        },
+        "distanceM": 29746.449703715567
+      }
+    }
+  ]
+}

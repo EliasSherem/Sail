@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "generatedAt": "2026-09-29T12:22:59.212Z",
+  "from": "ushuaia",
+  "to": "port-lockroy",
+  "shipId": "fishing",
+  "tankLitres": 4800,
+  "planningMs": 2355.707375,
+  "plannedKm": 1471.6846671935868,
+  "planStatus": "feasible",
+  "planReason": "2 escalas obligatorias: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto.",
+  "stages": [
+    {
+      "from": "ushuaia",
+      "to": "cape-horn",
+      "km": 219.93416367234028,
+      "requiredLitres": 1070.9150602967113,
+      "availableLitres": 4800,
+      "reserveLitres": 214.18301205934225,
+      "refuelBefore": false
+    },
+    {
+      "from": "cape-horn",
+      "to": "fildes-bay",
+      "km": 849.50231652557,
+      "requiredLitres": 4076.184499917327,
+      "availableLitres": 4800,
+      "reserveLitres": 815.2368999834654,
+      "refuelBefore": true
+    },
+    {
+      "from": "fildes-bay",
+      "to": "port-lockroy",
+      "km": 402.24818699567675,
+      "requiredLitres": 1998.4067658077224,
+      "availableLitres": 4800,
+      "reserveLitres": 399.6813531615445,
+      "refuelBefore": true
+    }
+  ],
+  "contacts": 0,
+  "crossedDrake": true,
+  "completed": true,
+  "refuels": [
+    "cape-horn",
+    "fildes-bay"
+  ],
+  "legs": [
+    {
+      "to": "cape-horn",
+      "completed": true,
+      "km": 219.75646972965617,
+      "seconds": 40124.666666251076,
+      "consumedLitres": 473.536353593654,
+      "forecastLitres": 856.732048237369,
+      "reserveLitres": 214.18301205934225,
+      "remainingLitres": 4326.463646406346,
+      "arrivalM": 23.749559336316455,
+      "speedMS": 0.7485491790288336
+    },
+    {
+      "to": "fildes-bay",
+      "completed": true,
+      "km": 849.7261629138006,
+      "seconds": 152592.86666529533,
+      "consumedLitres": 1802.6415865382228,
+      "forecastLitres": 3261.35041238407,
+      "reserveLitres": 815.3376030960175,
+      "remainingLitres": 2997.358413461777,
+      "arrivalM": 25.24269906629287,
+      "speedMS": 0.7463769792144599
+    },
+    {
+      "to": "port-lockroy",
+      "completed": true,
+      "km": 402.2550816404789,
+      "seconds": 75370.29998245148,
+      "consumedLitres": 896.538799617238,
+      "forecastLitres": 1599.6639071327206,
+      "reserveLitres": 399.91597678318016,
+      "remainingLitres": 3903.461200382762,
+      "arrivalM": 22.64614393244125,
+      "speedMS": 0.7492348288876434
+    }
+  ],
+  "elapsedMs": 29317.253666999997
+}

@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-09-26T19:09:02.937Z",
+  "policy": {
+    "consumption": "Per-segment maximum of pilot and full-power physical profiles under current and adverse synthetic weather, plus separately computed manoeuvres.",
+    "reserve": "25% additional to that consumption budget. Fuel capacities and burn-rate curves unchanged.",
+    "weatherEnvelope": "72 weatherAt samples spaced 1499 simulated seconds, normalized to the current configured wind/current; adverse wind and current are selected independently along each segment; 5% wind and 1% current sampling margins.",
+    "fixedStepSeconds": 0.03333333333333333
+  },
+  "manual10km": {
+    "conditions": {
+      "load": 0.35,
+      "damage": 0,
+      "sea": "calm",
+      "seed": 4821,
+      "windSpeed": 0,
+      "currentSpeed": 0,
+      "initialSpeedMS": 0,
+      "initialEngine": 0,
+      "throttle": 1,
+      "gear": 1,
+      "rudder": 0,
+      "worldCollisionGeometry": false
+    },
+    "scope": "Actual consumption covers acceleration and full-power travel through the first 10 km, measured while still underway. Forecast also includes braking/arrival/turn allowances; no automatic steering was used in these six passages.",
+    "cases": [
+      {
+        "shipId": "launch",
+        "initialFuelLitres": 420,
+        "estimate": {
+          "distanceM": 10000.000000003833,
+          "durationSeconds": 955.2141968174813,
+          "estimatedFuelLitres": 19.573698639862016,
+          "pilotFuelLitres": 9.357299788090952,
+          "fullPowerFuelLitres": 18.824025430047076,
+          "manoeuvreFuelLitres": 0.7496732098149416,
+          "cruiseSpeedKnots": 20.97423978139847,
+          "status": "sufficient",
+          "reserveLitres": 4.893424659965504,
+          "requiredFuelLitres": 24.46712329982752,
+          "availableFuelLitres": 420,
+          "remainingFuelLitres": 400.426301360138,
+          "reserveFraction": 0.25
+        },
+        "actual": {
+          "reachedDistance": true,
+          "distanceM": 10000.442232090505,
+          "seconds": 719.3666666666697,
+          "consumedLitres": 18.853985870542374,
+          "remainingLitres": 401.1460141294576,
+          "speedMS": 14.004708661425388,
+          "brakingIncluded": false
+        },
+        "consumptionBudgetCoversActual": true,
+        "reserveUntouchedLitres": 4.893424659965504,
+        "cpuMilliseconds": 13.727833000000004
+      },
+      {
+        "shipId": "fishing",
+        "initialFuelLitres": 4800,
+        "estimate": {
+          "distanceM": 10000.000000003833,
+          "durationSeconds": 1929.5740407750648,
+          "estimatedFuelLitres": 40.89115323681539,
+          "pilotFuelLitres": 22.052175327251927,
+          "fullPowerFuelLitres": 39.135038193340925,
+          "manoeuvreFuelLitres": 1.7561150434744681,
+          "cruiseSpeedKnots": 10.434172430845434,
+          "status": "sufficient",
+          "reserveLitres": 10.222788309203848,
+          "requiredFuelLitres": 51.11394154601924,
+          "availableFuelLitres": 4800,
+          "remainingFuelLitres": 4759.108846763184,
+          "reserveFraction": 0.25
+        },
+        "actual": {
+          "reachedDistance": true,
+          "distanceM": 10000.038925024684,
+          "seconds": 1496.1999999992966,
+          "consumedLitres": 39.17358061814775,
+          "remainingLitres": 4760.826419381852,
+          "speedMS": 6.736291217605151,
+          "brakingIncluded": false
+        },
+        "consumptionBudgetCoversActual": true,
+        "reserveUntouchedLitres": 10.222788309203848,
+        "cpuMilliseconds": 22.391208000000006
+      },
+      {
+        "shipId": "yacht",
+        "initialFuelLitres": 2400,
+        "estimate": {
+          "distanceM": 10000.000000003833,
+          "durationSeconds": 1160.48639528509,
+          "estimatedFuelLitres": 53.61329018098481,
+          "pilotFuelLitres": 25.275684677147492,
+          "fullPowerFuelLitres": 50.86666833868179,
+          "manoeuvreFuelLitres": 2.7466218423030213,
+          "cruiseSpeedKnots": 17.442180210132413,
+          "status": "sufficient",
+          "reserveLitres": 13.403322545246203,
+          "requiredFuelLitres": 67.01661272623102,
+          "availableFuelLitres": 2400,
+          "remainingFuelLitres": 2346.3867098190153,
+          "reserveFraction": 0.25
+        },
+        "actual": {
+          "reachedDistance": true,
+          "distanceM": 10000.023917034341,
+          "seconds": 862.1333333332066,
+          "consumedLitres": 51.00863913556577,
+          "remainingLitres": 2348.9913608644342,
+          "speedMS": 11.729193325430368,
+          "brakingIncluded": false
+        },
+        "consumptionBudgetCoversActual": true,
+        "reserveUntouchedLitres": 13.403322545246203,
+        "cpuMilliseconds": 9.413999999999987
+      },
+      {
+        "shipId": "tug",
+        "initialFuelLitres": 15000,
+        "estimate": {
+          "distanceM": 10000.000000003833,
+          "durationSeconds": 2883.6319227438885,
+          "estimatedFuelLitres": 206.51556113027976,
+          "pilotFuelLitres": 123.91641978489393,
+          "fullPowerFuelLitres": 200.15596450617187,
+          "manoeuvreFuelLitres": 6.359596624107888,
+          "cruiseSpeedKnots": 6.918323306536734,
+          "status": "sufficient",
+          "reserveLitres": 51.62889028256994,
+          "requiredFuelLitres": 258.1444514128497,
+          "availableFuelLitres": 15000,
+          "remainingFuelLitres": 14793.48443886972,
+          "reserveFraction": 0.25
+        },
+        "actual": {
+          "reachedDistance": true,
+          "distanceM": 10000.134352670399,
+          "seconds": 2333.9666666652015,
+          "consumedLitres": 200.23461800434234,
+          "remainingLitres": 14799.765381995658,
+          "speedMS": 4.297898361731665,
+          "brakingIncluded": false
+        },
+        "consumptionBudgetCoversActual": true,
+        "reserveUntouchedLitres": 51.62889028256994,
+        "cpuMilliseconds": 24.379707999999994
+      },
+      {
+        "shipId": "spirit",
+        "initialFuelLitres": 900,
+        "estimate": {
+          "distanceM": 10000.000000003833,
+          "durationSeconds": 487.18314426539877,
+          "estimatedFuelLitres": 34.85150694523936,
+          "pilotFuelLitres": 13.38137961208449,
+          "fullPowerFuelLitres": 12.704701514750774,
+          "manoeuvreFuelLitres": 21.470127333154867,
+          "cruiseSpeedKnots": 52.79996080261611,
+          "status": "sufficient",
+          "reserveLitres": 8.71287673630984,
+          "requiredFuelLitres": 43.564383681549195,
+          "availableFuelLitres": 900,
+          "remainingFuelLitres": 865.1484930547606,
+          "reserveFraction": 0.25
+        },
+        "actual": {
+          "reachedDistance": true,
+          "distanceM": 10000.528881746328,
+          "seconds": 86.39999999999766,
+          "consumedLitres": 14.801245603652887,
+          "remainingLitres": 885.1987543963471,
+          "speedMS": 141.9674330945596,
+          "brakingIncluded": false
+        },
+        "consumptionBudgetCoversActual": true,
+        "reserveUntouchedLitres": 8.71287673630984,
+        "cpuMilliseconds": 2.5529999999999973
+      },
+      {
+        "shipId": "cargo",
+        "initialFuelLitres": 650000,
+        "estimate": {
+          "distanceM": 10000.000000003833,
+          "durationSeconds": 2239.9702864125074,
+          "estimatedFuelLitres": 1018.4676642291928,
+          "pilotFuelLitres": 397.8012116088668,
+          "fullPowerFuelLitres": 632.8921975308696,
+          "manoeuvreFuelLitres": 385.5754666983232,
+          "cruiseSpeedKnots": 13.05548500715292,
+          "status": "sufficient",
+          "reserveLitres": 254.6169160572982,
+          "requiredFuelLitres": 1273.084580286491,
+          "availableFuelLitres": 650000,
+          "remainingFuelLitres": 648981.5323357708,
+          "reserveFraction": 0.25
+        },
+        "actual": {
+          "reachedDistance": true,
+          "distanceM": 10000.062309961728,
+          "seconds": 1373.5666666660748,
+          "consumedLitres": 686.0618742663646,
+          "remainingLitres": 649313.9381257336,
+          "speedMS": 8.111569748668586,
+          "brakingIncluded": false
+        },
+        "consumptionBudgetCoversActual": true,
+        "reserveUntouchedLitres": 254.6169160572982,
+        "cpuMilliseconds": 19.677999999999997
+      }
+    ]
+  },
+  "spiritBarcelonaHurricane": {
+    "conditions": {
+      "from": "marseille",
+      "to": "barcelona",
+      "load": 0.35,
+      "damage": 0,
+      "sea": "hurricane",
+      "seed": 4821,
+      "evolvingWeather": true,
+      "requestedScale": 100,
+      "pilot": true,
+      "refuels": 0
+    },
+    "estimate": {
+      "distanceM": 347806.4443568101,
+      "durationSeconds": 14736.431381047909,
+      "estimatedFuelLitres": 793.9860104271909,
+      "pilotFuelLitres": 763.2489120162637,
+      "fullPowerFuelLitres": 506.6461925122142,
+      "manoeuvreFuelLitres": 30.737098410927178,
+      "cruiseSpeedKnots": 47.358062367514535,
+      "status": "low-reserve",
+      "reserveLitres": 198.49650260679772,
+      "requiredFuelLitres": 992.4825130339887,
+      "availableFuelLitres": 900,
+      "remainingFuelLitres": 106.01398957280912,
+      "reserveFraction": 0.25
+    },
+    "actual": {
+      "completed": true,
+      "contacts": 0,
+      "seconds": 14093.53333329654,
+      "distanceM": 347714.27125991054,
+      "consumedLitres": 656.701172471034,
+      "remainingLitres": 243.29882752896597,
+      "arrivalDistanceM": 48.27999285599618,
+      "arrivalSpeedMS": 0.7449474723421942
+    },
+    "consumptionBudgetCoversActual": true,
+    "cpuMilliseconds": 1444.0935000000002,
+    "planningMeaning": "This realization reaches port, but the conservative total including reserve exceeds 900 L. The planner must add a service stop rather than promise the direct leg with reserve."
+  },
+  "reproduceCommand": "npx tsx scripts/fuel-conservative-audit.ts",
+  "testsCommand": "npx vitest run tests/route-estimate.test.ts"
+}

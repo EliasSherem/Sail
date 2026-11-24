@@ -1,0 +1,252 @@
+{
+  "passed": true,
+  "generatedAt": "2026-09-26T21:44:49.045Z",
+  "cases": [
+    {
+      "shipId": "launch",
+      "from": "marseille",
+      "to": "haifa",
+      "planningMs": 5035.9815419999995,
+      "distanceKm": 4637.835023171192,
+      "stages": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "requiredLitres": 246.13924605413666,
+          "availableLitres": 420,
+          "reserveLitres": 49.22784921082733
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "requiredLitres": 113.92513206379843,
+          "availableLitres": 420,
+          "reserveLitres": 22.785026412759684
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "requiredLitres": 378.5209606388136,
+          "availableLitres": 420,
+          "reserveLitres": 75.70419212776272
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "requiredLitres": 157.52187237034653,
+          "availableLitres": 420,
+          "reserveLitres": 31.504374474069305
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "requiredLitres": 325.06363308935903,
+          "availableLitres": 420,
+          "reserveLitres": 65.0127266178718
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "requiredLitres": 275.623074504239,
+          "availableLitres": 420,
+          "reserveLitres": 55.1246149008478
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "requiredLitres": 392.23340640397316,
+          "availableLitres": 420,
+          "reserveLitres": 78.44668128079464
+        },
+        {
+          "to": "heraklion",
+          "km": 577.3330119832412,
+          "requiredLitres": 369.96277598823553,
+          "availableLitres": 420,
+          "reserveLitres": 73.9925551976471
+        },
+        {
+          "to": "rhodes",
+          "km": 331.3733714402618,
+          "requiredLitres": 212.5086810446666,
+          "availableLitres": 420,
+          "reserveLitres": 42.501736208933316
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "requiredLitres": 333.9323724511146,
+          "availableLitres": 420,
+          "reserveLitres": 66.78647449022291
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "requiredLitres": 172.2008502441922,
+          "availableLitres": 420,
+          "reserveLitres": 34.44017004883844
+        }
+      ],
+      "physical": {
+        "completed": true,
+        "contacts": 0,
+        "legs": [
+          {
+            "index": 0,
+            "to": "genoa",
+            "completed": true,
+            "contacts": 0,
+            "km": 382.5426929551893,
+            "seconds": 35178.53333298972,
+            "consumed": 99.78616202350725,
+            "estimate": 196.91139684330932,
+            "reserve": 49.22784921082733,
+            "remaining": 320.21383797649275,
+            "arrivalM": 21.3140986903846,
+            "speedMS": 0.746169693539083
+          },
+          {
+            "index": 1,
+            "to": "livorno",
+            "completed": true,
+            "contacts": 0,
+            "km": 177.17325498924532,
+            "seconds": 16169.199999764707,
+            "consumed": 46.0277925131345,
+            "estimate": 91.23718786801874,
+            "reserve": 22.809296967004684,
+            "remaining": 373.9722074868655,
+            "arrivalM": 20.590141961099413,
+            "speedMS": 0.74792303070667
+          },
+          {
+            "index": 2,
+            "to": "salerno",
+            "completed": true,
+            "contacts": 0,
+            "km": 591.0514922906605,
+            "seconds": 53923.46667455532,
+            "consumed": 153.98618449298914,
+            "estimate": 302.7901982998933,
+            "reserve": 75.69754957497332,
+            "remaining": 266.01381550701086,
+            "arrivalM": 20.759372292202155,
+            "speedMS": 0.7406879273371101
+          },
+          {
+            "index": 3,
+            "to": "vibo-valentia",
+            "completed": true,
+            "contacts": 0,
+            "km": 246.34123219747633,
+            "seconds": 22427.733337902464,
+            "consumed": 64.18370357356446,
+            "estimate": 126.06414305055667,
+            "reserve": 31.516035762639167,
+            "remaining": 355.81629642643554,
+            "arrivalM": 20.859093475361792,
+            "speedMS": 0.743478740044534
+          },
+          {
+            "index": 4,
+            "to": "crotone",
+            "completed": true,
+            "contacts": 0,
+            "km": 501.8203742088368,
+            "seconds": 46462.0666573214,
+            "consumed": 132.81249628630871,
+            "estimate": 260.1014823439429,
+            "reserve": 65.02537058598573,
+            "remaining": 287.1875037136913,
+            "arrivalM": 20.530118677603404,
+            "speedMS": 0.7456012614156587
+          },
+          {
+            "index": 5,
+            "to": "brindisi",
+            "completed": true,
+            "contacts": 0,
+            "km": 424.00087300111005,
+            "seconds": 39518.56665746553,
+            "consumed": 112.60054686219223,
+            "estimate": 220.5815396151036,
+            "reserve": 55.1453849037759,
+            "remaining": 307.39945313780777,
+            "arrivalM": 20.54616673969526,
+            "speedMS": 0.7426608015023504
+          },
+          {
+            "index": 6,
+            "to": "katakolon",
+            "completed": true,
+            "contacts": 0,
+            "km": 611.0341593250799,
+            "seconds": 55977.033320300165,
+            "consumed": 160.06702768967898,
+            "estimate": 313.8660094197378,
+            "reserve": 78.46650235493445,
+            "remaining": 259.932972310321,
+            "arrivalM": 20.625442150232853,
+            "speedMS": 0.741549186303589
+          },
+          {
+            "index": 7,
+            "to": "heraklion",
+            "completed": true,
+            "contacts": 0,
+            "km": 576.8311377921495,
+            "seconds": 52701.666654396104,
+            "consumed": 150.40957777586107,
+            "estimate": 295.9708333549226,
+            "reserve": 73.99270833873065,
+            "remaining": 269.59042222413893,
+            "arrivalM": 20.855391510796565,
+            "speedMS": 0.749665257177501
+          },
+          {
+            "index": 8,
+            "to": "rhodes",
+            "completed": true,
+            "contacts": 0,
+            "km": 331.3711732240133,
+            "seconds": 30467.566659572884,
+            "consumed": 86.31052325615462,
+            "estimate": 170.0967517709744,
+            "reserve": 42.5241879427436,
+            "remaining": 333.6894767438454,
+            "arrivalM": 20.934241267873546,
+            "speedMS": 0.7484155540663164
+          },
+          {
+            "index": 9,
+            "to": "limassol",
+            "completed": true,
+            "contacts": 0,
+            "km": 523.0097204867657,
+            "seconds": 47630.93332224339,
+            "consumed": 135.60087259191653,
+            "estimate": 267.1463723216817,
+            "reserve": 66.78659308042043,
+            "remaining": 284.3991274080835,
+            "arrivalM": 21.42522649781082,
+            "speedMS": 0.7467920788925955
+          },
+          {
+            "index": 10,
+            "to": "haifa",
+            "completed": true,
+            "contacts": 0,
+            "km": 269.8399366388414,
+            "seconds": 24531.199994288385,
+            "consumed": 70.03529126994113,
+            "estimate": 137.86700012320688,
+            "reserve": 34.46675003080172,
+            "remaining": 349.9647087300589,
+            "arrivalM": 20.827778905633323,
+            "speedMS": 0.7386534649684476
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+[
+  {
+    "id": "marseille",
+    "ms": 72,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 898,
+    "triangles": 33252,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "marseille",
+        "osmAccepted": 678,
+        "osmRejected": 22,
+        "procedural": 0,
+        "landmarksAccepted": [
+          "notre-dame-garde",
+          "major"
+        ],
+        "landmarksRejected": [],
+        "terminal": true
+      },
+      {
+        "id": "cassis",
+        "osmAccepted": 0,
+        "osmRejected": 0,
+        "procedural": 220,
+        "landmarksAccepted": [],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "barcelona",
+    "ms": 37,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 700,
+    "triangles": 25392,
+    "drawCalls": 5,
+    "ports": [
+      {
+        "id": "barcelona",
+        "osmAccepted": 700,
+        "osmRejected": 0,
+        "procedural": 0,
+        "landmarksAccepted": [
+          "barcelona-sail",
+          "columbus"
+        ],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "new-york",
+    "ms": 14,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 251,
+    "triangles": 4621,
+    "drawCalls": 3,
+    "ports": [
+      {
+        "id": "new-york",
+        "osmAccepted": 150,
+        "osmRejected": 173,
+        "procedural": 101,
+        "landmarksAccepted": [],
+        "landmarksRejected": [
+          "one-world",
+          "liberty"
+        ],
+        "terminal": false
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "acapulco",
+    "ms": 18,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 516,
+    "triangles": 13686,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "acapulco",
+        "osmAccepted": 516,
+        "osmRejected": 184,
+        "procedural": 0,
+        "landmarksAccepted": [],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "los-cabos",
+    "ms": 9,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 235,
+    "triangles": 4483,
+    "drawCalls": 2,
+    "ports": [
+      {
+        "id": "los-cabos",
+        "osmAccepted": 235,
+        "osmRejected": 465,
+        "procedural": 0,
+        "landmarksAccepted": [],
+        "landmarksRejected": [],
+        "terminal": false
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "cancun",
+    "ms": 12,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 330,
+    "triangles": 10082,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "cancun",
+        "osmAccepted": 98,
+        "osmRejected": 145,
+        "procedural": 232,
+        "landmarksAccepted": [],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "veracruz",
+    "ms": 16,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 433,
+    "triangles": 12352,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "veracruz",
+        "osmAccepted": 433,
+        "osmRejected": 0,
+        "procedural": 0,
+        "landmarksAccepted": [
+          "carranza-lighthouse"
+        ],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "haifa",
+    "ms": 22,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 700,
+    "triangles": 18192,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "haifa",
+        "osmAccepted": 700,
+        "osmRejected": 0,
+        "procedural": 0,
+        "landmarksAccepted": [
+          "bahai-dome"
+        ],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "ashdod",
+    "ms": 25,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 700,
+    "triangles": 18788,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "ashdod",
+        "osmAccepted": 700,
+        "osmRejected": 0,
+        "procedural": 0,
+        "landmarksAccepted": [],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "eilat",
+    "ms": 23,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 534,
+    "triangles": 17068,
+    "drawCalls": 2,
+    "ports": [
+      {
+        "id": "eilat",
+        "osmAccepted": 534,
+        "osmRejected": 166,
+        "procedural": 0,
+        "landmarksAccepted": [],
+        "landmarksRejected": [
+          "eilat-hotel"
+        ],
+        "terminal": false
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "singapore",
+    "ms": 42,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 672,
+    "triangles": 30159,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "singapore",
+        "osmAccepted": 672,
+        "osmRejected": 28,
+        "procedural": 0,
+        "landmarksAccepted": [],
+        "landmarksRejected": [
+          "marina-bay-sands"
+        ],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  },
+  {
+    "id": "sydney",
+    "ms": 31,
+    "wet": 0,
+    "osmLoaded": true,
+    "buildings": 700,
+    "triangles": 32832,
+    "drawCalls": 4,
+    "ports": [
+      {
+        "id": "sydney",
+        "osmAccepted": 700,
+        "osmRejected": 0,
+        "procedural": 0,
+        "landmarksAccepted": [
+          "sydney-opera",
+          "sydney-tower"
+        ],
+        "landmarksRejected": [],
+        "terminal": true
+      }
+    ],
+    "source": "© OpenStreetMap contributors · ODbL; regional procedural infill and approximate landmarks"
+  }
+]

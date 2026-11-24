@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-09-26T19:05:21.874Z",
+  "completed": true,
+  "legs": 21,
+  "refuels": 20,
+  "distanceM": 15672931.553158041,
+  "simulatedDays": 34.23112924396149,
+  "consumedLitres": 35055.948344802164,
+  "refuelledLitres": 33885.31161687414,
+  "arrivalFuelLitres": 3629.363272071977,
+  "minimumArrivalFuelLitres": 2663.054640468788,
+  "contacts": 0,
+  "arrivalDistanceM": 25.64624084486509,
+  "arrivalSpeedMS": 0.7469164272207535,
+  "cpuSeconds": 240.860059041,
+  "allForecastsCoverActual": true,
+  "allReservesCoverActual": true,
+  "maximumActualToForecastRatio": 0.5634754622322956,
+  "stops": [
+    "valencia",
+    "cadiz",
+    "porto",
+    "brest",
+    "cork",
+    "killybegs",
+    "torshavn",
+    "hofn",
+    "isafjordur",
+    "tasiilaq",
+    "qaqortoq",
+    "sisimiut",
+    "qikiqtarjuaq",
+    "pangnirtung",
+    "iqaluit",
+    "nain",
+    "st-anthony",
+    "saint-pierre",
+    "halifax",
+    "boston",
+    "new-york"
+  ],
+  "plans": [
+    {
+      "shipId": "fishing",
+      "status": "feasible",
+      "legs": 21,
+      "distanceM": 15682718.166030465,
+      "cpuMilliseconds": 3402.913208
+    },
+    {
+      "shipId": "yacht",
+      "status": "unreachable",
+      "legs": 0,
+      "distanceM": 0,
+      "cpuMilliseconds": 527.6321250000001
+    },
+    {
+      "shipId": "cargo",
+      "status": "feasible",
+      "legs": 1,
+      "distanceM": 7905740.428952838,
+      "cpuMilliseconds": 118.83366600000045
+    },
+    {
+      "shipId": "spirit",
+      "status": "unreachable",
+      "legs": 0,
+      "distanceM": 0,
+      "cpuMilliseconds": 553.8132919999998
+    }
+  ]
+}

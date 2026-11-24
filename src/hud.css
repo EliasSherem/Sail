@@ -1,0 +1,357 @@
+/* Navigation instruments live at the edges; the horizon remains unobstructed. */
+.underway {
+  min-height: 0;
+  --hud-edge: 16px;
+  --helm-height: 96px;
+  --hud-bottom: calc(var(--helm-height) + var(--hud-edge) + 10px);
+}
+
+.underway .topbar { height: 60px; padding: 0 20px; gap: 30px; }
+.underway .brand > span { font-size: 20px; letter-spacing: 4px; }
+.underway .brand small { font-size: 6px; margin-top: 5px; }
+.underway .topbar nav { gap: 24px; }
+.underway .topbar nav button { font-size: 11px; }
+.underway .location-label { top: 73px; left: var(--hud-edge); gap: 12px; }
+.underway .location-label .eyebrow { font-size: 8px; }
+.underway .location-label > span:last-child { font-size: 9px; }
+.underway .environment-strip { top: 73px; right: var(--hud-edge); font-size: 10px; gap: 7px; }
+.underway .environment-strip small { display: none; }
+.underway .compass-strip {
+  top: 65px; left: 50%; right: auto; width: 116px;
+  transform: translateX(-50%); padding: 6px 9px;
+  border-radius: 5px; background: #12343bba;
+}
+.underway .compass-heading { display: flex; align-items: baseline; justify-content: center; gap: 8px; }
+.underway .compass-heading > span { font-size: 6px; letter-spacing: .65px; max-width: 35px; text-align: left; }
+.underway .compass-heading > strong { font-size: 20px; line-height: 1; letter-spacing: -.5px; }
+.underway .compass-heading small { font-size: 11px; }
+.underway .compass-ticks, .underway .compass-strip > i { display: none; }
+
+.underway .voyage-dock {
+  position: absolute; left: var(--hud-edge); bottom: var(--hud-bottom);
+  width: 350px; max-width: calc(100% - 2 * var(--hud-edge));
+  display: flex; flex-direction: column; gap: 6px; z-index: 5;
+  max-height: calc(100dvh - var(--hud-bottom) - 116px);
+  overflow: auto; scrollbar-width: thin; overscroll-behavior: contain;
+}
+.underway .voyage-dock .voyage-card {
+  position: static; width: 100%; padding: 10px 12px; flex-shrink: 0;
+  display: grid; grid-template-columns: minmax(0, 1fr) 136px;
+  gap: 5px 12px; border-radius: 7px;
+  background: #f3f6e9ed; box-shadow: 0 4px 18px #062d352b;
+}
+.underway .voyage-card .card-topline {
+  grid-column: 1 / -1; margin: 0; gap: 8px; min-height: 23px;
+}
+.underway .card-topline > .eyebrow { font-size: 7px; letter-spacing: 1px; margin-right: auto; }
+.underway .card-topline button { min-width: 26px; min-height: 26px; align-items: center; justify-content: center; }
+.underway .card-topline .trip-toggle {
+  border: 1px solid #b7c7b34d; border-radius: 4px; padding: 3px 6px;
+  gap: 4px; font-size: 8px; color: #48665a; background: #e0e8d966;
+}
+.underway .trip-toggle:focus-visible, .underway .map-toggle:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.underway .voyage-card h2 {
+  grid-column: 1; grid-row: 2; min-width: 0;
+  font-size: 17px; letter-spacing: -.45px; line-height: 1.25; gap: 5px;
+}
+.underway .voyage-card h2 svg { width: 14px; flex-shrink: 0; }
+.underway .voyage-card:not(:has(.voyage-stats)) h2 { grid-column: 1 / -1; }
+.underway .voyage-card:not(.expanded) .voyage-detail { display: none; }
+.underway .voyage-card p { grid-column: 1 / -1; margin: 3px 0; font-size: 10px; line-height: 1.5; }
+.underway .voyage-stats { grid-column: 2; grid-row: 2 / span 2; align-items: center; gap: 10px; }
+.underway .voyage-stats strong { font-size: 17px; letter-spacing: -.6px; white-space: nowrap; }
+.underway .voyage-stats strong small { font-size: 8px; }
+.underway .voyage-stats div > span { max-width: 68px; font-size: 7px; line-height: 1.3; margin-top: 3px; }
+.underway .autopilot-button {
+  grid-column: 1; grid-row: 3; margin: 0; padding: 6px 7px;
+  min-height: 29px; font-size: 8px; gap: 5px; width: 100%;
+}
+.underway .autopilot-button > svg { width: 13px; flex-shrink: 0; }
+.underway .autopilot-button > span { font-size: 7px; padding: 0 3px; }
+.underway .voyage-card .text-link { grid-column: 1 / -1; font-size: 10px; margin: 4px 0 0; padding: 8px 0 0; }
+.underway .voyage-card .tutorial-link { grid-column: 1 / -1; padding: 3px 0 0; }
+.underway .voyage-card .tutorial-dots { grid-column: 1 / -1; margin: 6px 0 0; }
+.underway .voyage-card .route-warning { grid-column: 1 / -1; grid-row: auto; font-size: 10px; }
+.underway .voyage-card.expanded { display: block; padding: 12px 14px; }
+.underway .voyage-card.expanded .card-topline { margin-bottom: 8px; }
+.underway .voyage-card.expanded h2 { font-size: 20px; }
+.underway .voyage-card.expanded .voyage-stats { margin-top: 10px; }
+.underway .voyage-card.expanded .voyage-stats div > span { max-width: none; font-size: 8px; }
+.underway .voyage-card.expanded .autopilot-button { margin-top: 10px; }
+.underway .voyage-card .route-progress { margin: 10px 0; }
+.underway .voyage-card .journey-stage { padding: 5px 0; font-size: 10px; }
+.underway .voyage-telemetry { margin: 12px 0 0; padding-top: 9px; border-top: 1px solid #bccfc14d; }
+.underway .voyage-telemetry > div { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-top: 5px; font-size: 9px; line-height: 1.4; }
+.underway .voyage-telemetry dt { color: #648071; }
+.underway .voyage-telemetry dd { margin: 0; color: #34594d; text-align: right; overflow-wrap: anywhere; }
+.underway .voyage-dock .ship-status {
+  position: static; width: 100%; min-height: 28px; flex-shrink: 0;
+  gap: 7px; padding: 6px 9px; background: #103944bd;
+  border: 1px solid #dbece421; border-radius: 5px; backdrop-filter: blur(8px);
+}
+.underway .ship-status > svg { width: 14px; height: 14px; flex-shrink: 0; }
+.underway .ship-status > div { min-width: 0; }
+.underway .ship-status strong { font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.underway .ship-status div > span { display: none; }
+.underway .hull-health { font-size: 10px; white-space: nowrap; display: flex; align-items: center; gap: 5px; }
+.underway .hull-health small { font-size: 6px; margin: 0; letter-spacing: .7px; }
+.underway .voyage-dock.expanded .ship-status div > span { display: block; font-size: 8px; margin-top: 3px; }
+.underway .voyage-dock .dock-prompt, .underway .voyage-dock .port-services {
+  position: static; left: auto; bottom: auto; width: 100%; max-width: 100%; flex-shrink: 0;
+  padding: 9px 11px; gap: 8px; border-radius: 5px;
+}
+.underway .dock-prompt > span { flex: 1; font-size: 10px; }
+.underway .dock-prompt small { font-size: 7px; margin-top: 3px; }
+.underway .port-services > strong { font-size: 12px; }
+.underway .port-services > button { min-height: 28px; font-size: 10px; text-align: left; }
+.underway .port-services .primary-button { min-height: 32px; padding: 8px 10px; }
+
+.underway .navigation-tools {
+  top: auto; right: var(--hud-edge); bottom: var(--hud-bottom); width: 210px;
+  display: grid; grid-template-columns: minmax(0, 1fr) 32px; gap: 6px; z-index: 4;
+}
+.underway .navigation-tools[hidden], .underway .navigation-tools .mini-chart[hidden] { display: none; }
+.underway .navigation-tools .camera-controls {
+  grid-column: 1; position: static; width: 100%; padding: 3px; border-radius: 5px; gap: 3px;
+}
+.underway .navigation-tools .camera-controls button { height: 32px; padding: 0 2px; gap: 1px; border-radius: 3px; }
+.underway .navigation-tools .camera-controls button span { font-size: 7px; }
+.underway .navigation-tools .camera-controls button svg { width: 13px; height: 13px; }
+.underway .map-toggle {
+  grid-column: 2; grid-row: 1; width: 32px; min-height: 38px;
+  display: flex; justify-content: center; align-items: center;
+  border: 1px solid #dbece433; border-radius: 5px; background: #12343bec; color: #e8f1e9;
+  font-size: 0; padding: 0; backdrop-filter: blur(12px);
+}
+.underway .map-toggle svg { width: 16px; height: 16px; }
+.underway .map-toggle svg:last-child { width: 10px; height: 10px; }
+.underway .map-toggle[aria-expanded="true"] { color: #eec396; border-color: #eec39670; }
+.underway .navigation-tools .mini-chart { display: block; position: static; grid-column: 1 / -1; width: 100%; border-radius: 5px; }
+.underway .navigation-tools .nautical-map:not(.large) { height: 110px; }
+.underway .mini-chart-header { height: 26px; padding: 0 8px; }
+.underway .mini-chart-header > span { font-size: 7px; letter-spacing: .9px; }
+.underway .mini-chart-header button { padding: 4px; }
+.underway .mini-chart-footer { height: 24px; padding: 0 8px; gap: 8px; font-size: 8px; }
+.underway .mini-chart .map-zoom { bottom: 6px; right: 6px; }
+.underway .mini-chart .map-zoom button { padding: 4px; }
+
+.underway .helm-console {
+  left: var(--hud-edge); right: var(--hud-edge); bottom: var(--hud-edge);
+  height: var(--helm-height); min-height: 0; padding: 10px 18px;
+  gap: 24px; flex-wrap: nowrap; border-radius: 7px; align-items: center;
+}
+.underway .helm-separator { height: 48px; }
+.underway .speed-instrument { width: auto; min-width: 100px; }
+.underway .speed-instrument .eyebrow { font-size: 6px; letter-spacing: .9px; }
+.underway .speed-reading { font-size: 31px; gap: 6px; }
+.underway .speed-reading > span { font-size: 9px; }
+.underway .hydroplane-speed .speed-reading { font-size: 27px; }
+.underway .kmh-reading { font-size: 12px; margin: 1px 0 0; }
+.underway .kmh-reading span { font-size: 8px; }
+.underway .water-speed, .underway .distance-readout { display: none; }
+.underway .engine-control, .underway .rudder-control, .underway .fuel-instrument { min-width: 0; }
+.underway .instrument-label > span { font-size: 7px; letter-spacing: .8px; }
+.underway .instrument-label > strong { font-size: 12px; }
+.underway .helm-console input[type="range"] { margin: 9px 0; }
+.underway .gear-controls button { padding: 5px 4px; font-size: 7px; }
+.underway .rudder-labels { height: 20px; }
+.underway .fuel-bar { margin: 11px 0 8px; }
+.underway .fuel-details { font-size: 8px; }
+.underway .fuel-instrument > small { display: none; }
+.underway .time-instrument { position: static; width: auto; min-width: 146px; padding: 0; border: 0; background: none; flex: 1.05; }
+.underway .time-instrument .time-controls { margin: 7px 0 3px; display: grid; grid-template-columns: .65fr .65fr .85fr 1.2fr 1.55fr; }
+.underway .time-controls button { min-width: 0; padding: 5px 2px; font-size: 9px; white-space: nowrap; }
+.underway .time-instrument > small { font-size: 6px; }
+.underway .bottom-meta { display: flex; left: auto; right: var(--hud-edge); bottom: 2px; font-size: 6px; opacity: .75; }
+.underway .bottom-meta > span:first-child { display: none; }
+.underway .bottom-meta > span:last-child { display: flex; }
+.underway .toast { top: 110px; bottom: auto; padding: 10px 14px; font-size: 10px; max-width: min(480px, calc(100% - 32px)); }
+.underway .neutral-notice { bottom: calc(100% + 8px); padding: 8px 10px; gap: 8px; }
+
+@media (max-width: 1150px) {
+  .underway { --hud-edge: 12px; --helm-height: 90px; }
+  .underway .topbar { gap: 24px; padding: 0 16px; }
+  .underway .topbar nav { gap: 18px; }
+  .underway .location-label > span:last-child, .underway .environment-strip .current-readout { display: none; }
+  .underway .helm-console { gap: 17px; padding: 9px 14px; }
+  .underway .voyage-dock { width: 320px; }
+  .underway .voyage-dock .voyage-card { grid-template-columns: minmax(0, 1fr) 126px; gap: 5px 8px; padding: 9px 10px; }
+  .underway .voyage-card h2 { font-size: 16px; }
+  .underway .voyage-stats { gap: 7px; }
+  .underway .voyage-stats strong { font-size: 16px; }
+  .underway .navigation-tools { width: 190px; }
+  .underway .helm-separator { display: none; }
+  .underway .speed-instrument { min-width: 88px; }
+  .underway .time-instrument { min-width: 136px; }
+}
+
+@media (max-width: 600px) {
+  .underway { --hud-edge: 10px; --helm-height: 150px; }
+  .underway .topbar { height: 48px; gap: 10px; padding: 0 12px; }
+  .underway .brand { gap: 6px; }
+  .underway .brand > svg { width: 22px; }
+  .underway .brand > span { font-size: 17px; letter-spacing: 2.5px; }
+  .underway .brand small { display: none; }
+  .underway .topbar nav { gap: 5px; }
+  .underway .topbar nav button { font-size: 0; width: 24px; }
+  .underway .header-actions .icon-button { width: 26px; }
+  .underway .header-actions .icon-button:first-of-type { display: grid; }
+  .underway .pause-button { width: 28px; height: 28px; }
+  .underway .location-label { top: 60px; left: 12px; }
+  .underway .location-label .eyebrow { font-size: 6px; letter-spacing: .6px; }
+  .underway .environment-strip { top: 58px; right: 12px; font-size: 8px; gap: 5px; }
+  .underway .environment-strip > svg { width: 12px; height: 12px; }
+  .underway .compass-strip { top: 84px; left: 12px; right: auto; transform: none; width: 110px; padding: 8px; }
+  .underway .compass-heading > strong { font-size: 18px; }
+  .underway .navigation-tools { top: 82px; bottom: auto; right: 12px; width: 184px; gap: 5px; grid-template-columns: minmax(0, 1fr) 32px; }
+  .underway .navigation-tools .camera-controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .underway .navigation-tools .camera-controls button { justify-content: center; flex-direction: column; padding: 0 2px; height: 30px; }
+  .underway .navigation-tools .camera-controls button span { display: none; }
+  .underway .navigation-tools .camera-controls button svg { width: 16px; height: 16px; }
+  .underway .map-toggle { min-height: 36px; }
+  .underway .navigation-tools .nautical-map:not(.large) { height: 100px; }
+  .underway .voyage-dock { width: calc(100% - 2 * var(--hud-edge)); max-height: calc(100dvh - var(--hud-bottom) - 140px); }
+  .underway .voyage-dock .voyage-card { grid-template-columns: minmax(0, 1fr) 140px; padding: 8px 10px; gap: 3px 10px; }
+  .underway .voyage-card h2 { font-size: 16px; }
+  .underway .card-topline { min-height: 24px; }
+  .underway .card-topline button { min-width: 28px; min-height: 28px; }
+  .underway .autopilot-button { min-height: 29px; font-size: 8px; }
+  .underway .voyage-stats strong { font-size: 17px; }
+  .underway .voyage-stats div > span { font-size: 7px; }
+  .underway .ship-status strong { font-size: 10px; }
+  .underway .helm-console { display: grid; grid-template-columns: 74px minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: 62px 49px; gap: 10px 14px; padding: 10px 12px; align-content: center; }
+  .underway .speed-instrument { grid-column: 1; grid-row: 1; width: auto; min-width: 0; }
+  .underway .speed-reading { font-size: 28px; gap: 4px; }
+  .underway .hydroplane-speed .speed-reading { font-size: 24px; }
+  .underway .speed-instrument .eyebrow { font-size: 5px; letter-spacing: .2px; }
+  .underway .engine-control { grid-column: 2; grid-row: 1; }
+  .underway .rudder-control { grid-column: 3; grid-row: 1; }
+  .underway .instrument-label > span { font-size: 6px; letter-spacing: .3px; }
+  .underway .instrument-label > strong { font-size: 11px; }
+  .underway .instrument-label small { font-size: 6px; margin-left: 0; }
+  .underway .helm-console input[type="range"] { margin: 9px 0; }
+  .underway .gear-controls { gap: 2px; }
+  .underway .gear-controls button { font-size: 6px; padding: 5px 2px; letter-spacing: 0; }
+  .underway .rudder-labels { font-size: 6px; }
+  .underway .rudder-labels button { font-size: 7px; }
+  .underway .fuel-instrument { grid-column: 1 / span 2; grid-row: 2; width: auto; }
+  .underway .fuel-bar { margin: 8px 0 7px; }
+  .underway .time-instrument { grid-column: 3; grid-row: 2; width: auto; min-width: 0; }
+  .underway .time-instrument .time-controls { margin: 4px 0 2px; gap: 0; }
+  .underway .time-controls button { font-size: 8px; padding: 5px 0; }
+  .underway .time-instrument > small { font-size: 5px; }
+  .underway .toast { top: 128px; max-width: calc(100% - 24px); }
+  .underway .neutral-notice { width: calc(100% + 2px); left: -1px; transform: none; }
+  .underway .voyage-dock:not(.expanded) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; }
+  .underway .voyage-dock:not(.expanded) .voyage-card { grid-column: 1 / -1; grid-template-columns: minmax(0, 1fr) 88px 34px; grid-template-rows: 24px 30px; padding: 7px 9px; gap: 4px 9px; }
+  .underway .voyage-card:not(.expanded) .card-topline { grid-column: 3; grid-row: 1 / 3; justify-content: center; }
+  .underway .voyage-card:not(.expanded) .card-topline > .eyebrow,
+  .underway .voyage-card:not(.expanded) .card-topline > button:not(.trip-toggle) { display: none; }
+  .underway .voyage-card:not(.expanded) .trip-toggle { min-width: 32px; min-height: 32px; }
+  .underway .voyage-card:not(.expanded) h2 { grid-column: 1; grid-row: 1; font-size: 15px; align-self: center; }
+  .underway .voyage-card:not(.expanded) .autopilot-button { grid-column: 1; grid-row: 2; }
+  .underway .voyage-card:not(.expanded) .voyage-stats { grid-column: 2; grid-row: 1 / 3; justify-content: center; }
+  .underway .voyage-card:not(.expanded) .voyage-stats > div:last-child { display: none; }
+  .underway .voyage-dock:not(.expanded) .ship-status { grid-column: 1 / -1; min-height: 32px; padding: 5px 7px; }
+  .underway .voyage-dock:not(.expanded):has(.dock-prompt) .ship-status { grid-column: 1; }
+  .underway .voyage-dock:not(.expanded) .hull-health small { display: none; }
+  .underway .voyage-dock:not(.expanded) .dock-prompt { grid-column: 2; min-height: 32px; padding: 5px 7px; gap: 5px; }
+  .underway .voyage-dock:not(.expanded) .dock-prompt > svg { width: 14px; flex-shrink: 0; }
+  .underway .voyage-dock:not(.expanded) .dock-prompt small { display: none; }
+  .underway .voyage-dock .port-services { grid-column: 1 / -1; }
+}
+
+@media (max-height: 700px) and (min-width: 601px) {
+  .underway .voyage-dock { width: min(320px, calc(32vw - 24px)); }
+}
+
+@media (max-height: 500px) and (min-width: 601px) {
+  .underway { --hud-edge: 9px; --helm-height: 82px; }
+  .underway .topbar { height: 44px; gap: 24px; padding: 0 12px; }
+  .underway .brand > span { font-size: 17px; letter-spacing: 3px; }
+  .underway .brand > svg { width: 24px; }
+  .underway .brand small { display: none; }
+  .underway .topbar nav { gap: 16px; }
+  .underway .topbar nav button { font-size: 10px; }
+  .underway .location-label { top: 54px; left: 12px; }
+  .underway .location-label .eyebrow { font-size: 7px; }
+  .underway .environment-strip { top: 53px; right: 12px; font-size: 8px; }
+  .underway .compass-strip { top: 48px; padding: 5px 8px; width: 110px; }
+  .underway .compass-heading > strong { font-size: 18px; }
+  .underway .voyage-dock { width: 232px; max-height: calc(100dvh - var(--hud-bottom) - 78px); }
+  .underway .voyage-dock .voyage-card { padding: 7px 9px; grid-template-columns: minmax(0, 1fr) 94px; gap: 4px 7px; }
+  .underway .card-topline > .eyebrow { font-size: 6px; letter-spacing: .7px; }
+  .underway .card-topline .trip-toggle { font-size: 7px; padding: 2px 4px; }
+  .underway .voyage-card h2 { font-size: 14px; }
+  .underway .voyage-stats { gap: 6px; }
+  .underway .voyage-stats strong { font-size: 13px; }
+  .underway .voyage-stats strong small { font-size: 7px; }
+  .underway .voyage-stats div > span { font-size: 6px; max-width: 45px; }
+  .underway .autopilot-button { font-size: 7px; gap: 4px; padding: 5px; min-height: 27px; }
+  .underway .autopilot-button > span { display: none; }
+  .underway .autopilot-button > svg { width: 11px; }
+  .underway .voyage-dock .ship-status { padding: 5px 8px; min-height: 25px; }
+  .underway .ship-status strong { font-size: 9px; }
+  .underway .navigation-tools { top: auto; bottom: var(--hud-bottom); width: 174px; }
+  .underway .navigation-tools .camera-controls button span { display: none; }
+  .underway .navigation-tools .camera-controls button { height: 27px; }
+  .underway .navigation-tools .camera-controls button svg { width: 15px; height: 15px; }
+  .underway .map-toggle { min-height: 33px; }
+  .underway .navigation-tools .nautical-map:not(.large) { height: 78px; }
+  .underway .mini-chart-header { height: 23px; }
+  .underway .mini-chart-footer { height: 22px; font-size: 7px; }
+  .underway .helm-console { padding: 8px 12px; gap: 15px; }
+  .underway .speed-instrument { min-width: 77px; }
+  .underway .speed-reading { font-size: 27px; }
+  .underway .hydroplane-speed .speed-reading { font-size: 23px; }
+  .underway .kmh-reading { font-size: 11px; }
+  .underway .instrument-label > span { font-size: 6px; }
+  .underway .time-instrument { min-width: 132px; }
+  .underway .toast { top: 82px; padding: 8px 12px; }
+}
+
+/* Keep the fleet decision visible while the seven hull cards scroll. */
+.fleet-modal {
+  display: flex;
+  flex-direction: column;
+  height: min(900px, calc(100dvh - 70px));
+  max-height: calc(100dvh - 70px);
+  overflow: hidden;
+  padding: 30px 30px 20px;
+}
+.fleet-content { min-height: 0; flex: 1; overflow-y: auto; padding: 4px 7px 18px 3px; overscroll-behavior: contain; }
+.fleet-modal .fleet-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.fleet-modal .fleet-card > p { min-height: 68px; }
+.fleet-modal .fleet-card .ship-drawing { height: 75px; margin-top: 12px; }
+.fleet-current { display: inline-block; margin-top: 5px; padding: 3px 7px; border-radius: 4px; background: #dce7d4; color: #48663e; font-size: 9px; }
+.fleet-modal .fleet-bottom { flex: 0 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 1fr); align-items: center; gap: 16px 36px; margin-top: 0; padding-top: 15px; border-top: 1px solid #dce4cf; }
+.fleet-modal .fleet-bottom > div { max-width: none; min-width: 0; }
+.fleet-modal .fleet-selection-status { margin: 0 0 8px; color: #425c47; font-size: 11px; }
+.fleet-modal .fleet-selection-status strong { color: #294c3a; font-size: 12px; }
+.fleet-selection-status > span { display: block; font-size: 9px; color: #7a886f; }
+.fleet-confirmation > .primary-button { width: 100%; justify-content: center; }
+.fleet-modal .fleet-availability { margin: 7px 0 0; color: #66785b; line-height: 1.4; }
+@media (max-width: 1150px) {
+  .fleet-modal .fleet-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .fleet-modal { height: calc(100dvh - 24px); max-height: calc(100dvh - 24px); padding: 24px 15px 15px; }
+  .fleet-modal .fleet-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .fleet-modal .fleet-card .ship-drawing { height: 62px; }
+  .fleet-modal .fleet-card > p { min-height: 62px; }
+  .fleet-modal .fleet-bottom { grid-template-columns: minmax(0, 1fr); gap: 7px; padding-top: 10px; }
+  .fleet-modal .fleet-load input { margin: 9px 0 3px; }
+  .fleet-modal .fleet-load > p { display: none; }
+  .fleet-modal .fleet-selection-status { margin-bottom: 6px; font-size: 10px; }
+  .fleet-modal .fleet-selection-status > span { display: inline; margin-left: 8px; }
+  .fleet-modal .fleet-availability { font-size: 8px; }
+}
+@media (max-height: 500px) and (min-width: 601px) {
+  .fleet-modal { height: calc(100dvh - 24px); max-height: calc(100dvh - 24px); padding: 17px 22px 12px; }
+  .fleet-modal .fleet-bottom { gap: 10px 22px; padding-top: 8px; }
+  .fleet-modal .fleet-load input { margin: 10px 0 3px; }
+  .fleet-modal .fleet-load > p { display: none; }
+  .fleet-modal .fleet-selection-status { margin-bottom: 4px; }
+  .fleet-selection-status > span { display: inline; margin-left: 8px; }
+  .fleet-modal .fleet-availability { font-size: 8px; margin-top: 4px; }
+}

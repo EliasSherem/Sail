@@ -1,0 +1,737 @@
+[
+  {
+    "id": "marseille",
+    "lat": 43.286,
+    "lon": 5.347,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 0
+  },
+  {
+    "id": "cassis",
+    "lat": 43.201,
+    "lon": 5.53,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 30418.936281719427
+  },
+  {
+    "id": "toulon",
+    "lat": 43.068,
+    "lon": 5.948,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 70090.30587762658
+  },
+  {
+    "id": "barcelona",
+    "lat": 41.31,
+    "lon": 2.191,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 354954.89274031116
+  },
+  {
+    "id": "la-ciotat",
+    "lat": 43.165,
+    "lon": 5.628,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 39795.61246882134
+  },
+  {
+    "id": "bandol",
+    "lat": 43.117,
+    "lon": 5.75,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 51643.62791828484
+  },
+  {
+    "id": "hyeres",
+    "lat": 43.065,
+    "lon": 6.195,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 94326.29147282327
+  },
+  {
+    "id": "nice",
+    "lat": 43.673,
+    "lon": 7.285,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 218227.60086316147
+  },
+  {
+    "id": "monaco",
+    "lat": 43.724,
+    "lon": 7.445,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 235241.20064342493
+  },
+  {
+    "id": "genoa",
+    "lat": 44.375,
+    "lon": 8.93,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 384393.88286583207
+  },
+  {
+    "id": "ajaccio",
+    "lat": 41.902,
+    "lon": 8.72,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 454960.23416997097
+  },
+  {
+    "id": "palma",
+    "lat": 39.525,
+    "lon": 2.62,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 685079.213657965
+  },
+  {
+    "id": "valencia",
+    "lat": 39.423,
+    "lon": -0.278,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 670013.225071339
+  },
+  {
+    "id": "cartagena",
+    "lat": 37.555,
+    "lon": -0.98,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 883309.1720844185
+  },
+  {
+    "id": "malaga",
+    "lat": 36.675,
+    "lon": -4.42,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 1356820.6408698375
+  },
+  {
+    "id": "gibraltar",
+    "lat": 36.12,
+    "lon": -5.395,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 1373692.425920842
+  },
+  {
+    "id": "new-york",
+    "lat": 40.455,
+    "lon": -73.865,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 7912888.877336339
+  },
+  {
+    "id": "cape-town",
+    "lat": -33.858,
+    "lon": 18.401,
+    "heading": 0,
+    "routeFromMarseille": 11184614.415259963
+  },
+  {
+    "id": "sydney",
+    "lat": -33.831,
+    "lon": 151.322,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 23752969.137981314
+  },
+  {
+    "id": "yokohama",
+    "lat": 35.406,
+    "lon": 139.753,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 21863869.913480382
+  },
+  {
+    "id": "cadiz",
+    "lat": 36.53,
+    "lon": -6.32,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 1503988.3514646522
+  },
+  {
+    "id": "lisbon",
+    "lat": 38.66,
+    "lon": -9.31,
+    "heading": 4.1887902047863905,
+    "routeFromMarseille": 1932853.7005867825
+  },
+  {
+    "id": "porto",
+    "lat": 41.16,
+    "lon": -8.71,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 2241944.760308852
+  },
+  {
+    "id": "vigo",
+    "lat": 42.22,
+    "lon": -8.78,
+    "heading": 4.1887902047863905,
+    "routeFromMarseille": 2365703.927955366
+  },
+  {
+    "id": "a-coruna",
+    "lat": 43.39,
+    "lon": -8.37,
+    "heading": 0,
+    "routeFromMarseille": 2566954.2351217703
+  },
+  {
+    "id": "brest",
+    "lat": 48.35,
+    "lon": -4.61,
+    "heading": 4.1887902047863905,
+    "routeFromMarseille": 3186430.3087353962
+  },
+  {
+    "id": "cork",
+    "lat": 51.78,
+    "lon": -8.24,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 3653995.5321387267
+  },
+  {
+    "id": "falmouth",
+    "lat": 50.12,
+    "lon": -5.04,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 3401721.208474823
+  },
+  {
+    "id": "killybegs",
+    "lat": 54.6,
+    "lon": -8.45,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 4243199.779535197
+  },
+  {
+    "id": "stornoway",
+    "lat": 58.17,
+    "lon": -6.35,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 4721827.458562208
+  },
+  {
+    "id": "torshavn",
+    "lat": 61.9899881,
+    "lon": -6.6825508,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 5170690.328431791
+  },
+  {
+    "id": "hofn",
+    "lat": 64.22,
+    "lon": -15.2,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 5716824.536560595
+  },
+  {
+    "id": "vestmannaeyjar",
+    "lat": 63.43,
+    "lon": -20.25,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 5997492.9129338125
+  },
+  {
+    "id": "reykjavik",
+    "lat": 64.17,
+    "lon": -21.99,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 6214078.821931005
+  },
+  {
+    "id": "isafjordur",
+    "lat": 66.1,
+    "lon": -23.08,
+    "heading": 0,
+    "routeFromMarseille": 6554719.351830252
+  },
+  {
+    "id": "tasiilaq",
+    "lat": 65.57,
+    "lon": -37.62,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 7229428.103380064
+  },
+  {
+    "id": "prins-christian-sund",
+    "lat": 60.05,
+    "lon": -43.1,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 7903143.374916199
+  },
+  {
+    "id": "nanortalik",
+    "lat": 60.12,
+    "lon": -45.26,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 8053146.223656792
+  },
+  {
+    "id": "qaqortoq",
+    "lat": 60.7038153,
+    "lon": -46.0377975,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 8149724.711591384
+  },
+  {
+    "id": "paamiut",
+    "lat": 61.97,
+    "lon": -49.7,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 8440490.910204453
+  },
+  {
+    "id": "nuuk",
+    "lat": 64.15,
+    "lon": -51.76,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 8708105.129478004
+  },
+  {
+    "id": "sisimiut",
+    "lat": 66.9299994,
+    "lon": -53.7137702,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 9080903.282968342
+  },
+  {
+    "id": "qikiqtarjuaq",
+    "lat": 67.5495368,
+    "lon": -64.0449781,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 9558078.692227703
+  },
+  {
+    "id": "pangnirtung",
+    "lat": 66.128669,
+    "lon": -65.7855355,
+    "heading": 4.1887902047863905,
+    "routeFromMarseille": 10210063.20291572
+  },
+  {
+    "id": "iqaluit",
+    "lat": 63.72,
+    "lon": -68.53,
+    "heading": 2.443460952792061,
+    "routeFromMarseille": 10935622.345744519
+  },
+  {
+    "id": "saglek",
+    "lat": 58.4809227,
+    "lon": -62.6151505,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 11601933.464108562
+  },
+  {
+    "id": "nain",
+    "lat": 56.53,
+    "lon": -61.67,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 11473243.501190165
+  },
+  {
+    "id": "cartwright",
+    "lat": 53.7,
+    "lon": -57.03,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 10980870.987987246
+  },
+  {
+    "id": "st-johns",
+    "lat": 47.56,
+    "lon": -52.66,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 10138656.095388636
+  },
+  {
+    "id": "halifax",
+    "lat": 44.61,
+    "lon": -63.55,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 9139455.902005324
+  },
+  {
+    "id": "boston",
+    "lat": 42.3238154,
+    "lon": -70.8948394,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 8435734.574861895
+  },
+  {
+    "id": "funchal",
+    "lat": 32.62,
+    "lon": -16.92,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 2894695.6346462816
+  },
+  {
+    "id": "las-palmas",
+    "lat": 28.13,
+    "lon": -15.3969407,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 2809985.752853815
+  },
+  {
+    "id": "ponta-delgada",
+    "lat": 37.72,
+    "lon": -25.67,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 3366137.5734042116
+  },
+  {
+    "id": "horta",
+    "lat": 38.52,
+    "lon": -28.61,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 3640132.9502259768
+  },
+  {
+    "id": "bermuda",
+    "lat": 32.2573236,
+    "lon": -64.7945442,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 6971679.951795574
+  },
+  {
+    "id": "miami",
+    "lat": 25.76,
+    "lon": -80.1,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 8631613.439771704
+  },
+  {
+    "id": "nassau",
+    "lat": 25.1,
+    "lon": -77.33,
+    "heading": 0,
+    "routeFromMarseille": 8918605.045230843
+  },
+  {
+    "id": "havana",
+    "lat": 23.16,
+    "lon": -82.36,
+    "heading": 0,
+    "routeFromMarseille": 9490636.302379342
+  },
+  {
+    "id": "cancun",
+    "lat": 21.1407703,
+    "lon": -86.742818,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 10004379.484488765
+  },
+  {
+    "id": "veracruz",
+    "lat": 19.2,
+    "lon": -96.1,
+    "heading": 0.7853981633974483,
+    "routeFromMarseille": 10981525.737560837
+  },
+  {
+    "id": "san-juan",
+    "lat": 18.47,
+    "lon": -66.12,
+    "heading": 0,
+    "routeFromMarseille": 8503516.005368
+  },
+  {
+    "id": "cartagena-colombia",
+    "lat": 10.3174647,
+    "lon": -75.5809379,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 9915592.58153134
+  },
+  {
+    "id": "colon",
+    "lat": 9.39,
+    "lon": -79.925,
+    "heading": 0,
+    "routeFromMarseille": 10404233.271988712
+  },
+  {
+    "id": "balboa",
+    "lat": 8.92,
+    "lon": -79.53,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 10476878.933106834
+  },
+  {
+    "id": "acapulco",
+    "lat": 16.83,
+    "lon": -99.92,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 13145210.345660154
+  },
+  {
+    "id": "los-cabos",
+    "lat": 22.87,
+    "lon": -109.9,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 14399238.504487768
+  },
+  {
+    "id": "manzanillo",
+    "lat": 19.0323419,
+    "lon": -104.3340531,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 13679023.79814824
+  },
+  {
+    "id": "san-diego",
+    "lat": 32.66,
+    "lon": -117.2,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 15744884.17142321
+  },
+  {
+    "id": "los-angeles",
+    "lat": 33.69,
+    "lon": -118.25,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 15895461.521767432
+  },
+  {
+    "id": "san-francisco",
+    "lat": 37.79,
+    "lon": -122.52,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 16544984.815026678
+  },
+  {
+    "id": "seattle",
+    "lat": 47.59,
+    "lon": -122.39,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 17999769.972732984
+  },
+  {
+    "id": "vancouver",
+    "lat": 49.2581542,
+    "lon": -123.2377691,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 18223509.12882462
+  },
+  {
+    "id": "callao",
+    "lat": -12.0599998,
+    "lon": -77.1791962,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 12968091.594173249
+  },
+  {
+    "id": "valparaiso",
+    "lat": -33.01,
+    "lon": -71.63,
+    "heading": 0,
+    "routeFromMarseille": 15366953.103237623
+  },
+  {
+    "id": "rio-de-janeiro",
+    "lat": -22.98,
+    "lon": -43.15,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 9441193.89218809
+  },
+  {
+    "id": "santos",
+    "lat": -24.02,
+    "lon": -46.3,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 9790223.212520739
+  },
+  {
+    "id": "buenos-aires",
+    "lat": -34.61,
+    "lon": -58.32,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 11600684.244868295
+  },
+  {
+    "id": "montevideo",
+    "lat": -34.93,
+    "lon": -56.22,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 11405065.167349108
+  },
+  {
+    "id": "dakar",
+    "lat": 14.6674647,
+    "lon": -17.4290462,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 4353524.514117261
+  },
+  {
+    "id": "casablanca",
+    "lat": 33.62,
+    "lon": -7.6,
+    "heading": 0,
+    "routeFromMarseille": 1843381.9402660106
+  },
+  {
+    "id": "rotterdam",
+    "lat": 51.99,
+    "lon": 4,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 4080654.977984615
+  },
+  {
+    "id": "hamburg",
+    "lat": 53.96,
+    "lon": 8.65,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 4495489.079372332
+  },
+  {
+    "id": "bergen",
+    "lat": 60.3946113,
+    "lon": 5.2643408,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 5255342.729818666
+  },
+  {
+    "id": "oslo",
+    "lat": 59.89,
+    "lon": 10.72,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 5981012.474534004
+  },
+  {
+    "id": "piraeus",
+    "lat": 37.92,
+    "lon": 23.61,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 2578085.2007644065
+  },
+  {
+    "id": "istanbul",
+    "lat": 40.96,
+    "lon": 28.98,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 3213806.4536985476
+  },
+  {
+    "id": "port-said",
+    "lat": 31.3,
+    "lon": 32.34,
+    "heading": 0,
+    "routeFromMarseille": 3663616.6850115987
+  },
+  {
+    "id": "haifa",
+    "lat": 32.8526762,
+    "lon": 34.9945078,
+    "heading": 0,
+    "routeFromMarseille": 4010189.9229665766
+  },
+  {
+    "id": "ashdod",
+    "lat": 31.84,
+    "lon": 34.63,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 3884380.2890811414
+  },
+  {
+    "id": "suez",
+    "lat": 29.91,
+    "lon": 32.57,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 3825780.854011597
+  },
+  {
+    "id": "eilat",
+    "lat": 29.53,
+    "lon": 34.96,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 4358219.198725294
+  },
+  {
+    "id": "jeddah",
+    "lat": 21.47,
+    "lon": 39.13,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 4980717.021408937
+  },
+  {
+    "id": "dubai",
+    "lat": 25.28,
+    "lon": 55.26,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 9327103.71441717
+  },
+  {
+    "id": "mumbai",
+    "lat": 18.89,
+    "lon": 72.82,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 10407549.622430196
+  },
+  {
+    "id": "colombo",
+    "lat": 6.97,
+    "lon": 79.82,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 12295873.924573371
+  },
+  {
+    "id": "singapore",
+    "lat": 1.23,
+    "lon": 103.8,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 15201914.331541806
+  },
+  {
+    "id": "hong-kong",
+    "lat": 22.2260092,
+    "lon": 114.1548869,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 17883053.82640284
+  },
+  {
+    "id": "shanghai",
+    "lat": 30.5836406,
+    "lon": 122.0873867,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 19255225.400661234
+  },
+  {
+    "id": "busan",
+    "lat": 35.05,
+    "lon": 129.06,
+    "heading": 3.141592653589793,
+    "routeFromMarseille": 20120043.119843856
+  },
+  {
+    "id": "auckland",
+    "lat": -36.8219077,
+    "lon": 174.8023832,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 26186218.401001398
+  },
+  {
+    "id": "brisbane",
+    "lat": -27.34,
+    "lon": 153.2,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 24572674.029589552
+  },
+  {
+    "id": "fremantle",
+    "lat": -32.05,
+    "lon": 115.73,
+    "heading": 4.71238898038469,
+    "routeFromMarseille": 19565320.580483697
+  },
+  {
+    "id": "st-anthony",
+    "lat": 51.359998,
+    "lon": -55.5383964,
+    "heading": 1.5707963267948966,
+    "routeFromMarseille": 10612888.546007507
+  },
+  {
+    "id": "saint-pierre",
+    "lat": 46.76,
+    "lon": -56.13,
+    "heading": 2.356194490192345,
+    "routeFromMarseille": 9770246.006619811
+  }
+]

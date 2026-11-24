@@ -1,0 +1,14 @@
+{
+  "scenario": "Restored coast-adjacent test fixture at 43.20 N, 5.30 E, heading 270 degrees, yacht 10 m/s; actual browser simulation at 100x for 12 wall-clock seconds",
+  "distanceMeters": 13917.208393287978,
+  "damage": 0,
+  "framesMeasured": 688,
+  "medianFrameMs": 16.7,
+  "p95FrameMs": 16.8,
+  "maxFrameMs": 33.3,
+  "stallsAbove100ms": 0,
+  "consoleErrors": [],
+  "renderedFPS": 60,
+  "screenshot": "rebase-100x.png",
+  "visualInspection": "Vessel and wake remain visible after multiple 2 km origin rebases and an 8 km scenery cache reload; camera follow correctly uses simulation time scale."
+}

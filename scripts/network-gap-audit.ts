@@ -1,0 +1,20 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {PORTS,portById} from '../src/data/ports';
+import {SHIPS} from '../src/data/ships';
+import {worldFromGeoJSON} from '../src/geo/world';
+import {destination,distance,bearing} from '../src/geo/math';
+import {createVessel} from '../src/sim/engine';
+import {createWeather} from '../src/sim/weather';
+import {estimateRouteFuel} from '../src/sim/routeEstimate';
+import {planFuelItinerary} from '../src/sim/itinerary';
+import type {ShipId,Route} from '../src/types';
+const world=worldFromGeoJSON(JSON.parse(readFileSync('public/data/land.geojson','utf8')));
+const weather=createWeather('calm',4821);
+const range=SHIPS.map(s=>{const a={lat:42,lon:4},b=destination(a,Math.PI/2,100000); const r:Route={id:'probe',name:'',from:'',to:'',points:[a,b],distance:100000,directDistance:100000,description:''};const e=estimateRouteFuel(createVessel(s.id,a,Math.PI/2),r,weather);return {id:s.id,capacity:s.fuelCapacity,rangeKm:100*s.fuelCapacity/e.requiredFuelLitres,required100Km:e.requiredFuelLitres};});
+console.log('range',range);
+const gaps=PORTS.map(p=>({id:p.id,nearest:PORTS.filter(x=>x!==p).map(x=>({id:x.id,km:distance(p,x)/1000})).sort((a,b)=>a.km-b.km).slice(0,3)})).sort((a,b)=>b.nearest[0].km-a.nearest[0].km);
+console.log('isolated',JSON.stringify(gaps.slice(0,30)));
+const plans=[];
+const cases:[ShipId,string,string][]=[['spirit','marseille','haifa'],['speedboat','marseille','haifa'],['fishing','marseille','haifa'],['spirit','acapulco','los-cabos'],['speedboat','cancun','veracruz'],['yacht','cancun','veracruz'],['fishing','acapulco','los-cabos'],['spirit','marseille','new-york']];
+for(const [ship,from,to]of cases){const state=createVessel(ship,portById(from)!);const start=performance.now();const plan=planFuelItinerary(world,state,to,weather);const row={ship,from,to,status:plan.status,seconds:(performance.now()-start)/1000,distanceKm:plan.totalDistanceM/1000,legs:plan.legs.map(x=>({to:x.arrivalPortId,km:x.route.distance/1000,fuel:x.estimate.requiredFuelLitres})),reason:plan.reason};plans.push(row);console.log(JSON.stringify(row));}
+mkdirSync('artifacts/planning',{recursive:true});writeFileSync(process.env.REPORT_PATH ?? 'artifacts/planning/network-gap-audit.json',JSON.stringify({range,gaps,plans},null,2));

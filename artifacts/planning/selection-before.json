@@ -1,0 +1,7 @@
+{
+  "before": "spirit",
+  "afterRoute": "spirit",
+  "afterRefresh": "yacht",
+  "routeBefore": "cassis",
+  "routeAfter": null
+}

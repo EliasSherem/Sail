@@ -1,0 +1,630 @@
+{
+  "passed": true,
+  "generatedAt": "2026-09-26T21:43:12.110Z",
+  "cases": [
+    {
+      "shipId": "spirit",
+      "from": "marseille",
+      "to": "new-york",
+      "planningMs": 6782.251334,
+      "distanceKm": 14655.559850882955,
+      "stages": [
+        {
+          "to": "barcelona",
+          "km": 347.8064443568101,
+          "requiredLitres": 463.9615283524039,
+          "availableLitres": 900,
+          "reserveLitres": 92.79230567048077
+        },
+        {
+          "to": "cartagena",
+          "km": 531.7183119699631,
+          "requiredLitres": 692.6026071044396,
+          "availableLitres": 900,
+          "reserveLitres": 138.52052142088792
+        },
+        {
+          "to": "gibraltar",
+          "km": 595.3625343600359,
+          "requiredLitres": 780.387446266181,
+          "availableLitres": 900,
+          "reserveLitres": 156.0774892532362
+        },
+        {
+          "to": "lisbon",
+          "km": 594.0287700756405,
+          "requiredLitres": 771.1995836527962,
+          "availableLitres": 900,
+          "reserveLitres": 154.23991673055923
+        },
+        {
+          "to": "a-coruna",
+          "km": 634.2753056593987,
+          "requiredLitres": 809.5775661511848,
+          "availableLitres": 900,
+          "reserveLitres": 161.91551323023697
+        },
+        {
+          "to": "brest",
+          "km": 626.0624812956487,
+          "requiredLitres": 783.9959749486886,
+          "availableLitres": 900,
+          "reserveLitres": 156.7991949897377
+        },
+        {
+          "to": "cork",
+          "km": 474.1618920081478,
+          "requiredLitres": 612.0450519520335,
+          "availableLitres": 900,
+          "reserveLitres": 122.4090103904067
+        },
+        {
+          "to": "killybegs",
+          "km": 593.8890345696761,
+          "requiredLitres": 759.2792361650024,
+          "availableLitres": 900,
+          "reserveLitres": 151.85584723300047
+        },
+        {
+          "to": "stornoway",
+          "km": 472.4881340148457,
+          "requiredLitres": 607.5637828724175,
+          "availableLitres": 900,
+          "reserveLitres": 121.5127565744835
+        },
+        {
+          "to": "torshavn",
+          "km": 455.86286986958066,
+          "requiredLitres": 584.9520795930907,
+          "availableLitres": 900,
+          "reserveLitres": 116.99041591861814
+        },
+        {
+          "to": "hofn",
+          "km": 553.1342081288026,
+          "requiredLitres": 725.5068556188963,
+          "availableLitres": 900,
+          "reserveLitres": 145.10137112377927
+        },
+        {
+          "to": "reykjavik",
+          "km": 502.559943322529,
+          "requiredLitres": 658.2587596446015,
+          "availableLitres": 900,
+          "reserveLitres": 131.6517519289203
+        },
+        {
+          "to": "isafjordur",
+          "km": 346.7530058928593,
+          "requiredLitres": 455.501104256042,
+          "availableLitres": 900,
+          "reserveLitres": 91.1002208512084
+        },
+        {
+          "to": "tasiilaq",
+          "km": 681.7087515498089,
+          "requiredLitres": 886.4311473815131,
+          "availableLitres": 900,
+          "reserveLitres": 177.28622947630262
+        },
+        {
+          "to": "prins-christian-sund",
+          "km": 680.3802583453322,
+          "requiredLitres": 877.5727741497104,
+          "availableLitres": 900,
+          "reserveLitres": 175.51455482994209
+        },
+        {
+          "to": "paamiut",
+          "km": 539.9284368575462,
+          "requiredLitres": 712.4781056196709,
+          "availableLitres": 900,
+          "reserveLitres": 142.4956211239342
+        },
+        {
+          "to": "nuuk",
+          "km": 269.3811000091301,
+          "requiredLitres": 355.8171895198638,
+          "availableLitres": 900,
+          "reserveLitres": 71.16343790397276
+        },
+        {
+          "to": "sisimiut",
+          "km": 356.48390338562933,
+          "requiredLitres": 464.64817906288005,
+          "availableLitres": 900,
+          "reserveLitres": 92.92963581257601
+        },
+        {
+          "to": "cape-dyer",
+          "km": 364.0445771071637,
+          "requiredLitres": 485.64083856061336,
+          "availableLitres": 900,
+          "reserveLitres": 97.12816771212267
+        },
+        {
+          "to": "resolution-harbour",
+          "km": 669.421248970979,
+          "requiredLitres": 873.3880418095727,
+          "availableLitres": 900,
+          "reserveLitres": 174.67760836191454
+        },
+        {
+          "to": "nain",
+          "km": 634.1471393448006,
+          "requiredLitres": 813.6456829243963,
+          "availableLitres": 900,
+          "reserveLitres": 162.72913658487926
+        },
+        {
+          "to": "cartwright",
+          "km": 497.18517847261455,
+          "requiredLitres": 644.2402319040042,
+          "availableLitres": 900,
+          "reserveLitres": 128.84804638080084
+        },
+        {
+          "to": "st-anthony",
+          "km": 374.8887214370354,
+          "requiredLitres": 501.4134159867673,
+          "availableLitres": 900,
+          "reserveLitres": 100.28268319735346
+        },
+        {
+          "to": "st-johns",
+          "km": 481.0995759770196,
+          "requiredLitres": 615.8799958740697,
+          "availableLitres": 900,
+          "reserveLitres": 123.17599917481392
+        },
+        {
+          "to": "saint-pierre",
+          "km": 375.4100887688434,
+          "requiredLitres": 505.7544222881456,
+          "availableLitres": 900,
+          "reserveLitres": 101.15088445762912
+        },
+        {
+          "to": "halifax",
+          "km": 635.8148976177441,
+          "requiredLitres": 828.6256138221416,
+          "availableLitres": 900,
+          "reserveLitres": 165.72512276442833
+        },
+        {
+          "to": "portland-maine",
+          "km": 651.7788911199158,
+          "requiredLitres": 850.3129299845771,
+          "availableLitres": 900,
+          "reserveLitres": 170.0625859969154
+        },
+        {
+          "to": "boston",
+          "km": 192.93844886988444,
+          "requiredLitres": 272.4793235136498,
+          "availableLitres": 900,
+          "reserveLitres": 54.49586470272995
+        },
+        {
+          "to": "new-york",
+          "km": 522.8456975255676,
+          "requiredLitres": 687.9495250902878,
+          "availableLitres": 900,
+          "reserveLitres": 137.58990501805755
+        }
+      ],
+      "physical": {
+        "completed": true,
+        "contacts": 0,
+        "legs": [
+          {
+            "index": 0,
+            "to": "barcelona",
+            "completed": true,
+            "contacts": 0,
+            "km": 347.717064227941,
+            "seconds": 13110.36666664418,
+            "consumed": 356.1856946257775,
+            "estimate": 371.1692226819231,
+            "reserve": 92.79230567048077,
+            "remaining": 543.8143053742225,
+            "arrivalM": 26.300263437291544,
+            "speedMS": 0.7473353287646924
+          },
+          {
+            "index": 1,
+            "to": "cartagena",
+            "completed": true,
+            "contacts": 0,
+            "km": 531.8395919625433,
+            "seconds": 19913.466666376895,
+            "consumed": 538.757244440077,
+            "estimate": 556.5782460556607,
+            "reserve": 139.14456151391516,
+            "remaining": 361.242755559923,
+            "arrivalM": 25.546746140149907,
+            "speedMS": 0.7489089674278842
+          },
+          {
+            "index": 2,
+            "to": "gibraltar",
+            "completed": true,
+            "contacts": 0,
+            "km": 595.4649301672598,
+            "seconds": 22488.73333300608,
+            "consumed": 607.3998251861508,
+            "estimate": 628.2499065657886,
+            "reserve": 157.06247664144715,
+            "remaining": 292.6001748138492,
+            "arrivalM": 25.69350855863181,
+            "speedMS": 0.7476251706065987
+          },
+          {
+            "index": 3,
+            "to": "lisbon",
+            "completed": true,
+            "contacts": 0,
+            "km": 594.1041924199073,
+            "seconds": 22412.9000023782,
+            "consumed": 599.9290638589518,
+            "estimate": 620.9081032228306,
+            "reserve": 155.22702580570765,
+            "remaining": 300.07093614104815,
+            "arrivalM": 26.146361856609325,
+            "speedMS": 0.7473217737375589
+          },
+          {
+            "index": 4,
+            "to": "a-coruna",
+            "completed": true,
+            "contacts": 0,
+            "km": 634.0808689694893,
+            "seconds": 23774.466671510163,
+            "consumed": 627.1847673395717,
+            "estimate": 648.9773440523927,
+            "reserve": 162.24433601309818,
+            "remaining": 272.81523266042825,
+            "arrivalM": 20.44256672552948,
+            "speedMS": 0.7479944896792319
+          },
+          {
+            "index": 5,
+            "to": "brest",
+            "completed": true,
+            "contacts": 0,
+            "km": 626.0895345778,
+            "seconds": 23212.40000472899,
+            "consumed": 608.1662080768551,
+            "estimate": 629.1144657712058,
+            "reserve": 157.27861644280145,
+            "remaining": 291.83379192314493,
+            "arrivalM": 23.242956042205815,
+            "speedMS": 0.7493266208250635
+          },
+          {
+            "index": 6,
+            "to": "cork",
+            "completed": true,
+            "contacts": 0,
+            "km": 474.20440438848266,
+            "seconds": 17820.83333187313,
+            "consumed": 474.60012105969145,
+            "estimate": 491.935615715866,
+            "reserve": 122.9839039289665,
+            "remaining": 425.39987894030855,
+            "arrivalM": 25.810455116807827,
+            "speedMS": 0.7488377245857966
+          },
+          {
+            "index": 7,
+            "to": "killybegs",
+            "completed": true,
+            "contacts": 0,
+            "km": 593.8833471487523,
+            "seconds": 22218.2999948269,
+            "consumed": 588.670115418031,
+            "estimate": 609.5176461950693,
+            "reserve": 152.37941154876734,
+            "remaining": 311.3298845819691,
+            "arrivalM": 21.766784036311975,
+            "speedMS": 0.7480204042432569
+          },
+          {
+            "index": 8,
+            "to": "stornoway",
+            "completed": true,
+            "contacts": 0,
+            "km": 472.5418199898619,
+            "seconds": 17714.43332920887,
+            "consumed": 466.78948599362815,
+            "estimate": 487.9088410023658,
+            "reserve": 121.97721025059145,
+            "remaining": 433.21051400637185,
+            "arrivalM": 26.007784921503333,
+            "speedMS": 0.7481147501122309
+          },
+          {
+            "index": 9,
+            "to": "torshavn",
+            "completed": true,
+            "contacts": 0,
+            "km": 455.9790054434035,
+            "seconds": 17138.0666626764,
+            "consumed": 454.0391127634335,
+            "estimate": 471.9092058793545,
+            "reserve": 117.97730146983862,
+            "remaining": 445.9608872365665,
+            "arrivalM": 24.41473406257694,
+            "speedMS": 0.7490852470090185
+          },
+          {
+            "index": 10,
+            "to": "hofn",
+            "completed": true,
+            "contacts": 0,
+            "km": 553.2349319191621,
+            "seconds": 20919.366661795997,
+            "consumed": 561.5976164806234,
+            "estimate": 581.99833960215,
+            "reserve": 145.4995849005375,
+            "remaining": 338.4023835193766,
+            "arrivalM": 24.90156801355942,
+            "speedMS": 0.7489869230248093
+          },
+          {
+            "index": 11,
+            "to": "reykjavik",
+            "completed": true,
+            "contacts": 0,
+            "km": 502.5475429754611,
+            "seconds": 18909.733328930568,
+            "consumed": 509.0339140484562,
+            "estimate": 528.0771291411321,
+            "reserve": 132.01928228528303,
+            "remaining": 390.9660859515438,
+            "arrivalM": 20.84481440107683,
+            "speedMS": 0.7479725533504088
+          },
+          {
+            "index": 12,
+            "to": "isafjordur",
+            "completed": true,
+            "contacts": 0,
+            "km": 346.7985436672419,
+            "seconds": 13114.233330279938,
+            "consumed": 349.26898220406235,
+            "estimate": 366.83578995981594,
+            "reserve": 91.70894748995399,
+            "remaining": 550.7310177959376,
+            "arrivalM": 20.244204957146437,
+            "speedMS": 0.7492490160299974
+          },
+          {
+            "index": 13,
+            "to": "tasiilaq",
+            "completed": true,
+            "contacts": 0,
+            "km": 681.9172709529688,
+            "seconds": 25634.166660698247,
+            "consumed": 692.0347807273578,
+            "estimate": 713.0572504817347,
+            "reserve": 178.26431262043369,
+            "remaining": 207.96521927264223,
+            "arrivalM": 25.58216357266125,
+            "speedMS": 0.7490446463732414
+          },
+          {
+            "index": 14,
+            "to": "prins-christian-sund",
+            "completed": true,
+            "contacts": 0,
+            "km": 680.6656184378742,
+            "seconds": 25377.233327424736,
+            "consumed": 685.7805501843197,
+            "estimate": 704.6783940645252,
+            "reserve": 176.1695985161313,
+            "remaining": 214.21944981568026,
+            "arrivalM": 25.124858771371045,
+            "speedMS": 0.7476106037327995
+          },
+          {
+            "index": 15,
+            "to": "paamiut",
+            "completed": true,
+            "contacts": 0,
+            "km": 540.1470690393494,
+            "seconds": 20512.533328557387,
+            "consumed": 550.7646431853881,
+            "estimate": 571.6360838018268,
+            "reserve": 142.9090209504567,
+            "remaining": 349.2353568146119,
+            "arrivalM": 25.34845361941637,
+            "speedMS": 0.7474579567598191
+          },
+          {
+            "index": 16,
+            "to": "nuuk",
+            "completed": true,
+            "contacts": 0,
+            "km": 269.36305666716584,
+            "seconds": 10166.63333096623,
+            "consumed": 271.03438121229317,
+            "estimate": 283.74392624924144,
+            "reserve": 70.93598156231036,
+            "remaining": 628.9656187877068,
+            "arrivalM": 25.678509513504473,
+            "speedMS": 0.7484475647554876
+          },
+          {
+            "index": 17,
+            "to": "sisimiut",
+            "completed": true,
+            "contacts": 0,
+            "km": 356.5089066937249,
+            "seconds": 13471.799996863352,
+            "consumed": 358.31916147990626,
+            "estimate": 373.66948790146625,
+            "reserve": 93.41737197536656,
+            "remaining": 541.6808385200937,
+            "arrivalM": 24.100015793927138,
+            "speedMS": 0.7489532868338117
+          },
+          {
+            "index": 18,
+            "to": "cape-dyer",
+            "completed": true,
+            "contacts": 0,
+            "km": 364.16679859216697,
+            "seconds": 13795.699996787938,
+            "consumed": 374.568162054185,
+            "estimate": 390.8200199736867,
+            "reserve": 97.70500499342168,
+            "remaining": 525.431837945815,
+            "arrivalM": 19.97105209085053,
+            "speedMS": 0.7477878190613536
+          },
+          {
+            "index": 19,
+            "to": "resolution-harbour",
+            "completed": true,
+            "contacts": 0,
+            "km": 669.7509050647635,
+            "seconds": 25115.06666081911,
+            "consumed": 678.5372846271615,
+            "estimate": 699.4911412371507,
+            "reserve": 174.87278530928768,
+            "remaining": 221.46271537283846,
+            "arrivalM": 25.323554057442685,
+            "speedMS": 0.7477981132911946
+          },
+          {
+            "index": 20,
+            "to": "nain",
+            "completed": true,
+            "contacts": 0,
+            "km": 634.3492135380488,
+            "seconds": 23659.766661157948,
+            "consumed": 633.6305827425048,
+            "estimate": 654.8048234470816,
+            "reserve": 163.7012058617704,
+            "remaining": 266.36941725749523,
+            "arrivalM": 20.628044913197563,
+            "speedMS": 0.747257478371685
+          },
+          {
+            "index": 21,
+            "to": "cartwright",
+            "completed": true,
+            "contacts": 0,
+            "km": 497.3069060317334,
+            "seconds": 18593.166662337608,
+            "consumed": 495.4333543313563,
+            "estimate": 516.6835256084504,
+            "reserve": 129.1708814021126,
+            "remaining": 404.5666456686437,
+            "arrivalM": 23.853599124333016,
+            "speedMS": 0.7481946621407445
+          },
+          {
+            "index": 22,
+            "to": "st-anthony",
+            "completed": true,
+            "contacts": 0,
+            "km": 375.0450392130632,
+            "seconds": 14196.066663361387,
+            "consumed": 381.92541685864956,
+            "estimate": 402.08739510825717,
+            "reserve": 100.52184877706429,
+            "remaining": 518.0745831413504,
+            "arrivalM": 25.331496983816443,
+            "speedMS": 0.7491048373405911
+          },
+          {
+            "index": 23,
+            "to": "st-johns",
+            "completed": true,
+            "contacts": 0,
+            "km": 481.3239861649517,
+            "seconds": 17846.39999584481,
+            "consumed": 476.3691434081205,
+            "estimate": 494.4263070140559,
+            "reserve": 123.60657675351398,
+            "remaining": 423.6308565918795,
+            "arrivalM": 21.17120743048943,
+            "speedMS": 0.747387196279082
+          },
+          {
+            "index": 24,
+            "to": "saint-pierre",
+            "completed": true,
+            "contacts": 0,
+            "km": 375.51512253534605,
+            "seconds": 14302.466663336614,
+            "consumed": 387.3221635731652,
+            "estimate": 405.8322392702729,
+            "reserve": 101.45805981756823,
+            "remaining": 512.6778364268348,
+            "arrivalM": 25.72520729974558,
+            "speedMS": 0.7484988558403464
+          },
+          {
+            "index": 25,
+            "to": "halifax",
+            "completed": true,
+            "contacts": 0,
+            "km": 635.8198074121512,
+            "seconds": 23831.266661118018,
+            "consumed": 644.9575762457112,
+            "estimate": 663.1274449066635,
+            "reserve": 165.78186122666588,
+            "remaining": 255.0424237542889,
+            "arrivalM": 25.648273731860037,
+            "speedMS": 0.7485963971670841
+          },
+          {
+            "index": 26,
+            "to": "portland-maine",
+            "completed": true,
+            "contacts": 0,
+            "km": 651.7972290108166,
+            "seconds": 24532.89999428799,
+            "consumed": 662.2149334948546,
+            "estimate": 684.1399061312098,
+            "reserve": 171.03497653280246,
+            "remaining": 237.78506650514547,
+            "arrivalM": 25.443966794097022,
+            "speedMS": 0.7486111575388825
+          },
+          {
+            "index": 27,
+            "to": "boston",
+            "completed": true,
+            "contacts": 0,
+            "km": 193.02288058987446,
+            "seconds": 7458.099998263584,
+            "consumed": 203.2648930429308,
+            "estimate": 220.92916214147687,
+            "reserve": 55.232290535369216,
+            "remaining": 696.7351069570692,
+            "arrivalM": 20.350813266673747,
+            "speedMS": 0.749546316403958
+          },
+          {
+            "index": 28,
+            "to": "new-york",
+            "completed": true,
+            "contacts": 0,
+            "km": 522.9595134479646,
+            "seconds": 19698.733328746865,
+            "consumed": 531.8397742876606,
+            "estimate": 552.14337316038,
+            "reserve": 138.035843290095,
+            "remaining": 368.1602257123394,
+            "arrivalM": 24.475893584253267,
+            "speedMS": 0.7485737735201001
+          }
+        ]
+      }
+    }
+  ]
+}

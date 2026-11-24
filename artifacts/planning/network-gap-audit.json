@@ -1,0 +1,1926 @@
+{
+  "range": [
+    {
+      "id": "launch",
+      "capacity": 420,
+      "rangeKm": 179.64137314700497,
+      "required100Km": 233.79914807058597
+    },
+    {
+      "id": "fishing",
+      "capacity": 4800,
+      "rangeKm": 995.2697744756172,
+      "required100Km": 482.28129931193786
+    },
+    {
+      "id": "yacht",
+      "capacity": 2400,
+      "rangeKm": 380.23885862330724,
+      "required100Km": 631.1822018111036
+    },
+    {
+      "id": "tug",
+      "capacity": 15000,
+      "rangeKm": 613.6407535306755,
+      "required100Km": 2444.4269572539333
+    },
+    {
+      "id": "speedboat",
+      "capacity": 1400,
+      "rangeKm": 529.5540458613095,
+      "required100Km": 264.37339322427925
+    },
+    {
+      "id": "spirit",
+      "capacity": 900,
+      "rangeKm": 468.73366550027635,
+      "required100Km": 192.0066908442422
+    },
+    {
+      "id": "cargo",
+      "capacity": 650000,
+      "rangeKm": 7867.471765177545,
+      "required100Km": 8261.866319965515
+    }
+  ],
+  "gaps": [
+    {
+      "id": "cape-town",
+      "nearest": [
+        {
+          "id": "rio-de-janeiro",
+          "km": 6052.242628309137
+        },
+        {
+          "id": "santos",
+          "km": 6290.224402773733
+        },
+        {
+          "id": "jeddah",
+          "km": 6532.134295964451
+        }
+      ]
+    },
+    {
+      "id": "fremantle",
+      "nearest": [
+        {
+          "id": "sydney",
+          "km": 3310.8227555550266
+        },
+        {
+          "id": "brisbane",
+          "km": 3638.832974920597
+        },
+        {
+          "id": "singapore",
+          "km": 3907.9707749120425
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "nearest": [
+        {
+          "id": "hong-kong",
+          "km": 2589.461467396408
+        },
+        {
+          "id": "colombo",
+          "km": 2733.946720807892
+        },
+        {
+          "id": "shanghai",
+          "km": 3790.832420570268
+        }
+      ]
+    },
+    {
+      "id": "callao",
+      "nearest": [
+        {
+          "id": "balboa",
+          "km": 2347.2976969184965
+        },
+        {
+          "id": "valparaiso",
+          "km": 2397.0828329032993
+        },
+        {
+          "id": "colon",
+          "km": 2404.3592461228923
+        }
+      ]
+    },
+    {
+      "id": "auckland",
+      "nearest": [
+        {
+          "id": "sydney",
+          "km": 2150.3870799574665
+        },
+        {
+          "id": "brisbane",
+          "km": 2284.591111764024
+        },
+        {
+          "id": "fremantle",
+          "km": 5357.700712741656
+        }
+      ]
+    },
+    {
+      "id": "dubai",
+      "nearest": [
+        {
+          "id": "jeddah",
+          "km": 1698.7148106957914
+        },
+        {
+          "id": "mumbai",
+          "km": 1941.5881634020473
+        },
+        {
+          "id": "eilat",
+          "km": 2055.9157673084824
+        }
+      ]
+    },
+    {
+      "id": "mumbai",
+      "nearest": [
+        {
+          "id": "colombo",
+          "km": 1526.3946742398846
+        },
+        {
+          "id": "dubai",
+          "km": 1941.5881634020473
+        },
+        {
+          "id": "jeddah",
+          "km": 3521.26895231162
+        }
+      ]
+    },
+    {
+      "id": "colombo",
+      "nearest": [
+        {
+          "id": "mumbai",
+          "km": 1526.3946742398846
+        },
+        {
+          "id": "singapore",
+          "km": 2733.946720807892
+        },
+        {
+          "id": "dubai",
+          "km": 3308.4717719218716
+        }
+      ]
+    },
+    {
+      "id": "dakar",
+      "nearest": [
+        {
+          "id": "las-palmas",
+          "km": 1511.5802071471182
+        },
+        {
+          "id": "funchal",
+          "km": 1996.898203744806
+        },
+        {
+          "id": "casablanca",
+          "km": 2328.2844627763757
+        }
+      ]
+    },
+    {
+      "id": "san-juan",
+      "nearest": [
+        {
+          "id": "cartagena-colombia",
+          "km": 1363.0373770481174
+        },
+        {
+          "id": "nassau",
+          "km": 1371.2927468166138
+        },
+        {
+          "id": "bermuda",
+          "km": 1538.8094549653579
+        }
+      ]
+    },
+    {
+      "id": "valparaiso",
+      "nearest": [
+        {
+          "id": "buenos-aires",
+          "km": 1241.5787896534544
+        },
+        {
+          "id": "montevideo",
+          "km": 1435.5342840376213
+        },
+        {
+          "id": "callao",
+          "km": 2397.0828329032993
+        }
+      ]
+    },
+    {
+      "id": "bermuda",
+      "nearest": [
+        {
+          "id": "new-york",
+          "km": 1219.5240531366746
+        },
+        {
+          "id": "boston",
+          "km": 1241.7738822224376
+        },
+        {
+          "id": "halifax",
+          "km": 1377.7799079076694
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "nearest": [
+        {
+          "id": "shanghai",
+          "km": 1218.8839379690896
+        },
+        {
+          "id": "busan",
+          "km": 2032.1777673273257
+        },
+        {
+          "id": "singapore",
+          "km": 2589.461467396408
+        }
+      ]
+    },
+    {
+      "id": "jeddah",
+      "nearest": [
+        {
+          "id": "eilat",
+          "km": 988.8809342122834
+        },
+        {
+          "id": "suez",
+          "km": 1145.1786249123547
+        },
+        {
+          "id": "ashdod",
+          "km": 1236.3778415328452
+        }
+      ]
+    },
+    {
+      "id": "yokohama",
+      "nearest": [
+        {
+          "id": "busan",
+          "km": 971.5903948577738
+        },
+        {
+          "id": "shanghai",
+          "km": 1729.686360384382
+        },
+        {
+          "id": "hong-kong",
+          "km": 2879.3177454165766
+        }
+      ]
+    },
+    {
+      "id": "shanghai",
+      "nearest": [
+        {
+          "id": "busan",
+          "km": 818.8858510447152
+        },
+        {
+          "id": "hong-kong",
+          "km": 1218.8839379690896
+        },
+        {
+          "id": "yokohama",
+          "km": 1729.686360384382
+        }
+      ]
+    },
+    {
+      "id": "busan",
+      "nearest": [
+        {
+          "id": "shanghai",
+          "km": 818.8858510447152
+        },
+        {
+          "id": "yokohama",
+          "km": 971.5903948577738
+        },
+        {
+          "id": "hong-kong",
+          "km": 2032.1777673273257
+        }
+      ]
+    },
+    {
+      "id": "sydney",
+      "nearest": [
+        {
+          "id": "brisbane",
+          "km": 743.7700850012812
+        },
+        {
+          "id": "auckland",
+          "km": 2150.3870799574665
+        },
+        {
+          "id": "fremantle",
+          "km": 3310.8227555550266
+        }
+      ]
+    },
+    {
+      "id": "brisbane",
+      "nearest": [
+        {
+          "id": "sydney",
+          "km": 743.7700850012812
+        },
+        {
+          "id": "auckland",
+          "km": 2284.591111764024
+        },
+        {
+          "id": "fremantle",
+          "km": 3638.832974920592
+        }
+      ]
+    },
+    {
+      "id": "los-cabos",
+      "nearest": [
+        {
+          "id": "manzanillo",
+          "km": 718.2987854414442
+        },
+        {
+          "id": "acapulco",
+          "km": 1240.5039510099784
+        },
+        {
+          "id": "san-diego",
+          "km": 1303.2660783853294
+        }
+      ]
+    },
+    {
+      "id": "tasiilaq",
+      "nearest": [
+        {
+          "id": "isafjordur",
+          "km": 662.9611440680995
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 673.4132694692627
+        },
+        {
+          "id": "nuuk",
+          "km": 684.7751538429291
+        }
+      ]
+    },
+    {
+      "id": "halifax",
+      "nearest": [
+        {
+          "id": "saint-pierre",
+          "km": 623.6867072373363
+        },
+        {
+          "id": "boston",
+          "km": 644.6476896274619
+        },
+        {
+          "id": "st-johns",
+          "km": 900.685142688471
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "nearest": [
+        {
+          "id": "los-angeles",
+          "km": 596.8096793863766
+        },
+        {
+          "id": "san-diego",
+          "km": 747.3061038722118
+        },
+        {
+          "id": "seattle",
+          "km": 1089.7631355633678
+        }
+      ]
+    },
+    {
+      "id": "piraeus",
+      "nearest": [
+        {
+          "id": "istanbul",
+          "km": 571.585395732889
+        },
+        {
+          "id": "port-said",
+          "km": 1085.3823883653188
+        },
+        {
+          "id": "haifa",
+          "km": 1174.5994120842856
+        }
+      ]
+    },
+    {
+      "id": "istanbul",
+      "nearest": [
+        {
+          "id": "piraeus",
+          "km": 571.585395732889
+        },
+        {
+          "id": "haifa",
+          "km": 1047.517153200241
+        },
+        {
+          "id": "port-said",
+          "km": 1115.4712967580595
+        }
+      ]
+    },
+    {
+      "id": "manzanillo",
+      "nearest": [
+        {
+          "id": "acapulco",
+          "km": 527.2533081923218
+        },
+        {
+          "id": "los-cabos",
+          "km": 718.2987854414442
+        },
+        {
+          "id": "veracruz",
+          "km": 865.2180528359886
+        }
+      ]
+    },
+    {
+      "id": "funchal",
+      "nearest": [
+        {
+          "id": "las-palmas",
+          "km": 520.184606130717
+        },
+        {
+          "id": "casablanca",
+          "km": 874.7471345760305
+        },
+        {
+          "id": "lisbon",
+          "km": 960.545797730028
+        }
+      ]
+    },
+    {
+      "id": "las-palmas",
+      "nearest": [
+        {
+          "id": "funchal",
+          "km": 520.184606130717
+        },
+        {
+          "id": "casablanca",
+          "km": 961.9116755968739
+        },
+        {
+          "id": "cadiz",
+          "km": 1263.515888207948
+        }
+      ]
+    },
+    {
+      "id": "cancun",
+      "nearest": [
+        {
+          "id": "havana",
+          "km": 504.0946873423503
+        },
+        {
+          "id": "miami",
+          "km": 850.0274397505062
+        },
+        {
+          "id": "veracruz",
+          "km": 1000.0294692913355
+        }
+      ]
+    },
+    {
+      "id": "veracruz",
+      "nearest": [
+        {
+          "id": "acapulco",
+          "km": 482.26700667177
+        },
+        {
+          "id": "manzanillo",
+          "km": 865.2180528359886
+        },
+        {
+          "id": "cancun",
+          "km": 1000.0294692913355
+        }
+      ]
+    },
+    {
+      "id": "acapulco",
+      "nearest": [
+        {
+          "id": "veracruz",
+          "km": 482.26700667177
+        },
+        {
+          "id": "manzanillo",
+          "km": 527.2533081923218
+        },
+        {
+          "id": "los-cabos",
+          "km": 1240.5039510099784
+        }
+      ]
+    },
+    {
+      "id": "cartagena-colombia",
+      "nearest": [
+        {
+          "id": "balboa",
+          "km": 459.97157610282954
+        },
+        {
+          "id": "colon",
+          "km": 486.94949181100947
+        },
+        {
+          "id": "san-juan",
+          "km": 1363.0373770481174
+        }
+      ]
+    },
+    {
+      "id": "torshavn",
+      "nearest": [
+        {
+          "id": "stornoway",
+          "km": 425.1626503868125
+        },
+        {
+          "id": "hofn",
+          "km": 494.44389686108724
+        },
+        {
+          "id": "bergen",
+          "km": 663.1853043833437
+        }
+      ]
+    },
+    {
+      "id": "stornoway",
+      "nearest": [
+        {
+          "id": "killybegs",
+          "km": 417.4332194381243
+        },
+        {
+          "id": "torshavn",
+          "km": 425.1626503868125
+        },
+        {
+          "id": "bergen",
+          "km": 703.3900150316201
+        }
+      ]
+    },
+    {
+      "id": "rotterdam",
+      "nearest": [
+        {
+          "id": "hamburg",
+          "km": 380.5674546129534
+        },
+        {
+          "id": "falmouth",
+          "km": 664.6544460322415
+        },
+        {
+          "id": "brest",
+          "km": 734.0104926879817
+        }
+      ]
+    },
+    {
+      "id": "hamburg",
+      "nearest": [
+        {
+          "id": "rotterdam",
+          "km": 380.5674546129534
+        },
+        {
+          "id": "oslo",
+          "km": 671.159385346279
+        },
+        {
+          "id": "bergen",
+          "km": 743.7802173268036
+        }
+      ]
+    },
+    {
+      "id": "havana",
+      "nearest": [
+        {
+          "id": "miami",
+          "km": 368.6357877906645
+        },
+        {
+          "id": "cancun",
+          "km": 504.0946873423503
+        },
+        {
+          "id": "nassau",
+          "km": 554.0887369104202
+        }
+      ]
+    },
+    {
+      "id": "casablanca",
+      "nearest": [
+        {
+          "id": "gibraltar",
+          "km": 343.11237270517705
+        },
+        {
+          "id": "cadiz",
+          "km": 343.894343753906
+        },
+        {
+          "id": "malaga",
+          "km": 446.02260346280895
+        }
+      ]
+    },
+    {
+      "id": "rio-de-janeiro",
+      "nearest": [
+        {
+          "id": "santos",
+          "km": 341.3837639869696
+        },
+        {
+          "id": "montevideo",
+          "km": 1835.7115722172473
+        },
+        {
+          "id": "buenos-aires",
+          "km": 1959.6588878994787
+        }
+      ]
+    },
+    {
+      "id": "santos",
+      "nearest": [
+        {
+          "id": "rio-de-janeiro",
+          "km": 341.3837639869696
+        },
+        {
+          "id": "montevideo",
+          "km": 1545.259960882138
+        },
+        {
+          "id": "buenos-aires",
+          "km": 1654.1066506897703
+        }
+      ]
+    },
+    {
+      "id": "new-york",
+      "nearest": [
+        {
+          "id": "boston",
+          "km": 323.34450242438777
+        },
+        {
+          "id": "halifax",
+          "km": 962.2036947037941
+        },
+        {
+          "id": "bermuda",
+          "km": 1219.5240531366746
+        }
+      ]
+    },
+    {
+      "id": "boston",
+      "nearest": [
+        {
+          "id": "new-york",
+          "km": 323.34450242438777
+        },
+        {
+          "id": "halifax",
+          "km": 644.6476896274619
+        },
+        {
+          "id": "bermuda",
+          "km": 1241.7738822224376
+        }
+      ]
+    },
+    {
+      "id": "sisimiut",
+      "nearest": [
+        {
+          "id": "nuuk",
+          "km": 321.9052990666927
+        },
+        {
+          "id": "qikiqtarjuaq",
+          "km": 449.19764982975227
+        },
+        {
+          "id": "pangnirtung",
+          "km": 541.0999802346497
+        }
+      ]
+    },
+    {
+      "id": "killybegs",
+      "nearest": [
+        {
+          "id": "cork",
+          "km": 313.8817006516295
+        },
+        {
+          "id": "stornoway",
+          "km": 417.4332194381243
+        },
+        {
+          "id": "falmouth",
+          "km": 549.1839825047205
+        }
+      ]
+    },
+    {
+      "id": "bergen",
+      "nearest": [
+        {
+          "id": "oslo",
+          "km": 307.0894016395476
+        },
+        {
+          "id": "torshavn",
+          "km": 663.1853043833437
+        },
+        {
+          "id": "stornoway",
+          "km": 703.3900150316201
+        }
+      ]
+    },
+    {
+      "id": "oslo",
+      "nearest": [
+        {
+          "id": "bergen",
+          "km": 307.0894016395476
+        },
+        {
+          "id": "hamburg",
+          "km": 671.159385346279
+        },
+        {
+          "id": "torshavn",
+          "km": 965.2591778540315
+        }
+      ]
+    },
+    {
+      "id": "iqaluit",
+      "nearest": [
+        {
+          "id": "pangnirtung",
+          "km": 297.3600554646759
+        },
+        {
+          "id": "qikiqtarjuaq",
+          "km": 472.64590899786333
+        },
+        {
+          "id": "saglek",
+          "km": 663.0028826500265
+        }
+      ]
+    },
+    {
+      "id": "cork",
+      "nearest": [
+        {
+          "id": "falmouth",
+          "km": 290.33665963823233
+        },
+        {
+          "id": "killybegs",
+          "km": 313.8817006516295
+        },
+        {
+          "id": "brest",
+          "km": 460.95594177170983
+        }
+      ]
+    },
+    {
+      "id": "miami",
+      "nearest": [
+        {
+          "id": "nassau",
+          "km": 287.67831044625683
+        },
+        {
+          "id": "havana",
+          "km": 368.6357877906645
+        },
+        {
+          "id": "cancun",
+          "km": 850.0274397505062
+        }
+      ]
+    },
+    {
+      "id": "nassau",
+      "nearest": [
+        {
+          "id": "miami",
+          "km": 287.67831044625683
+        },
+        {
+          "id": "havana",
+          "km": 554.0887369104202
+        },
+        {
+          "id": "cancun",
+          "km": 1058.0692021853295
+        }
+      ]
+    },
+    {
+      "id": "lisbon",
+      "nearest": [
+        {
+          "id": "porto",
+          "km": 282.65667934812217
+        },
+        {
+          "id": "cadiz",
+          "km": 354.2098155326815
+        },
+        {
+          "id": "vigo",
+          "km": 398.3849061799103
+        }
+      ]
+    },
+    {
+      "id": "cartwright",
+      "nearest": [
+        {
+          "id": "st-anthony",
+          "km": 279.0592439906826
+        },
+        {
+          "id": "nain",
+          "km": 431.20883348059454
+        },
+        {
+          "id": "saglek",
+          "km": 634.0799634378121
+        }
+      ]
+    },
+    {
+      "id": "st-anthony",
+      "nearest": [
+        {
+          "id": "cartwright",
+          "km": 279.0592439906826
+        },
+        {
+          "id": "st-johns",
+          "km": 470.8854582395316
+        },
+        {
+          "id": "saint-pierre",
+          "km": 513.3054168880374
+        }
+      ]
+    },
+    {
+      "id": "st-johns",
+      "nearest": [
+        {
+          "id": "saint-pierre",
+          "km": 276.9991489695319
+        },
+        {
+          "id": "st-anthony",
+          "km": 470.8854582395316
+        },
+        {
+          "id": "cartwright",
+          "km": 748.7420551827807
+        }
+      ]
+    },
+    {
+      "id": "saint-pierre",
+      "nearest": [
+        {
+          "id": "st-johns",
+          "km": 276.9991489695319
+        },
+        {
+          "id": "st-anthony",
+          "km": 513.3054168880374
+        },
+        {
+          "id": "halifax",
+          "km": 623.6867072373363
+        }
+      ]
+    },
+    {
+      "id": "ponta-delgada",
+      "nearest": [
+        {
+          "id": "horta",
+          "km": 272.122981688217
+        },
+        {
+          "id": "funchal",
+          "km": 976.0706985345723
+        },
+        {
+          "id": "lisbon",
+          "km": 1431.6983909281516
+        }
+      ]
+    },
+    {
+      "id": "horta",
+      "nearest": [
+        {
+          "id": "ponta-delgada",
+          "km": 272.122981688217
+        },
+        {
+          "id": "funchal",
+          "km": 1242.7835379144224
+        },
+        {
+          "id": "lisbon",
+          "km": 1674.3933866766731
+        }
+      ]
+    },
+    {
+      "id": "nuuk",
+      "nearest": [
+        {
+          "id": "paamiut",
+          "km": 263.6529969922885
+        },
+        {
+          "id": "sisimiut",
+          "km": 321.9052990666927
+        },
+        {
+          "id": "qaqortoq",
+          "km": 482.9221347471571
+        }
+      ]
+    },
+    {
+      "id": "hofn",
+      "nearest": [
+        {
+          "id": "vestmannaeyjar",
+          "km": 262.7307393640076
+        },
+        {
+          "id": "reykjavik",
+          "km": 328.5561501084793
+        },
+        {
+          "id": "isafjordur",
+          "km": 422.8830830400887
+        }
+      ]
+    },
+    {
+      "id": "paamiut",
+      "nearest": [
+        {
+          "id": "qaqortoq",
+          "km": 240.72370615976715
+        },
+        {
+          "id": "nuuk",
+          "km": 263.6529969922885
+        },
+        {
+          "id": "nanortalik",
+          "km": 315.22899651202283
+        }
+      ]
+    },
+    {
+      "id": "eilat",
+      "nearest": [
+        {
+          "id": "suez",
+          "km": 234.62942820746838
+        },
+        {
+          "id": "ashdod",
+          "km": 258.79128617008695
+        },
+        {
+          "id": "port-said",
+          "km": 319.13005713033806
+        }
+      ]
+    },
+    {
+      "id": "ajaccio",
+      "nearest": [
+        {
+          "id": "monaco",
+          "km": 227.72488286215247
+        },
+        {
+          "id": "nice",
+          "km": 229.10370183523537
+        },
+        {
+          "id": "hyeres",
+          "km": 244.10731888043514
+        }
+      ]
+    },
+    {
+      "id": "saglek",
+      "nearest": [
+        {
+          "id": "nain",
+          "km": 224.1539261736747
+        },
+        {
+          "id": "cartwright",
+          "km": 634.0799634378121
+        },
+        {
+          "id": "iqaluit",
+          "km": 663.0028826500265
+        }
+      ]
+    },
+    {
+      "id": "nain",
+      "nearest": [
+        {
+          "id": "saglek",
+          "km": 224.1539261736747
+        },
+        {
+          "id": "cartwright",
+          "km": 431.20883348059454
+        },
+        {
+          "id": "st-anthony",
+          "km": 700.4897570729971
+        }
+      ]
+    },
+    {
+      "id": "isafjordur",
+      "nearest": [
+        {
+          "id": "reykjavik",
+          "km": 220.56628959289463
+        },
+        {
+          "id": "vestmannaeyjar",
+          "km": 325.7185688342241
+        },
+        {
+          "id": "hofn",
+          "km": 422.8830830400887
+        }
+      ]
+    },
+    {
+      "id": "valencia",
+      "nearest": [
+        {
+          "id": "cartagena",
+          "km": 216.50991741375265
+        },
+        {
+          "id": "palma",
+          "km": 248.99150889228278
+        },
+        {
+          "id": "barcelona",
+          "km": 296.2538114467341
+        }
+      ]
+    },
+    {
+      "id": "cartagena",
+      "nearest": [
+        {
+          "id": "valencia",
+          "km": 216.50991741375265
+        },
+        {
+          "id": "malaga",
+          "km": 320.3117320644655
+        },
+        {
+          "id": "palma",
+          "km": 382.0725809193932
+        }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "nearest": [
+        {
+          "id": "palma",
+          "km": 201.7777049935057
+        },
+        {
+          "id": "valencia",
+          "km": 296.2538114467341
+        },
+        {
+          "id": "marseille",
+          "km": 340.0326578879732
+        }
+      ]
+    },
+    {
+      "id": "palma",
+      "nearest": [
+        {
+          "id": "barcelona",
+          "km": 201.7777049935057
+        },
+        {
+          "id": "valencia",
+          "km": 248.99150889228278
+        },
+        {
+          "id": "cartagena",
+          "km": 382.0725809193932
+        }
+      ]
+    },
+    {
+      "id": "brest",
+      "nearest": [
+        {
+          "id": "falmouth",
+          "km": 199.27514474664164
+        },
+        {
+          "id": "cork",
+          "km": 460.95594177170983
+        },
+        {
+          "id": "a-coruna",
+          "km": 623.4520907591454
+        }
+      ]
+    },
+    {
+      "id": "falmouth",
+      "nearest": [
+        {
+          "id": "brest",
+          "km": 199.27514474664164
+        },
+        {
+          "id": "cork",
+          "km": 290.33665963823233
+        },
+        {
+          "id": "killybegs",
+          "km": 549.1839825047205
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "nearest": [
+        {
+          "id": "vancouver",
+          "km": 195.7518170445496
+        },
+        {
+          "id": "san-francisco",
+          "km": 1089.7631355633678
+        },
+        {
+          "id": "los-angeles",
+          "km": 1583.978712070089
+        }
+      ]
+    },
+    {
+      "id": "vancouver",
+      "nearest": [
+        {
+          "id": "seattle",
+          "km": 195.7518170445496
+        },
+        {
+          "id": "san-francisco",
+          "km": 1276.4985043302597
+        },
+        {
+          "id": "los-angeles",
+          "km": 1779.263367015334
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "nearest": [
+        {
+          "id": "montevideo",
+          "km": 195.08440604977812
+        },
+        {
+          "id": "valparaiso",
+          "km": 1241.5787896534544
+        },
+        {
+          "id": "santos",
+          "km": 1654.1066506897703
+        }
+      ]
+    },
+    {
+      "id": "montevideo",
+      "nearest": [
+        {
+          "id": "buenos-aires",
+          "km": 195.08440604977812
+        },
+        {
+          "id": "valparaiso",
+          "km": 1435.5342840376213
+        },
+        {
+          "id": "santos",
+          "km": 1545.259960882138
+        }
+      ]
+    },
+    {
+      "id": "qikiqtarjuaq",
+      "nearest": [
+        {
+          "id": "pangnirtung",
+          "km": 175.3598169492374
+        },
+        {
+          "id": "sisimiut",
+          "km": 449.19764982975227
+        },
+        {
+          "id": "iqaluit",
+          "km": 472.64590899786333
+        }
+      ]
+    },
+    {
+      "id": "pangnirtung",
+      "nearest": [
+        {
+          "id": "qikiqtarjuaq",
+          "km": 175.3598169492374
+        },
+        {
+          "id": "iqaluit",
+          "km": 297.3600554646759
+        },
+        {
+          "id": "sisimiut",
+          "km": 541.0999802346497
+        }
+      ]
+    },
+    {
+      "id": "port-said",
+      "nearest": [
+        {
+          "id": "suez",
+          "km": 156.12060066079613
+        },
+        {
+          "id": "ashdod",
+          "km": 225.10137878470806
+        },
+        {
+          "id": "haifa",
+          "km": 303.8924648405899
+        }
+      ]
+    },
+    {
+      "id": "suez",
+      "nearest": [
+        {
+          "id": "port-said",
+          "km": 156.12060066079613
+        },
+        {
+          "id": "eilat",
+          "km": 234.62942820746838
+        },
+        {
+          "id": "ashdod",
+          "km": 291.03150065071844
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "nearest": [
+        {
+          "id": "los-angeles",
+          "km": 150.55457430958606
+        },
+        {
+          "id": "san-francisco",
+          "km": 747.3061038722118
+        },
+        {
+          "id": "los-cabos",
+          "km": 1303.2660783853294
+        }
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "nearest": [
+        {
+          "id": "san-diego",
+          "km": 150.55457430958606
+        },
+        {
+          "id": "san-francisco",
+          "km": 596.8096793863766
+        },
+        {
+          "id": "los-cabos",
+          "km": 1453.3075382393047
+        }
+      ]
+    },
+    {
+      "id": "genoa",
+      "nearest": [
+        {
+          "id": "monaco",
+          "km": 139.0121988516705
+        },
+        {
+          "id": "nice",
+          "km": 152.9403409678652
+        },
+        {
+          "id": "hyeres",
+          "km": 263.6584047908976
+        }
+      ]
+    },
+    {
+      "id": "a-coruna",
+      "nearest": [
+        {
+          "id": "vigo",
+          "km": 134.32863639096598
+        },
+        {
+          "id": "porto",
+          "km": 249.53726414247546
+        },
+        {
+          "id": "lisbon",
+          "km": 531.8202205499098
+        }
+      ]
+    },
+    {
+      "id": "prins-christian-sund",
+      "nearest": [
+        {
+          "id": "nanortalik",
+          "km": 120.02921478955211
+        },
+        {
+          "id": "qaqortoq",
+          "km": 177.06130679682934
+        },
+        {
+          "id": "paamiut",
+          "km": 414.5555853419451
+        }
+      ]
+    },
+    {
+      "id": "vestmannaeyjar",
+      "nearest": [
+        {
+          "id": "reykjavik",
+          "km": 118.59964722081601
+        },
+        {
+          "id": "hofn",
+          "km": 262.7307393640076
+        },
+        {
+          "id": "isafjordur",
+          "km": 325.7185688342241
+        }
+      ]
+    },
+    {
+      "id": "reykjavik",
+      "nearest": [
+        {
+          "id": "vestmannaeyjar",
+          "km": 118.59964722081601
+        },
+        {
+          "id": "isafjordur",
+          "km": 220.56628959289463
+        },
+        {
+          "id": "hofn",
+          "km": 328.5561501084793
+        }
+      ]
+    },
+    {
+      "id": "porto",
+      "nearest": [
+        {
+          "id": "vigo",
+          "km": 118.01000237457042
+        },
+        {
+          "id": "a-coruna",
+          "km": 249.53726414247546
+        },
+        {
+          "id": "lisbon",
+          "km": 282.65667934812217
+        }
+      ]
+    },
+    {
+      "id": "vigo",
+      "nearest": [
+        {
+          "id": "porto",
+          "km": 118.01000237457042
+        },
+        {
+          "id": "a-coruna",
+          "km": 134.32863639096598
+        },
+        {
+          "id": "lisbon",
+          "km": 398.3849061799103
+        }
+      ]
+    },
+    {
+      "id": "haifa",
+      "nearest": [
+        {
+          "id": "ashdod",
+          "km": 117.6956118670925
+        },
+        {
+          "id": "port-said",
+          "km": 303.8924648405899
+        },
+        {
+          "id": "eilat",
+          "km": 369.47981866308436
+        }
+      ]
+    },
+    {
+      "id": "ashdod",
+      "nearest": [
+        {
+          "id": "haifa",
+          "km": 117.6956118670925
+        },
+        {
+          "id": "port-said",
+          "km": 225.10137878470806
+        },
+        {
+          "id": "eilat",
+          "km": 258.79128617008695
+        }
+      ]
+    },
+    {
+      "id": "malaga",
+      "nearest": [
+        {
+          "id": "gibraltar",
+          "km": 106.88114579684604
+        },
+        {
+          "id": "cadiz",
+          "km": 170.3680456860494
+        },
+        {
+          "id": "cartagena",
+          "km": 320.3117320644655
+        }
+      ]
+    },
+    {
+      "id": "gibraltar",
+      "nearest": [
+        {
+          "id": "cadiz",
+          "km": 94.57984101101034
+        },
+        {
+          "id": "malaga",
+          "km": 106.88114579684604
+        },
+        {
+          "id": "casablanca",
+          "km": 343.11237270517705
+        }
+      ]
+    },
+    {
+      "id": "cadiz",
+      "nearest": [
+        {
+          "id": "gibraltar",
+          "km": 94.57984101101034
+        },
+        {
+          "id": "malaga",
+          "km": 170.3680456860494
+        },
+        {
+          "id": "casablanca",
+          "km": 343.894343753906
+        }
+      ]
+    },
+    {
+      "id": "nanortalik",
+      "nearest": [
+        {
+          "id": "qaqortoq",
+          "km": 77.70276214001093
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 120.02921478955211
+        },
+        {
+          "id": "paamiut",
+          "km": 315.22899651202283
+        }
+      ]
+    },
+    {
+      "id": "qaqortoq",
+      "nearest": [
+        {
+          "id": "nanortalik",
+          "km": 77.70276214001093
+        },
+        {
+          "id": "prins-christian-sund",
+          "km": 177.06130679682934
+        },
+        {
+          "id": "paamiut",
+          "km": 240.72370615976715
+        }
+      ]
+    },
+    {
+      "id": "colon",
+      "nearest": [
+        {
+          "id": "balboa",
+          "km": 67.90864298617494
+        },
+        {
+          "id": "cartagena-colombia",
+          "km": 486.94949181100947
+        },
+        {
+          "id": "cancun",
+          "km": 1496.6033499343105
+        }
+      ]
+    },
+    {
+      "id": "balboa",
+      "nearest": [
+        {
+          "id": "colon",
+          "km": 67.90864298617494
+        },
+        {
+          "id": "cartagena-colombia",
+          "km": 459.97157610282954
+        },
+        {
+          "id": "cancun",
+          "km": 1563.2490828231612
+        }
+      ]
+    },
+    {
+      "id": "hyeres",
+      "nearest": [
+        {
+          "id": "toulon",
+          "km": 20.067776311349576
+        },
+        {
+          "id": "bandol",
+          "km": 36.59470593351203
+        },
+        {
+          "id": "la-ciotat",
+          "km": 47.34780945202063
+        }
+      ]
+    },
+    {
+      "id": "marseille",
+      "nearest": [
+        {
+          "id": "cassis",
+          "km": 17.579903630841148
+        },
+        {
+          "id": "la-ciotat",
+          "km": 26.446045359590983
+        },
+        {
+          "id": "bandol",
+          "km": 37.685083027006186
+        }
+      ]
+    },
+    {
+      "id": "toulon",
+      "nearest": [
+        {
+          "id": "bandol",
+          "km": 16.975817216625476
+        },
+        {
+          "id": "hyeres",
+          "km": 20.067776311349576
+        },
+        {
+          "id": "la-ciotat",
+          "km": 28.1243739031373
+        }
+      ]
+    },
+    {
+      "id": "nice",
+      "nearest": [
+        {
+          "id": "monaco",
+          "km": 14.05741041978575
+        },
+        {
+          "id": "hyeres",
+          "km": 111.05521862689747
+        },
+        {
+          "id": "toulon",
+          "km": 127.29618981943922
+        }
+      ]
+    },
+    {
+      "id": "monaco",
+      "nearest": [
+        {
+          "id": "nice",
+          "km": 14.05741041978575
+        },
+        {
+          "id": "hyeres",
+          "km": 124.7786369819727
+        },
+        {
+          "id": "genoa",
+          "km": 139.0121988516705
+        }
+      ]
+    },
+    {
+      "id": "bandol",
+      "nearest": [
+        {
+          "id": "la-ciotat",
+          "km": 11.245874523985352
+        },
+        {
+          "id": "toulon",
+          "km": 16.975817216625476
+        },
+        {
+          "id": "cassis",
+          "km": 20.141374622752455
+        }
+      ]
+    },
+    {
+      "id": "cassis",
+      "nearest": [
+        {
+          "id": "la-ciotat",
+          "km": 8.897248318144147
+        },
+        {
+          "id": "marseille",
+          "km": 17.579903630841148
+        },
+        {
+          "id": "bandol",
+          "km": 20.141374622752455
+        }
+      ]
+    },
+    {
+      "id": "la-ciotat",
+      "nearest": [
+        {
+          "id": "cassis",
+          "km": 8.897248318144147
+        },
+        {
+          "id": "bandol",
+          "km": 11.245874523985352
+        },
+        {
+          "id": "marseille",
+          "km": 26.446045359590983
+        }
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "ship": "spirit",
+      "from": "marseille",
+      "to": "haifa",
+      "status": "unreachable",
+      "seconds": 1.5148515420000002,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    },
+    {
+      "ship": "speedboat",
+      "from": "marseille",
+      "to": "haifa",
+      "status": "unreachable",
+      "seconds": 0.6315639159999998,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    },
+    {
+      "ship": "fishing",
+      "from": "marseille",
+      "to": "haifa",
+      "status": "unreachable",
+      "seconds": 2.51850475,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    },
+    {
+      "ship": "spirit",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "status": "unreachable",
+      "seconds": 0.159368375,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    },
+    {
+      "ship": "speedboat",
+      "from": "cancun",
+      "to": "veracruz",
+      "status": "unreachable",
+      "seconds": 0.1666785830000008,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    },
+    {
+      "ship": "yacht",
+      "from": "cancun",
+      "to": "veracruz",
+      "status": "unreachable",
+      "seconds": 0.016382666999999854,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    },
+    {
+      "ship": "fishing",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "status": "feasible",
+      "seconds": 0.08403254099999959,
+      "distanceKm": 1263.2720557283728,
+      "legs": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "fuel": 2749.111649257739
+        },
+        {
+          "to": "los-cabos",
+          "km": 727.2147063395262,
+          "fuel": 3726.0354450984983
+        }
+      ],
+      "reason": "1 escala obligatoria: atraca y reposta antes de continuar. Cada tramo incluye una reserva del 25% del consumo previsto."
+    },
+    {
+      "ship": "spirit",
+      "from": "marseille",
+      "to": "new-york",
+      "status": "unreachable",
+      "seconds": 0.5507080420000002,
+      "distanceKm": 0,
+      "legs": [],
+      "reason": "La red de puertos deja al menos un tramo que supera la autonomía con depósito lleno y reserva. Este barco no puede completar el viaje con las escalas disponibles."
+    }
+  ]
+}

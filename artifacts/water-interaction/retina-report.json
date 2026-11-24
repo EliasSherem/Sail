@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "devicePixelRatio": 2,
+  "fps": "60 FPS NATURAL EARTH",
+  "count": 180,
+  "medianMs": 16.699999999999818,
+  "p95Ms": 16.700000000000728,
+  "maxMs": 16.800000000000182,
+  "errors": []
+}

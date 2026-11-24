@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "snapshots": [
+    {
+      "label": "departure",
+      "state": {
+        "lat": 43.285999746551056,
+        "lon": 5.347000538478596,
+        "shipId": "yacht",
+        "heading": 3.141589542450731,
+        "u": -0.00030095039820326325,
+        "v": -0.0007589190956750828,
+        "yawRate": -0.00001855851237959099,
+        "engine": 0,
+        "fuel": 2399.999667000002,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 0.3,
+        "distance": 0.051903840875169555,
+        "controls": {
+          "throttle": 0,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "throttle-only-5s",
+      "state": {
+        "lat": 43.28595528353933,
+        "lon": 5.3470099784049125,
+        "shipId": "yacht",
+        "heading": 3.1410834144705966,
+        "u": 2.5373266252201265,
+        "v": -0.011773508878350956,
+        "yawRate": -0.0000885991736656853,
+        "engine": 0.6732364696691736,
+        "fuel": 2399.94773878937,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 5.333333333333324,
+        "distance": 5.126819102725097,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "throttle-only-10s",
+      "state": {
+        "lat": 43.285715297481524,
+        "lon": 5.3470206873454345,
+        "shipId": "yacht",
+        "heading": 3.140856796523021,
+        "u": 7.255825116681884,
+        "v": -0.020642314997975027,
+        "yawRate": -0.00002332623607988625,
+        "engine": 0.8986209573218478,
+        "fuel": 2399.753108133946,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 10.599999999999973,
+        "distance": 31.827200589031744,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "after-steering",
+      "state": {
+        "lat": 43.285160880004234,
+        "lon": 5.347034000555368,
+        "shipId": "yacht",
+        "heading": 3.2849418726119755,
+        "u": 10.431547827106433,
+        "v": -0.6268681881792416,
+        "yawRate": -0.000003639629244605067,
+        "engine": 0.9769564729331125,
+        "fuel": 2399.401678457446,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 17.266666666666683,
+        "distance": 93.58419308614818,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "reverse-start",
+      "state": {
+        "lat": 43.284829093616125,
+        "lon": 5.3469948712697715,
+        "shipId": "yacht",
+        "heading": 3.2849239611462373,
+        "u": 10.960279823161878,
+        "v": -0.36195639429422866,
+        "yawRate": -0.000006318832573963138,
+        "engine": 0.9822892723875268,
+        "fuel": 2399.20634030096,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 20.666666666666853,
+        "distance": 130.61405966117678,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": -1
+        },
+        "docked": null
+      },
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "reverse-3s",
+      "state": {
+        "lat": 43.28460211149012,
+        "lon": 5.34696730287078,
+        "shipId": "yacht",
+        "heading": 3.2848966942590927,
+        "u": 6.093856595874196,
+        "v": -0.2567554146016788,
+        "yawRate": -0.000012318211097971724,
+        "engine": 0.9909741158903027,
+        "fuel": 2399.030673661076,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 23.700000000000337,
+        "distance": 155.95221404786594,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": -1
+        },
+        "docked": null
+      },
+      "fps": "60 FPS NATURAL EARTH"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

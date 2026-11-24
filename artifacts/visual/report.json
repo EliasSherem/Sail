@@ -1,0 +1,32 @@
+{
+  "testUrl": "http://localhost:4173",
+  "passed": true,
+  "checks": [
+    "390×844 touch emulation",
+    "native range touch acceleration",
+    "saved forward speed >1 m/s",
+    "physical movement and fuel use",
+    "no horizontal mobile overflow",
+    "22:00 save resumed through UI",
+    "rough seas selected through UI",
+    "live nighttime acceleration",
+    "night follow and bridge render",
+    "zero JS/console errors",
+    "local assets only"
+  ],
+  "errors": [],
+  "unexpectedRequests": [],
+  "mobile": {
+    "viewport": 390,
+    "document": 390,
+    "touchPoints": 1,
+    "throttle": 1,
+    "speedMS": 12.05359168159891,
+    "distanceM": 51.95895535669283
+  },
+  "night": {
+    "sea": "rough",
+    "simTime": 46805.03333333326,
+    "speedMS": 1.7631824138467933
+  }
+}

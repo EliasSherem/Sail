@@ -1,0 +1,297 @@
+{
+  "passed": true,
+  "testUrl": "http://localhost:4173",
+  "browser": "153.0.8010.54",
+  "checks": [
+    "Spirit selection and open-water launch",
+    "10 seconds of real-time throttle acceleration and geographic displacement",
+    "more than 500 km/h through physical integration at 100x",
+    "all three cameras preserve the paused high-speed vessel",
+    "high-speed save restoration within 0.5 simulated seconds",
+    "auxiliary reverse slows progressively over real distance",
+    "390x844 welcome buttons fit",
+    "real touch throttle and 500 km/h HUD without overflow",
+    "all three cameras selectable by touch",
+    "mobile log save preserves vessel state"
+  ],
+  "snapshots": [
+    {
+      "label": "departure-1x",
+      "state": {
+        "lat": 42,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 0,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0,
+        "fuel": 399.991675,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 0.16666666666666666,
+        "distance": 0,
+        "controls": {
+          "throttle": 0,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "WEBGL NATURAL EARTH"
+    },
+    {
+      "label": "full-throttle-10-real-seconds-1x",
+      "state": {
+        "lat": 42.001497586294334,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 44.607338207792964,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0.8830294790160733,
+        "fuel": 398.1788668058088,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 10.46666666666664,
+        "distance": 166.52422815699367,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "record-speed-paused-1x",
+      "state": {
+        "lat": 42.059220047768214,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 141.79366827044032,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0.999997708058106,
+        "fuel": 384.58113052925927,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 62.49999999999901,
+        "distance": 6584.977963040006,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "after-paused-camera-switches",
+      "state": {
+        "lat": 42.059220047768214,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 141.79366827044032,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0.999997708058106,
+        "fuel": 384.58113052925927,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 62.49999999999901,
+        "distance": 6584.977963040006,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "orbit",
+      "fps": "59 FPS NATURAL EARTH"
+    },
+    {
+      "label": "restored-record-speed",
+      "state": {
+        "lat": 42.05951742266782,
+        "lon": 4.000000410652319,
+        "shipId": "spirit",
+        "heading": 1.9727976319217078e-7,
+        "u": 141.81959234246168,
+        "v": 0.0003806319882627214,
+        "yawRate": 8.820019661203217e-7,
+        "engine": 0.9999978168073238,
+        "fuel": 384.51961814040993,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 62.73333333333233,
+        "distance": 6618.044606243173,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "orbit",
+      "fps": "WEBGL NATURAL EARTH"
+    },
+    {
+      "label": "auxiliary-reverse-selected-paused",
+      "state": {
+        "lat": 42.05951742266782,
+        "lon": 4.000000410652319,
+        "shipId": "spirit",
+        "heading": 1.9727976319217078e-7,
+        "u": 141.81959234246168,
+        "v": 0.0003806319882627214,
+        "yawRate": 8.820019661203217e-7,
+        "engine": 0.9999978168073238,
+        "fuel": 384.51961814040993,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 62.73333333333233,
+        "distance": 6618.044606243173,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": -1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "WEBGL NATURAL EARTH"
+    },
+    {
+      "label": "auxiliary-reverse-after-3s",
+      "state": {
+        "lat": 42.06306823006588,
+        "lon": 4.0000058959757325,
+        "shipId": "spirit",
+        "heading": 0.0000031964000495321443,
+        "u": 117.60697137903972,
+        "v": 0.003978875812643813,
+        "yawRate": 0.0000010758768963479575,
+        "engine": 0.9999988475392406,
+        "fuel": 383.7111691939034,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 65.79999999999883,
+        "distance": 7012.877180430585,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": -1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "60 FPS NATURAL EARTH"
+    },
+    {
+      "label": "mobile-departure",
+      "state": {
+        "lat": 42,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 0,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0,
+        "fuel": 399.99001,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 0.19999999999999998,
+        "distance": 0,
+        "controls": {
+          "throttle": 0,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "WEBGL NATURAL EARTH"
+    },
+    {
+      "label": "mobile-record-paused",
+      "state": {
+        "lat": 42.06704430653336,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 141.8942552369943,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0.9999993613369874,
+        "fuel": 382.95757221904734,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 68.76666666666533,
+        "distance": 7454.997044186821,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "follow",
+      "fps": "46 FPS NATURAL EARTH"
+    },
+    {
+      "label": "mobile-after-cameras",
+      "state": {
+        "lat": 42.06704430653336,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 141.8942552369943,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0.9999993613369874,
+        "fuel": 382.95757221904734,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 68.76666666666533,
+        "distance": 7454.997044186821,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      },
+      "camera": "orbit",
+      "fps": "59 FPS NATURAL EARTH"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "metrics": {
+    "speed10SecondsKmh": 160.58641754805467,
+    "accelerationWallSeconds": 10.318,
+    "distance10SecondsM": 166.52422815699367,
+    "recordSpeedKmh": 510.45720577358514,
+    "recordDistanceM": 6584.977963040006,
+    "recordSimSeconds": 62.49999999999901,
+    "restoreAdvanceSeconds": 0.23333333333332007,
+    "restoredSpeedKmh": 510.5505324347008,
+    "reverseStartKmh": 510.55053243286204,
+    "reverseAfter3SecondsKmh": 423.385096964543,
+    "reverseDistanceM": 394.8325741874123,
+    "mobileSpeedKmh": 510.8193188531795
+  },
+  "captureNote": "Paused screenshots hide only the pause badge while capturing; vessel state is unchanged.",
+  "video": "artifacts/spirit/hydroplane-test.webm"
+}

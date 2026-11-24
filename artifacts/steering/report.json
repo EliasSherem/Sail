@@ -1,0 +1,345 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.54",
+  "url": "http://localhost:4173",
+  "checks": [
+    "single-key hold without autorepeat",
+    "rapid high-speed response and lateral grip",
+    "right and left turns",
+    "key release centers helm",
+    "opposite keys and blur",
+    "native fine range adjustment",
+    "pause and first-person camera",
+    "reverse steering from explicit initial-speed fixture",
+    "390x844 touch steering in low quality",
+    "no JavaScript/WebGL errors",
+    "local resources only"
+  ],
+  "errors": [],
+  "external": [],
+  "snapshots": [
+    {
+      "label": "spirit-turn-start",
+      "state": {
+        "lat": 42.05000413720098,
+        "lon": 4,
+        "shipId": "spirit",
+        "heading": 0,
+        "u": 141.50474166748126,
+        "v": 0,
+        "yawRate": 0,
+        "engine": 0.9999896566490669,
+        "fuel": 386.4913398000517,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 55.19999999999943,
+        "distance": 5560.214048088276,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "spirit-one-second-right",
+      "state": {
+        "lat": 42.051359007033305,
+        "lon": 4.000090765399932,
+        "shipId": "spirit",
+        "heading": 0.11856598385374717,
+        "u": 141.48581777013243,
+        "v": -1.0405386083747767,
+        "yawRate": 0.12137166796193752,
+        "engine": 0.9999917176920363,
+        "fuel": 386.2101419066086,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 56.26666666666603,
+        "distance": 5711.150840809699,
+        "controls": {
+          "throttle": 1,
+          "rudder": 1,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "spirit-right-held",
+      "state": {
+        "lat": 42.058475127708235,
+        "lon": 4.005499815707026,
+        "shipId": "spirit",
+        "heading": 0.9199350927230157,
+        "u": 141.36512307208463,
+        "v": -1.040757564488543,
+        "yawRate": 0.1214551375872274,
+        "engine": 0.999997905904602,
+        "fuel": 384.4702232314747,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 62.86666666666566,
+        "distance": 6644.525363052341,
+        "controls": {
+          "throttle": 1,
+          "rudder": 1,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "spirit-left-start",
+      "state": {
+        "lat": 42.05880094655365,
+        "lon": 4.006098105163346,
+        "shipId": "spirit",
+        "heading": 0.949436841246829,
+        "u": 141.37808071784687,
+        "v": -0.0012015107684171529,
+        "yawRate": 0.000015241922746467903,
+        "engine": 0.9999980866724645,
+        "fuel": 384.3559859162344,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 63.29999999999897,
+        "distance": 6705.785416597999,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "spirit-left-held",
+      "state": {
+        "lat": 42.0675487077898,
+        "lon": 4.012196275421388,
+        "shipId": "spirit",
+        "heading": 6.265618284979416,
+        "u": 141.31713698443727,
+        "v": 1.0408446521141865,
+        "yawRate": -0.1214883503247378,
+        "engine": 0.9999996436035931,
+        "fuel": 382.229412507547,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 71.36666666666518,
+        "distance": 7846.0203989131105,
+        "controls": {
+          "throttle": 1,
+          "rudder": -1,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "paused-before-controls",
+      "state": {
+        "lat": 42.06907318182502,
+        "lon": 4.012130932153013,
+        "shipId": "spirit",
+        "heading": 6.264252646161729,
+        "u": 141.37861932667153,
+        "v": 0.004193207071030554,
+        "yawRate": -0.00027390367401671845,
+        "engine": 0.9999997224381991,
+        "fuel": 381.9130625881224,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 72.56666666666511,
+        "distance": 8015.632790883571,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "paused-after-controls-and-camera",
+      "state": {
+        "lat": 42.06907318182502,
+        "lon": 4.012130932153013,
+        "shipId": "spirit",
+        "heading": 6.264252646161729,
+        "u": 141.37861932667153,
+        "v": 0.004193207071030554,
+        "yawRate": -0.00027390367401671845,
+        "engine": 0.9999997224381991,
+        "fuel": 381.9130625881224,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 72.56666666666511,
+        "distance": 8015.632790883571,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "explicit-reverse-launch-start",
+      "state": {
+        "lat": 41.999977202560515,
+        "lon": 4.000000707337222,
+        "shipId": "launch",
+        "heading": 0.000011654341667721724,
+        "u": -6.441947087845313,
+        "v": 0.0015142234991504494,
+        "yawRate": 0.00004002358747098622,
+        "engine": 1,
+        "fuel": 419.9894549999997,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 120.39999999999998,
+        "distance": 2.535637087946816,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": -1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "reverse-launch-right-helm",
+      "state": {
+        "lat": 41.999726532264035,
+        "lon": 4.000085510132976,
+        "shipId": "launch",
+        "heading": 5.864560181813751,
+        "u": -8.98005392783229,
+        "v": 0.3084460067008802,
+        "yawRate": -0.14031577225357172,
+        "engine": 1,
+        "fuel": 419.8945499999968,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 123.99999999999977,
+        "distance": 31.510800093538347,
+        "controls": {
+          "throttle": 1,
+          "rudder": 1,
+          "gear": -1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "explicit-mobile-launch-start",
+      "state": {
+        "lat": 42.00020363444219,
+        "lon": 4.000003192737722,
+        "shipId": "launch",
+        "heading": 0.00003900128961653593,
+        "u": 13.171485603054448,
+        "v": 0.0012045108719414771,
+        "yawRate": 0.000021911190638692543,
+        "engine": 1,
+        "fuel": 419.95254749999856,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 121.7999999999999,
+        "distance": 22.644685992621035,
+        "controls": {
+          "throttle": 1,
+          "rudder": 0,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "mobile-launch-left",
+      "state": {
+        "lat": 42.000671334655465,
+        "lon": 3.9998219596919853,
+        "shipId": "launch",
+        "heading": 5.437992727180536,
+        "u": 13.290669420173863,
+        "v": 1.714175297548917,
+        "yawRate": -0.21069333908627771,
+        "engine": 1,
+        "fuel": 419.8418249999952,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 125.99999999999966,
+        "distance": 78.37813659978197,
+        "controls": {
+          "throttle": 1,
+          "rudder": -1,
+          "gear": 1
+        },
+        "docked": null
+      }
+    },
+    {
+      "label": "mobile-launch-right",
+      "state": {
+        "lat": 42.001210536430484,
+        "lon": 3.9993859752426033,
+        "shipId": "launch",
+        "heading": 0.12312324364241345,
+        "u": 13.314373329542352,
+        "v": -1.7139330242537048,
+        "yawRate": 0.21110828804325324,
+        "engine": 1,
+        "fuel": 419.6968312499908,
+        "damage": 0,
+        "load": 0.35,
+        "simTime": 131.49999999999935,
+        "distance": 151.44198110616856,
+        "controls": {
+          "throttle": 1,
+          "rudder": 1,
+          "gear": 1
+        },
+        "docked": null
+      }
+    }
+  ],
+  "metrics": {
+    "spirit": {
+      "speedBeforeKmh": 509.4170700029325,
+      "speedInTurnKmh": 508.91444305950466,
+      "earlyYawDegPerSec": 6.954084326682209,
+      "rightTurnDeg": 52.70839823900485,
+      "rightSeconds": 7.666666666666231,
+      "rightSlipDeg": -0.4218150651943982,
+      "leftTurnDeg": -55.405240148358054,
+      "leftSlipDeg": 0.42199359984512175
+    },
+    "frames": {
+      "count": 391,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.799999999999272,
+      "maxMs": 16.800000000000182
+    },
+    "reverse": {
+      "turnDeg": -23.986120626187933,
+      "speedMps": -8.98005392783229
+    },
+    "mobile": {
+      "width": 390,
+      "documentWidth": 390,
+      "quality": "low",
+      "leftTurnDeg": -48.4282023190094,
+      "rightTurnDeg": 55.48040993039004
+    }
+  },
+  "notes": [
+    "Spirit acceleration and turns use actual controls without state injection.",
+    "Reverse and mobile launch scenarios restore explicit initial-speed save fixtures, then use real controls.",
+    "Frame timings are local desktop observations. Mobile is Chromium touch emulation, not a physical phone."
+  ],
+  "video": "artifacts/steering/steering-test.webm"
+}

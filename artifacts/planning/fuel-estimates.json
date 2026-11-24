@@ -1,0 +1,348 @@
+{
+  "generatedAt": "2026-09-26T17:55:42.587Z",
+  "conditions": {
+    "load": 0.35,
+    "weather": "initial calm / seed4821 for estimate; evolving calm for actual passages",
+    "reserve": "25% of predicted passage fuel",
+    "actualVoyages": "Only Cassis physically executed in this report; Barcelona rows are estimates. Spirit Barcelona has its own spirit-fuel-after.json physical report.",
+    "spiritFuelBalance": "900 L capacity; 60–650 L/h linear game curve"
+  },
+  "routes": [
+    {
+      "shipId": "launch",
+      "to": "cassis",
+      "estimate": {
+        "distanceM": 29746.51403220158,
+        "durationSeconds": 2751.4985495435003,
+        "estimatedFuelLitres": 27.767125457205168,
+        "cruiseSpeedKnots": 20.976225135478575,
+        "status": "sufficient",
+        "reserveLitres": 6.941781364301292,
+        "requiredFuelLitres": 34.70890682150646,
+        "availableFuelLitres": 420,
+        "remainingFuelLitres": 392.23287454279483,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.6469170000000304,
+      "cachedMsPerCall": 0.0005273329999999988,
+      "actual": {
+        "completed": true,
+        "collisions": 0,
+        "simSeconds": 2735.666666664836,
+        "consumedLitres": 27.376243196939015,
+        "remainingLitres": 392.623756803061,
+        "arrivalDistanceM": 21.445465605864744,
+        "arrivalSpeedMS": 0.746135806054699,
+        "errorFraction": 0.014278155605728093,
+        "reserveCoversConsumption": true
+      }
+    },
+    {
+      "shipId": "fishing",
+      "to": "cassis",
+      "estimate": {
+        "distanceM": 29746.51403220158,
+        "durationSeconds": 5491.888108266262,
+        "estimatedFuelLitres": 65.0170443590548,
+        "cruiseSpeedKnots": 10.433769782769076,
+        "status": "sufficient",
+        "reserveLitres": 16.2542610897637,
+        "requiredFuelLitres": 81.2713054488185,
+        "availableFuelLitres": 4800,
+        "remainingFuelLitres": 4734.982955640945,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 0.6650830000000951,
+      "cachedMsPerCall": 0.00043299999999999274,
+      "actual": {
+        "completed": true,
+        "collisions": 0,
+        "simSeconds": 5460.566666680974,
+        "consumedLitres": 63.741349748071116,
+        "remainingLitres": 4736.258650251929,
+        "arrivalDistanceM": 25.272965624078527,
+        "arrivalSpeedMS": 0.7474961358206094,
+        "errorFraction": 0.020013611510043106,
+        "reserveCoversConsumption": true
+      }
+    },
+    {
+      "shipId": "yacht",
+      "to": "cassis",
+      "estimate": {
+        "distanceM": 29746.51403220158,
+        "durationSeconds": 3309.248378153454,
+        "estimatedFuelLitres": 75.02117951972863,
+        "cruiseSpeedKnots": 17.44408016751222,
+        "status": "sufficient",
+        "reserveLitres": 18.75529487993216,
+        "requiredFuelLitres": 93.7764743996608,
+        "availableFuelLitres": 2400,
+        "remainingFuelLitres": 2324.978820480271,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 0.2588749999999891,
+      "cachedMsPerCall": 0.0004022500000000946,
+      "actual": {
+        "completed": true,
+        "collisions": 0,
+        "simSeconds": 3295.466666664327,
+        "consumedLitres": 73.79072379237687,
+        "remainingLitres": 2326.209276207623,
+        "arrivalDistanceM": 23.237118336716605,
+        "arrivalSpeedMS": 0.7464252726567268,
+        "errorFraction": 0.0166749377714992,
+        "reserveCoversConsumption": true
+      }
+    },
+    {
+      "shipId": "tug",
+      "to": "cassis",
+      "estimate": {
+        "distanceM": 29746.51403220158,
+        "durationSeconds": 8197.46622165841,
+        "estimatedFuelLitres": 361.5722676981306,
+        "cruiseSpeedKnots": 6.9178840258725245,
+        "status": "sufficient",
+        "reserveLitres": 90.39306692453265,
+        "requiredFuelLitres": 451.96533462266325,
+        "availableFuelLitres": 15000,
+        "remainingFuelLitres": 14638.427732301869,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 0.296458000000257,
+      "cachedMsPerCall": 0.00027308300000004237,
+      "actual": {
+        "completed": true,
+        "collisions": 0,
+        "simSeconds": 8126.0666667149135,
+        "consumedLitres": 354.2048893631909,
+        "remainingLitres": 14645.79511063681,
+        "arrivalDistanceM": 23.334621290794786,
+        "arrivalSpeedMS": 0.7474120519854411,
+        "errorFraction": 0.0207997646452176,
+        "reserveCoversConsumption": true
+      }
+    },
+    {
+      "shipId": "spirit",
+      "to": "cassis",
+      "estimate": {
+        "distanceM": 29746.51403220158,
+        "durationSeconds": 1213.0387105288705,
+        "estimatedFuelLitres": 44.03563813631026,
+        "cruiseSpeedKnots": 52.81573834655477,
+        "status": "sufficient",
+        "reserveLitres": 11.008909534077565,
+        "requiredFuelLitres": 55.04454767038783,
+        "availableFuelLitres": 900,
+        "remainingFuelLitres": 855.9643618636898,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 0.590291000000434,
+      "cachedMsPerCall": 0.00025841700000000855,
+      "actual": {
+        "completed": true,
+        "collisions": 0,
+        "simSeconds": 1348.3333333327644,
+        "consumedLitres": 53.01615698433375,
+        "remainingLitres": 846.9838430156663,
+        "arrivalDistanceM": 24.873250822608274,
+        "arrivalSpeedMS": 0.7482228321422288,
+        "errorFraction": -0.16939211287376466,
+        "reserveCoversConsumption": true
+      }
+    },
+    {
+      "shipId": "cargo",
+      "to": "cassis",
+      "estimate": {
+        "distanceM": 29746.51403220158,
+        "durationSeconds": 4827.980491929724,
+        "estimatedFuelLitres": 1289.8501674615734,
+        "cruiseSpeedKnots": 13.055967793268294,
+        "status": "sufficient",
+        "reserveLitres": 322.46254186539335,
+        "requiredFuelLitres": 1612.3127093269668,
+        "availableFuelLitres": 650000,
+        "remainingFuelLitres": 648710.1498325384,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 0.2332909999995536,
+      "cachedMsPerCall": 0.00027062500000010916,
+      "actual": {
+        "completed": true,
+        "collisions": 0,
+        "simSeconds": 5010.53333334191,
+        "consumedLitres": 1063.1041468003532,
+        "remainingLitres": 648936.8958531996,
+        "arrivalDistanceM": 111.30573013730765,
+        "arrivalSpeedMS": 0.7496708668530379,
+        "errorFraction": 0.2132867427369769,
+        "reserveCoversConsumption": true
+      }
+    },
+    {
+      "shipId": "launch",
+      "to": "barcelona",
+      "estimate": {
+        "distanceM": 347806.4443568101,
+        "durationSeconds": 32472.722714472508,
+        "estimatedFuelLitres": 331.6982927466754,
+        "cruiseSpeedKnots": 20.930815743980563,
+        "status": "sufficient",
+        "reserveLitres": 82.92457318666885,
+        "requiredFuelLitres": 414.62286593334426,
+        "availableFuelLitres": 420,
+        "remainingFuelLitres": 88.3017072533246,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.8539169999994556,
+      "cachedMsPerCall": 0.00027791700000034323
+    },
+    {
+      "shipId": "fishing",
+      "to": "barcelona",
+      "estimate": {
+        "distanceM": 347806.4443568101,
+        "durationSeconds": 65679.67425725303,
+        "estimatedFuelLitres": 783.5577065416508,
+        "cruiseSpeedKnots": 10.401736960471045,
+        "status": "sufficient",
+        "reserveLitres": 195.8894266354127,
+        "requiredFuelLitres": 979.4471331770635,
+        "availableFuelLitres": 4800,
+        "remainingFuelLitres": 4016.442293458349,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.8343750000003638,
+      "cachedMsPerCall": 0.0002726249999996071
+    },
+    {
+      "shipId": "yacht",
+      "to": "barcelona",
+      "estimate": {
+        "distanceM": 347806.4443568101,
+        "durationSeconds": 39139.70568312601,
+        "estimatedFuelLitres": 901.0100123009335,
+        "cruiseSpeedKnots": 17.385539338481372,
+        "status": "sufficient",
+        "reserveLitres": 225.25250307523336,
+        "requiredFuelLitres": 1126.262515376167,
+        "availableFuelLitres": 2400,
+        "remainingFuelLitres": 1498.9899876990667,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.8246250000001965,
+      "cachedMsPerCall": 0.00028125
+    },
+    {
+      "shipId": "tug",
+      "to": "barcelona",
+      "estimate": {
+        "distanceM": 347806.4443568101,
+        "durationSeconds": 99359.61200523103,
+        "estimatedFuelLitres": 4389.227591885061,
+        "cruiseSpeedKnots": 6.911252276461143,
+        "status": "sufficient",
+        "reserveLitres": 1097.3068979712652,
+        "requiredFuelLitres": 5486.534489856326,
+        "availableFuelLitres": 15000,
+        "remainingFuelLitres": 10610.772408114939,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.871208000000479,
+      "cachedMsPerCall": 0.0002653749999999491
+    },
+    {
+      "shipId": "spirit",
+      "to": "barcelona",
+      "estimate": {
+        "distanceM": 347806.4443568101,
+        "durationSeconds": 12993.300454586193,
+        "estimatedFuelLitres": 479.08007369830835,
+        "cruiseSpeedKnots": 52.62223348441875,
+        "status": "sufficient",
+        "reserveLitres": 119.77001842457709,
+        "requiredFuelLitres": 598.8500921228855,
+        "availableFuelLitres": 900,
+        "remainingFuelLitres": 420.91992630169165,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.8890420000006998,
+      "cachedMsPerCall": 0.00028258300000015877
+    },
+    {
+      "shipId": "cargo",
+      "to": "barcelona",
+      "estimate": {
+        "distanceM": 347806.4443568101,
+        "durationSeconds": 52844.67093437827,
+        "estimatedFuelLitres": 14273.487983001343,
+        "cruiseSpeedKnots": 13.006214751697625,
+        "status": "sufficient",
+        "reserveLitres": 3568.371995750336,
+        "requiredFuelLitres": 17841.85997875168,
+        "availableFuelLitres": 650000,
+        "remainingFuelLitres": 635726.5120169986,
+        "reserveFraction": 0.25
+      },
+      "coldMs": 1.802332999999635,
+      "cachedMsPerCall": 0.00026395900000079567
+    }
+  ],
+  "fuelStatuses": [
+    {
+      "fuel": 0,
+      "distanceM": 29746.51403220158,
+      "durationSeconds": 1213.0387105288705,
+      "estimatedFuelLitres": 44.03563813631026,
+      "cruiseSpeedKnots": 52.81573834655477,
+      "status": "insufficient",
+      "reserveLitres": 11.008909534077565,
+      "requiredFuelLitres": 55.04454767038783,
+      "availableFuelLitres": 0,
+      "remainingFuelLitres": -44.03563813631026,
+      "reserveFraction": 0.25
+    },
+    {
+      "fuel": 35.22851050904821,
+      "distanceM": 29746.51403220158,
+      "durationSeconds": 1213.0387105288705,
+      "estimatedFuelLitres": 44.03563813631026,
+      "cruiseSpeedKnots": 52.81573834655477,
+      "status": "insufficient",
+      "reserveLitres": 11.008909534077565,
+      "requiredFuelLitres": 55.04454767038783,
+      "availableFuelLitres": 35.22851050904821,
+      "remainingFuelLitres": -8.807127627262048,
+      "reserveFraction": 0.25
+    },
+    {
+      "fuel": 48.43920194994129,
+      "distanceM": 29746.51403220158,
+      "durationSeconds": 1213.0387105288705,
+      "estimatedFuelLitres": 44.03563813631026,
+      "cruiseSpeedKnots": 52.81573834655477,
+      "status": "low-reserve",
+      "reserveLitres": 11.008909534077565,
+      "requiredFuelLitres": 55.04454767038783,
+      "availableFuelLitres": 48.43920194994129,
+      "remainingFuelLitres": 4.403563813631031,
+      "reserveFraction": 0.25
+    },
+    {
+      "fuel": 57.24632957720334,
+      "distanceM": 29746.51403220158,
+      "durationSeconds": 1213.0387105288705,
+      "estimatedFuelLitres": 44.03563813631026,
+      "cruiseSpeedKnots": 52.81573834655477,
+      "status": "sufficient",
+      "reserveLitres": 11.008909534077565,
+      "requiredFuelLitres": 55.04454767038783,
+      "availableFuelLitres": 57.24632957720334,
+      "remainingFuelLitres": 13.21069144089308,
+      "reserveFraction": 0.25
+    }
+  ]
+}

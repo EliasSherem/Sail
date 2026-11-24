@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "ports": 293,
+  "newPorts": [
+    "puerto-montt",
+    "puerto-chacabuco",
+    "puerto-natales",
+    "punta-arenas",
+    "ushuaia",
+    "puerto-williams",
+    "cape-horn",
+    "fildes-bay",
+    "deception-island",
+    "port-lockroy",
+    "bahia-blanca",
+    "puerto-madryn",
+    "puerto-deseado",
+    "rio-gallegos"
+  ],
+  "routes": [
+    {
+      "from": "ushuaia",
+      "destination": "fildes-bay",
+      "displayed": "Comprobada contra la costa\nRuta navegable\n577.4 mn\nDistancia directa\n531.0 mn\nTiempo de crucero aprox.\n54 h 08 min\n\nViaje con 1 escalas de repostaje. Cada etapa conserva una reserva estimada del 25%.\n\n1 escalas de repostaje\nConsumo de todo el viaje: 4118 L. Primera salida con tu combustible actual; después, repostaje en cada escala.\nCabo de Hornos\n119 mn · 857 L · REPOSTAR\nSalida: 4800 L · llegada prevista: 3943 L · reserva mínima: 214 L\nBahía Fildes · Isla Rey Jorge\n459 mn · 3261 L · DESTINO\nSalida: 4800 L · llegada prevista: 1539 L · reserva mínima: 815 L\nPrimera etapa: Cabo de Hornos\nConsumo estimado\n857 L\nReserva (25%)\n214 L\nTotal con reserva\n1071 L\nA bordo\n4800 L\n\nCombustible suficiente. Quedarían unos 3943 L al llegar.\n\nConsumo conservador: contempla crucero del piloto y máxima potencia, carga, daño, corrientes y maniobras. Reserva adicional del 25%. El tiempo corresponde al crucero del piloto (10.4 kn).\nFijar rumbo",
+      "itinerary": {
+        "destinationId": "fildes-bay",
+        "stopIds": [
+          "cape-horn",
+          "fildes-bay"
+        ],
+        "legIndex": 0,
+        "refuelPortId": null
+      },
+      "stages": [
+        {
+          "required": 1070.9111142027448,
+          "available": 4799.999222999992,
+          "text": "Cabo de Hornos119 mn · 857 L · REPOSTARSalida: 4800 L · llegada prevista: 3943 L · reserva mínima: 214 L"
+        },
+        {
+          "required": 4076.1930422280125,
+          "available": 4800,
+          "text": "Bahía Fildes · Isla Rey Jorge459 mn · 3261 L · DESTINOSalida: 4800 L · llegada prevista: 1539 L · reserva mínima: 815 L"
+        }
+      ]
+    },
+    {
+      "from": "ushuaia",
+      "destination": "port-lockroy",
+      "displayed": "Comprobada contra la costa\nRuta navegable\n794.6 mn\nDistancia directa\n617.2 mn\nTiempo de crucero aprox.\n75 h 15 min\n\nViaje con 2 escalas de repostaje. Cada etapa conserva una reserva estimada del 25%.\n\n2 escalas de repostaje\nConsumo de todo el viaje: 5716 L. Primera salida con tu combustible actual; después, repostaje en cada escala.\nCabo de Hornos\n119 mn · 857 L · REPOSTAR\nSalida: 4800 L · llegada prevista: 3943 L · reserva mínima: 214 L\nBahía Fildes · Isla Rey Jorge\n459 mn · 3261 L · REPOSTAR\nSalida: 4800 L · llegada prevista: 1539 L · reserva mínima: 815 L\nPort Lockroy\n217 mn · 1599 L · DESTINO\nSalida: 4800 L · llegada prevista: 3201 L · reserva mínima: 400 L\nPrimera etapa: Cabo de Hornos\nConsumo estimado\n857 L\nReserva (25%)\n214 L\nTotal con reserva\n1071 L\nA bordo\n4800 L\n\nCombustible suficiente. Quedarían unos 3943 L al llegar.\n\nConsumo conservador: contempla crucero del piloto y máxima potencia, carga, daño, corrientes y maniobras. Reserva adicional del 25%. El tiempo corresponde al crucero del piloto (10.4 kn).\nFijar rumbo",
+      "itinerary": {
+        "destinationId": "port-lockroy",
+        "stopIds": [
+          "cape-horn",
+          "fildes-bay",
+          "port-lockroy"
+        ],
+        "legIndex": 0,
+        "refuelPortId": null
+      },
+      "stages": [
+        {
+          "required": 1070.9111142027448,
+          "available": 4799.999222999992,
+          "text": "Cabo de Hornos119 mn · 857 L · REPOSTARSalida: 4800 L · llegada prevista: 3943 L · reserva mínima: 214 L"
+        },
+        {
+          "required": 4076.1930422280125,
+          "available": 4800,
+          "text": "Bahía Fildes · Isla Rey Jorge459 mn · 3261 L · REPOSTARSalida: 4800 L · llegada prevista: 1539 L · reserva mínima: 815 L"
+        },
+        {
+          "required": 1998.4024151071376,
+          "available": 4800,
+          "text": "Port Lockroy217 mn · 1599 L · DESTINOSalida: 4800 L · llegada prevista: 3201 L · reserva mínima: 400 L"
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "id": "ushuaia",
+      "name": "Ushuaia",
+      "localClock": "12:00 UTC−03:00"
+    },
+    {
+      "id": "fildes-bay",
+      "name": "Bahía Fildes · Isla Rey Jorge",
+      "localClock": "12:00 UTC−03:00"
+    },
+    {
+      "id": "deception-island",
+      "name": "Isla Decepción · Whalers Bay",
+      "localClock": "12:00 UTC−03:00"
+    },
+    {
+      "id": "port-lockroy",
+      "name": "Port Lockroy",
+      "localClock": "12:00 UTC−03:00"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,14 @@
+{
+  "before": "spirit",
+  "afterRoute": "spirit",
+  "afterRefresh": "spirit",
+  "routeBefore": "cassis",
+  "routeAfter": "cassis",
+  "restoredShip": "spirit",
+  "restoredRoute": "cassis",
+  "fleet": {
+    "shipBeforeRefresh": "launch",
+    "shipAfterRefresh": "launch",
+    "routeAfterRefresh": "la-ciotat"
+  }
+}

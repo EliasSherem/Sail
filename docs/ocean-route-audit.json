@@ -1,0 +1,2309 @@
+{
+  "failed": [],
+  "legs": [
+    {
+      "from": "genoa",
+      "to": "la-spezia",
+      "km": 102,
+      "points": 4
+    },
+    {
+      "from": "la-spezia",
+      "to": "livorno",
+      "km": 70.69,
+      "points": 3
+    },
+    {
+      "from": "livorno",
+      "to": "piombino",
+      "km": 87.9,
+      "points": 3
+    },
+    {
+      "from": "piombino",
+      "to": "civitavecchia",
+      "km": 135.47,
+      "points": 3
+    },
+    {
+      "from": "civitavecchia",
+      "to": "anzio",
+      "km": 104.42,
+      "points": 2
+    },
+    {
+      "from": "anzio",
+      "to": "gaeta",
+      "km": 96.72,
+      "points": 3
+    },
+    {
+      "from": "gaeta",
+      "to": "naples",
+      "km": 99.48,
+      "points": 4
+    },
+    {
+      "from": "naples",
+      "to": "salerno",
+      "km": 77.14,
+      "points": 4
+    },
+    {
+      "from": "salerno",
+      "to": "vibo-valentia",
+      "km": 240.86,
+      "points": 4
+    },
+    {
+      "from": "vibo-valentia",
+      "to": "messina",
+      "km": 116.3,
+      "points": 4
+    },
+    {
+      "from": "messina",
+      "to": "catania",
+      "km": 87.82,
+      "points": 2
+    },
+    {
+      "from": "catania",
+      "to": "crotone",
+      "km": 293.11,
+      "points": 4
+    },
+    {
+      "from": "crotone",
+      "to": "taranto",
+      "km": 152.75,
+      "points": 3
+    },
+    {
+      "from": "taranto",
+      "to": "brindisi",
+      "km": 264.76,
+      "points": 6
+    },
+    {
+      "from": "brindisi",
+      "to": "corfu",
+      "km": 314.52,
+      "points": 4
+    },
+    {
+      "from": "corfu",
+      "to": "argostoli",
+      "km": 200.65,
+      "points": 5
+    },
+    {
+      "from": "argostoli",
+      "to": "katakolon",
+      "km": 90.83,
+      "points": 2
+    },
+    {
+      "from": "katakolon",
+      "to": "kalamata",
+      "km": 186.17,
+      "points": 4
+    },
+    {
+      "from": "kalamata",
+      "to": "kissamos",
+      "km": 225.18,
+      "points": 5
+    },
+    {
+      "from": "kissamos",
+      "to": "heraklion",
+      "km": 164,
+      "points": 4
+    },
+    {
+      "from": "heraklion",
+      "to": "sitia",
+      "km": 91.35,
+      "points": 3
+    },
+    {
+      "from": "sitia",
+      "to": "rhodes",
+      "km": 237,
+      "points": 4
+    },
+    {
+      "from": "rhodes",
+      "to": "fethiye",
+      "km": 74.53,
+      "points": 2
+    },
+    {
+      "from": "fethiye",
+      "to": "antalya",
+      "km": 265.26,
+      "points": 6
+    },
+    {
+      "from": "antalya",
+      "to": "alanya",
+      "km": 126.99,
+      "points": 2
+    },
+    {
+      "from": "alanya",
+      "to": "limassol",
+      "km": 281.24,
+      "points": 5
+    },
+    {
+      "from": "limassol",
+      "to": "larnaca",
+      "km": 72.46,
+      "points": 3
+    },
+    {
+      "from": "larnaca",
+      "to": "haifa",
+      "km": 253.23,
+      "points": 2
+    },
+    {
+      "from": "palermo",
+      "to": "vibo-valentia",
+      "km": 245.12,
+      "points": 3
+    },
+    {
+      "from": "palermo",
+      "to": "messina",
+      "km": 219.94,
+      "points": 3
+    },
+    {
+      "from": "ajaccio",
+      "to": "piombino",
+      "km": 312.86,
+      "points": 6
+    },
+    {
+      "from": "kalamata",
+      "to": "piraeus",
+      "km": 354.12,
+      "points": 7
+    },
+    {
+      "from": "piraeus",
+      "to": "heraklion",
+      "km": 311.62,
+      "points": 3
+    },
+    {
+      "from": "piraeus",
+      "to": "rhodes",
+      "km": 472.3,
+      "points": 6
+    },
+    {
+      "from": "rhodes",
+      "to": "limassol",
+      "km": 516.24,
+      "points": 3
+    },
+    {
+      "from": "limassol",
+      "to": "haifa",
+      "km": 263.61,
+      "points": 2
+    },
+    {
+      "from": "cancun",
+      "to": "rio-lagartos",
+      "km": 206.33,
+      "points": 4
+    },
+    {
+      "from": "rio-lagartos",
+      "to": "progreso",
+      "km": 159.41,
+      "points": 2
+    },
+    {
+      "from": "progreso",
+      "to": "celestun",
+      "km": 106.47,
+      "points": 4
+    },
+    {
+      "from": "celestun",
+      "to": "campeche",
+      "km": 114,
+      "points": 2
+    },
+    {
+      "from": "campeche",
+      "to": "champoton",
+      "km": 61.68,
+      "points": 3
+    },
+    {
+      "from": "champoton",
+      "to": "ciudad-carmen",
+      "km": 139.68,
+      "points": 2
+    },
+    {
+      "from": "ciudad-carmen",
+      "to": "dos-bocas",
+      "km": 152.93,
+      "points": 3
+    },
+    {
+      "from": "dos-bocas",
+      "to": "coatzacoalcos",
+      "km": 134.68,
+      "points": 3
+    },
+    {
+      "from": "coatzacoalcos",
+      "to": "alvarado",
+      "km": 192.37,
+      "points": 6
+    },
+    {
+      "from": "alvarado",
+      "to": "veracruz",
+      "km": 64.38,
+      "points": 3
+    },
+    {
+      "from": "acapulco",
+      "to": "zihuatanejo",
+      "km": 197.24,
+      "points": 3
+    },
+    {
+      "from": "zihuatanejo",
+      "to": "lazaro-cardenas",
+      "km": 71.55,
+      "points": 2
+    },
+    {
+      "from": "lazaro-cardenas",
+      "to": "manzanillo",
+      "km": 265.72,
+      "points": 4
+    },
+    {
+      "from": "manzanillo",
+      "to": "puerto-vallarta",
+      "km": 289.67,
+      "points": 5
+    },
+    {
+      "from": "puerto-vallarta",
+      "to": "mazatlan",
+      "km": 319.37,
+      "points": 3
+    },
+    {
+      "from": "mazatlan",
+      "to": "la-paz",
+      "km": 447.53,
+      "points": 4
+    },
+    {
+      "from": "la-paz",
+      "to": "los-cabos",
+      "km": 269.67,
+      "points": 8
+    },
+    {
+      "from": "mazatlan",
+      "to": "los-cabos",
+      "km": 353.73,
+      "points": 2
+    },
+    {
+      "from": "los-cabos",
+      "to": "san-carlos",
+      "km": 320.29,
+      "points": 5
+    },
+    {
+      "from": "san-carlos",
+      "to": "bahia-tortugas",
+      "km": 508.63,
+      "points": 4
+    },
+    {
+      "from": "bahia-tortugas",
+      "to": "san-quintin",
+      "km": 337.13,
+      "points": 7
+    },
+    {
+      "from": "san-quintin",
+      "to": "ensenada",
+      "km": 217.44,
+      "points": 4
+    },
+    {
+      "from": "ensenada",
+      "to": "san-diego",
+      "km": 103.26,
+      "points": 4
+    },
+    {
+      "from": "cadiz",
+      "to": "portimao",
+      "km": 202.9,
+      "points": 2
+    },
+    {
+      "from": "portimao",
+      "to": "lisbon",
+      "km": 241.58,
+      "points": 3
+    },
+    {
+      "from": "a-coruna",
+      "to": "gijon",
+      "km": 256.86,
+      "points": 6
+    },
+    {
+      "from": "gijon",
+      "to": "santander",
+      "km": 173.22,
+      "points": 3
+    },
+    {
+      "from": "santander",
+      "to": "bayonne",
+      "km": 183.08,
+      "points": 4
+    },
+    {
+      "from": "bayonne",
+      "to": "la-rochelle",
+      "km": 307.16,
+      "points": 3
+    },
+    {
+      "from": "la-rochelle",
+      "to": "lorient",
+      "km": 241.94,
+      "points": 3
+    },
+    {
+      "from": "lorient",
+      "to": "brest",
+      "km": 148.94,
+      "points": 4
+    },
+    {
+      "from": "brest",
+      "to": "newlyn",
+      "km": 217.83,
+      "points": 3
+    },
+    {
+      "from": "newlyn",
+      "to": "cork",
+      "km": 296.22,
+      "points": 3
+    },
+    {
+      "from": "newlyn",
+      "to": "falmouth",
+      "km": 61.63,
+      "points": 4
+    },
+    {
+      "from": "cork",
+      "to": "dingle",
+      "km": 227.73,
+      "points": 6
+    },
+    {
+      "from": "dingle",
+      "to": "galway",
+      "km": 186.9,
+      "points": 5
+    },
+    {
+      "from": "galway",
+      "to": "killybegs",
+      "km": 319.34,
+      "points": 7
+    },
+    {
+      "from": "killybegs",
+      "to": "oban",
+      "km": 343.69,
+      "points": 6
+    },
+    {
+      "from": "oban",
+      "to": "stornoway",
+      "km": 296.08,
+      "points": 7
+    },
+    {
+      "from": "stornoway",
+      "to": "scrabster",
+      "km": 182.55,
+      "points": 3
+    },
+    {
+      "from": "scrabster",
+      "to": "stromness",
+      "km": 56.24,
+      "points": 3
+    },
+    {
+      "from": "stromness",
+      "to": "lerwick",
+      "km": 257.07,
+      "points": 6
+    },
+    {
+      "from": "lerwick",
+      "to": "torshavn",
+      "km": 433.32,
+      "points": 4
+    },
+    {
+      "from": "torshavn",
+      "to": "sorvagur",
+      "km": 120.46,
+      "points": 4
+    },
+    {
+      "from": "sorvagur",
+      "to": "budir",
+      "km": 458.47,
+      "points": 3
+    },
+    {
+      "from": "budir",
+      "to": "hofn",
+      "km": 160.87,
+      "points": 4
+    },
+    {
+      "from": "budir",
+      "to": "seydisfjordur",
+      "km": 123.42,
+      "points": 4
+    },
+    {
+      "from": "isafjordur",
+      "to": "kangerlussuaq-east",
+      "km": 427.59,
+      "points": 2
+    },
+    {
+      "from": "kangerlussuaq-east",
+      "to": "kulusuk",
+      "km": 401.96,
+      "points": 4
+    },
+    {
+      "from": "kulusuk",
+      "to": "tasiilaq",
+      "km": 17.85,
+      "points": 2
+    },
+    {
+      "from": "tasiilaq",
+      "to": "skjoldungen",
+      "km": 337.19,
+      "points": 3
+    },
+    {
+      "from": "skjoldungen",
+      "to": "timmiarmiut",
+      "km": 145.88,
+      "points": 4
+    },
+    {
+      "from": "timmiarmiut",
+      "to": "qutdleq",
+      "km": 121.44,
+      "points": 3
+    },
+    {
+      "from": "qutdleq",
+      "to": "prins-christian-sund",
+      "km": 170.11,
+      "points": 2
+    },
+    {
+      "from": "sisimiut",
+      "to": "cape-dyer",
+      "km": 357.07,
+      "points": 3
+    },
+    {
+      "from": "cape-dyer",
+      "to": "brevoort",
+      "km": 417.69,
+      "points": 3
+    },
+    {
+      "from": "brevoort",
+      "to": "resolution-harbour",
+      "km": 244.73,
+      "points": 4
+    },
+    {
+      "from": "resolution-harbour",
+      "to": "saglek",
+      "km": 330.45,
+      "points": 2
+    },
+    {
+      "from": "cape-dyer",
+      "to": "qikiqtarjuaq",
+      "km": 280.76,
+      "points": 6
+    },
+    {
+      "from": "brevoort",
+      "to": "iqaluit",
+      "km": 357.7,
+      "points": 6
+    },
+    {
+      "from": "nain",
+      "to": "hopedale",
+      "km": 173.81,
+      "points": 5
+    },
+    {
+      "from": "hopedale",
+      "to": "cartwright",
+      "km": 357.99,
+      "points": 8
+    },
+    {
+      "from": "st-anthony",
+      "to": "bonavista",
+      "km": 341.14,
+      "points": 3
+    },
+    {
+      "from": "bonavista",
+      "to": "st-johns",
+      "km": 171.23,
+      "points": 4
+    },
+    {
+      "from": "saint-pierre",
+      "to": "north-sydney",
+      "km": 336.83,
+      "points": 3
+    },
+    {
+      "from": "north-sydney",
+      "to": "port-hawkesbury",
+      "km": 304.69,
+      "points": 9
+    },
+    {
+      "from": "port-hawkesbury",
+      "to": "halifax",
+      "km": 705.42,
+      "points": 11
+    },
+    {
+      "from": "halifax",
+      "to": "yarmouth-canada",
+      "km": 320.87,
+      "points": 4
+    },
+    {
+      "from": "yarmouth-canada",
+      "to": "portland-maine",
+      "km": 324.91,
+      "points": 2
+    },
+    {
+      "from": "portland-maine",
+      "to": "boston",
+      "km": 186.94,
+      "points": 4
+    },
+    {
+      "from": "atl-cape-cod",
+      "to": "newport-rhode-island",
+      "km": 157.97,
+      "points": 5
+    },
+    {
+      "from": "newport-rhode-island",
+      "to": "new-york",
+      "km": 255.27,
+      "points": 3
+    },
+    {
+      "from": "north-sydney",
+      "to": "halifax",
+      "km": 484.35,
+      "points": 6
+    },
+    {
+      "from": "san-diego",
+      "to": "los-angeles",
+      "km": 150.58,
+      "points": 2
+    },
+    {
+      "from": "los-angeles",
+      "to": "morro-bay",
+      "km": 339.58,
+      "points": 5
+    },
+    {
+      "from": "morro-bay",
+      "to": "san-francisco",
+      "km": 330.66,
+      "points": 5
+    },
+    {
+      "from": "san-francisco",
+      "to": "eureka",
+      "km": 420.14,
+      "points": 5
+    },
+    {
+      "from": "eureka",
+      "to": "astoria",
+      "km": 628.2,
+      "points": 5
+    },
+    {
+      "from": "astoria",
+      "to": "seattle",
+      "km": 490.17,
+      "points": 9
+    },
+    {
+      "from": "seattle",
+      "to": "vancouver",
+      "km": 223.74,
+      "points": 8
+    },
+    {
+      "from": "acapulco",
+      "to": "salina-cruz",
+      "km": 548.06,
+      "points": 5
+    },
+    {
+      "from": "salina-cruz",
+      "to": "puerto-quetzal",
+      "km": 539.94,
+      "points": 4
+    },
+    {
+      "from": "puerto-quetzal",
+      "to": "acajutla",
+      "km": 104.59,
+      "points": 2
+    },
+    {
+      "from": "acajutla",
+      "to": "corinto",
+      "km": 315.28,
+      "points": 2
+    },
+    {
+      "from": "corinto",
+      "to": "puerto-caldera",
+      "km": 481.37,
+      "points": 4
+    },
+    {
+      "from": "puerto-caldera",
+      "to": "golfito",
+      "km": 287.24,
+      "points": 6
+    },
+    {
+      "from": "golfito",
+      "to": "puerto-armuelles",
+      "km": 128.7,
+      "points": 4
+    },
+    {
+      "from": "puerto-armuelles",
+      "to": "balboa",
+      "km": 524.24,
+      "points": 7
+    },
+    {
+      "from": "balboa",
+      "to": "buenaventura",
+      "km": 665.74,
+      "points": 3
+    },
+    {
+      "from": "buenaventura",
+      "to": "tumaco",
+      "km": 307.72,
+      "points": 5
+    },
+    {
+      "from": "tumaco",
+      "to": "esmeraldas",
+      "km": 137.74,
+      "points": 3
+    },
+    {
+      "from": "esmeraldas",
+      "to": "manta",
+      "km": 268.63,
+      "points": 3
+    },
+    {
+      "from": "manta",
+      "to": "cabo-blanco",
+      "km": 392.49,
+      "points": 3
+    },
+    {
+      "from": "cabo-blanco",
+      "to": "salaverry",
+      "km": 550.77,
+      "points": 4
+    },
+    {
+      "from": "salaverry",
+      "to": "chimbote",
+      "km": 104.19,
+      "points": 3
+    },
+    {
+      "from": "chimbote",
+      "to": "callao",
+      "km": 365.2,
+      "points": 4
+    },
+    {
+      "from": "callao",
+      "to": "san-nicolas",
+      "km": 423.26,
+      "points": 6
+    },
+    {
+      "from": "san-nicolas",
+      "to": "matarani",
+      "km": 393.94,
+      "points": 3
+    },
+    {
+      "from": "matarani",
+      "to": "arica",
+      "km": 250.15,
+      "points": 3
+    },
+    {
+      "from": "arica",
+      "to": "iquique",
+      "km": 195.53,
+      "points": 3
+    },
+    {
+      "from": "iquique",
+      "to": "antofagasta",
+      "km": 402.73,
+      "points": 4
+    },
+    {
+      "from": "antofagasta",
+      "to": "caldera-chile",
+      "km": 379.79,
+      "points": 3
+    },
+    {
+      "from": "caldera-chile",
+      "to": "coquimbo",
+      "km": 341.75,
+      "points": 4
+    },
+    {
+      "from": "coquimbo",
+      "to": "valparaiso",
+      "km": 352.85,
+      "points": 4
+    },
+    {
+      "from": "valparaiso",
+      "to": "talcahuano",
+      "km": 433.25,
+      "points": 3
+    },
+    {
+      "from": "talcahuano",
+      "to": "corral",
+      "km": 413.29,
+      "points": 4
+    },
+    {
+      "from": "new-york",
+      "to": "norfolk",
+      "km": 470.02,
+      "points": 6
+    },
+    {
+      "from": "norfolk",
+      "to": "morehead-city",
+      "km": 405.22,
+      "points": 11
+    },
+    {
+      "from": "morehead-city",
+      "to": "charleston",
+      "km": 389.3,
+      "points": 5
+    },
+    {
+      "from": "charleston",
+      "to": "jacksonville",
+      "km": 352.01,
+      "points": 3
+    },
+    {
+      "from": "jacksonville",
+      "to": "canaveral",
+      "km": 191.01,
+      "points": 2
+    },
+    {
+      "from": "canaveral",
+      "to": "miami",
+      "km": 336.71,
+      "points": 4
+    },
+    {
+      "from": "miami",
+      "to": "key-west",
+      "km": 240.61,
+      "points": 6
+    },
+    {
+      "from": "key-west",
+      "to": "havana",
+      "km": 157.37,
+      "points": 2
+    },
+    {
+      "from": "miami",
+      "to": "nassau",
+      "km": 286.99,
+      "points": 3
+    },
+    {
+      "from": "nassau",
+      "to": "matthew-town",
+      "km": 595.56,
+      "points": 3
+    },
+    {
+      "from": "matthew-town",
+      "to": "haina",
+      "km": 837.36,
+      "points": 7
+    },
+    {
+      "from": "haina",
+      "to": "san-juan",
+      "km": 428.91,
+      "points": 4
+    },
+    {
+      "from": "san-juan",
+      "to": "st-johns-antigua",
+      "km": 475.5,
+      "points": 3
+    },
+    {
+      "from": "st-johns-antigua",
+      "to": "fort-de-france",
+      "km": 302.99,
+      "points": 4
+    },
+    {
+      "from": "fort-de-france",
+      "to": "point-lisas",
+      "km": 480.62,
+      "points": 3
+    },
+    {
+      "from": "haina",
+      "to": "rocky-point",
+      "km": 787.17,
+      "points": 4
+    },
+    {
+      "from": "cancun",
+      "to": "belize-city",
+      "km": 462.24,
+      "points": 4
+    },
+    {
+      "from": "belize-city",
+      "to": "trujillo-honduras",
+      "km": 292.15,
+      "points": 3
+    },
+    {
+      "from": "trujillo-honduras",
+      "to": "puerto-limon",
+      "km": 952.75,
+      "points": 7
+    },
+    {
+      "from": "puerto-limon",
+      "to": "colon",
+      "km": 345.6,
+      "points": 2
+    },
+    {
+      "from": "colon",
+      "to": "cartagena-colombia",
+      "km": 488.58,
+      "points": 3
+    },
+    {
+      "from": "montevideo",
+      "to": "rio-grande",
+      "km": 546.6,
+      "points": 7
+    },
+    {
+      "from": "rio-grande",
+      "to": "itajai",
+      "km": 746.74,
+      "points": 7
+    },
+    {
+      "from": "itajai",
+      "to": "santos",
+      "km": 397.21,
+      "points": 2
+    },
+    {
+      "from": "santos",
+      "to": "rio-de-janeiro",
+      "km": 349.03,
+      "points": 3
+    },
+    {
+      "from": "rio-de-janeiro",
+      "to": "vitoria",
+      "km": 503.38,
+      "points": 6
+    },
+    {
+      "from": "vitoria",
+      "to": "ilheus",
+      "km": 660.79,
+      "points": 8
+    },
+    {
+      "from": "ilheus",
+      "to": "salvador",
+      "km": 209.72,
+      "points": 3
+    },
+    {
+      "from": "salvador",
+      "to": "recife",
+      "km": 719.62,
+      "points": 6
+    },
+    {
+      "from": "recife",
+      "to": "natal",
+      "km": 277.27,
+      "points": 4
+    },
+    {
+      "from": "natal",
+      "to": "fortaleza",
+      "km": 450.34,
+      "points": 3
+    },
+    {
+      "from": "casablanca",
+      "to": "agadir",
+      "km": 466.21,
+      "points": 6
+    },
+    {
+      "from": "agadir",
+      "to": "laayoune",
+      "km": 533.91,
+      "points": 3
+    },
+    {
+      "from": "laayoune",
+      "to": "dakhla",
+      "km": 477.49,
+      "points": 4
+    },
+    {
+      "from": "dakhla",
+      "to": "nouadhibou",
+      "km": 412.84,
+      "points": 5
+    },
+    {
+      "from": "nouadhibou",
+      "to": "nouakchott",
+      "km": 331.03,
+      "points": 2
+    },
+    {
+      "from": "nouakchott",
+      "to": "dakar",
+      "km": 418.46,
+      "points": 3
+    },
+    {
+      "from": "dakar",
+      "to": "banjul",
+      "km": 157.94,
+      "points": 2
+    },
+    {
+      "from": "banjul",
+      "to": "conakry",
+      "km": 648.31,
+      "points": 7
+    },
+    {
+      "from": "conakry",
+      "to": "freetown",
+      "km": 121.31,
+      "points": 2
+    },
+    {
+      "from": "freetown",
+      "to": "monrovia",
+      "km": 441.36,
+      "points": 5
+    },
+    {
+      "from": "monrovia",
+      "to": "cape-palmas",
+      "km": 408.56,
+      "points": 3
+    },
+    {
+      "from": "cape-palmas",
+      "to": "sekondi",
+      "km": 684.25,
+      "points": 4
+    },
+    {
+      "from": "sekondi",
+      "to": "lagos",
+      "km": 586.91,
+      "points": 2
+    },
+    {
+      "from": "lagos",
+      "to": "malabo",
+      "km": 684.92,
+      "points": 3
+    },
+    {
+      "from": "malabo",
+      "to": "bata",
+      "km": 249.51,
+      "points": 3
+    },
+    {
+      "from": "bata",
+      "to": "port-gentil",
+      "km": 306.42,
+      "points": 3
+    },
+    {
+      "from": "port-gentil",
+      "to": "pointe-noire",
+      "km": 630.74,
+      "points": 6
+    },
+    {
+      "from": "pointe-noire",
+      "to": "luanda",
+      "km": 480.87,
+      "points": 4
+    },
+    {
+      "from": "luanda",
+      "to": "lobito",
+      "km": 435.19,
+      "points": 5
+    },
+    {
+      "from": "lobito",
+      "to": "namibe",
+      "km": 368.75,
+      "points": 5
+    },
+    {
+      "from": "namibe",
+      "to": "walvis-bay",
+      "km": 950.27,
+      "points": 7
+    },
+    {
+      "from": "walvis-bay",
+      "to": "luderitz",
+      "km": 464.14,
+      "points": 5
+    },
+    {
+      "from": "luderitz",
+      "to": "saldanha",
+      "km": 797.26,
+      "points": 5
+    },
+    {
+      "from": "saldanha",
+      "to": "cape-town",
+      "km": 99.3,
+      "points": 3
+    },
+    {
+      "from": "las-palmas",
+      "to": "laayoune",
+      "km": 225.12,
+      "points": 2
+    },
+    {
+      "from": "suez",
+      "to": "hurghada",
+      "km": 339.98,
+      "points": 5
+    },
+    {
+      "from": "hurghada",
+      "to": "al-qusayr",
+      "km": 127.16,
+      "points": 3
+    },
+    {
+      "from": "al-qusayr",
+      "to": "yanbu",
+      "km": 440.43,
+      "points": 3
+    },
+    {
+      "from": "yanbu",
+      "to": "jeddah",
+      "km": 309.3,
+      "points": 2
+    },
+    {
+      "from": "jeddah",
+      "to": "jazan",
+      "km": 599.03,
+      "points": 4
+    },
+    {
+      "from": "jazan",
+      "to": "al-mukha",
+      "km": 458.31,
+      "points": 3
+    },
+    {
+      "from": "al-mukha",
+      "to": "aden",
+      "km": 262.77,
+      "points": 4
+    },
+    {
+      "from": "aden",
+      "to": "mukalla",
+      "km": 492.65,
+      "points": 4
+    },
+    {
+      "from": "mukalla",
+      "to": "salalah",
+      "km": 599.02,
+      "points": 4
+    },
+    {
+      "from": "salalah",
+      "to": "duqm",
+      "km": 579.03,
+      "points": 5
+    },
+    {
+      "from": "duqm",
+      "to": "muscat",
+      "km": 580.72,
+      "points": 7
+    },
+    {
+      "from": "muscat",
+      "to": "sohar",
+      "km": 221.65,
+      "points": 2
+    },
+    {
+      "from": "sohar",
+      "to": "fujairah",
+      "km": 76.86,
+      "points": 2
+    },
+    {
+      "from": "fujairah",
+      "to": "dubai",
+      "km": 325.88,
+      "points": 4
+    },
+    {
+      "from": "suez",
+      "to": "sharm-el-sheikh",
+      "km": 334.6,
+      "points": 6
+    },
+    {
+      "from": "sharm-el-sheikh",
+      "to": "eilat",
+      "km": 239.06,
+      "points": 4
+    },
+    {
+      "from": "sharm-el-sheikh",
+      "to": "hurghada",
+      "km": 86.41,
+      "points": 3
+    },
+    {
+      "from": "sharm-el-sheikh",
+      "to": "duba",
+      "km": 141.4,
+      "points": 2
+    },
+    {
+      "from": "duba",
+      "to": "yanbu",
+      "km": 450.53,
+      "points": 4
+    },
+    {
+      "from": "muscat",
+      "to": "gwadar",
+      "km": 407.81,
+      "points": 2
+    },
+    {
+      "from": "gwadar",
+      "to": "karachi",
+      "km": 470.14,
+      "points": 2
+    },
+    {
+      "from": "karachi",
+      "to": "okha",
+      "km": 338.25,
+      "points": 3
+    },
+    {
+      "from": "okha",
+      "to": "veraval",
+      "km": 251.41,
+      "points": 4
+    },
+    {
+      "from": "veraval",
+      "to": "mumbai",
+      "km": 340.25,
+      "points": 2
+    },
+    {
+      "from": "mumbai",
+      "to": "mormugao",
+      "km": 399.35,
+      "points": 3
+    },
+    {
+      "from": "mormugao",
+      "to": "new-mangalore",
+      "km": 296.68,
+      "points": 2
+    },
+    {
+      "from": "new-mangalore",
+      "to": "kochi",
+      "km": 366.94,
+      "points": 3
+    },
+    {
+      "from": "kochi",
+      "to": "colombo",
+      "km": 554.68,
+      "points": 5
+    },
+    {
+      "from": "sabang",
+      "to": "belawan",
+      "km": 461.67,
+      "points": 4
+    },
+    {
+      "from": "belawan",
+      "to": "penang",
+      "km": 253.58,
+      "points": 3
+    },
+    {
+      "from": "penang",
+      "to": "port-klang",
+      "km": 329.1,
+      "points": 5
+    },
+    {
+      "from": "port-klang",
+      "to": "singapore",
+      "km": 375,
+      "points": 5
+    },
+    {
+      "from": "phuket",
+      "to": "penang",
+      "km": 348.85,
+      "points": 3
+    },
+    {
+      "from": "corral",
+      "to": "puerto-montt",
+      "km": 314.74,
+      "points": 11
+    },
+    {
+      "from": "puerto-montt",
+      "to": "puerto-chacabuco",
+      "km": 478.24,
+      "points": 7
+    },
+    {
+      "from": "puerto-chacabuco",
+      "to": "pac-chile-south",
+      "km": 519.5,
+      "points": 12
+    },
+    {
+      "from": "pac-chile-south",
+      "to": "puerto-natales",
+      "km": 661.9,
+      "points": 11
+    },
+    {
+      "from": "puerto-natales",
+      "to": "punta-arenas",
+      "km": 499.02,
+      "points": 23
+    },
+    {
+      "from": "punta-arenas",
+      "to": "ushuaia",
+      "km": 630.39,
+      "points": 17
+    },
+    {
+      "from": "ushuaia",
+      "to": "puerto-williams",
+      "km": 45.06,
+      "points": 2
+    },
+    {
+      "from": "puerto-williams",
+      "to": "cape-horn",
+      "km": 169.72,
+      "points": 7
+    },
+    {
+      "from": "cape-horn",
+      "to": "fildes-bay",
+      "km": 842.5,
+      "points": 3
+    },
+    {
+      "from": "fildes-bay",
+      "to": "deception-island",
+      "km": 138.38,
+      "points": 4
+    },
+    {
+      "from": "deception-island",
+      "to": "port-lockroy",
+      "km": 260.58,
+      "points": 7
+    },
+    {
+      "from": "montevideo",
+      "to": "bahia-blanca",
+      "km": 818.2,
+      "points": 6
+    },
+    {
+      "from": "bahia-blanca",
+      "to": "puerto-madryn",
+      "km": 600.47,
+      "points": 6
+    },
+    {
+      "from": "puerto-madryn",
+      "to": "puerto-deseado",
+      "km": 645.01,
+      "points": 4
+    },
+    {
+      "from": "puerto-deseado",
+      "to": "rio-gallegos",
+      "km": 496.69,
+      "points": 5
+    },
+    {
+      "from": "rio-gallegos",
+      "to": "punta-arenas",
+      "km": 316.7,
+      "points": 8
+    },
+    {
+      "from": "buenos-aires",
+      "to": "bahia-blanca",
+      "km": 920.08,
+      "points": 8
+    },
+    {
+      "from": "pac-cape-horn-west",
+      "to": "cape-horn",
+      "km": 361.89,
+      "points": 2
+    },
+    {
+      "from": "cape-horn",
+      "to": "pac-cape-horn-east",
+      "km": 214.18,
+      "points": 2
+    },
+    {
+      "from": "cadiz-exterior",
+      "to": "cadiz",
+      "km": 59.74,
+      "points": 2
+    },
+    {
+      "from": "cadiz",
+      "to": "lisbon",
+      "km": 428.87,
+      "points": 4
+    },
+    {
+      "from": "lisbon",
+      "to": "porto",
+      "km": 309.09,
+      "points": 4
+    },
+    {
+      "from": "porto",
+      "to": "vigo",
+      "km": 123.76,
+      "points": 3
+    },
+    {
+      "from": "vigo",
+      "to": "a-coruna",
+      "km": 201.25,
+      "points": 7
+    },
+    {
+      "from": "a-coruna",
+      "to": "brest",
+      "km": 619.48,
+      "points": 3
+    },
+    {
+      "from": "brest",
+      "to": "cork",
+      "km": 467.57,
+      "points": 4
+    },
+    {
+      "from": "cork",
+      "to": "killybegs",
+      "km": 589.2,
+      "points": 7
+    },
+    {
+      "from": "killybegs",
+      "to": "stornoway",
+      "km": 478.63,
+      "points": 7
+    },
+    {
+      "from": "stornoway",
+      "to": "torshavn",
+      "km": 448.86,
+      "points": 4
+    },
+    {
+      "from": "torshavn",
+      "to": "hofn",
+      "km": 546.13,
+      "points": 4
+    },
+    {
+      "from": "hofn",
+      "to": "vestmannaeyjar",
+      "km": 280.67,
+      "points": 4
+    },
+    {
+      "from": "vestmannaeyjar",
+      "to": "reykjavik",
+      "km": 216.59,
+      "points": 5
+    },
+    {
+      "from": "reykjavik",
+      "to": "isafjordur",
+      "km": 340.64,
+      "points": 6
+    },
+    {
+      "from": "isafjordur",
+      "to": "tasiilaq",
+      "km": 674.71,
+      "points": 4
+    },
+    {
+      "from": "tasiilaq",
+      "to": "prins-christian-sund",
+      "km": 673.72,
+      "points": 2
+    },
+    {
+      "from": "prins-christian-sund",
+      "to": "nanortalik",
+      "km": 150,
+      "points": 3
+    },
+    {
+      "from": "nanortalik",
+      "to": "qaqortoq",
+      "km": 96.58,
+      "points": 3
+    },
+    {
+      "from": "qaqortoq",
+      "to": "paamiut",
+      "km": 290.77,
+      "points": 5
+    },
+    {
+      "from": "paamiut",
+      "to": "nuuk",
+      "km": 267.61,
+      "points": 3
+    },
+    {
+      "from": "nuuk",
+      "to": "sisimiut",
+      "km": 372.8,
+      "points": 5
+    },
+    {
+      "from": "sisimiut",
+      "to": "qikiqtarjuaq",
+      "km": 477.18,
+      "points": 3
+    },
+    {
+      "from": "qikiqtarjuaq",
+      "to": "pangnirtung",
+      "km": 651.98,
+      "points": 9
+    },
+    {
+      "from": "pangnirtung",
+      "to": "iqaluit",
+      "km": 725.56,
+      "points": 7
+    },
+    {
+      "from": "iqaluit",
+      "to": "saglek",
+      "km": 666.31,
+      "points": 6
+    },
+    {
+      "from": "saglek",
+      "to": "nain",
+      "km": 296.84,
+      "points": 7
+    },
+    {
+      "from": "nain",
+      "to": "cartwright",
+      "km": 491.37,
+      "points": 9
+    },
+    {
+      "from": "cartwright",
+      "to": "st-anthony",
+      "km": 368.98,
+      "points": 10
+    },
+    {
+      "from": "st-anthony",
+      "to": "st-johns",
+      "km": 474.23,
+      "points": 4
+    },
+    {
+      "from": "st-johns",
+      "to": "saint-pierre",
+      "km": 368.41,
+      "points": 5
+    },
+    {
+      "from": "saint-pierre",
+      "to": "halifax",
+      "km": 630.79,
+      "points": 3
+    },
+    {
+      "from": "halifax",
+      "to": "atl-cape-sable",
+      "km": 262.85,
+      "points": 3
+    },
+    {
+      "from": "atl-cape-sable",
+      "to": "boston",
+      "km": 440.88,
+      "points": 2
+    },
+    {
+      "from": "boston",
+      "to": "atl-cape-cod",
+      "km": 144.27,
+      "points": 4
+    },
+    {
+      "from": "atl-cape-cod",
+      "to": "new-york",
+      "km": 371.57,
+      "points": 3
+    },
+    {
+      "from": "brest",
+      "to": "falmouth",
+      "km": 215.29,
+      "points": 3
+    },
+    {
+      "from": "falmouth",
+      "to": "rotterdam",
+      "km": 678.93,
+      "points": 4
+    },
+    {
+      "from": "rotterdam",
+      "to": "hamburg",
+      "km": 414.83,
+      "points": 4
+    },
+    {
+      "from": "hamburg",
+      "to": "bergen",
+      "km": 759.85,
+      "points": 6
+    },
+    {
+      "from": "bergen",
+      "to": "norway-lindesnes",
+      "km": 363.71,
+      "points": 6
+    },
+    {
+      "from": "norway-lindesnes",
+      "to": "oslo-mouth",
+      "km": 249.05,
+      "points": 2
+    },
+    {
+      "from": "oslo-mouth",
+      "to": "oslo",
+      "km": 112.91,
+      "points": 8
+    },
+    {
+      "from": "stornoway",
+      "to": "bergen",
+      "km": 712.75,
+      "points": 9
+    },
+    {
+      "from": "lisbon",
+      "to": "funchal",
+      "km": 961.84,
+      "points": 3
+    },
+    {
+      "from": "funchal",
+      "to": "las-palmas",
+      "km": 513.79,
+      "points": 3
+    },
+    {
+      "from": "las-palmas",
+      "to": "dakar",
+      "km": 1543.54,
+      "points": 5
+    },
+    {
+      "from": "dakar",
+      "to": "africa-liberia",
+      "km": 1454.62,
+      "points": 2
+    },
+    {
+      "from": "africa-liberia",
+      "to": "africa-angola",
+      "km": 3278.61,
+      "points": 2
+    },
+    {
+      "from": "africa-angola",
+      "to": "cabo-exterior",
+      "km": 1971.79,
+      "points": 2
+    },
+    {
+      "from": "cadiz",
+      "to": "casablanca",
+      "km": 339.39,
+      "points": 2
+    },
+    {
+      "from": "casablanca",
+      "to": "las-palmas",
+      "km": 966.6,
+      "points": 3
+    },
+    {
+      "from": "lisbon",
+      "to": "ponta-delgada",
+      "km": 1433.28,
+      "points": 3
+    },
+    {
+      "from": "ponta-delgada",
+      "to": "horta",
+      "km": 274,
+      "points": 3
+    },
+    {
+      "from": "horta",
+      "to": "bermuda",
+      "km": 3331.55,
+      "points": 2
+    },
+    {
+      "from": "bermuda",
+      "to": "new-york",
+      "km": 1227.23,
+      "points": 3
+    },
+    {
+      "from": "new-york",
+      "to": "atl-hatteras",
+      "km": 624.5,
+      "points": 2
+    },
+    {
+      "from": "atl-hatteras",
+      "to": "atl-florida",
+      "km": 965.16,
+      "points": 2
+    },
+    {
+      "from": "atl-florida",
+      "to": "miami",
+      "km": 160.56,
+      "points": 2
+    },
+    {
+      "from": "nassau",
+      "to": "havana",
+      "km": 572.03,
+      "points": 3
+    },
+    {
+      "from": "havana",
+      "to": "cancun",
+      "km": 513.74,
+      "points": 4
+    },
+    {
+      "from": "cancun",
+      "to": "veracruz",
+      "km": 1094.6,
+      "points": 5
+    },
+    {
+      "from": "veracruz",
+      "to": "havana",
+      "km": 1490.89,
+      "points": 3
+    },
+    {
+      "from": "nassau",
+      "to": "san-juan",
+      "km": 1373.07,
+      "points": 5
+    },
+    {
+      "from": "san-juan",
+      "to": "cartagena-colombia",
+      "km": 1412.08,
+      "points": 5
+    },
+    {
+      "from": "cartagena-colombia",
+      "to": "colon",
+      "km": 488.64,
+      "points": 3
+    },
+    {
+      "from": "miami",
+      "to": "bermuda",
+      "km": 1659.93,
+      "points": 3
+    },
+    {
+      "from": "bermuda",
+      "to": "san-juan",
+      "km": 1531.84,
+      "points": 2
+    },
+    {
+      "from": "balboa",
+      "to": "pac-guatemala",
+      "km": 1429.69,
+      "points": 8
+    },
+    {
+      "from": "pac-guatemala",
+      "to": "pac-mex-south",
+      "km": 790.28,
+      "points": 2
+    },
+    {
+      "from": "pac-mex-south",
+      "to": "acapulco",
+      "km": 441.36,
+      "points": 2
+    },
+    {
+      "from": "acapulco",
+      "to": "manzanillo",
+      "km": 533.81,
+      "points": 4
+    },
+    {
+      "from": "manzanillo",
+      "to": "los-cabos",
+      "km": 720.21,
+      "points": 3
+    },
+    {
+      "from": "los-cabos",
+      "to": "san-diego",
+      "km": 1345.65,
+      "points": 6
+    },
+    {
+      "from": "los-angeles",
+      "to": "san-francisco",
+      "km": 649.52,
+      "points": 6
+    },
+    {
+      "from": "san-francisco",
+      "to": "seattle",
+      "km": 1454.79,
+      "points": 11
+    },
+    {
+      "from": "balboa",
+      "to": "callao",
+      "km": 2484.21,
+      "points": 7
+    },
+    {
+      "from": "callao",
+      "to": "valparaiso",
+      "km": 2398.86,
+      "points": 3
+    },
+    {
+      "from": "valparaiso",
+      "to": "pac-chile-south",
+      "km": 1759.35,
+      "points": 4
+    },
+    {
+      "from": "pac-chile-south",
+      "to": "pac-cape-horn-west",
+      "km": 1003.92,
+      "points": 2
+    },
+    {
+      "from": "pac-cape-horn-west",
+      "to": "pac-cape-horn-east",
+      "km": 550.95,
+      "points": 2
+    },
+    {
+      "from": "pac-cape-horn-east",
+      "to": "atl-patagonia",
+      "km": 1439.79,
+      "points": 2
+    },
+    {
+      "from": "atl-patagonia",
+      "to": "montevideo",
+      "km": 1058,
+      "points": 3
+    },
+    {
+      "from": "montevideo",
+      "to": "buenos-aires",
+      "km": 195.62,
+      "points": 2
+    },
+    {
+      "from": "montevideo",
+      "to": "santos",
+      "km": 1614.84,
+      "points": 6
+    },
+    {
+      "from": "rio-de-janeiro",
+      "to": "dakar",
+      "km": 5087.67,
+      "points": 4
+    },
+    {
+      "from": "santos",
+      "to": "cape-town",
+      "km": 6289.2,
+      "points": 2
+    },
+    {
+      "from": "genoa",
+      "to": "med-sardinia-east",
+      "km": 571.23,
+      "points": 3
+    },
+    {
+      "from": "med-sardinia-east",
+      "to": "med-sicily-south",
+      "km": 590.85,
+      "points": 2
+    },
+    {
+      "from": "med-sicily-south",
+      "to": "med-matapan",
+      "km": 698.28,
+      "points": 2
+    },
+    {
+      "from": "med-matapan",
+      "to": "med-peloponnese-east",
+      "km": 144.1,
+      "points": 2
+    },
+    {
+      "from": "med-peloponnese-east",
+      "to": "piraeus",
+      "km": 182.23,
+      "points": 2
+    },
+    {
+      "from": "piraeus",
+      "to": "istanbul",
+      "km": 635.72,
+      "points": 13
+    },
+    {
+      "from": "piraeus",
+      "to": "port-said",
+      "km": 1085.53,
+      "points": 4
+    },
+    {
+      "from": "port-said",
+      "to": "ashdod",
+      "km": 220.76,
+      "points": 2
+    },
+    {
+      "from": "ashdod",
+      "to": "haifa",
+      "km": 125.81,
+      "points": 3
+    },
+    {
+      "from": "suez",
+      "to": "jeddah",
+      "km": 1147.94,
+      "points": 4
+    },
+    {
+      "from": "jeddah",
+      "to": "red-bab-south",
+      "km": 1157.64,
+      "points": 5
+    },
+    {
+      "from": "red-bab-south",
+      "to": "red-aden",
+      "km": 136.89,
+      "points": 2
+    },
+    {
+      "from": "red-aden",
+      "to": "arab-socotra",
+      "km": 1089.91,
+      "points": 2
+    },
+    {
+      "from": "arab-socotra",
+      "to": "arab-oman",
+      "km": 1447.58,
+      "points": 5
+    },
+    {
+      "from": "arab-oman",
+      "to": "arab-hormuz-east",
+      "km": 198.22,
+      "points": 2
+    },
+    {
+      "from": "arab-hormuz-east",
+      "to": "arab-hormuz-north",
+      "km": 139.96,
+      "points": 3
+    },
+    {
+      "from": "arab-hormuz-north",
+      "to": "dubai",
+      "km": 176.19,
+      "points": 2
+    },
+    {
+      "from": "suez",
+      "to": "eilat",
+      "km": 525.44,
+      "points": 6
+    },
+    {
+      "from": "eilat",
+      "to": "jeddah",
+      "km": 1029.14,
+      "points": 3
+    },
+    {
+      "from": "arab-oman",
+      "to": "mumbai",
+      "km": 1594.82,
+      "points": 2
+    },
+    {
+      "from": "mumbai",
+      "to": "india-west",
+      "km": 657.31,
+      "points": 2
+    },
+    {
+      "from": "india-west",
+      "to": "india-south",
+      "km": 865.61,
+      "points": 2
+    },
+    {
+      "from": "india-south",
+      "to": "colombo",
+      "km": 365.4,
+      "points": 2
+    },
+    {
+      "from": "colombo",
+      "to": "sri-lanka-south",
+      "km": 175.62,
+      "points": 3
+    },
+    {
+      "from": "sri-lanka-south",
+      "to": "malacca-west",
+      "km": 1493.85,
+      "points": 2
+    },
+    {
+      "from": "malacca-west",
+      "to": "malacca-central",
+      "km": 755.42,
+      "points": 5
+    },
+    {
+      "from": "malacca-central",
+      "to": "singapore",
+      "km": 481.15,
+      "points": 3
+    },
+    {
+      "from": "singapore",
+      "to": "china-sea-south",
+      "km": 962.45,
+      "points": 3
+    },
+    {
+      "from": "china-sea-south",
+      "to": "hong-kong",
+      "km": 1718.69,
+      "points": 3
+    },
+    {
+      "from": "hong-kong",
+      "to": "taiwan-west",
+      "km": 654.73,
+      "points": 8
+    },
+    {
+      "from": "taiwan-west",
+      "to": "shanghai",
+      "km": 717.44,
+      "points": 6
+    },
+    {
+      "from": "shanghai",
+      "to": "jeju-south",
+      "km": 526.64,
+      "points": 3
+    },
+    {
+      "from": "jeju-south",
+      "to": "busan",
+      "km": 338.18,
+      "points": 2
+    },
+    {
+      "from": "busan",
+      "to": "kyushu-west",
+      "km": 332.07,
+      "points": 2
+    },
+    {
+      "from": "kyushu-west",
+      "to": "kyushu-south",
+      "km": 380.07,
+      "points": 4
+    },
+    {
+      "from": "kyushu-south",
+      "to": "japan-south",
+      "km": 450.42,
+      "points": 2
+    },
+    {
+      "from": "japan-south",
+      "to": "uraga-sur",
+      "km": 533.92,
+      "points": 3
+    },
+    {
+      "from": "singapore",
+      "to": "sunda-west",
+      "km": 1165.18,
+      "points": 11
+    },
+    {
+      "from": "sunda-west",
+      "to": "sunda-south",
+      "km": 588.47,
+      "points": 2
+    },
+    {
+      "from": "sunda-south",
+      "to": "fremantle",
+      "km": 2609.76,
+      "points": 2
+    },
+    {
+      "from": "fremantle",
+      "to": "australia-southwest",
+      "km": 414.5,
+      "points": 3
+    },
+    {
+      "from": "australia-southwest",
+      "to": "australia-bight",
+      "km": 1799.87,
+      "points": 2
+    },
+    {
+      "from": "australia-bight",
+      "to": "bass-west",
+      "km": 857.1,
+      "points": 2
+    },
+    {
+      "from": "bass-west",
+      "to": "bass-east",
+      "km": 454.68,
+      "points": 2
+    },
+    {
+      "from": "bass-east",
+      "to": "sydney-exterior",
+      "km": 663.45,
+      "points": 3
+    },
+    {
+      "from": "sydney",
+      "to": "brisbane",
+      "km": 812.7,
+      "points": 6
+    },
+    {
+      "from": "sydney",
+      "to": "nz-north",
+      "km": 1996.31,
+      "points": 2
+    },
+    {
+      "from": "nz-north",
+      "to": "auckland",
+      "km": 429.94,
+      "points": 5
+    }
+  ]
+}

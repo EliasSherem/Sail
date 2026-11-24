@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "errors": [],
+  "external": [],
+  "views": [
+    {
+      "id": "marseille",
+      "name": "Marsella",
+      "fps": "58 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 43.286,
+        "lon": 5.347
+      },
+      "cameraHeading": 0.910384631855905
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 41.31,
+        "lon": 2.191
+      },
+      "cameraHeading": 6.1058756433144765
+    },
+    {
+      "id": "new-york",
+      "name": "Nueva York",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 40.455,
+        "lon": -73.865
+      },
+      "cameraHeading": 5.869074642900319
+    },
+    {
+      "id": "acapulco",
+      "name": "Acapulco",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 16.83,
+        "lon": -99.92
+      },
+      "cameraHeading": 0.5679207854063639
+    },
+    {
+      "id": "los-cabos",
+      "name": "Los Cabos",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 22.87,
+        "lon": -109.9
+      },
+      "cameraHeading": 5.586026496312556
+    },
+    {
+      "id": "cancun",
+      "name": "Cancún",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 21.1407703,
+        "lon": -86.742818
+      },
+      "cameraHeading": 5.0499961685930845
+    },
+    {
+      "id": "veracruz",
+      "name": "Veracruz",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 19.2,
+        "lon": -96.1
+      },
+      "cameraHeading": 4.712495166795016
+    },
+    {
+      "id": "haifa",
+      "name": "Haifa",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 32.8526762,
+        "lon": 34.9945078
+      },
+      "cameraHeading": 3.1285353532709976
+    },
+    {
+      "id": "ashdod",
+      "name": "Ashdod",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 31.84,
+        "lon": 34.63
+      },
+      "cameraHeading": 2.6369631643636247
+    },
+    {
+      "id": "eilat",
+      "name": "Eilat",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 29.53,
+        "lon": 34.96
+      },
+      "cameraHeading": 6.069039552060094
+    },
+    {
+      "id": "singapore",
+      "name": "Singapur",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 1.23,
+        "lon": 103.8
+      },
+      "cameraHeading": 0.4635496519532145
+    },
+    {
+      "id": "sydney",
+      "name": "Sídney",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": -33.831,
+        "lon": 151.322
+      },
+      "cameraHeading": 4.427248608164945
+    },
+    {
+      "id": "bergen",
+      "name": "Bergen",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 60.3946113,
+        "lon": 5.2643408
+      },
+      "cameraHeading": 1.6617724663768483
+    },
+    {
+      "id": "qikiqtarjuaq",
+      "name": "Qikiqtarjuaq",
+      "fps": "60 FPS © OpenStreetMap · Mapzen · Natural Earth",
+      "position": {
+        "lat": 67.5495368,
+        "lon": -64.0449781
+      },
+      "cameraHeading": 0.1796504474414924
+    }
+  ]
+}

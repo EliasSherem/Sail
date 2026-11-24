@@ -1,0 +1,2484 @@
+[
+  {
+    "id": "cadiz",
+    "name": "Cádiz",
+    "country": "España",
+    "region": "Atlántico norte",
+    "lat": 36.53,
+    "lon": -6.32,
+    "bearing": 270
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisboa",
+    "country": "Portugal",
+    "region": "Atlántico norte",
+    "lat": 38.66,
+    "lon": -9.31,
+    "bearing": 240
+  },
+  {
+    "id": "porto",
+    "name": "Oporto",
+    "country": "Portugal",
+    "region": "Atlántico norte",
+    "lat": 41.16,
+    "lon": -8.71,
+    "bearing": 270
+  },
+  {
+    "id": "vigo",
+    "name": "Vigo",
+    "country": "España",
+    "region": "Atlántico norte",
+    "lat": 42.22,
+    "lon": -8.78,
+    "bearing": 240
+  },
+  {
+    "id": "a-coruna",
+    "name": "A Coruña",
+    "country": "España",
+    "region": "Atlántico norte",
+    "lat": 43.39,
+    "lon": -8.37,
+    "bearing": 0
+  },
+  {
+    "id": "brest",
+    "name": "Brest",
+    "country": "Francia",
+    "region": "Atlántico norte",
+    "lat": 48.35,
+    "lon": -4.61,
+    "bearing": 240
+  },
+  {
+    "id": "cork",
+    "name": "Cork",
+    "country": "Irlanda",
+    "region": "Atlántico norte",
+    "lat": 51.78,
+    "lon": -8.24,
+    "bearing": 180
+  },
+  {
+    "id": "falmouth",
+    "name": "Falmouth",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 50.12,
+    "lon": -5.04,
+    "bearing": 180
+  },
+  {
+    "id": "killybegs",
+    "name": "Killybegs",
+    "country": "Irlanda",
+    "region": "Atlántico norte",
+    "lat": 54.6,
+    "lon": -8.45,
+    "bearing": 180
+  },
+  {
+    "id": "stornoway",
+    "name": "Stornoway",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 58.17,
+    "lon": -6.35,
+    "bearing": 180
+  },
+  {
+    "id": "torshavn",
+    "name": "Tórshavn",
+    "country": "Islas Feroe",
+    "region": "Atlántico norte",
+    "lat": 61.99,
+    "lon": -6.74,
+    "bearing": 90
+  },
+  {
+    "id": "hofn",
+    "name": "Höfn",
+    "country": "Islandia",
+    "region": "Atlántico norte",
+    "lat": 64.22,
+    "lon": -15.2,
+    "bearing": 180
+  },
+  {
+    "id": "vestmannaeyjar",
+    "name": "Vestmannaeyjar",
+    "country": "Islandia",
+    "region": "Atlántico norte",
+    "lat": 63.43,
+    "lon": -20.25,
+    "bearing": 90
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reikiavik",
+    "country": "Islandia",
+    "region": "Atlántico norte",
+    "lat": 64.17,
+    "lon": -21.99,
+    "bearing": 270
+  },
+  {
+    "id": "isafjordur",
+    "name": "Ísafjörður",
+    "country": "Islandia",
+    "region": "Atlántico norte",
+    "lat": 66.1,
+    "lon": -23.08,
+    "bearing": 0
+  },
+  {
+    "id": "tasiilaq",
+    "name": "Tasiilaq",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 65.57,
+    "lon": -37.62,
+    "bearing": 180
+  },
+  {
+    "id": "prins-christian-sund",
+    "name": "Prins Christian Sund",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 60.05,
+    "lon": -43.1,
+    "bearing": 90
+  },
+  {
+    "id": "nanortalik",
+    "name": "Nanortalik",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 60.12,
+    "lon": -45.26,
+    "bearing": 180
+  },
+  {
+    "id": "qaqortoq",
+    "name": "Qaqortoq",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 60.7,
+    "lon": -46.03,
+    "bearing": 180
+  },
+  {
+    "id": "paamiut",
+    "name": "Paamiut",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 61.97,
+    "lon": -49.7,
+    "bearing": 270
+  },
+  {
+    "id": "nuuk",
+    "name": "Nuuk",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 64.15,
+    "lon": -51.76,
+    "bearing": 270
+  },
+  {
+    "id": "sisimiut",
+    "name": "Sisimiut",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 66.93,
+    "lon": -53.7,
+    "bearing": 270
+  },
+  {
+    "id": "qikiqtarjuaq",
+    "name": "Qikiqtarjuaq",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 67.54,
+    "lon": -64.02,
+    "bearing": 90
+  },
+  {
+    "id": "pangnirtung",
+    "name": "Pangnirtung",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 66.12,
+    "lon": -65.76,
+    "bearing": 240
+  },
+  {
+    "id": "iqaluit",
+    "name": "Iqaluit",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 63.72,
+    "lon": -68.53,
+    "bearing": 140
+  },
+  {
+    "id": "saglek",
+    "name": "Saglek · Torngat",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 58.48,
+    "lon": -62.62,
+    "bearing": 90
+  },
+  {
+    "id": "nain",
+    "name": "Nain",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 56.53,
+    "lon": -61.67,
+    "bearing": 90
+  },
+  {
+    "id": "cartwright",
+    "name": "Cartwright",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 53.7,
+    "lon": -57.03,
+    "bearing": 90
+  },
+  {
+    "id": "st-johns",
+    "name": "San Juan de Terranova",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 47.56,
+    "lon": -52.66,
+    "bearing": 90
+  },
+  {
+    "id": "halifax",
+    "name": "Halifax",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 44.61,
+    "lon": -63.55,
+    "bearing": 180
+  },
+  {
+    "id": "boston",
+    "name": "Boston",
+    "country": "EE. UU.",
+    "region": "Atlántico norte",
+    "lat": 42.32,
+    "lon": -70.9,
+    "bearing": 90
+  },
+  {
+    "id": "funchal",
+    "name": "Funchal · Madeira",
+    "country": "Portugal",
+    "region": "Atlántico norte",
+    "lat": 32.62,
+    "lon": -16.92,
+    "bearing": 180
+  },
+  {
+    "id": "las-palmas",
+    "name": "Las Palmas",
+    "country": "España",
+    "region": "Atlántico norte",
+    "lat": 28.13,
+    "lon": -15.4,
+    "bearing": 90
+  },
+  {
+    "id": "ponta-delgada",
+    "name": "Ponta Delgada",
+    "country": "Portugal",
+    "region": "Atlántico norte",
+    "lat": 37.72,
+    "lon": -25.67,
+    "bearing": 180
+  },
+  {
+    "id": "horta",
+    "name": "Horta · Azores",
+    "country": "Portugal",
+    "region": "Atlántico norte",
+    "lat": 38.52,
+    "lon": -28.61,
+    "bearing": 90
+  },
+  {
+    "id": "bermuda",
+    "name": "Bermudas",
+    "country": "Bermudas",
+    "region": "Atlántico norte",
+    "lat": 32.27,
+    "lon": -64.8,
+    "bearing": 180
+  },
+  {
+    "id": "miami",
+    "name": "Miami",
+    "country": "EE. UU.",
+    "region": "Caribe",
+    "lat": 25.76,
+    "lon": -80.1,
+    "bearing": 90
+  },
+  {
+    "id": "nassau",
+    "name": "Nassau",
+    "country": "Bahamas",
+    "region": "Caribe",
+    "lat": 25.1,
+    "lon": -77.33,
+    "bearing": 0
+  },
+  {
+    "id": "havana",
+    "name": "La Habana",
+    "country": "Cuba",
+    "region": "Caribe",
+    "lat": 23.16,
+    "lon": -82.36,
+    "bearing": 0
+  },
+  {
+    "id": "cancun",
+    "name": "Cancún",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 21.15,
+    "lon": -86.77,
+    "bearing": 90
+  },
+  {
+    "id": "veracruz",
+    "name": "Veracruz",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 19.2,
+    "lon": -96.1,
+    "bearing": 45
+  },
+  {
+    "id": "san-juan",
+    "name": "San Juan de Puerto Rico",
+    "country": "Puerto Rico",
+    "region": "Caribe",
+    "lat": 18.47,
+    "lon": -66.12,
+    "bearing": 0
+  },
+  {
+    "id": "cartagena-colombia",
+    "name": "Cartagena de Indias",
+    "country": "Colombia",
+    "region": "Caribe",
+    "lat": 10.32,
+    "lon": -75.58,
+    "bearing": 270
+  },
+  {
+    "id": "colon",
+    "name": "Colón · Panamá",
+    "country": "Panamá",
+    "region": "Caribe",
+    "lat": 9.39,
+    "lon": -79.925,
+    "bearing": 0
+  },
+  {
+    "id": "balboa",
+    "name": "Balboa · Panamá",
+    "country": "Panamá",
+    "region": "Pacífico",
+    "lat": 8.92,
+    "lon": -79.53,
+    "bearing": 180
+  },
+  {
+    "id": "acapulco",
+    "name": "Acapulco",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 16.83,
+    "lon": -99.92,
+    "bearing": 180
+  },
+  {
+    "id": "los-cabos",
+    "name": "Los Cabos",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 22.87,
+    "lon": -109.9,
+    "bearing": 180
+  },
+  {
+    "id": "manzanillo",
+    "name": "Manzanillo",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 19.03,
+    "lon": -104.32,
+    "bearing": 180
+  },
+  {
+    "id": "san-diego",
+    "name": "San Diego",
+    "country": "EE. UU.",
+    "region": "Pacífico",
+    "lat": 32.66,
+    "lon": -117.2,
+    "bearing": 180
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Ángeles",
+    "country": "EE. UU.",
+    "region": "Pacífico",
+    "lat": 33.69,
+    "lon": -118.25,
+    "bearing": 180
+  },
+  {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "country": "EE. UU.",
+    "region": "Pacífico",
+    "lat": 37.79,
+    "lon": -122.52,
+    "bearing": 270
+  },
+  {
+    "id": "seattle",
+    "name": "Seattle",
+    "country": "EE. UU.",
+    "region": "Pacífico",
+    "lat": 47.59,
+    "lon": -122.39,
+    "bearing": 270
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "country": "Canadá",
+    "region": "Pacífico",
+    "lat": 49.26,
+    "lon": -123.23,
+    "bearing": 270
+  },
+  {
+    "id": "callao",
+    "name": "Lima · Callao",
+    "country": "Perú",
+    "region": "Pacífico",
+    "lat": -12.06,
+    "lon": -77.17,
+    "bearing": 270
+  },
+  {
+    "id": "valparaiso",
+    "name": "Valparaíso",
+    "country": "Chile",
+    "region": "Pacífico",
+    "lat": -33.01,
+    "lon": -71.63,
+    "bearing": 0
+  },
+  {
+    "id": "rio-de-janeiro",
+    "name": "Río de Janeiro",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -22.98,
+    "lon": -43.15,
+    "bearing": 180
+  },
+  {
+    "id": "santos",
+    "name": "Santos",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -24.02,
+    "lon": -46.3,
+    "bearing": 180
+  },
+  {
+    "id": "buenos-aires",
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Atlántico sur",
+    "lat": -34.61,
+    "lon": -58.32,
+    "bearing": 90
+  },
+  {
+    "id": "montevideo",
+    "name": "Montevideo",
+    "country": "Uruguay",
+    "region": "Atlántico sur",
+    "lat": -34.93,
+    "lon": -56.22,
+    "bearing": 180
+  },
+  {
+    "id": "dakar",
+    "name": "Dakar",
+    "country": "Senegal",
+    "region": "Atlántico norte",
+    "lat": 14.67,
+    "lon": -17.43,
+    "bearing": 180
+  },
+  {
+    "id": "casablanca",
+    "name": "Casablanca",
+    "country": "Marruecos",
+    "region": "Atlántico norte",
+    "lat": 33.62,
+    "lon": -7.6,
+    "bearing": 0
+  },
+  {
+    "id": "rotterdam",
+    "name": "Róterdam",
+    "country": "Países Bajos",
+    "region": "Atlántico norte",
+    "lat": 51.99,
+    "lon": 4.0,
+    "bearing": 270
+  },
+  {
+    "id": "hamburg",
+    "name": "Hamburgo · Elba",
+    "country": "Alemania",
+    "region": "Atlántico norte",
+    "lat": 53.96,
+    "lon": 8.65,
+    "bearing": 270
+  },
+  {
+    "id": "bergen",
+    "name": "Bergen",
+    "country": "Noruega",
+    "region": "Atlántico norte",
+    "lat": 60.39,
+    "lon": 5.29,
+    "bearing": 270
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo",
+    "country": "Noruega",
+    "region": "Atlántico norte",
+    "lat": 59.89,
+    "lon": 10.72,
+    "bearing": 180
+  },
+  {
+    "id": "piraeus",
+    "name": "Atenas · El Pireo",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 37.92,
+    "lon": 23.61,
+    "bearing": 180
+  },
+  {
+    "id": "istanbul",
+    "name": "Estambul",
+    "country": "Turquía",
+    "region": "Mediterráneo",
+    "lat": 40.96,
+    "lon": 28.98,
+    "bearing": 180
+  },
+  {
+    "id": "port-said",
+    "name": "Port Said",
+    "country": "Egipto",
+    "region": "Mediterráneo",
+    "lat": 31.3,
+    "lon": 32.34,
+    "bearing": 0
+  },
+  {
+    "id": "haifa",
+    "name": "Haifa",
+    "country": "Israel",
+    "region": "Mediterráneo",
+    "lat": 32.84,
+    "lon": 35.0,
+    "bearing": 0
+  },
+  {
+    "id": "ashdod",
+    "name": "Ashdod",
+    "country": "Israel",
+    "region": "Mediterráneo",
+    "lat": 31.84,
+    "lon": 34.63,
+    "bearing": 270
+  },
+  {
+    "id": "suez",
+    "name": "Suez",
+    "country": "Egipto",
+    "region": "Mar Rojo",
+    "lat": 29.91,
+    "lon": 32.57,
+    "bearing": 180
+  },
+  {
+    "id": "eilat",
+    "name": "Eilat",
+    "country": "Israel",
+    "region": "Mar Rojo",
+    "lat": 29.53,
+    "lon": 34.96,
+    "bearing": 180
+  },
+  {
+    "id": "jeddah",
+    "name": "Yeda",
+    "country": "Arabia Saudí",
+    "region": "Mar Rojo",
+    "lat": 21.47,
+    "lon": 39.13,
+    "bearing": 270
+  },
+  {
+    "id": "dubai",
+    "name": "Dubái",
+    "country": "Emiratos Árabes Unidos",
+    "region": "Índico",
+    "lat": 25.28,
+    "lon": 55.26,
+    "bearing": 270
+  },
+  {
+    "id": "mumbai",
+    "name": "Bombay",
+    "country": "India",
+    "region": "Índico",
+    "lat": 18.89,
+    "lon": 72.82,
+    "bearing": 180
+  },
+  {
+    "id": "colombo",
+    "name": "Colombo",
+    "country": "Sri Lanka",
+    "region": "Índico",
+    "lat": 6.97,
+    "lon": 79.82,
+    "bearing": 270
+  },
+  {
+    "id": "singapore",
+    "name": "Singapur",
+    "country": "Singapur",
+    "region": "Índico",
+    "lat": 1.23,
+    "lon": 103.8,
+    "bearing": 180
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "country": "China",
+    "region": "Pacífico",
+    "lat": 22.24,
+    "lon": 114.17,
+    "bearing": 180
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghái · Yangshan",
+    "country": "China",
+    "region": "Pacífico",
+    "lat": 30.59,
+    "lon": 122.08,
+    "bearing": 180
+  },
+  {
+    "id": "busan",
+    "name": "Busan",
+    "country": "Corea del Sur",
+    "region": "Pacífico",
+    "lat": 35.05,
+    "lon": 129.06,
+    "bearing": 180
+  },
+  {
+    "id": "auckland",
+    "name": "Auckland",
+    "country": "Nueva Zelanda",
+    "region": "Pacífico",
+    "lat": -36.82,
+    "lon": 174.8,
+    "bearing": 90
+  },
+  {
+    "id": "brisbane",
+    "name": "Brisbane",
+    "country": "Australia",
+    "region": "Pacífico",
+    "lat": -27.34,
+    "lon": 153.2,
+    "bearing": 90
+  },
+  {
+    "id": "fremantle",
+    "name": "Perth · Fremantle",
+    "country": "Australia",
+    "region": "Índico",
+    "lat": -32.05,
+    "lon": 115.73,
+    "bearing": 270
+  },
+  {
+    "id": "st-anthony",
+    "name": "St. Anthony",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 51.36,
+    "lon": -55.56,
+    "bearing": 90
+  },
+  {
+    "id": "saint-pierre",
+    "name": "Saint-Pierre",
+    "country": "Francia",
+    "region": "Atlántico norte",
+    "lat": 46.76,
+    "lon": -56.13,
+    "bearing": 135
+  },
+  {
+    "id": "la-spezia",
+    "name": "La Spezia",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 44.1,
+    "lon": 9.8333333,
+    "bearing": 180
+  },
+  {
+    "id": "livorno",
+    "name": "Livorno",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 43.542,
+    "lon": 10.29,
+    "bearing": 270
+  },
+  {
+    "id": "piombino",
+    "name": "Piombino",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 42.933,
+    "lon": 10.557,
+    "bearing": 140
+  },
+  {
+    "id": "civitavecchia",
+    "name": "Civitavecchia",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 42.102,
+    "lon": 11.771,
+    "bearing": 260
+  },
+  {
+    "id": "anzio",
+    "name": "Anzio",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 41.446,
+    "lon": 12.637,
+    "bearing": 225
+  },
+  {
+    "id": "gaeta",
+    "name": "Gaeta",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 41.223,
+    "lon": 13.577,
+    "bearing": 225
+  },
+  {
+    "id": "naples",
+    "name": "Nápoles",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 40.833,
+    "lon": 14.275,
+    "bearing": 180
+  },
+  {
+    "id": "salerno",
+    "name": "Salerno",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 40.6666667,
+    "lon": 14.75,
+    "bearing": 180
+  },
+  {
+    "id": "vibo-valentia",
+    "name": "Vibo Valentia",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 38.723,
+    "lon": 16.13,
+    "bearing": 310
+  },
+  {
+    "id": "palermo",
+    "name": "Palermo",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 38.119,
+    "lon": 13.38,
+    "bearing": 0
+  },
+  {
+    "id": "messina",
+    "name": "Messina",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 38.2,
+    "lon": 15.5666667,
+    "bearing": 90
+  },
+  {
+    "id": "catania",
+    "name": "Catania",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 37.5,
+    "lon": 15.1,
+    "bearing": 90
+  },
+  {
+    "id": "crotone",
+    "name": "Crotone",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 39.078,
+    "lon": 17.136,
+    "bearing": 90
+  },
+  {
+    "id": "taranto",
+    "name": "Taranto",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 40.4666667,
+    "lon": 17.2,
+    "bearing": 225
+  },
+  {
+    "id": "brindisi",
+    "name": "Brindisi",
+    "country": "Italia",
+    "region": "Mediterráneo",
+    "lat": 40.65,
+    "lon": 17.9833333,
+    "bearing": 45
+  },
+  {
+    "id": "corfu",
+    "name": "Corfú",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 39.6166667,
+    "lon": 19.9333333,
+    "bearing": 90
+  },
+  {
+    "id": "argostoli",
+    "name": "Argostoli",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 38.1833333,
+    "lon": 20.5166667,
+    "bearing": 220
+  },
+  {
+    "id": "katakolon",
+    "name": "Katakolon",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 37.65,
+    "lon": 21.3166667,
+    "bearing": 250
+  },
+  {
+    "id": "kalamata",
+    "name": "Kalamata",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 37.0166667,
+    "lon": 22.1166667,
+    "bearing": 180
+  },
+  {
+    "id": "kissamos",
+    "name": "Kissamos",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 35.5166667,
+    "lon": 23.6333333,
+    "bearing": 0
+  },
+  {
+    "id": "heraklion",
+    "name": "Heraclión",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 35.35,
+    "lon": 25.15,
+    "bearing": 0
+  },
+  {
+    "id": "sitia",
+    "name": "Sitia",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 35.2166667,
+    "lon": 26.1333333,
+    "bearing": 0
+  },
+  {
+    "id": "rhodes",
+    "name": "Rodas",
+    "country": "Grecia",
+    "region": "Mediterráneo",
+    "lat": 36.45,
+    "lon": 28.2333333,
+    "bearing": 90
+  },
+  {
+    "id": "fethiye",
+    "name": "Fethiye",
+    "country": "Turquía",
+    "region": "Mediterráneo",
+    "lat": 36.6333333,
+    "lon": 29.1,
+    "bearing": 220
+  },
+  {
+    "id": "antalya",
+    "name": "Antalya",
+    "country": "Turquía",
+    "region": "Mediterráneo",
+    "lat": 36.8333333,
+    "lon": 30.6166667,
+    "bearing": 180
+  },
+  {
+    "id": "alanya",
+    "name": "Alanya",
+    "country": "Turquía",
+    "region": "Mediterráneo",
+    "lat": 36.5333333,
+    "lon": 32.0,
+    "bearing": 160
+  },
+  {
+    "id": "limassol",
+    "name": "Limassol",
+    "country": "Chipre",
+    "region": "Mediterráneo",
+    "lat": 34.6666667,
+    "lon": 33.05,
+    "bearing": 180
+  },
+  {
+    "id": "larnaca",
+    "name": "Lárnaca",
+    "country": "Chipre",
+    "region": "Mediterráneo",
+    "lat": 34.9166667,
+    "lon": 33.65,
+    "bearing": 130
+  },
+  {
+    "id": "progreso",
+    "name": "Progreso",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 21.2833333,
+    "lon": -89.6666667,
+    "bearing": 0
+  },
+  {
+    "id": "lazaro-cardenas",
+    "name": "Lázaro Cárdenas",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 17.9333333,
+    "lon": -102.1666667,
+    "bearing": 180
+  },
+  {
+    "id": "puerto-vallarta",
+    "name": "Puerto Vallarta",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 20.6166667,
+    "lon": -105.2666667,
+    "bearing": 270
+  },
+  {
+    "id": "mazatlan",
+    "name": "Mazatlán",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 23.2,
+    "lon": -106.4166667,
+    "bearing": 225
+  },
+  {
+    "id": "la-paz",
+    "name": "La Paz",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 24.1666667,
+    "lon": -110.3166667,
+    "bearing": 310
+  },
+  {
+    "id": "ensenada",
+    "name": "Ensenada",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 31.8666667,
+    "lon": -116.6333333,
+    "bearing": 225
+  },
+  {
+    "id": "rio-lagartos",
+    "name": "Río Lagartos",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 21.5994611,
+    "lon": -88.1606615,
+    "bearing": 0
+  },
+  {
+    "id": "celestun",
+    "name": "Celestún",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 20.8479587,
+    "lon": -90.4069771,
+    "bearing": 270
+  },
+  {
+    "id": "campeche",
+    "name": "Campeche",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 19.8288689,
+    "lon": -90.5817894,
+    "bearing": 270
+  },
+  {
+    "id": "champoton",
+    "name": "Champotón",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 19.3580347,
+    "lon": -90.7215274,
+    "bearing": 270
+  },
+  {
+    "id": "ciudad-carmen",
+    "name": "Ciudad del Carmen",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 18.641667,
+    "lon": -91.841667,
+    "bearing": 270
+  },
+  {
+    "id": "dos-bocas",
+    "name": "Dos Bocas",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 18.4379359,
+    "lon": -93.1927776,
+    "bearing": 0
+  },
+  {
+    "id": "coatzacoalcos",
+    "name": "Coatzacoalcos",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 18.1458109,
+    "lon": -94.4096564,
+    "bearing": 0
+  },
+  {
+    "id": "alvarado",
+    "name": "Alvarado",
+    "country": "México",
+    "region": "Caribe",
+    "lat": 18.7673288,
+    "lon": -95.7659538,
+    "bearing": 45
+  },
+  {
+    "id": "zihuatanejo",
+    "name": "Zihuatanejo",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 17.6350663,
+    "lon": -101.558779,
+    "bearing": 180
+  },
+  {
+    "id": "san-carlos",
+    "name": "Puerto San Carlos · Magdalena",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 24.7886111,
+    "lon": -112.1177778,
+    "bearing": 240
+  },
+  {
+    "id": "bahia-tortugas",
+    "name": "Bahía Tortugas",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 27.6833333,
+    "lon": -114.8833333,
+    "bearing": 180
+  },
+  {
+    "id": "san-quintin",
+    "name": "San Quintín",
+    "country": "México",
+    "region": "Pacífico",
+    "lat": 30.4358333,
+    "lon": -115.9869444,
+    "bearing": 270
+  },
+  {
+    "id": "gijon",
+    "name": "Gijón",
+    "country": "España",
+    "region": "Atlántico norte",
+    "lat": 43.55,
+    "lon": -5.666666666666667,
+    "bearing": 0
+  },
+  {
+    "id": "santander",
+    "name": "Santander",
+    "country": "España",
+    "region": "Atlántico norte",
+    "lat": 43.46666666666667,
+    "lon": -3.783333333333333,
+    "bearing": 0
+  },
+  {
+    "id": "la-rochelle",
+    "name": "La Rochelle",
+    "country": "Francia",
+    "region": "Atlántico norte",
+    "lat": 46.15,
+    "lon": -1.15,
+    "bearing": 260
+  },
+  {
+    "id": "newlyn",
+    "name": "Newlyn",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 50.1,
+    "lon": -5.55,
+    "bearing": 150
+  },
+  {
+    "id": "galway",
+    "name": "Galway",
+    "country": "Irlanda",
+    "region": "Atlántico norte",
+    "lat": 53.266666666666666,
+    "lon": -9.05,
+    "bearing": 210
+  },
+  {
+    "id": "oban",
+    "name": "Oban",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 56.416666666666664,
+    "lon": -5.466666666666667,
+    "bearing": 290
+  },
+  {
+    "id": "scrabster",
+    "name": "Scrabster",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 58.61666666666667,
+    "lon": -3.55,
+    "bearing": 10
+  },
+  {
+    "id": "stromness",
+    "name": "Stromness",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 58.96666666666667,
+    "lon": -3.3,
+    "bearing": 180
+  },
+  {
+    "id": "lerwick",
+    "name": "Lerwick",
+    "country": "Reino Unido",
+    "region": "Atlántico norte",
+    "lat": 60.166999999999994,
+    "lon": -1.15,
+    "bearing": 100
+  },
+  {
+    "id": "sorvagur",
+    "name": "Sørvágur",
+    "country": "Faroe Islands",
+    "region": "Atlántico norte",
+    "lat": 62.083333333333336,
+    "lon": -7.25,
+    "bearing": 270
+  },
+  {
+    "id": "budir",
+    "name": "Fáskrúðsfjörður",
+    "country": "Islandia",
+    "region": "Atlántico norte",
+    "lat": 64.93333333333334,
+    "lon": -14.016666666666667,
+    "bearing": 130
+  },
+  {
+    "id": "seydisfjordur",
+    "name": "Seyðisfjörður",
+    "country": "Islandia",
+    "region": "Atlántico norte",
+    "lat": 65.26666666666667,
+    "lon": -14.0,
+    "bearing": 70
+  },
+  {
+    "id": "qutdleq",
+    "name": "Qutdleq · escala costera",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 61.516666666666666,
+    "lon": -42.21666666666667,
+    "bearing": 110
+  },
+  {
+    "id": "north-sydney",
+    "name": "North Sydney",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 46.21666666666667,
+    "lon": -60.25,
+    "bearing": 70
+  },
+  {
+    "id": "port-hawkesbury",
+    "name": "Port Hawkesbury",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 45.61666666666667,
+    "lon": -61.36666666666667,
+    "bearing": 230
+  },
+  {
+    "id": "portland-maine",
+    "name": "Portland, Maine",
+    "country": "Estados Unidos",
+    "region": "Atlántico norte",
+    "lat": 43.666666666666664,
+    "lon": -70.25,
+    "bearing": 120
+  },
+  {
+    "id": "newport-rhode-island",
+    "name": "Newport, Rhode Island",
+    "country": "Estados Unidos",
+    "region": "Atlántico norte",
+    "lat": 41.5,
+    "lon": -71.33333333333333,
+    "bearing": 180
+  },
+  {
+    "id": "portimao",
+    "name": "Portimão",
+    "country": "Portugal",
+    "region": "Atlántico norte",
+    "lat": 37.112,
+    "lon": -8.533,
+    "bearing": 180
+  },
+  {
+    "id": "bayonne",
+    "name": "Bayona",
+    "country": "Francia",
+    "region": "Atlántico norte",
+    "lat": 43.533,
+    "lon": -1.529,
+    "bearing": 300
+  },
+  {
+    "id": "lorient",
+    "name": "Lorient",
+    "country": "Francia",
+    "region": "Atlántico norte",
+    "lat": 47.673,
+    "lon": -3.386,
+    "bearing": 210
+  },
+  {
+    "id": "dingle",
+    "name": "Dingle",
+    "country": "Irlanda",
+    "region": "Atlántico norte",
+    "lat": 52.1,
+    "lon": -10.27,
+    "bearing": 180
+  },
+  {
+    "id": "kangerlussuaq-east",
+    "name": "Kangerlussuaq Este · escala costera",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 68.083333,
+    "lon": -31.666667,
+    "bearing": 150
+  },
+  {
+    "id": "kulusuk",
+    "name": "Kulusuk",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 65.575,
+    "lon": -37.16,
+    "bearing": 100
+  },
+  {
+    "id": "skjoldungen",
+    "name": "Skjoldungen · escala costera",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 63.37,
+    "lon": -41.18,
+    "bearing": 110
+  },
+  {
+    "id": "timmiarmiut",
+    "name": "Timmiarmiut · escala costera",
+    "country": "Groenlandia",
+    "region": "Atlántico norte",
+    "lat": 62.53,
+    "lon": -42.25,
+    "bearing": 110
+  },
+  {
+    "id": "cape-dyer",
+    "name": "Cape Dyer · escala costera",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 66.558333,
+    "lon": -61.659444,
+    "bearing": 180
+  },
+  {
+    "id": "brevoort",
+    "name": "Brevoort Harbour · escala costera",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 63.316667,
+    "lon": -64.133333,
+    "bearing": 120
+  },
+  {
+    "id": "resolution-harbour",
+    "name": "Resolution Harbour · escala costera",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 61.3,
+    "lon": -64.85,
+    "bearing": 150
+  },
+  {
+    "id": "hopedale",
+    "name": "Hopedale",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 55.459,
+    "lon": -60.204,
+    "bearing": 90
+  },
+  {
+    "id": "bonavista",
+    "name": "Bonavista",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 48.655,
+    "lon": -53.115,
+    "bearing": 0
+  },
+  {
+    "id": "yarmouth-canada",
+    "name": "Yarmouth",
+    "country": "Canadá",
+    "region": "Atlántico norte",
+    "lat": 43.802,
+    "lon": -66.17,
+    "bearing": 230
+  },
+  {
+    "id": "morro-bay",
+    "name": "Morro Bay",
+    "country": "EE. UU.",
+    "region": "Pacífico americano",
+    "lat": 35.366667,
+    "lon": -120.85,
+    "bearing": 240
+  },
+  {
+    "id": "eureka",
+    "name": "Eureka",
+    "country": "EE. UU.",
+    "region": "Pacífico americano",
+    "lat": 40.8,
+    "lon": -124.183333,
+    "bearing": 270
+  },
+  {
+    "id": "astoria",
+    "name": "Astoria",
+    "country": "EE. UU.",
+    "region": "Pacífico americano",
+    "lat": 46.2,
+    "lon": -123.833333,
+    "bearing": 270
+  },
+  {
+    "id": "acajutla",
+    "name": "Acajutla",
+    "country": "El Salvador",
+    "region": "Pacífico americano",
+    "lat": 13.583333,
+    "lon": -89.833333,
+    "bearing": 225
+  },
+  {
+    "id": "puerto-caldera",
+    "name": "Puerto Caldera",
+    "country": "Costa Rica",
+    "region": "Pacífico americano",
+    "lat": 9.916667,
+    "lon": -84.716667,
+    "bearing": 240
+  },
+  {
+    "id": "golfito",
+    "name": "Golfito",
+    "country": "Costa Rica",
+    "region": "Pacífico americano",
+    "lat": 8.633333,
+    "lon": -83.166667,
+    "bearing": 225
+  },
+  {
+    "id": "puerto-armuelles",
+    "name": "Puerto Armuelles",
+    "country": "Panamá",
+    "region": "Pacífico americano",
+    "lat": 8.266667,
+    "lon": -82.85,
+    "bearing": 180
+  },
+  {
+    "id": "buenaventura",
+    "name": "Buenaventura",
+    "country": "Colombia",
+    "region": "Pacífico americano",
+    "lat": 3.883333,
+    "lon": -77.066667,
+    "bearing": 270
+  },
+  {
+    "id": "tumaco",
+    "name": "Tumaco",
+    "country": "Colombia",
+    "region": "Pacífico americano",
+    "lat": 1.816667,
+    "lon": -78.75,
+    "bearing": 300
+  },
+  {
+    "id": "esmeraldas",
+    "name": "Esmeraldas",
+    "country": "Ecuador",
+    "region": "Pacífico americano",
+    "lat": 1.0,
+    "lon": -79.65,
+    "bearing": 0
+  },
+  {
+    "id": "manta",
+    "name": "Manta",
+    "country": "Ecuador",
+    "region": "Pacífico americano",
+    "lat": -0.95,
+    "lon": -80.716667,
+    "bearing": 300
+  },
+  {
+    "id": "cabo-blanco",
+    "name": "Cabo Blanco",
+    "country": "Perú",
+    "region": "Pacífico americano",
+    "lat": -4.25,
+    "lon": -81.233333,
+    "bearing": 270
+  },
+  {
+    "id": "salaverry",
+    "name": "Salaverry",
+    "country": "Perú",
+    "region": "Pacífico americano",
+    "lat": -8.233333,
+    "lon": -78.983333,
+    "bearing": 240
+  },
+  {
+    "id": "chimbote",
+    "name": "Chimbote",
+    "country": "Perú",
+    "region": "Pacífico americano",
+    "lat": -9.083333,
+    "lon": -78.616667,
+    "bearing": 225
+  },
+  {
+    "id": "san-nicolas",
+    "name": "San Nicolás",
+    "country": "Perú",
+    "region": "Pacífico americano",
+    "lat": -15.25,
+    "lon": -75.233333,
+    "bearing": 270
+  },
+  {
+    "id": "matarani",
+    "name": "Matarani",
+    "country": "Perú",
+    "region": "Pacífico americano",
+    "lat": -17.0,
+    "lon": -72.116667,
+    "bearing": 240
+  },
+  {
+    "id": "arica",
+    "name": "Arica",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -18.466667,
+    "lon": -70.333333,
+    "bearing": 270
+  },
+  {
+    "id": "iquique",
+    "name": "Iquique",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -20.2,
+    "lon": -70.166667,
+    "bearing": 270
+  },
+  {
+    "id": "antofagasta",
+    "name": "Antofagasta",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -23.65,
+    "lon": -70.416667,
+    "bearing": 270
+  },
+  {
+    "id": "caldera-chile",
+    "name": "Caldera",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -27.05,
+    "lon": -70.833333,
+    "bearing": 270
+  },
+  {
+    "id": "coquimbo",
+    "name": "Coquimbo",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -29.95,
+    "lon": -71.333333,
+    "bearing": 315
+  },
+  {
+    "id": "talcahuano",
+    "name": "Talcahuano",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -36.7,
+    "lon": -73.1,
+    "bearing": 0
+  },
+  {
+    "id": "corral",
+    "name": "Corral",
+    "country": "Chile",
+    "region": "Pacífico americano",
+    "lat": -39.866667,
+    "lon": -73.433333,
+    "bearing": 270
+  },
+  {
+    "id": "norfolk",
+    "name": "Norfolk",
+    "country": "EE. UU.",
+    "region": "Atlántico americano",
+    "lat": 36.85,
+    "lon": -76.3,
+    "bearing": 90
+  },
+  {
+    "id": "morehead-city",
+    "name": "Morehead City",
+    "country": "EE. UU.",
+    "region": "Atlántico americano",
+    "lat": 34.716667,
+    "lon": -76.7,
+    "bearing": 180
+  },
+  {
+    "id": "charleston",
+    "name": "Charleston",
+    "country": "EE. UU.",
+    "region": "Atlántico americano",
+    "lat": 32.783333,
+    "lon": -79.916667,
+    "bearing": 135
+  },
+  {
+    "id": "jacksonville",
+    "name": "Jacksonville",
+    "country": "EE. UU.",
+    "region": "Atlántico americano",
+    "lat": 30.316667,
+    "lon": -81.65,
+    "bearing": 90
+  },
+  {
+    "id": "canaveral",
+    "name": "Cabo Cañaveral",
+    "country": "EE. UU.",
+    "region": "Atlántico americano",
+    "lat": 28.7,
+    "lon": -80.616667,
+    "bearing": 90
+  },
+  {
+    "id": "key-west",
+    "name": "Cayo Hueso",
+    "country": "EE. UU.",
+    "region": "Atlántico americano",
+    "lat": 24.55,
+    "lon": -81.816667,
+    "bearing": 180
+  },
+  {
+    "id": "matthew-town",
+    "name": "Matthew Town",
+    "country": "Bahamas",
+    "region": "Caribe",
+    "lat": 20.95,
+    "lon": -73.683333,
+    "bearing": 270
+  },
+  {
+    "id": "haina",
+    "name": "Haina",
+    "country": "Rep. Dominicana",
+    "region": "Caribe",
+    "lat": 18.416667,
+    "lon": -70.016667,
+    "bearing": 180
+  },
+  {
+    "id": "rocky-point",
+    "name": "Rocky Point",
+    "country": "Jamaica",
+    "region": "Caribe",
+    "lat": 17.816667,
+    "lon": -77.15,
+    "bearing": 180
+  },
+  {
+    "id": "trujillo-honduras",
+    "name": "Trujillo",
+    "country": "Honduras",
+    "region": "Caribe",
+    "lat": 15.916667,
+    "lon": -85.95,
+    "bearing": 0
+  },
+  {
+    "id": "st-johns-antigua",
+    "name": "Saint John’s",
+    "country": "Antigua y Barbuda",
+    "region": "Caribe",
+    "lat": 17.116667,
+    "lon": -61.85,
+    "bearing": 270
+  },
+  {
+    "id": "fort-de-france",
+    "name": "Fort-de-France",
+    "country": "Martinica",
+    "region": "Caribe",
+    "lat": 14.6,
+    "lon": -61.066667,
+    "bearing": 240
+  },
+  {
+    "id": "point-lisas",
+    "name": "Point Lisas",
+    "country": "Trinidad y Tobago",
+    "region": "Caribe",
+    "lat": 10.4,
+    "lon": -61.5,
+    "bearing": 270
+  },
+  {
+    "id": "rio-grande",
+    "name": "Rio Grande",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -32.05,
+    "lon": -52.083333,
+    "bearing": 135
+  },
+  {
+    "id": "itajai",
+    "name": "Itajaí",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -26.916667,
+    "lon": -48.633333,
+    "bearing": 90
+  },
+  {
+    "id": "vitoria",
+    "name": "Vitória",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -20.316667,
+    "lon": -40.333333,
+    "bearing": 135
+  },
+  {
+    "id": "ilheus",
+    "name": "Ilhéus",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -14.783333,
+    "lon": -39.016667,
+    "bearing": 90
+  },
+  {
+    "id": "salvador",
+    "name": "Salvador",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -12.966667,
+    "lon": -38.516667,
+    "bearing": 225
+  },
+  {
+    "id": "recife",
+    "name": "Recife",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -8.05,
+    "lon": -34.866667,
+    "bearing": 90
+  },
+  {
+    "id": "natal",
+    "name": "Natal",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -5.783333,
+    "lon": -35.2,
+    "bearing": 90
+  },
+  {
+    "id": "fortaleza",
+    "name": "Fortaleza",
+    "country": "Brasil",
+    "region": "Atlántico sur",
+    "lat": -3.716667,
+    "lon": -38.483333,
+    "bearing": 0
+  },
+  {
+    "id": "agadir",
+    "name": "Agadir",
+    "country": "Marruecos",
+    "region": "Atlántico africano",
+    "lat": 30.433333,
+    "lon": -9.633333,
+    "bearing": 270
+  },
+  {
+    "id": "laayoune",
+    "name": "El Aaiún",
+    "country": "Sáhara Occidental",
+    "region": "Atlántico africano",
+    "lat": 27.083333,
+    "lon": -13.433333,
+    "bearing": 270
+  },
+  {
+    "id": "dakhla",
+    "name": "Dajla",
+    "country": "Sáhara Occidental",
+    "region": "Atlántico africano",
+    "lat": 23.7,
+    "lon": -15.916667,
+    "bearing": 270
+  },
+  {
+    "id": "nouadhibou",
+    "name": "Nuadibú",
+    "country": "Mauritania",
+    "region": "Atlántico africano",
+    "lat": 20.916667,
+    "lon": -17.05,
+    "bearing": 240
+  },
+  {
+    "id": "nouakchott",
+    "name": "Nuakchot",
+    "country": "Mauritania",
+    "region": "Atlántico africano",
+    "lat": 18.033333,
+    "lon": -16.033333,
+    "bearing": 270
+  },
+  {
+    "id": "banjul",
+    "name": "Banjul",
+    "country": "Gambia",
+    "region": "Atlántico africano",
+    "lat": 13.45,
+    "lon": -16.566667,
+    "bearing": 270
+  },
+  {
+    "id": "conakry",
+    "name": "Conakri",
+    "country": "Guinea",
+    "region": "Atlántico africano",
+    "lat": 9.516667,
+    "lon": -13.716667,
+    "bearing": 225
+  },
+  {
+    "id": "freetown",
+    "name": "Freetown",
+    "country": "Sierra Leona",
+    "region": "Atlántico africano",
+    "lat": 8.5,
+    "lon": -13.233333,
+    "bearing": 270
+  },
+  {
+    "id": "monrovia",
+    "name": "Monrovia",
+    "country": "Liberia",
+    "region": "Atlántico africano",
+    "lat": 6.316667,
+    "lon": -10.816667,
+    "bearing": 225
+  },
+  {
+    "id": "cape-palmas",
+    "name": "Cabo Palmas",
+    "country": "Liberia",
+    "region": "Atlántico africano",
+    "lat": 4.366667,
+    "lon": -7.716667,
+    "bearing": 225
+  },
+  {
+    "id": "sekondi",
+    "name": "Sekondi",
+    "country": "Ghana",
+    "region": "Atlántico africano",
+    "lat": 4.95,
+    "lon": -1.7,
+    "bearing": 180
+  },
+  {
+    "id": "lagos",
+    "name": "Lagos",
+    "country": "Nigeria",
+    "region": "Atlántico africano",
+    "lat": 6.4,
+    "lon": 3.4,
+    "bearing": 180
+  },
+  {
+    "id": "malabo",
+    "name": "Malabo",
+    "country": "Guinea Ecuatorial",
+    "region": "Atlántico africano",
+    "lat": 3.75,
+    "lon": 8.783333,
+    "bearing": 0
+  },
+  {
+    "id": "bata",
+    "name": "Bata",
+    "country": "Guinea Ecuatorial",
+    "region": "Atlántico africano",
+    "lat": 1.866667,
+    "lon": 9.766667,
+    "bearing": 270
+  },
+  {
+    "id": "port-gentil",
+    "name": "Port-Gentil",
+    "country": "Gabón",
+    "region": "Atlántico africano",
+    "lat": -0.7,
+    "lon": 8.8,
+    "bearing": 270
+  },
+  {
+    "id": "pointe-noire",
+    "name": "Pointe-Noire",
+    "country": "Rep. del Congo",
+    "region": "Atlántico africano",
+    "lat": -4.783333,
+    "lon": 11.833333,
+    "bearing": 240
+  },
+  {
+    "id": "luanda",
+    "name": "Luanda",
+    "country": "Angola",
+    "region": "Atlántico africano",
+    "lat": -8.8,
+    "lon": 13.25,
+    "bearing": 270
+  },
+  {
+    "id": "lobito",
+    "name": "Lobito",
+    "country": "Angola",
+    "region": "Atlántico africano",
+    "lat": -12.333333,
+    "lon": 13.566667,
+    "bearing": 270
+  },
+  {
+    "id": "namibe",
+    "name": "Namibe",
+    "country": "Angola",
+    "region": "Atlántico africano",
+    "lat": -15.2,
+    "lon": 12.15,
+    "bearing": 270
+  },
+  {
+    "id": "walvis-bay",
+    "name": "Walvis Bay",
+    "country": "Namibia",
+    "region": "Atlántico africano",
+    "lat": -22.95,
+    "lon": 14.5,
+    "bearing": 270
+  },
+  {
+    "id": "luderitz",
+    "name": "Lüderitz",
+    "country": "Namibia",
+    "region": "Atlántico africano",
+    "lat": -26.65,
+    "lon": 15.15,
+    "bearing": 270
+  },
+  {
+    "id": "saldanha",
+    "name": "Saldanha",
+    "country": "Sudáfrica",
+    "region": "Atlántico africano",
+    "lat": -33.033333,
+    "lon": 17.966667,
+    "bearing": 240
+  },
+  {
+    "id": "sharm-el-sheikh",
+    "name": "Sharm el-Sheij",
+    "country": "Egipto",
+    "region": "Mar Rojo",
+    "lat": 27.85,
+    "lon": 34.283333,
+    "bearing": 135
+  },
+  {
+    "id": "hurghada",
+    "name": "Hurghada",
+    "country": "Egipto",
+    "region": "Mar Rojo",
+    "lat": 27.216667,
+    "lon": 33.85,
+    "bearing": 90
+  },
+  {
+    "id": "al-qusayr",
+    "name": "El Quseir",
+    "country": "Egipto",
+    "region": "Mar Rojo",
+    "lat": 26.1,
+    "lon": 34.283333,
+    "bearing": 90
+  },
+  {
+    "id": "duba",
+    "name": "Duba",
+    "country": "Arabia Saudita",
+    "region": "Mar Rojo",
+    "lat": 27.316667,
+    "lon": 35.9,
+    "bearing": 270
+  },
+  {
+    "id": "al-mukha",
+    "name": "Moca",
+    "country": "Yemen",
+    "region": "Mar Rojo",
+    "lat": 13.316667,
+    "lon": 43.25,
+    "bearing": 270
+  },
+  {
+    "id": "muscat",
+    "name": "Mascate",
+    "country": "Omán",
+    "region": "Mar Arábigo",
+    "lat": 23.633333,
+    "lon": 58.583333,
+    "bearing": 45
+  },
+  {
+    "id": "sohar",
+    "name": "Sohar",
+    "country": "Omán",
+    "region": "Mar Arábigo",
+    "lat": 24.516667,
+    "lon": 56.633333,
+    "bearing": 45
+  },
+  {
+    "id": "fujairah",
+    "name": "Fuyaira",
+    "country": "Emiratos Árabes Unidos",
+    "region": "Mar Arábigo",
+    "lat": 25.1730556,
+    "lon": 56.3691667,
+    "bearing": 90
+  },
+  {
+    "id": "karachi",
+    "name": "Karachi",
+    "country": "Pakistán",
+    "region": "Mar Arábigo",
+    "lat": 24.783333,
+    "lon": 66.983333,
+    "bearing": 180
+  },
+  {
+    "id": "okha",
+    "name": "Okha",
+    "country": "India",
+    "region": "Mar Arábigo",
+    "lat": 22.4680556,
+    "lon": 69.0797222,
+    "bearing": 270
+  },
+  {
+    "id": "veraval",
+    "name": "Veraval",
+    "country": "India",
+    "region": "Mar Arábigo",
+    "lat": 20.9,
+    "lon": 70.366667,
+    "bearing": 180
+  },
+  {
+    "id": "penang",
+    "name": "Penang",
+    "country": "Malasia",
+    "region": "Sudeste asiático",
+    "lat": 5.416667,
+    "lon": 100.35,
+    "bearing": 270
+  },
+  {
+    "id": "port-klang",
+    "name": "Port Klang",
+    "country": "Malasia",
+    "region": "Sudeste asiático",
+    "lat": 3.0,
+    "lon": 101.4,
+    "bearing": 225
+  },
+  {
+    "id": "sabang",
+    "name": "Sabang",
+    "country": "Indonesia",
+    "region": "Sudeste asiático",
+    "lat": 5.883333,
+    "lon": 95.316667,
+    "bearing": 0
+  },
+  {
+    "id": "belawan",
+    "name": "Belawan",
+    "country": "Indonesia",
+    "region": "Sudeste asiático",
+    "lat": 3.783333,
+    "lon": 98.683333,
+    "bearing": 45
+  },
+  {
+    "id": "phuket",
+    "name": "Phuket",
+    "country": "Tailandia",
+    "region": "Sudeste asiático",
+    "lat": 7.833333,
+    "lon": 98.4,
+    "bearing": 225
+  },
+  {
+    "id": "salina-cruz",
+    "name": "Salina Cruz",
+    "country": "México",
+    "region": "Pacífico americano",
+    "lat": 16.165,
+    "lon": -95.193,
+    "bearing": 180
+  },
+  {
+    "id": "puerto-quetzal",
+    "name": "Puerto Quetzal",
+    "country": "Guatemala",
+    "region": "Pacífico americano",
+    "lat": 13.9184,
+    "lon": -90.7842,
+    "bearing": 180
+  },
+  {
+    "id": "corinto",
+    "name": "Corinto",
+    "country": "Nicaragua",
+    "region": "Pacífico americano",
+    "lat": 12.4833,
+    "lon": -87.1667,
+    "bearing": 225
+  },
+  {
+    "id": "belize-city",
+    "name": "Ciudad de Belice",
+    "country": "Belice",
+    "region": "Caribe",
+    "lat": 17.475,
+    "lon": -88.195,
+    "bearing": 90
+  },
+  {
+    "id": "puerto-limon",
+    "name": "Puerto Limón",
+    "country": "Costa Rica",
+    "region": "Caribe",
+    "lat": 9.99,
+    "lon": -83.025,
+    "bearing": 90
+  },
+  {
+    "id": "yanbu",
+    "name": "Yanbu",
+    "country": "Arabia Saudita",
+    "region": "Mar Rojo",
+    "lat": 24.0667,
+    "lon": 38.05,
+    "bearing": 270
+  },
+  {
+    "id": "jazan",
+    "name": "Jazán",
+    "country": "Arabia Saudita",
+    "region": "Mar Rojo",
+    "lat": 17.2833,
+    "lon": 42.3333,
+    "bearing": 270
+  },
+  {
+    "id": "aden",
+    "name": "Adén",
+    "country": "Yemen",
+    "region": "Mar Arábigo",
+    "lat": 12.7667,
+    "lon": 45.0333,
+    "bearing": 180
+  },
+  {
+    "id": "mukalla",
+    "name": "Mukalla",
+    "country": "Yemen",
+    "region": "Mar Arábigo",
+    "lat": 14.5167,
+    "lon": 49.1167,
+    "bearing": 180
+  },
+  {
+    "id": "salalah",
+    "name": "Salalah",
+    "country": "Omán",
+    "region": "Mar Arábigo",
+    "lat": 16.95,
+    "lon": 54.0167,
+    "bearing": 135
+  },
+  {
+    "id": "duqm",
+    "name": "Duqm",
+    "country": "Omán",
+    "region": "Mar Arábigo",
+    "lat": 19.65,
+    "lon": 57.7,
+    "bearing": 90
+  },
+  {
+    "id": "gwadar",
+    "name": "Gwadar",
+    "country": "Pakistán",
+    "region": "Mar Arábigo",
+    "lat": 25.1167,
+    "lon": 62.3333,
+    "bearing": 180
+  },
+  {
+    "id": "mormugao",
+    "name": "Mormugao · Goa",
+    "country": "India",
+    "region": "Mar Arábigo",
+    "lat": 15.4167,
+    "lon": 73.7833,
+    "bearing": 270
+  },
+  {
+    "id": "new-mangalore",
+    "name": "New Mangalore",
+    "country": "India",
+    "region": "Mar Arábigo",
+    "lat": 12.9333,
+    "lon": 74.8167,
+    "bearing": 270
+  },
+  {
+    "id": "kochi",
+    "name": "Kochi",
+    "country": "India",
+    "region": "Mar Arábigo",
+    "lat": 9.97,
+    "lon": 76.2583,
+    "bearing": 270
+  },
+  {
+    "id": "puerto-montt",
+    "name": "Puerto Montt",
+    "country": "Chile",
+    "region": "Patagonia y Tierra del Fuego",
+    "lat": -41.4833333,
+    "lon": -72.9666667,
+    "bearing": 180,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "puerto-chacabuco",
+    "name": "Puerto Chacabuco",
+    "country": "Chile",
+    "region": "Patagonia y Tierra del Fuego",
+    "lat": -45.4666667,
+    "lon": -72.8333333,
+    "bearing": 270,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json",
+    "note": "Aysen fjord locality. Verify water connectivity and limit any offshore simplification to 50 km."
+  },
+  {
+    "id": "puerto-natales",
+    "name": "Puerto Natales",
+    "country": "Chile",
+    "region": "Patagonia y Tierra del Fuego",
+    "lat": -51.7166667,
+    "lon": -72.5666667,
+    "bearing": 270,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json",
+    "note": "Interior fjord locality. Verify water connectivity, not only berth clearance; any simplified exterior anchorage must stay within 50 km of the cited location."
+  },
+  {
+    "id": "punta-arenas",
+    "name": "Punta Arenas",
+    "country": "Chile",
+    "region": "Patagonia y Tierra del Fuego",
+    "lat": -53.1666667,
+    "lon": -70.9,
+    "bearing": 90,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "ushuaia",
+    "name": "Ushuaia",
+    "country": "Argentina",
+    "region": "Patagonia y Tierra del Fuego",
+    "lat": -54.8166667,
+    "lon": -68.3,
+    "bearing": 180,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "puerto-williams",
+    "name": "Puerto Williams",
+    "country": "Chile",
+    "region": "Patagonia y Tierra del Fuego",
+    "lat": -54.9333333,
+    "lon": -67.6,
+    "bearing": 0,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "cape-horn",
+    "name": "Cabo de Hornos",
+    "country": "Chile",
+    "region": "Paso Drake",
+    "lat": -55.943,
+    "lon": -67.2093333,
+    "bearing": 90,
+    "source": "https://www.directemar.cl/directemar/site/edic/base/port/estrechodemagallanes_es.html",
+    "note": "Regional seed at the DIRECTEMAR Cape Horn pilot transfer area; the exterior game anchorage and fuel service are fictional, not a claim of a real harbour or fuel station.",
+    "description": "Paso Drake · fondeo exterior de juego junto al Cabo de Hornos. Muelle y combustible ficticios; no es un puerto comercial real."
+  },
+  {
+    "id": "fildes-bay",
+    "name": "Bahía Fildes · Isla Rey Jorge",
+    "country": "Antártida",
+    "region": "Península Antártica",
+    "lat": -62.2158333,
+    "lon": -58.9597222,
+    "bearing": 135,
+    "source": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=Id4Ohl6oWafOr9Cco2k9Xg%3D%3D",
+    "note": "INACH Escudero regional coastal position in Fildes/Maxwell Bay. This is a research-station locality; game berthing/refuelling is fictional.",
+    "description": "Bahía Fildes, isla Rey Jorge · base antártica costera simplificada. Desembarco y repostaje de juego; no representan servicios públicos reales ni navegación entre hielos."
+  },
+  {
+    "id": "deception-island",
+    "name": "Isla Decepción · Whalers Bay",
+    "country": "Antártida",
+    "region": "Península Antártica",
+    "lat": -62.9833333,
+    "lon": -60.5666667,
+    "bearing": 135,
+    "source": "https://www.ats.aq/devAS/Ats/Guideline/e36c1a8f-3ae7-4187-9b24-194c8cf5e780",
+    "note": "ATS Whalers Bay location inside Port Foster. If simplified land closes Neptunes Bellows, use a clearly described exterior anchorage within 50 km rather than crossing the volcanic island.",
+    "description": "Isla Decepción · fondeo antártico regional junto a Whalers Bay. Desembarco y combustible ficticios; costa volcánica y acceso simplificados."
+  },
+  {
+    "id": "port-lockroy",
+    "name": "Port Lockroy",
+    "country": "Antártida",
+    "region": "Península Antártica",
+    "lat": -64.8166667,
+    "lon": -63.5,
+    "bearing": 300,
+    "source": "https://www.britishantarcticterritory.org.uk/heritage/port-lockroy/",
+    "note": "Historic Base A locality on Goudier Island, not an operating commercial fuel port. Regional exterior game anchorage; no claim of public refuelling.",
+    "description": "Port Lockroy · base histórica antártica representada de forma regional. Muelle y combustible ficticios; no es un puerto comercial ni una estación pública de repostaje."
+  },
+  {
+    "id": "bahia-blanca",
+    "name": "Bahía Blanca",
+    "country": "Argentina",
+    "region": "Patagonia atlántica",
+    "lat": -38.7833333,
+    "lon": -62.2666667,
+    "bearing": 135,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "puerto-madryn",
+    "name": "Puerto Madryn",
+    "country": "Argentina",
+    "region": "Patagonia atlántica",
+    "lat": -42.7666667,
+    "lon": -65.0333333,
+    "bearing": 90,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "puerto-deseado",
+    "name": "Puerto Deseado",
+    "country": "Argentina",
+    "region": "Patagonia atlántica",
+    "lat": -47.75,
+    "lon": -65.9,
+    "bearing": 90,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+  },
+  {
+    "id": "rio-gallegos",
+    "name": "Río Gallegos",
+    "country": "Argentina",
+    "region": "Patagonia atlántica",
+    "lat": -51.6166667,
+    "lon": -68.9666667,
+    "bearing": 90,
+    "source": "https://msi.nga.mil/api/publications/world-port-index?output=json",
+    "note": "WPI seaward regional point east of the city; use an exterior estuary approach instead of inventing a navigable river to the town."
+  }
+]

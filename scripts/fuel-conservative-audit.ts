@@ -1,0 +1,35 @@
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import assert from 'node:assert/strict';
+import { SHIPS } from '../src/data/ships';
+import { portById } from '../src/data/ports';
+import { destination, distance } from '../src/geo/math';
+import { routeFromPosition } from '../src/geo/routes';
+import { worldFromGeoJSON } from '../src/geo/world';
+import { createVessel, FIXED_DT, stepVessel, Simulation, motion } from '../src/sim/engine';
+import { createWeather } from '../src/sim/weather';
+import { estimateRouteFuel } from '../src/sim/routeEstimate';
+const manual=[];
+for(const ship of SHIPS){
+ const origin={lat:0,lon:-30},heading=Math.PI/2,target=destination(origin,heading,10000);
+ const weather={...createWeather('calm',4821),windSpeed:0,currentSpeed:0};
+ const route={id:`manual-audit-${ship.id}`,name:'10 km manual audit',from:'current',to:'fixture',points:[origin,target],distance:10000,directDistance:10000,description:'Explicit open-water CPU fixture'};
+ const state=createVessel(ship.id,origin,heading,.35),fuel=state.fuel;
+ const estimate=estimateRouteFuel(state,route,weather),started=performance.now();
+ state.controls={throttle:1,rudder:0,gear:1};
+ while(state.distance<10000&&state.simTime<5000&&state.fuel>0)stepVessel(state,weather,FIXED_DT);
+ const actual={reachedDistance:true,distanceM:state.distance,seconds:state.simTime,consumedLitres:fuel-state.fuel,remainingLitres:state.fuel,speedMS:motion(state,weather).sog,brakingIncluded:false};
+ assert(state.distance>=10000);assert(estimate.estimatedFuelLitres>=actual.consumedLitres);
+ manual.push({shipId:ship.id,initialFuelLitres:fuel,estimate,actual,consumptionBudgetCoversActual:estimate.estimatedFuelLitres>=actual.consumedLitres,reserveUntouchedLitres:estimate.reserveLitres,cpuMilliseconds:performance.now()-started});
+}
+const world=worldFromGeoJSON(JSON.parse(readFileSync('public/data/land.geojson','utf8'))),departure=portById('marseille')!;
+const state=createVessel('spirit',departure,departure.heading,.35),weather=createWeather('hurricane',4821),route=routeFromPosition(world,state,'barcelona')!;
+const estimate=estimateRouteFuel(state,route,weather),initialFuel=state.fuel,sim=new Simulation(state,weather,world);
+sim.requestedScale=100;sim.voyage={route,waypoint:1,autopilot:true,completed:false};let contacts=0;sim.onCollision=()=>contacts++;
+const started=performance.now();
+while(state.simTime<25000&&!sim.voyage.completed&&!contacts&&state.fuel>0)sim.advance(1/30);
+const actual={completed:sim.voyage.completed,contacts,seconds:state.simTime,distanceM:state.distance,consumedLitres:initialFuel-state.fuel,remainingLitres:state.fuel,arrivalDistanceM:distance(state,route.points.at(-1)!),arrivalSpeedMS:motion(state,sim.weather).sog};
+assert(actual.completed&&!contacts);assert(estimate.estimatedFuelLitres>actual.consumedLitres);
+const report={generatedAt:new Date().toISOString(),reproduceCommand:'npx tsx scripts/fuel-conservative-audit.ts',testsCommand:'npx vitest run tests/route-estimate.test.ts',policy:{consumption:'Per-segment maximum of pilot and full-power physical profiles under current and adverse synthetic weather, plus separately computed manoeuvres.',reserve:'25% additional to that consumption budget. Fuel capacities and burn-rate curves unchanged.',weatherEnvelope:'72 weatherAt samples spaced 1499 simulated seconds, normalized to the current configured wind/current; adverse wind and current are selected independently along each segment; 5% wind and 1% current sampling margins.',fixedStepSeconds:FIXED_DT},manual10km:{conditions:{load:.35,damage:0,sea:'calm',seed:4821,windSpeed:0,currentSpeed:0,initialSpeedMS:0,initialEngine:0,throttle:1,gear:1,rudder:0,worldCollisionGeometry:false},scope:'Actual consumption covers acceleration and full-power travel through the first 10 km, measured while still underway. Forecast also includes braking/arrival/turn allowances; no automatic steering was used in these six passages.',cases:manual},spiritBarcelonaHurricane:{conditions:{from:'marseille',to:'barcelona',load:.35,damage:0,sea:'hurricane',seed:4821,evolvingWeather:true,requestedScale:100,pilot:true,refuels:0},estimate,actual,consumptionBudgetCoversActual:estimate.estimatedFuelLitres>=actual.consumedLitres,cpuMilliseconds:performance.now()-started,planningMeaning:'This realization reaches port, but the conservative total including reserve exceeds 900 L. The planner must add a service stop rather than promise the direct leg with reserve.'}};
+mkdirSync('artifacts/planning',{recursive:true});
+writeFileSync('artifacts/planning/fuel-conservative-audit.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify({manual:manual.map(row=>({shipId:row.shipId,consumed:row.actual.consumedLitres,forecast:row.estimate.estimatedFuelLitres,withReserve:row.estimate.requiredFuelLitres})),spirit:report.spiritBarcelonaHurricane},null,2));

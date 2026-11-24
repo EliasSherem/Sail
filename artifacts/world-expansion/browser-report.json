@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    "900 m docking and resume; 1100 m rejection; no docking teleport",
+    "105 port choices including Mexico and Israel; zoom buttons and wheel recenter after dragging",
+    "Atlantic itinerary activation, save/resume and actual dock/refuel/next leg preserve boat and position",
+    "rain, storm and hurricane render without GPU errors; four lighting phases; cycle speed and marine life settings persist",
+    "390×844 touch settings and navigation without horizontal overflow"
+  ],
+  "errors": [],
+  "external": [],
+  "details": {
+    "atlanticStops": [
+      "Valencia358 mn · 2646 L · REPOSTAR",
+      "Cádiz507 mn · 3759 L · REPOSTAR",
+      "Oporto402 mn · 3015 L · REPOSTAR",
+      "Brest514 mn · 3784 L · REPOSTAR",
+      "Cork256 mn · 1939 L · REPOSTAR",
+      "Killybegs322 mn · 2388 L · REPOSTAR",
+      "Tórshavn505 mn · 3746 L · REPOSTAR",
+      "Höfn299 mn · 2264 L · REPOSTAR",
+      "Ísafjörður456 mn · 3410 L · REPOSTAR",
+      "Tasiilaq368 mn · 2777 L · REPOSTAR",
+      "Qaqortoq501 mn · 3677 L · REPOSTAR",
+      "Sisimiut507 mn · 3816 L · REPOSTAR",
+      "Qikiqtarjuaq261 mn · 1978 L · REPOSTAR",
+      "Pangnirtung356 mn · 2609 L · REPOSTAR",
+      "Iqaluit396 mn · 2900 L · REPOSTAR",
+      "Nain524 mn · 3744 L · REPOSTAR",
+      "St. Anthony468 mn · 3353 L · REPOSTAR",
+      "Saint-Pierre459 mn · 3337 L · REPOSTAR",
+      "Halifax344 mn · 2578 L · REPOSTAR",
+      "Boston384 mn · 2868 L · REPOSTAR",
+      "Nueva York282 mn · 2089 L · DESTINO"
+    ]
+  }
+}

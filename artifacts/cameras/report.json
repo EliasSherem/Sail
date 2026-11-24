@@ -1,0 +1,21 @@
+{
+  "testUrl": "http://localhost:4173",
+  "browser": "153.0.8010.54",
+  "passed": true,
+  "checks": [
+    "live driving camera switch",
+    "C toggles first/third",
+    "1 and 3 shortcuts",
+    "first-person mouse look",
+    "camera controls preserve physical state",
+    "saved camera restored",
+    "orbital remains available",
+    "camera switch at 100x across multiple floating origins",
+    "all five vessels in first and third person",
+    "mobile touch selection and first-person drag",
+    "mobile labels and controls fit"
+  ],
+  "errors": [],
+  "external": [],
+  "acceleratedDistanceM": 7142.010476740538
+}

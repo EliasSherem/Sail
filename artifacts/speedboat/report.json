@@ -1,0 +1,1017 @@
+{
+  "passed": true,
+  "testUrl": "http://localhost:4173",
+  "browser": "153.0.8010.54",
+  "checks": [
+    "initial yacht → Vector 38 selection, distinct SVG preview, actual start, Cassis route and reload preserve the boat",
+    "La flota swaps a docked yacht to Vector 38; undocking and a new La Ciotat route preserve the selection",
+    "near-port-1440x1000: persistent reachable confirmation, distinct selected/current boat, cancellation and exact in-place dock/change preserve the voyage and save",
+    "near-port-390x844: persistent reachable confirmation, distinct selected/current boat, cancellation and exact in-place dock/change preserve the voyage and save",
+    "offshore: clear inline reason and disabled confirmation preserve vessel and route",
+    "moving-near-port: clear inline reason and disabled confirmation preserve vessel and route",
+    "actual full-throttle run reaches 218.4 km/h with fuel consumption; three cameras and moving save/reload work"
+  ],
+  "cases": [
+    {
+      "name": "initial fleet",
+      "started": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:33.672Z",
+        "state": {
+          "lat": 43.28599929639827,
+          "lon": 5.347001497218798,
+          "shipId": "speedboat",
+          "heading": 3.1415757932246375,
+          "u": -0.00043173878331263836,
+          "v": -0.001070286966229594,
+          "yawRate": -0.00003690301515646689,
+          "engine": 0,
+          "fuel": 1399.9990749999995,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.8333333333333333,
+          "distance": 0.14425010495848123,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 0.8334000000000001,
+        "dayStartHour": 9,
+        "dayLengthSeconds": 720,
+        "marineLife": true,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": false,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "route": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:35.306Z",
+        "state": {
+          "lat": 43.28599929639827,
+          "lon": 5.347001497218798,
+          "shipId": "speedboat",
+          "heading": 3.1415757932246375,
+          "u": -0.00043173878331263836,
+          "v": -0.001070286966229594,
+          "yawRate": -0.00003690301515646689,
+          "engine": 0,
+          "fuel": 1399.9990749999995,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.8333333333333333,
+          "distance": 0.14425010495848123,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "cassis",
+          "stopIds": [
+            "cassis"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 0.8334000000000001,
+        "dayStartHour": 9,
+        "dayLengthSeconds": 720,
+        "marineLife": true,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": false,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "restored": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:38.154Z",
+        "state": {
+          "lat": 43.2859977039918,
+          "lon": 5.347004949935126,
+          "shipId": "speedboat",
+          "heading": 3.141452307539076,
+          "u": -0.001391468771493416,
+          "v": -0.003282810173986246,
+          "yawRate": -0.00008588476728249572,
+          "engine": 0,
+          "fuel": 1399.9969659999983,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 2.7333333333333334,
+          "distance": 0.47509782318828103,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "cassis",
+          "stopIds": [
+            "cassis"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 2.7667,
+        "dayStartHour": 9,
+        "dayLengthSeconds": 720,
+        "marineLife": true,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": false,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      }
+    },
+    {
+      "name": "docked fleet",
+      "changed": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:41.586Z",
+        "state": {
+          "lat": 43.286,
+          "lon": 5.347,
+          "shipId": "speedboat",
+          "heading": 3.141592653589793,
+          "u": 0,
+          "v": 0,
+          "yawRate": 0,
+          "engine": 0,
+          "fuel": 1400,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.9333333333333332,
+          "distance": 0,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 0
+          },
+          "docked": "marseille"
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 0.9500000000000002,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "route": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:43.548Z",
+        "state": {
+          "lat": 43.286,
+          "lon": 5.347,
+          "shipId": "speedboat",
+          "heading": 3.141592653589793,
+          "u": 0,
+          "v": 0,
+          "yawRate": 0,
+          "engine": 0,
+          "fuel": 1400,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.9333333333333332,
+          "distance": 0,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "la-ciotat",
+        "itinerary": {
+          "destinationId": "la-ciotat",
+          "stopIds": [
+            "la-ciotat"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 0.9500000000000002,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": "free",
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      }
+    },
+    {
+      "name": "near-port-1440x1000",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:46.862Z",
+        "state": {
+          "lat": 43.28554829982484,
+          "lon": 5.347353570169503,
+          "shipId": "yacht",
+          "heading": 1.2344597459889384,
+          "u": 0.004107011855787751,
+          "v": -0.0017301556402420481,
+          "yawRate": -0.00003924975517890658,
+          "engine": 0,
+          "fuel": 2399.997854000012,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 866.1833333333316,
+          "distance": 12345.945337077208,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9499999999999997,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "cancelled": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:48.046Z",
+        "state": {
+          "lat": 43.28554829982484,
+          "lon": 5.347353570169503,
+          "shipId": "yacht",
+          "heading": 1.2344597459889384,
+          "u": 0.004107011855787751,
+          "v": -0.0017301556402420481,
+          "yawRate": -0.00003924975517890658,
+          "engine": 0,
+          "fuel": 2399.997854000012,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 866.1833333333316,
+          "distance": 12345.945337077208,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9499999999999997,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "footer": {
+        "initial": {
+          "x": 738,
+          "y": 872.40625,
+          "width": 537,
+          "height": 43
+        },
+        "selected": {
+          "x": 738,
+          "y": 867.40625,
+          "width": 537,
+          "height": 43
+        }
+      },
+      "changed": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:48.747Z",
+        "state": {
+          "lat": 43.28554829982484,
+          "lon": 5.347353570169503,
+          "shipId": "speedboat",
+          "heading": 1.2344597459889384,
+          "u": 0,
+          "v": 0,
+          "yawRate": 0,
+          "engine": 0,
+          "fuel": 1400,
+          "damage": 0,
+          "load": 0.6,
+          "simTime": 866.1833333333316,
+          "distance": 12345.945337077208,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 0
+          },
+          "docked": "marseille"
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9499999999999997,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "restored": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:51.865Z",
+        "state": {
+          "lat": 43.28554829982484,
+          "lon": 5.347353570169503,
+          "shipId": "speedboat",
+          "heading": 1.2344597459889384,
+          "u": 0,
+          "v": 0,
+          "yawRate": 0,
+          "engine": 0,
+          "fuel": 1400,
+          "damage": 0,
+          "load": 0.6,
+          "simTime": 868.0833333333298,
+          "distance": 12345.945337077208,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 0
+          },
+          "docked": "marseille"
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 3.8832999999999984,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      }
+    },
+    {
+      "name": "near-port-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:55.443Z",
+        "state": {
+          "lat": 43.28554827096106,
+          "lon": 5.347353632417594,
+          "shipId": "yacht",
+          "heading": 1.234458418003884,
+          "u": 0.004177286982198136,
+          "v": -0.0017587962113752142,
+          "yawRate": -0.00003983955163677297,
+          "engine": 0,
+          "fuel": 2399.997817000012,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 866.2166666666649,
+          "distance": 12345.951311062894,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9832000000000005,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "cancelled": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:56.827Z",
+        "state": {
+          "lat": 43.28554827096106,
+          "lon": 5.347353632417594,
+          "shipId": "yacht",
+          "heading": 1.234458418003884,
+          "u": 0.004177286982198136,
+          "v": -0.0017587962113752142,
+          "yawRate": -0.00003983955163677297,
+          "engine": 0,
+          "fuel": 2399.997817000012,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 866.2166666666649,
+          "distance": 12345.951311062894,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9832000000000005,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": true,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "footer": {
+        "initial": {
+          "x": 27,
+          "y": 762.8125,
+          "width": 336,
+          "height": 41
+        },
+        "selected": {
+          "x": 27,
+          "y": 757.8125,
+          "width": 336,
+          "height": 41
+        }
+      },
+      "changed": {
+        "version": 1,
+        "savedAt": "2026-09-26T20:59:57.912Z",
+        "state": {
+          "lat": 43.28554827096106,
+          "lon": 5.347353632417594,
+          "shipId": "speedboat",
+          "heading": 1.234458418003884,
+          "u": 0,
+          "v": 0,
+          "yawRate": 0,
+          "engine": 0,
+          "fuel": 1400,
+          "damage": 0,
+          "load": 0.6,
+          "simTime": 866.2166666666649,
+          "distance": 12345.951311062894,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 0
+          },
+          "docked": "marseille"
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9832000000000005,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "restored": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:01.192Z",
+        "state": {
+          "lat": 43.28554827096106,
+          "lon": 5.347353632417594,
+          "shipId": "speedboat",
+          "heading": 1.234458418003884,
+          "u": 0,
+          "v": 0,
+          "yawRate": 0,
+          "engine": 0,
+          "fuel": 1400,
+          "damage": 0,
+          "load": 0.6,
+          "simTime": 868.3499999999963,
+          "distance": 12345.951311062894,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 0
+          },
+          "docked": "marseille"
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 4.149699999999999,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      }
+    },
+    {
+      "name": "fleet-unavailable-offshore",
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:04.006Z",
+        "state": {
+          "lat": 41.99999932448101,
+          "lon": 4.000001407717264,
+          "shipId": "speedboat",
+          "heading": 3.1415770233251425,
+          "u": -0.00041459667727073037,
+          "v": -0.0010286810168694915,
+          "yawRate": -0.00003565560237372579,
+          "engine": 0,
+          "fuel": 1399.9991119999995,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.7999999999999999,
+          "distance": 0.13846951350101525,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 0.8166000000000001,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "after": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:04.947Z",
+        "state": {
+          "lat": 41.99999932448101,
+          "lon": 4.000001407717264,
+          "shipId": "speedboat",
+          "heading": 3.1415770233251425,
+          "u": -0.00041459667727073037,
+          "v": -0.0010286810168694915,
+          "yawRate": -0.00003565560237372579,
+          "engine": 0,
+          "fuel": 1399.9991119999995,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.7999999999999999,
+          "distance": 0.13846951350101525,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 0.8166000000000001,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "footer": {
+        "x": 738,
+        "y": 867.40625,
+        "width": 537,
+        "height": 43
+      }
+    },
+    {
+      "name": "fleet-unavailable-moving-near-port",
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:08.502Z",
+        "state": {
+          "lat": 43.28548282453653,
+          "lon": 5.3473381424929585,
+          "shipId": "yacht",
+          "heading": 3.311531961485244,
+          "u": 3.653947574391088,
+          "v": -0.0029308722656967543,
+          "yawRate": -0.00004420468739803379,
+          "engine": 0,
+          "fuel": 2399.997854000012,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 866.1833333333316,
+          "distance": 12353.130998808345,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9499,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "after": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:09.466Z",
+        "state": {
+          "lat": 43.28548282453653,
+          "lon": 5.3473381424929585,
+          "shipId": "yacht",
+          "heading": 3.311531961485244,
+          "u": 3.653947574391088,
+          "v": -0.0029308722656967543,
+          "yawRate": -0.00004420468739803379,
+          "engine": 0,
+          "fuel": 2399.997854000012,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 866.1833333333316,
+          "distance": 12353.130998808345,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": "cassis",
+        "itinerary": {
+          "destinationId": "toulon",
+          "stopIds": [
+            "cassis",
+            "toulon"
+          ],
+          "legIndex": 0,
+          "refuelPortId": null
+        },
+        "environmentTime": 1.9499,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 12345.6
+      },
+      "footer": {
+        "x": 738,
+        "y": 867.40625,
+        "width": 537,
+        "height": 43
+      }
+    },
+    {
+      "name": "open sea speed",
+      "before": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:11.178Z",
+        "state": {
+          "lat": 41.99999954932625,
+          "lon": 4.000000937373784,
+          "shipId": "speedboat",
+          "heading": 3.141585318227097,
+          "u": -0.000277078910255351,
+          "v": -0.0006922463868404634,
+          "yawRate": -0.000025039056469455446,
+          "engine": 0,
+          "fuel": 1399.9994079999997,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 0.5333333333333333,
+          "distance": 0.09225609117269501,
+          "controls": {
+            "throttle": 0,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 0.5334,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "progression": [
+        {
+          "simSeconds": 106.63333333332982,
+          "speedKmh": 218.41255537860386,
+          "distanceM": 5598.654151758856,
+          "fuelLitres": 1387.2663870906426
+        },
+        {
+          "simSeconds": 219.96666666665672,
+          "speedKmh": 218.4154047249647,
+          "distanceM": 12484.246464718839,
+          "fuelLitres": 1373.1138870910063
+        }
+      ],
+      "atSpeed": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:13.926Z",
+        "state": {
+          "lat": 41.88044061552262,
+          "lon": 4.0004547517507945,
+          "shipId": "speedboat",
+          "heading": 3.141193294615606,
+          "u": 60.67405576805109,
+          "v": -0.00005995463201347417,
+          "yawRate": -0.0000011101893257471704,
+          "engine": 0.9999999999999952,
+          "fuel": 1371.448887091049,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 233.83333333332263,
+          "distance": 13294.581551136436,
+          "controls": {
+            "throttle": 1,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 2.866599999999998,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "follow",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      },
+      "speedKmh": 218.42660076509054,
+      "restored": {
+        "version": 1,
+        "savedAt": "2026-09-26T21:00:17.528Z",
+        "state": {
+          "lat": 41.88014914233931,
+          "lon": 4.000455846376099,
+          "shipId": "speedboat",
+          "heading": 3.141192702525288,
+          "u": 60.67414211219142,
+          "v": -0.00005995280088372831,
+          "yawRate": -0.000001110156475188165,
+          "engine": 0.9999999999999952,
+          "fuel": 1371.3822870910508,
+          "damage": 0,
+          "load": 0.35,
+          "simTime": 234.36666666665593,
+          "distance": 13326.992061833436,
+          "controls": {
+            "throttle": 1,
+            "rudder": 0,
+            "gear": 1
+          },
+          "docked": null
+        },
+        "sea": "calm",
+        "seed": 4821,
+        "routeTarget": null,
+        "environmentTime": 3.4165999999999985,
+        "dayStartHour": 12,
+        "dayLengthSeconds": 720,
+        "marineLife": false,
+        "autopilot": false,
+        "routeCompleted": false,
+        "mission": null,
+        "quality": "high",
+        "camera": "bridge",
+        "tutorialComplete": true,
+        "tutorialStep": 0,
+        "tutorialStart": 0
+      }
+    }
+  ],
+  "errors": [],
+  "webgl": [],
+  "external": []
+}

@@ -1,0 +1,58 @@
+{
+  "name": "deriva-maritime",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:driving": "node scripts/driving-check.mjs",
+    "test:visual": "node scripts/visual-check.mjs",
+    "test:cameras": "node scripts/camera-check.mjs",
+    "test:hydroplane": "node scripts/hydroplane-check.mjs",
+    "test:water": "node scripts/water-interaction-check.mjs",
+    "test:steering": "node scripts/steering-check.mjs",
+    "test:planning": "node scripts/planning-check.mjs",
+    "test:selection": "node scripts/selection-check.mjs",
+    "test:world": "tsx scripts/world-check.ts",
+    "test:ports-visual": "tsx scripts/port-visual-check.ts",
+    "test:navigation-regressions": "tsx scripts/navigation-regressions-check.ts",
+    "test:marine-animation": "tsx scripts/marine-animation-check.ts",
+    "test:replanning": "tsx scripts/replanning-check.ts",
+    "test:fuel-navigation": "tsx scripts/fuel-navigation-check.ts",
+    "test:hud": "tsx scripts/hud-layout-check.ts",
+    "test:speedboat": "tsx scripts/speedboat-check.ts",
+    "test:long-voyages": "tsx scripts/long-voyage-audit.ts",
+    "test:voyage-upgrade": "tsx scripts/voyage-upgrade-check.ts",
+    "test:clock-refresh": "tsx scripts/clock-refresh-check.ts",
+    "test:drake-voyage": "tsx scripts/drake-voyage-audit.ts",
+    "test:drake-browser": "tsx scripts/drake-browser-check.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "polygon-clipping": "^0.15.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tsx": "^4.20.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

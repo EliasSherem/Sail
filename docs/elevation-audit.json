@@ -1,0 +1,636 @@
+{
+  "sourceTiles": 429,
+  "bytes": 1852584,
+  "ports": [
+    {
+      "id": "marseille",
+      "min": -1312,
+      "max": 958,
+      "landSamples": 3242
+    },
+    {
+      "id": "cassis",
+      "min": -1850,
+      "max": 1033,
+      "landSamples": 3277
+    },
+    {
+      "id": "toulon",
+      "min": -2492,
+      "max": 982,
+      "landSamples": 2853
+    },
+    {
+      "id": "barcelona",
+      "min": -1456,
+      "max": 592,
+      "landSamples": 2350
+    },
+    {
+      "id": "la-ciotat",
+      "min": -2185,
+      "max": 1079,
+      "landSamples": 3260
+    },
+    {
+      "id": "bandol",
+      "min": -2396,
+      "max": 1085,
+      "landSamples": 3103
+    },
+    {
+      "id": "hyeres",
+      "min": -2547,
+      "max": 859,
+      "landSamples": 2838
+    },
+    {
+      "id": "nice",
+      "min": -2285,
+      "max": 1725,
+      "landSamples": 3304
+    },
+    {
+      "id": "monaco",
+      "min": -2411,
+      "max": 1866,
+      "landSamples": 3204
+    },
+    {
+      "id": "genoa",
+      "min": -1765,
+      "max": 1495,
+      "landSamples": 3253
+    },
+    {
+      "id": "ajaccio",
+      "min": -2197,
+      "max": 1771,
+      "landSamples": 3412
+    },
+    {
+      "id": "palma",
+      "min": -605,
+      "max": 1015,
+      "landSamples": 3148
+    },
+    {
+      "id": "valencia",
+      "min": -372,
+      "max": 454,
+      "landSamples": 2968
+    },
+    {
+      "id": "cartagena",
+      "min": -2501,
+      "max": 615,
+      "landSamples": 2497
+    },
+    {
+      "id": "malaga",
+      "min": -709,
+      "max": 1048,
+      "landSamples": 3704
+    },
+    {
+      "id": "gibraltar",
+      "min": -960,
+      "max": 784,
+      "landSamples": 2813
+    },
+    {
+      "id": "new-york",
+      "min": -150,
+      "max": 108,
+      "landSamples": 2403
+    },
+    {
+      "id": "cape-town",
+      "min": -204,
+      "max": 1057,
+      "landSamples": 3146
+    },
+    {
+      "id": "sydney",
+      "min": -642,
+      "max": 2251,
+      "landSamples": 2770
+    },
+    {
+      "id": "yokohama",
+      "min": -1007,
+      "max": 354,
+      "landSamples": 3898
+    },
+    {
+      "id": "cadiz",
+      "min": -211,
+      "max": 171,
+      "landSamples": 2892
+    },
+    {
+      "id": "lisbon",
+      "min": -1977,
+      "max": 475,
+      "landSamples": 2977
+    },
+    {
+      "id": "porto",
+      "min": -132,
+      "max": 587,
+      "landSamples": 3208
+    },
+    {
+      "id": "vigo",
+      "min": -149,
+      "max": 761,
+      "landSamples": 4001
+    },
+    {
+      "id": "a-coruna",
+      "min": -172,
+      "max": 567,
+      "landSamples": 4163
+    },
+    {
+      "id": "brest",
+      "min": -142,
+      "max": 293,
+      "landSamples": 3199
+    },
+    {
+      "id": "cork",
+      "min": -92,
+      "max": 226,
+      "landSamples": 3519
+    },
+    {
+      "id": "falmouth",
+      "min": -87,
+      "max": 286,
+      "landSamples": 2682
+    },
+    {
+      "id": "killybegs",
+      "min": -90,
+      "max": 594,
+      "landSamples": 3975
+    },
+    {
+      "id": "stornoway",
+      "min": -164,
+      "max": 616,
+      "landSamples": 3208
+    },
+    {
+      "id": "torshavn",
+      "min": -183,
+      "max": 662,
+      "landSamples": 2175
+    },
+    {
+      "id": "hofn",
+      "min": -172,
+      "max": 1339,
+      "landSamples": 2586
+    },
+    {
+      "id": "vestmannaeyjar",
+      "min": -943,
+      "max": 1269,
+      "landSamples": 1283
+    },
+    {
+      "id": "reykjavik",
+      "min": -72,
+      "max": 871,
+      "landSamples": 3723
+    },
+    {
+      "id": "isafjordur",
+      "min": -152,
+      "max": 905,
+      "landSamples": 4518
+    },
+    {
+      "id": "tasiilaq",
+      "min": -465,
+      "max": 870,
+      "landSamples": 2466
+    },
+    {
+      "id": "prins-christian-sund",
+      "min": -385,
+      "max": 952,
+      "landSamples": 2352
+    },
+    {
+      "id": "nanortalik",
+      "min": -170,
+      "max": 691,
+      "landSamples": 2461
+    },
+    {
+      "id": "qaqortoq",
+      "min": -438,
+      "max": 620,
+      "landSamples": 3511
+    },
+    {
+      "id": "paamiut",
+      "min": -299,
+      "max": 708,
+      "landSamples": 2459
+    },
+    {
+      "id": "nuuk",
+      "min": -297,
+      "max": 836,
+      "landSamples": 3276
+    },
+    {
+      "id": "sisimiut",
+      "min": -454,
+      "max": 990,
+      "landSamples": 2890
+    },
+    {
+      "id": "qikiqtarjuaq",
+      "min": -571,
+      "max": 1496,
+      "landSamples": 3425
+    },
+    {
+      "id": "pangnirtung",
+      "min": -571,
+      "max": 1492,
+      "landSamples": 4491
+    },
+    {
+      "id": "iqaluit",
+      "min": -6,
+      "max": 727,
+      "landSamples": 4984
+    },
+    {
+      "id": "saglek",
+      "min": -199,
+      "max": 978,
+      "landSamples": 2272
+    },
+    {
+      "id": "nain",
+      "min": -2,
+      "max": 782,
+      "landSamples": 4420
+    },
+    {
+      "id": "cartwright",
+      "min": -1,
+      "max": 538,
+      "landSamples": 4377
+    },
+    {
+      "id": "st-johns",
+      "min": -190,
+      "max": 291,
+      "landSamples": 2181
+    },
+    {
+      "id": "halifax",
+      "min": -154,
+      "max": 213,
+      "landSamples": 3920
+    },
+    {
+      "id": "boston",
+      "min": -186,
+      "max": 145,
+      "landSamples": 3737
+    },
+    {
+      "id": "funchal",
+      "min": -3878,
+      "max": 1735,
+      "landSamples": 1725
+    },
+    {
+      "id": "las-palmas",
+      "min": -3330,
+      "max": 1890,
+      "landSamples": 1937
+    },
+    {
+      "id": "ponta-delgada",
+      "min": -2635,
+      "max": 870,
+      "landSamples": 1219
+    },
+    {
+      "id": "horta",
+      "min": -1734,
+      "max": 2240,
+      "landSamples": 1197
+    },
+    {
+      "id": "bermuda",
+      "min": -4006,
+      "max": 228,
+      "landSamples": 570
+    },
+    {
+      "id": "miami",
+      "min": -839,
+      "max": 46,
+      "landSamples": 2127
+    },
+    {
+      "id": "nassau",
+      "min": -3240,
+      "max": 43,
+      "landSamples": 793
+    },
+    {
+      "id": "havana",
+      "min": -1924,
+      "max": 275,
+      "landSamples": 3032
+    },
+    {
+      "id": "cancun",
+      "min": -661,
+      "max": 101,
+      "landSamples": 2350
+    },
+    {
+      "id": "veracruz",
+      "min": -827,
+      "max": 111,
+      "landSamples": 2715
+    },
+    {
+      "id": "san-juan",
+      "min": -2033,
+      "max": 813,
+      "landSamples": 3161
+    },
+    {
+      "id": "cartagena-colombia",
+      "min": -1433,
+      "max": 227,
+      "landSamples": 2982
+    },
+    {
+      "id": "colon",
+      "min": -1235,
+      "max": 768,
+      "landSamples": 2922
+    },
+    {
+      "id": "balboa",
+      "min": -48,
+      "max": 674,
+      "landSamples": 3243
+    },
+    {
+      "id": "acapulco",
+      "min": -2820,
+      "max": 1077,
+      "landSamples": 3101
+    },
+    {
+      "id": "los-cabos",
+      "min": -2842,
+      "max": 1009,
+      "landSamples": 2039
+    },
+    {
+      "id": "manzanillo",
+      "min": -2016,
+      "max": 1745,
+      "landSamples": 3096
+    },
+    {
+      "id": "san-diego",
+      "min": -1284,
+      "max": 745,
+      "landSamples": 3111
+    },
+    {
+      "id": "los-angeles",
+      "min": -919,
+      "max": 471,
+      "landSamples": 2312
+    },
+    {
+      "id": "san-francisco",
+      "min": -88,
+      "max": 735,
+      "landSamples": 2700
+    },
+    {
+      "id": "seattle",
+      "min": -261,
+      "max": 533,
+      "landSamples": 5230
+    },
+    {
+      "id": "vancouver",
+      "min": -7,
+      "max": 1545,
+      "landSamples": 3369
+    },
+    {
+      "id": "callao",
+      "min": -230,
+      "max": 1711,
+      "landSamples": 2192
+    },
+    {
+      "id": "valparaiso",
+      "min": -2513,
+      "max": 995,
+      "landSamples": 3157
+    },
+    {
+      "id": "rio-de-janeiro",
+      "min": -212,
+      "max": 898,
+      "landSamples": 2907
+    },
+    {
+      "id": "santos",
+      "min": -90,
+      "max": 1120,
+      "landSamples": 2710
+    },
+    {
+      "id": "buenos-aires",
+      "min": -4,
+      "max": 44,
+      "landSamples": 3457
+    },
+    {
+      "id": "montevideo",
+      "min": -184,
+      "max": 86,
+      "landSamples": 2247
+    },
+    {
+      "id": "dakar",
+      "min": -1327,
+      "max": 54,
+      "landSamples": 1000
+    },
+    {
+      "id": "casablanca",
+      "min": -129,
+      "max": 252,
+      "landSamples": 3339
+    },
+    {
+      "id": "rotterdam",
+      "min": -23,
+      "max": 16,
+      "landSamples": 770
+    },
+    {
+      "id": "hamburg",
+      "min": -22,
+      "max": 64,
+      "landSamples": 527
+    },
+    {
+      "id": "bergen",
+      "min": -378,
+      "max": 883,
+      "landSamples": 4983
+    },
+    {
+      "id": "oslo",
+      "min": -88,
+      "max": 664,
+      "landSamples": 6375
+    },
+    {
+      "id": "piraeus",
+      "min": -259,
+      "max": 1291,
+      "landSamples": 3874
+    },
+    {
+      "id": "istanbul",
+      "min": -1304,
+      "max": 471,
+      "landSamples": 3468
+    },
+    {
+      "id": "port-said",
+      "min": -58,
+      "max": 27,
+      "landSamples": 1387
+    },
+    {
+      "id": "haifa",
+      "min": -1328,
+      "max": 690,
+      "landSamples": 3038
+    },
+    {
+      "id": "ashdod",
+      "min": -699,
+      "max": 385,
+      "landSamples": 3161
+    },
+    {
+      "id": "suez",
+      "min": -47,
+      "max": 863,
+      "landSamples": 5291
+    },
+    {
+      "id": "eilat",
+      "min": -946,
+      "max": 1550,
+      "landSamples": 5784
+    },
+    {
+      "id": "jeddah",
+      "min": -792,
+      "max": 456,
+      "landSamples": 3392
+    },
+    {
+      "id": "dubai",
+      "min": -42,
+      "max": 133,
+      "landSamples": 2568
+    },
+    {
+      "id": "mumbai",
+      "min": -76,
+      "max": 357,
+      "landSamples": 2300
+    },
+    {
+      "id": "colombo",
+      "min": -1373,
+      "max": 124,
+      "landSamples": 2873
+    },
+    {
+      "id": "singapore",
+      "min": -403,
+      "max": 213,
+      "landSamples": 3297
+    },
+    {
+      "id": "hong-kong",
+      "min": -178,
+      "max": 823,
+      "landSamples": 2719
+    },
+    {
+      "id": "shanghai",
+      "min": -111,
+      "max": 236,
+      "landSamples": 302
+    },
+    {
+      "id": "busan",
+      "min": -205,
+      "max": 733,
+      "landSamples": 2148
+    },
+    {
+      "id": "auckland",
+      "min": -779,
+      "max": 612,
+      "landSamples": 4272
+    },
+    {
+      "id": "brisbane",
+      "min": -89,
+      "max": 267,
+      "landSamples": 3512
+    },
+    {
+      "id": "fremantle",
+      "min": -196,
+      "max": 278,
+      "landSamples": 3299
+    },
+    {
+      "id": "st-anthony",
+      "min": -214,
+      "max": 305,
+      "landSamples": 2216
+    },
+    {
+      "id": "saint-pierre",
+      "min": -166,
+      "max": 445,
+      "landSamples": 896
+    }
+  ]
+}

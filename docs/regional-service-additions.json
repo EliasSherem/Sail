@@ -1,0 +1,564 @@
+{
+  "seeds": [
+    {
+      "id": "la-spezia",
+      "name": "La Spezia",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 44.1,
+      "lon": 9.8333333,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "livorno",
+      "name": "Livorno",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 43.542,
+      "lon": 10.29,
+      "bearing": 270,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "piombino",
+      "name": "Piombino",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 42.933,
+      "lon": 10.557,
+      "bearing": 140,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "civitavecchia",
+      "name": "Civitavecchia",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 42.102,
+      "lon": 11.771,
+      "bearing": 260,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "anzio",
+      "name": "Anzio",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 41.446,
+      "lon": 12.637,
+      "bearing": 225,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "gaeta",
+      "name": "Gaeta",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 41.223,
+      "lon": 13.577,
+      "bearing": 225,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "naples",
+      "name": "Nápoles",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 40.833,
+      "lon": 14.275,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "salerno",
+      "name": "Salerno",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 40.6666667,
+      "lon": 14.75,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "vibo-valentia",
+      "name": "Vibo Valentia",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 38.723,
+      "lon": 16.13,
+      "bearing": 310,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "palermo",
+      "name": "Palermo",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 38.119,
+      "lon": 13.38,
+      "bearing": 0,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "messina",
+      "name": "Messina",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 38.2,
+      "lon": 15.5666667,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "catania",
+      "name": "Catania",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 37.5,
+      "lon": 15.1,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "crotone",
+      "name": "Crotone",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 39.078,
+      "lon": 17.136,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "taranto",
+      "name": "Taranto",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 40.4666667,
+      "lon": 17.2,
+      "bearing": 225,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "brindisi",
+      "name": "Brindisi",
+      "country": "Italia",
+      "region": "Mediterráneo",
+      "lat": 40.65,
+      "lon": 17.9833333,
+      "bearing": 45,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "corfu",
+      "name": "Corfú",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 39.6166667,
+      "lon": 19.9333333,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "argostoli",
+      "name": "Argostoli",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 38.1833333,
+      "lon": 20.5166667,
+      "bearing": 220,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "katakolon",
+      "name": "Katakolon",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 37.65,
+      "lon": 21.3166667,
+      "bearing": 250,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "kalamata",
+      "name": "Kalamata",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 37.0166667,
+      "lon": 22.1166667,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "kissamos",
+      "name": "Kissamos",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 35.5166667,
+      "lon": 23.6333333,
+      "bearing": 0,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "heraklion",
+      "name": "Heraclión",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 35.35,
+      "lon": 25.15,
+      "bearing": 0,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "sitia",
+      "name": "Sitia",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 35.2166667,
+      "lon": 26.1333333,
+      "bearing": 0,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "rhodes",
+      "name": "Rodas",
+      "country": "Grecia",
+      "region": "Mediterráneo",
+      "lat": 36.45,
+      "lon": 28.2333333,
+      "bearing": 90,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "fethiye",
+      "name": "Fethiye",
+      "country": "Turquía",
+      "region": "Mediterráneo",
+      "lat": 36.6333333,
+      "lon": 29.1,
+      "bearing": 220,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "antalya",
+      "name": "Antalya",
+      "country": "Turquía",
+      "region": "Mediterráneo",
+      "lat": 36.8333333,
+      "lon": 30.6166667,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "alanya",
+      "name": "Alanya",
+      "country": "Turquía",
+      "region": "Mediterráneo",
+      "lat": 36.5333333,
+      "lon": 32.0,
+      "bearing": 160,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "limassol",
+      "name": "Limassol",
+      "country": "Chipre",
+      "region": "Mediterráneo",
+      "lat": 34.6666667,
+      "lon": 33.05,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "larnaca",
+      "name": "Lárnaca",
+      "country": "Chipre",
+      "region": "Mediterráneo",
+      "lat": 34.9166667,
+      "lon": 33.65,
+      "bearing": 130,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "progreso",
+      "name": "Progreso",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 21.2833333,
+      "lon": -89.6666667,
+      "bearing": 0,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "lazaro-cardenas",
+      "name": "Lázaro Cárdenas",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 17.9333333,
+      "lon": -102.1666667,
+      "bearing": 180,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "puerto-vallarta",
+      "name": "Puerto Vallarta",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 20.6166667,
+      "lon": -105.2666667,
+      "bearing": 270,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "mazatlan",
+      "name": "Mazatlán",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 23.2,
+      "lon": -106.4166667,
+      "bearing": 225,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "la-paz",
+      "name": "La Paz",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 24.1666667,
+      "lon": -110.3166667,
+      "bearing": 310,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "ensenada",
+      "name": "Ensenada",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 31.8666667,
+      "lon": -116.6333333,
+      "bearing": 225,
+      "source": "https://msi.nga.mil/api/publications/world-port-index?output=json"
+    },
+    {
+      "id": "rio-lagartos",
+      "name": "Río Lagartos",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 21.5994611,
+      "lon": -88.1606615,
+      "bearing": 0,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "celestun",
+      "name": "Celestún",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 20.8479587,
+      "lon": -90.4069771,
+      "bearing": 270,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "campeche",
+      "name": "Campeche",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 19.8288689,
+      "lon": -90.5817894,
+      "bearing": 270,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "champoton",
+      "name": "Champotón",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 19.3580347,
+      "lon": -90.7215274,
+      "bearing": 270,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "ciudad-carmen",
+      "name": "Ciudad del Carmen",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 18.641667,
+      "lon": -91.841667,
+      "bearing": 270,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "dos-bocas",
+      "name": "Dos Bocas",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 18.4379359,
+      "lon": -93.1927776,
+      "bearing": 0,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "coatzacoalcos",
+      "name": "Coatzacoalcos",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 18.1458109,
+      "lon": -94.4096564,
+      "bearing": 0,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "alvarado",
+      "name": "Alvarado",
+      "country": "México",
+      "region": "Caribe",
+      "lat": 18.7673288,
+      "lon": -95.7659538,
+      "bearing": 45,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "zihuatanejo",
+      "name": "Zihuatanejo",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 17.6350663,
+      "lon": -101.558779,
+      "bearing": 180,
+      "source": "https://www.gob.mx/puertosymarinamercante/acciones-y-programas/puertos-y-terminales"
+    },
+    {
+      "id": "san-carlos",
+      "name": "Puerto San Carlos · Magdalena",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 24.7886111,
+      "lon": -112.1177778,
+      "bearing": 240,
+      "source": "https://apibcs.com.mx/puerto-de-san-carlos/"
+    },
+    {
+      "id": "bahia-tortugas",
+      "name": "Bahía Tortugas",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 27.6833333,
+      "lon": -114.8833333,
+      "bearing": 180,
+      "source": "https://digaohm.semar.gob.mx/derrotero/derrotero/bc.pdf"
+    },
+    {
+      "id": "san-quintin",
+      "name": "San Quintín",
+      "country": "México",
+      "region": "Pacífico",
+      "lat": 30.4358333,
+      "lon": -115.9869444,
+      "bearing": 270,
+      "source": "https://oceanografia.semar.gob.mx/Templates/grafnum_sanquintin.html"
+    }
+  ],
+  "networks": [
+    [
+      "genoa",
+      "la-spezia",
+      "livorno",
+      "piombino",
+      "civitavecchia",
+      "anzio",
+      "gaeta",
+      "naples",
+      "salerno",
+      "vibo-valentia",
+      "messina",
+      "catania",
+      "crotone",
+      "taranto",
+      "brindisi",
+      "corfu",
+      "argostoli",
+      "katakolon",
+      "kalamata",
+      "kissamos",
+      "heraklion",
+      "sitia",
+      "rhodes",
+      "fethiye",
+      "antalya",
+      "alanya",
+      "limassol",
+      "larnaca",
+      "haifa"
+    ],
+    [
+      "palermo",
+      "vibo-valentia"
+    ],
+    [
+      "palermo",
+      "messina"
+    ],
+    [
+      "ajaccio",
+      "piombino"
+    ],
+    [
+      "kalamata",
+      "piraeus"
+    ],
+    [
+      "piraeus",
+      "heraklion"
+    ],
+    [
+      "piraeus",
+      "rhodes"
+    ],
+    [
+      "rhodes",
+      "limassol"
+    ],
+    [
+      "limassol",
+      "haifa"
+    ],
+    [
+      "cancun",
+      "rio-lagartos",
+      "progreso",
+      "celestun",
+      "campeche",
+      "champoton",
+      "ciudad-carmen",
+      "dos-bocas",
+      "coatzacoalcos",
+      "alvarado",
+      "veracruz"
+    ],
+    [
+      "acapulco",
+      "zihuatanejo",
+      "lazaro-cardenas",
+      "manzanillo",
+      "puerto-vallarta",
+      "mazatlan",
+      "la-paz",
+      "los-cabos"
+    ],
+    [
+      "mazatlan",
+      "los-cabos"
+    ],
+    [
+      "los-cabos",
+      "san-carlos",
+      "bahia-tortugas",
+      "san-quintin",
+      "ensenada",
+      "san-diego"
+    ]
+  ]
+}

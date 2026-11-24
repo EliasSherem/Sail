@@ -1,0 +1,56 @@
+[
+  {
+    "id": "marseille",
+    "milliseconds": 406.56229200000007,
+    "vertices": 79797,
+    "meshes": 40
+  },
+  {
+    "id": "marseille",
+    "milliseconds": 285.66783399999997,
+    "vertices": 79797,
+    "meshes": 40
+  },
+  {
+    "id": "marseille",
+    "milliseconds": 260.62808300000006,
+    "vertices": 79797,
+    "meshes": 40
+  },
+  {
+    "id": "new-york",
+    "milliseconds": 35.61708399999998,
+    "vertices": 27881,
+    "meshes": 18
+  },
+  {
+    "id": "cancun",
+    "milliseconds": 115.68704200000002,
+    "vertices": 42463,
+    "meshes": 31
+  },
+  {
+    "id": "eilat",
+    "milliseconds": 155.44429100000002,
+    "vertices": 50904,
+    "meshes": 20
+  },
+  {
+    "id": "los-cabos",
+    "milliseconds": 77.30133299999989,
+    "vertices": 33732,
+    "meshes": 20
+  },
+  {
+    "id": "nuuk",
+    "milliseconds": 36.54579100000001,
+    "vertices": 31424,
+    "meshes": 20
+  },
+  {
+    "id": "singapore",
+    "milliseconds": 48.262833,
+    "vertices": 27440,
+    "meshes": 31
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "ships": 5,
+  "cameras": [
+    "follow",
+    "bridge"
+  ],
+  "errors": []
+}

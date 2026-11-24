@@ -1,0 +1,1501 @@
+{
+  "passed": true,
+  "generatedAt": "2026-09-26T21:38:25.553Z",
+  "cases": [
+    {
+      "shipId": "launch",
+      "from": "marseille",
+      "to": "new-york",
+      "planningMs": 8970.5965,
+      "distanceKm": 14883.257647980165,
+      "stages": [
+        {
+          "to": "barcelona",
+          "km": 347.8064443568101,
+          "requiredLitres": 227.1966254564337,
+          "availableLitres": 420,
+          "reserveLitres": 45.43932509128674
+        },
+        {
+          "to": "cartagena",
+          "km": 531.7183119699631,
+          "requiredLitres": 345.3367077865582,
+          "availableLitres": 420,
+          "reserveLitres": 69.06734155731164
+        },
+        {
+          "to": "gibraltar",
+          "km": 595.3625343600359,
+          "requiredLitres": 389.7455855883035,
+          "availableLitres": 420,
+          "reserveLitres": 77.9491171176607
+        },
+        {
+          "to": "lisbon",
+          "km": 594.0287700756405,
+          "requiredLitres": 390.5761649533966,
+          "availableLitres": 420,
+          "reserveLitres": 78.11523299067932
+        },
+        {
+          "to": "a-coruna",
+          "km": 634.2753056593987,
+          "requiredLitres": 412.99990797888404,
+          "availableLitres": 420,
+          "reserveLitres": 82.59998159577681
+        },
+        {
+          "to": "brest",
+          "km": 626.0624812956487,
+          "requiredLitres": 404.95733683508917,
+          "availableLitres": 420,
+          "reserveLitres": 80.99146736701783
+        },
+        {
+          "to": "cork",
+          "km": 474.1618920081478,
+          "requiredLitres": 312.12106882896074,
+          "availableLitres": 420,
+          "reserveLitres": 62.42421376579215
+        },
+        {
+          "to": "killybegs",
+          "km": 593.8890345696761,
+          "requiredLitres": 386.8372363252698,
+          "availableLitres": 420,
+          "reserveLitres": 77.36744726505397
+        },
+        {
+          "to": "stornoway",
+          "km": 472.4881340148457,
+          "requiredLitres": 306.87989234538173,
+          "availableLitres": 420,
+          "reserveLitres": 61.37597846907635
+        },
+        {
+          "to": "torshavn",
+          "km": 455.86286986958066,
+          "requiredLitres": 297.897619758418,
+          "availableLitres": 420,
+          "reserveLitres": 59.5795239516836
+        },
+        {
+          "to": "hofn",
+          "km": 553.1342081288026,
+          "requiredLitres": 364.7872684416312,
+          "availableLitres": 420,
+          "reserveLitres": 72.95745368832624
+        },
+        {
+          "to": "reykjavik",
+          "km": 502.559943322529,
+          "requiredLitres": 329.5414603881194,
+          "availableLitres": 420,
+          "reserveLitres": 65.90829207762388
+        },
+        {
+          "to": "isafjordur",
+          "km": 346.7530058928593,
+          "requiredLitres": 226.64366824780203,
+          "availableLitres": 420,
+          "reserveLitres": 45.328733649560405
+        },
+        {
+          "to": "kangerlussuaq-east",
+          "km": 434.58995145684105,
+          "requiredLitres": 286.9778710207026,
+          "availableLitres": 420,
+          "reserveLitres": 57.39557420414052
+        },
+        {
+          "to": "kulusuk",
+          "km": 408.0539995543141,
+          "requiredLitres": 265.66493258840273,
+          "availableLitres": 420,
+          "reserveLitres": 53.13298651768055
+        },
+        {
+          "to": "qutdleq",
+          "km": 568.8795956327355,
+          "requiredLitres": 368.96632078221523,
+          "availableLitres": 420,
+          "reserveLitres": 73.79326415644304
+        },
+        {
+          "to": "prins-christian-sund",
+          "km": 170.00254048889437,
+          "requiredLitres": 110.07318575511715,
+          "availableLitres": 420,
+          "reserveLitres": 22.01463715102343
+        },
+        {
+          "to": "paamiut",
+          "km": 539.9284368575462,
+          "requiredLitres": 355.3903183017077,
+          "availableLitres": 420,
+          "reserveLitres": 71.07806366034154
+        },
+        {
+          "to": "nuuk",
+          "km": 269.3811000091301,
+          "requiredLitres": 177.09604196443348,
+          "availableLitres": 420,
+          "reserveLitres": 35.419208392886695
+        },
+        {
+          "to": "sisimiut",
+          "km": 356.48390338562933,
+          "requiredLitres": 233.74008339480542,
+          "availableLitres": 420,
+          "reserveLitres": 46.748016678961086
+        },
+        {
+          "to": "cape-dyer",
+          "km": 364.0445771071637,
+          "requiredLitres": 239.8571616760516,
+          "availableLitres": 420,
+          "reserveLitres": 47.97143233521032
+        },
+        {
+          "to": "brevoort",
+          "km": 424.6872857368518,
+          "requiredLitres": 274.8861917401302,
+          "availableLitres": 420,
+          "reserveLitres": 54.97723834802604
+        },
+        {
+          "to": "saglek",
+          "km": 582.1259291625995,
+          "requiredLitres": 374.0818108932012,
+          "availableLitres": 420,
+          "reserveLitres": 74.81636217864023
+        },
+        {
+          "to": "nain",
+          "km": 303.69941241499754,
+          "requiredLitres": 195.8138250022613,
+          "availableLitres": 420,
+          "reserveLitres": 39.16276500045226
+        },
+        {
+          "to": "cartwright",
+          "km": 497.18517847261455,
+          "requiredLitres": 318.08969330746567,
+          "availableLitres": 420,
+          "reserveLitres": 63.617938661493135
+        },
+        {
+          "to": "st-anthony",
+          "km": 374.8887214370354,
+          "requiredLitres": 241.25988439386734,
+          "availableLitres": 420,
+          "reserveLitres": 48.25197687877347
+        },
+        {
+          "to": "st-johns",
+          "km": 481.0995759770196,
+          "requiredLitres": 307.8488934204844,
+          "availableLitres": 420,
+          "reserveLitres": 61.569778684096875
+        },
+        {
+          "to": "saint-pierre",
+          "km": 375.4100887688434,
+          "requiredLitres": 246.215542190632,
+          "availableLitres": 420,
+          "reserveLitres": 49.2431084381264
+        },
+        {
+          "to": "halifax",
+          "km": 635.8148976177441,
+          "requiredLitres": 417.1694103143899,
+          "availableLitres": 420,
+          "reserveLitres": 83.43388206287798
+        },
+        {
+          "to": "yarmouth-canada",
+          "km": 327.8657478991799,
+          "requiredLitres": 214.59633439566093,
+          "availableLitres": 420,
+          "reserveLitres": 42.91926687913219
+        },
+        {
+          "to": "boston",
+          "km": 518.1680729515185,
+          "requiredLitres": 339.5608258827682,
+          "availableLitres": 420,
+          "reserveLitres": 67.91216517655364
+        },
+        {
+          "to": "new-york",
+          "km": 522.8456975255676,
+          "requiredLitres": 340.99503253909893,
+          "availableLitres": 420,
+          "reserveLitres": 68.19900650781979
+        }
+      ]
+    },
+    {
+      "shipId": "launch",
+      "from": "marseille",
+      "to": "haifa",
+      "planningMs": 382.0473340000008,
+      "distanceKm": 4637.835023171192,
+      "stages": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "requiredLitres": 246.13924605413666,
+          "availableLitres": 420,
+          "reserveLitres": 49.22784921082733
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "requiredLitres": 113.92513206379843,
+          "availableLitres": 420,
+          "reserveLitres": 22.785026412759684
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "requiredLitres": 378.5209606388136,
+          "availableLitres": 420,
+          "reserveLitres": 75.70419212776272
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "requiredLitres": 157.52187237034653,
+          "availableLitres": 420,
+          "reserveLitres": 31.504374474069305
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "requiredLitres": 325.06363308935903,
+          "availableLitres": 420,
+          "reserveLitres": 65.0127266178718
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "requiredLitres": 275.623074504239,
+          "availableLitres": 420,
+          "reserveLitres": 55.1246149008478
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "requiredLitres": 392.23340640397316,
+          "availableLitres": 420,
+          "reserveLitres": 78.44668128079464
+        },
+        {
+          "to": "heraklion",
+          "km": 577.3330119832412,
+          "requiredLitres": 369.96277598823553,
+          "availableLitres": 420,
+          "reserveLitres": 73.9925551976471
+        },
+        {
+          "to": "rhodes",
+          "km": 331.3733714402618,
+          "requiredLitres": 212.5086810446666,
+          "availableLitres": 420,
+          "reserveLitres": 42.501736208933316
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "requiredLitres": 333.9323724511146,
+          "availableLitres": 420,
+          "reserveLitres": 66.78647449022291
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "requiredLitres": 172.2008502441922,
+          "availableLitres": 420,
+          "reserveLitres": 34.44017004883844
+        }
+      ]
+    },
+    {
+      "shipId": "launch",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "planningMs": 307.15833400000156,
+      "distanceKm": 1505.4278203876113,
+      "stages": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "requiredLitres": 353.9778546527006,
+          "availableLitres": 420,
+          "reserveLitres": 70.79557093054012
+        },
+        {
+          "to": "mazatlan",
+          "km": 609.4077276729894,
+          "requiredLitres": 399.87216358004497,
+          "availableLitres": 420,
+          "reserveLitres": 79.97443271600899
+        },
+        {
+          "to": "los-cabos",
+          "km": 359.96274332577525,
+          "requiredLitres": 237.26604150374686,
+          "availableLitres": 420,
+          "reserveLitres": 47.453208300749374
+        }
+      ]
+    },
+    {
+      "shipId": "launch",
+      "from": "cancun",
+      "to": "veracruz",
+      "planningMs": 210.109292000001,
+      "distanceKm": 1109.890662248804,
+      "stages": [
+        {
+          "to": "celestun",
+          "km": 475.5129182128606,
+          "requiredLitres": 312.5922161835637,
+          "availableLitres": 420,
+          "reserveLitres": 62.51844323671274
+        },
+        {
+          "to": "veracruz",
+          "km": 634.3777440359435,
+          "requiredLitres": 416.6931179213819,
+          "availableLitres": 420,
+          "reserveLitres": 83.33862358427638
+        }
+      ]
+    },
+    {
+      "shipId": "yacht",
+      "from": "marseille",
+      "to": "new-york",
+      "planningMs": 1980.080084000001,
+      "distanceKm": 15079.487239477618,
+      "stages": [
+        {
+          "to": "barcelona",
+          "km": 347.8064443568101,
+          "requiredLitres": 1310.1727274705158,
+          "availableLitres": 2400,
+          "reserveLitres": 262.03454549410316
+        },
+        {
+          "to": "cartagena",
+          "km": 531.7183119699631,
+          "requiredLitres": 1988.7955463276608,
+          "availableLitres": 2400,
+          "reserveLitres": 397.7591092655322
+        },
+        {
+          "to": "gibraltar",
+          "km": 595.3625343600359,
+          "requiredLitres": 2247.893711890848,
+          "availableLitres": 2400,
+          "reserveLitres": 449.5787423781696
+        },
+        {
+          "to": "lisbon",
+          "km": 594.0287700756405,
+          "requiredLitres": 2253.3552241121206,
+          "availableLitres": 2400,
+          "reserveLitres": 450.6710448224241
+        },
+        {
+          "to": "a-coruna",
+          "km": 634.2753056593987,
+          "requiredLitres": 2376.3831691898577,
+          "availableLitres": 2400,
+          "reserveLitres": 475.27663383797153
+        },
+        {
+          "to": "brest",
+          "km": 626.0624812956487,
+          "requiredLitres": 2326.085464803809,
+          "availableLitres": 2400,
+          "reserveLitres": 465.2170929607618
+        },
+        {
+          "to": "cork",
+          "km": 474.1618920081478,
+          "requiredLitres": 1800.3938743956678,
+          "availableLitres": 2400,
+          "reserveLitres": 360.07877487913356
+        },
+        {
+          "to": "killybegs",
+          "km": 593.8890345696761,
+          "requiredLitres": 2226.530217547791,
+          "availableLitres": 2400,
+          "reserveLitres": 445.3060435095582
+        },
+        {
+          "to": "stornoway",
+          "km": 472.4881340148457,
+          "requiredLitres": 1764.8307290825464,
+          "availableLitres": 2400,
+          "reserveLitres": 352.9661458165093
+        },
+        {
+          "to": "torshavn",
+          "km": 455.86286986958066,
+          "requiredLitres": 1715.2652856113775,
+          "availableLitres": 2400,
+          "reserveLitres": 343.0530571222755
+        },
+        {
+          "to": "hofn",
+          "km": 553.1342081288026,
+          "requiredLitres": 2106.264143065354,
+          "availableLitres": 2400,
+          "reserveLitres": 421.25282861307073
+        },
+        {
+          "to": "reykjavik",
+          "km": 502.559943322529,
+          "requiredLitres": 1900.9006670109634,
+          "availableLitres": 2400,
+          "reserveLitres": 380.18013340219267
+        },
+        {
+          "to": "isafjordur",
+          "km": 346.7530058928593,
+          "requiredLitres": 1305.6253700050727,
+          "availableLitres": 2400,
+          "reserveLitres": 261.1250740010145
+        },
+        {
+          "to": "kangerlussuaq-east",
+          "km": 434.58995145684105,
+          "requiredLitres": 1657.250326529452,
+          "availableLitres": 2400,
+          "reserveLitres": 331.4500653058904
+        },
+        {
+          "to": "kulusuk",
+          "km": 408.0539995543141,
+          "requiredLitres": 1530.8518949028844,
+          "availableLitres": 2400,
+          "reserveLitres": 306.17037898057686
+        },
+        {
+          "to": "qutdleq",
+          "km": 568.8795956327355,
+          "requiredLitres": 2124.25826458898,
+          "availableLitres": 2400,
+          "reserveLitres": 424.85165291779606
+        },
+        {
+          "to": "prins-christian-sund",
+          "km": 170.00254048889437,
+          "requiredLitres": 633.6553679592292,
+          "availableLitres": 2400,
+          "reserveLitres": 126.73107359184584
+        },
+        {
+          "to": "paamiut",
+          "km": 539.9284368575462,
+          "requiredLitres": 2051.298351215614,
+          "availableLitres": 2400,
+          "reserveLitres": 410.2596702431228
+        },
+        {
+          "to": "nuuk",
+          "km": 269.3811000091301,
+          "requiredLitres": 1021.2145421322599,
+          "availableLitres": 2400,
+          "reserveLitres": 204.24290842645198
+        },
+        {
+          "to": "sisimiut",
+          "km": 356.48390338562933,
+          "requiredLitres": 1347.0508595700028,
+          "availableLitres": 2400,
+          "reserveLitres": 269.41017191400056
+        },
+        {
+          "to": "cape-dyer",
+          "km": 364.0445771071637,
+          "requiredLitres": 1385.3579167394355,
+          "availableLitres": 2400,
+          "reserveLitres": 277.0715833478871
+        },
+        {
+          "to": "brevoort",
+          "km": 424.6872857368518,
+          "requiredLitres": 1582.127740551071,
+          "availableLitres": 2400,
+          "reserveLitres": 316.4255481102142
+        },
+        {
+          "to": "saglek",
+          "km": 582.1259291625995,
+          "requiredLitres": 2148.844477589019,
+          "availableLitres": 2400,
+          "reserveLitres": 429.7688955178038
+        },
+        {
+          "to": "nain",
+          "km": 303.69941241499754,
+          "requiredLitres": 1125.919038871783,
+          "availableLitres": 2400,
+          "reserveLitres": 225.18380777435658
+        },
+        {
+          "to": "cartwright",
+          "km": 497.18517847261455,
+          "requiredLitres": 1824.8515791390607,
+          "availableLitres": 2400,
+          "reserveLitres": 364.97031582781216
+        },
+        {
+          "to": "st-anthony",
+          "km": 374.8887214370354,
+          "requiredLitres": 1386.5491537081475,
+          "availableLitres": 2400,
+          "reserveLitres": 277.3098307416295
+        },
+        {
+          "to": "st-johns",
+          "km": 481.0995759770196,
+          "requiredLitres": 1766.2222511011173,
+          "availableLitres": 2400,
+          "reserveLitres": 353.2444502202235
+        },
+        {
+          "to": "saint-pierre",
+          "km": 375.4100887688434,
+          "requiredLitres": 1420.9193332797488,
+          "availableLitres": 2400,
+          "reserveLitres": 284.18386665594977
+        },
+        {
+          "to": "north-sydney",
+          "km": 340.69282556704803,
+          "requiredLitres": 1295.791359105003,
+          "availableLitres": 2400,
+          "reserveLitres": 259.1582718210006
+        },
+        {
+          "to": "halifax",
+          "km": 491.3516635481485,
+          "requiredLitres": 1849.264314894625,
+          "availableLitres": 2400,
+          "reserveLitres": 369.852862978925
+        },
+        {
+          "to": "yarmouth-canada",
+          "km": 327.8657478991799,
+          "requiredLitres": 1237.7563313573971,
+          "availableLitres": 2400,
+          "reserveLitres": 247.55126627147942
+        },
+        {
+          "to": "boston",
+          "km": 518.1680729515185,
+          "requiredLitres": 1959.1779831372005,
+          "availableLitres": 2400,
+          "reserveLitres": 391.8355966274401
+        },
+        {
+          "to": "new-york",
+          "km": 522.8456975255676,
+          "requiredLitres": 1965.1896472893118,
+          "availableLitres": 2400,
+          "reserveLitres": 393.03792945786233
+        }
+      ]
+    },
+    {
+      "shipId": "yacht",
+      "from": "marseille",
+      "to": "haifa",
+      "planningMs": 352.74041599999873,
+      "distanceKm": 4637.835023171192,
+      "stages": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "requiredLitres": 1413.022537302803,
+          "availableLitres": 2400,
+          "reserveLitres": 282.60450746056057
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "requiredLitres": 654.4603424206822,
+          "availableLitres": 2400,
+          "reserveLitres": 130.89206848413644
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "requiredLitres": 2171.6173398774918,
+          "availableLitres": 2400,
+          "reserveLitres": 434.3234679754984
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "requiredLitres": 903.7124416101688,
+          "availableLitres": 2400,
+          "reserveLitres": 180.74248832203375
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "requiredLitres": 1869.4933188921596,
+          "availableLitres": 2400,
+          "reserveLitres": 373.8986637784319
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "requiredLitres": 1585.8920722033713,
+          "availableLitres": 2400,
+          "reserveLitres": 317.17841444067426
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "requiredLitres": 2251.5647680150487,
+          "availableLitres": 2400,
+          "reserveLitres": 450.31295360300976
+        },
+        {
+          "to": "heraklion",
+          "km": 577.3330119832412,
+          "requiredLitres": 2123.1465359433532,
+          "availableLitres": 2400,
+          "reserveLitres": 424.6293071886706
+        },
+        {
+          "to": "rhodes",
+          "km": 331.3733714402618,
+          "requiredLitres": 1218.9074849790354,
+          "availableLitres": 2400,
+          "reserveLitres": 243.78149699580706
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "requiredLitres": 1913.9593205850904,
+          "availableLitres": 2400,
+          "reserveLitres": 382.79186411701806
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "requiredLitres": 987.2115031311251,
+          "availableLitres": 2400,
+          "reserveLitres": 197.44230062622503
+        }
+      ]
+    },
+    {
+      "shipId": "yacht",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "planningMs": 186.73970800000097,
+      "distanceKm": 1505.4278203876113,
+      "stages": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "requiredLitres": 2044.2572254276492,
+          "availableLitres": 2400,
+          "reserveLitres": 408.85144508552986
+        },
+        {
+          "to": "mazatlan",
+          "km": 609.4077276729894,
+          "requiredLitres": 2305.197819626552,
+          "availableLitres": 2400,
+          "reserveLitres": 461.03956392531035
+        },
+        {
+          "to": "los-cabos",
+          "km": 359.96274332577525,
+          "requiredLitres": 1370.4637677335386,
+          "availableLitres": 2400,
+          "reserveLitres": 274.09275354670774
+        }
+      ]
+    },
+    {
+      "shipId": "yacht",
+      "from": "cancun",
+      "to": "veracruz",
+      "planningMs": 235.1052499999987,
+      "distanceKm": 1341.740937184282,
+      "stages": [
+        {
+          "to": "celestun",
+          "km": 475.5129182128606,
+          "requiredLitres": 1804.5623310460212,
+          "availableLitres": 2400,
+          "reserveLitres": 360.91246620920424
+        },
+        {
+          "to": "champoton",
+          "km": 172.10999595941874,
+          "requiredLitres": 641.021389349055,
+          "availableLitres": 2400,
+          "reserveLitres": 128.204277869811
+        },
+        {
+          "to": "dos-bocas",
+          "km": 299.03572955259006,
+          "requiredLitres": 1133.4088961563261,
+          "availableLitres": 2400,
+          "reserveLitres": 226.6817792312652
+        },
+        {
+          "to": "veracruz",
+          "km": 395.08229345941265,
+          "requiredLitres": 1505.6010060904564,
+          "availableLitres": 2400,
+          "reserveLitres": 301.12020121809127
+        }
+      ]
+    },
+    {
+      "shipId": "speedboat",
+      "from": "marseille",
+      "to": "new-york",
+      "planningMs": 1911.7315419999995,
+      "distanceKm": 15079.487239477618,
+      "stages": [
+        {
+          "to": "barcelona",
+          "km": 347.8064443568101,
+          "requiredLitres": 770.6257955507867,
+          "availableLitres": 1400,
+          "reserveLitres": 154.12515911015734
+        },
+        {
+          "to": "cartagena",
+          "km": 531.7183119699631,
+          "requiredLitres": 1170.5489196355263,
+          "availableLitres": 1400,
+          "reserveLitres": 234.10978392710527
+        },
+        {
+          "to": "gibraltar",
+          "km": 595.3625343600359,
+          "requiredLitres": 1313.3477158613593,
+          "availableLitres": 1400,
+          "reserveLitres": 262.66954317227186
+        },
+        {
+          "to": "lisbon",
+          "km": 594.0287700756405,
+          "requiredLitres": 1307.5180607639616,
+          "availableLitres": 1400,
+          "reserveLitres": 261.5036121527923
+        },
+        {
+          "to": "a-coruna",
+          "km": 634.2753056593987,
+          "requiredLitres": 1385.8655013220268,
+          "availableLitres": 1400,
+          "reserveLitres": 277.1731002644054
+        },
+        {
+          "to": "brest",
+          "km": 626.0624812956487,
+          "requiredLitres": 1358.3740251797535,
+          "availableLitres": 1400,
+          "reserveLitres": 271.6748050359507
+        },
+        {
+          "to": "cork",
+          "km": 474.1618920081478,
+          "requiredLitres": 1041.8435956229555,
+          "availableLitres": 1400,
+          "reserveLitres": 208.36871912459108
+        },
+        {
+          "to": "killybegs",
+          "km": 593.8890345696761,
+          "requiredLitres": 1298.6781509829852,
+          "availableLitres": 1400,
+          "reserveLitres": 259.73563019659707
+        },
+        {
+          "to": "stornoway",
+          "km": 472.4881340148457,
+          "requiredLitres": 1033.116223395033,
+          "availableLitres": 1400,
+          "reserveLitres": 206.6232446790066
+        },
+        {
+          "to": "torshavn",
+          "km": 455.86286986958066,
+          "requiredLitres": 998.4757370126862,
+          "availableLitres": 1400,
+          "reserveLitres": 199.69514740253723
+        },
+        {
+          "to": "hofn",
+          "km": 553.1342081288026,
+          "requiredLitres": 1221.1942009435193,
+          "availableLitres": 1400,
+          "reserveLitres": 244.23884018870388
+        },
+        {
+          "to": "reykjavik",
+          "km": 502.559943322529,
+          "requiredLitres": 1108.1003992095823,
+          "availableLitres": 1400,
+          "reserveLitres": 221.62007984191646
+        },
+        {
+          "to": "isafjordur",
+          "km": 346.7530058928593,
+          "requiredLitres": 763.7501851453327,
+          "availableLitres": 1400,
+          "reserveLitres": 152.75003702906653
+        },
+        {
+          "to": "kangerlussuaq-east",
+          "km": 434.58995145684105,
+          "requiredLitres": 958.9825199534476,
+          "availableLitres": 1400,
+          "reserveLitres": 191.79650399068953
+        },
+        {
+          "to": "kulusuk",
+          "km": 408.0539995543141,
+          "requiredLitres": 901.61683304846,
+          "availableLitres": 1400,
+          "reserveLitres": 180.323366609692
+        },
+        {
+          "to": "qutdleq",
+          "km": 568.8795956327355,
+          "requiredLitres": 1252.0603273849624,
+          "availableLitres": 1400,
+          "reserveLitres": 250.4120654769925
+        },
+        {
+          "to": "prins-christian-sund",
+          "km": 170.00254048889437,
+          "requiredLitres": 379.626390823302,
+          "availableLitres": 1400,
+          "reserveLitres": 75.9252781646604
+        },
+        {
+          "to": "paamiut",
+          "km": 539.9284368575462,
+          "requiredLitres": 1193.6846424317573,
+          "availableLitres": 1400,
+          "reserveLitres": 238.73692848635147
+        },
+        {
+          "to": "nuuk",
+          "km": 269.3811000091301,
+          "requiredLitres": 594.7878235546052,
+          "availableLitres": 1400,
+          "reserveLitres": 118.95756471092105
+        },
+        {
+          "to": "sisimiut",
+          "km": 356.48390338562933,
+          "requiredLitres": 784.2565269244417,
+          "availableLitres": 1400,
+          "reserveLitres": 156.85130538488835
+        },
+        {
+          "to": "cape-dyer",
+          "km": 364.0445771071637,
+          "requiredLitres": 807.3218121377299,
+          "availableLitres": 1400,
+          "reserveLitres": 161.46436242754598
+        },
+        {
+          "to": "brevoort",
+          "km": 424.6872857368518,
+          "requiredLitres": 938.4036358332197,
+          "availableLitres": 1400,
+          "reserveLitres": 187.68072716664395
+        },
+        {
+          "to": "saglek",
+          "km": 582.1259291625995,
+          "requiredLitres": 1276.2917672688893,
+          "availableLitres": 1400,
+          "reserveLitres": 255.25835345377786
+        },
+        {
+          "to": "nain",
+          "km": 303.69941241499754,
+          "requiredLitres": 674.1301471630322,
+          "availableLitres": 1400,
+          "reserveLitres": 134.82602943260645
+        },
+        {
+          "to": "cartwright",
+          "km": 497.18517847261455,
+          "requiredLitres": 1088.469441198971,
+          "availableLitres": 1400,
+          "reserveLitres": 217.6938882397942
+        },
+        {
+          "to": "st-anthony",
+          "km": 374.8887214370354,
+          "requiredLitres": 828.871851419168,
+          "availableLitres": 1400,
+          "reserveLitres": 165.7743702838336
+        },
+        {
+          "to": "st-johns",
+          "km": 481.0995759770196,
+          "requiredLitres": 1051.542002011712,
+          "availableLitres": 1400,
+          "reserveLitres": 210.3084004023424
+        },
+        {
+          "to": "saint-pierre",
+          "km": 375.4100887688434,
+          "requiredLitres": 834.2092864816759,
+          "availableLitres": 1400,
+          "reserveLitres": 166.84185729633518
+        },
+        {
+          "to": "north-sydney",
+          "km": 340.69282556704803,
+          "requiredLitres": 758.0312264848183,
+          "availableLitres": 1400,
+          "reserveLitres": 151.60624529696366
+        },
+        {
+          "to": "halifax",
+          "km": 491.3516635481485,
+          "requiredLitres": 1086.8579862860272,
+          "availableLitres": 1400,
+          "reserveLitres": 217.37159725720545
+        },
+        {
+          "to": "yarmouth-canada",
+          "km": 327.8657478991799,
+          "requiredLitres": 727.7172113265027,
+          "availableLitres": 1400,
+          "reserveLitres": 145.54344226530054
+        },
+        {
+          "to": "boston",
+          "km": 518.1680729515185,
+          "requiredLitres": 1146.2905986622336,
+          "availableLitres": 1400,
+          "reserveLitres": 229.25811973244672
+        },
+        {
+          "to": "new-york",
+          "km": 522.8456975255676,
+          "requiredLitres": 1153.707370282216,
+          "availableLitres": 1400,
+          "reserveLitres": 230.7414740564432
+        }
+      ]
+    },
+    {
+      "shipId": "speedboat",
+      "from": "marseille",
+      "to": "haifa",
+      "planningMs": 307.992166,
+      "distanceKm": 4637.835023171192,
+      "stages": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "requiredLitres": 840.9387586475458,
+          "availableLitres": 1400,
+          "reserveLitres": 168.18775172950916
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "requiredLitres": 396.92000390493433,
+          "availableLitres": 1400,
+          "reserveLitres": 79.38400078098687
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "requiredLitres": 1295.0539654797606,
+          "availableLitres": 1400,
+          "reserveLitres": 259.0107930959521
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "requiredLitres": 541.2191987026296,
+          "availableLitres": 1400,
+          "reserveLitres": 108.24383974052591
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "requiredLitres": 1105.2173618836396,
+          "availableLitres": 1400,
+          "reserveLitres": 221.04347237672792
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "requiredLitres": 934.4891483863615,
+          "availableLitres": 1400,
+          "reserveLitres": 186.8978296772723
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "requiredLitres": 1339.0412224815884,
+          "availableLitres": 1400,
+          "reserveLitres": 267.8082444963177
+        },
+        {
+          "to": "heraklion",
+          "km": 577.3330119832412,
+          "requiredLitres": 1264.9376910820465,
+          "availableLitres": 1400,
+          "reserveLitres": 252.9875382164093
+        },
+        {
+          "to": "rhodes",
+          "km": 331.3733714402618,
+          "requiredLitres": 723.5013457247406,
+          "availableLitres": 1400,
+          "reserveLitres": 144.70026914494812
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "requiredLitres": 1139.6048765321068,
+          "availableLitres": 1400,
+          "reserveLitres": 227.92097530642135
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "requiredLitres": 591.1110291328048,
+          "availableLitres": 1400,
+          "reserveLitres": 118.22220582656095
+        }
+      ]
+    },
+    {
+      "shipId": "speedboat",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "planningMs": 178.87954200000058,
+      "distanceKm": 1505.4278203876113,
+      "stages": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "requiredLitres": 1181.7598313682574,
+          "availableLitres": 1400,
+          "reserveLitres": 236.3519662736515
+        },
+        {
+          "to": "mazatlan",
+          "km": 609.4077276729894,
+          "requiredLitres": 1337.8717757743361,
+          "availableLitres": 1400,
+          "reserveLitres": 267.57435515486725
+        },
+        {
+          "to": "los-cabos",
+          "km": 359.96274332577525,
+          "requiredLitres": 797.7596982154024,
+          "availableLitres": 1400,
+          "reserveLitres": 159.5519396430805
+        }
+      ]
+    },
+    {
+      "shipId": "speedboat",
+      "from": "cancun",
+      "to": "veracruz",
+      "planningMs": 149.84191700000156,
+      "distanceKm": 1109.890662248804,
+      "stages": [
+        {
+          "to": "celestun",
+          "km": 475.5129182128606,
+          "requiredLitres": 1053.236758088677,
+          "availableLitres": 1400,
+          "reserveLitres": 210.6473516177354
+        },
+        {
+          "to": "veracruz",
+          "km": 634.3777440359435,
+          "requiredLitres": 1397.5206295871114,
+          "availableLitres": 1400,
+          "reserveLitres": 279.5041259174223
+        }
+      ]
+    },
+    {
+      "shipId": "spirit",
+      "from": "marseille",
+      "to": "new-york",
+      "planningMs": 2302.9462499999972,
+      "distanceKm": 14655.559850882955,
+      "stages": [
+        {
+          "to": "barcelona",
+          "km": 347.8064443568101,
+          "requiredLitres": 463.9615283524039,
+          "availableLitres": 900,
+          "reserveLitres": 92.79230567048077
+        },
+        {
+          "to": "cartagena",
+          "km": 531.7183119699631,
+          "requiredLitres": 692.6026071044396,
+          "availableLitres": 900,
+          "reserveLitres": 138.52052142088792
+        },
+        {
+          "to": "gibraltar",
+          "km": 595.3625343600359,
+          "requiredLitres": 780.387446266181,
+          "availableLitres": 900,
+          "reserveLitres": 156.0774892532362
+        },
+        {
+          "to": "lisbon",
+          "km": 594.0287700756405,
+          "requiredLitres": 771.1995836527962,
+          "availableLitres": 900,
+          "reserveLitres": 154.23991673055923
+        },
+        {
+          "to": "a-coruna",
+          "km": 634.2753056593987,
+          "requiredLitres": 809.5775661511848,
+          "availableLitres": 900,
+          "reserveLitres": 161.91551323023697
+        },
+        {
+          "to": "brest",
+          "km": 626.0624812956487,
+          "requiredLitres": 783.9959749486886,
+          "availableLitres": 900,
+          "reserveLitres": 156.7991949897377
+        },
+        {
+          "to": "cork",
+          "km": 474.1618920081478,
+          "requiredLitres": 612.0450519520335,
+          "availableLitres": 900,
+          "reserveLitres": 122.4090103904067
+        },
+        {
+          "to": "killybegs",
+          "km": 593.8890345696761,
+          "requiredLitres": 759.2792361650024,
+          "availableLitres": 900,
+          "reserveLitres": 151.85584723300047
+        },
+        {
+          "to": "stornoway",
+          "km": 472.4881340148457,
+          "requiredLitres": 607.5637828724175,
+          "availableLitres": 900,
+          "reserveLitres": 121.5127565744835
+        },
+        {
+          "to": "torshavn",
+          "km": 455.86286986958066,
+          "requiredLitres": 584.9520795930907,
+          "availableLitres": 900,
+          "reserveLitres": 116.99041591861814
+        },
+        {
+          "to": "hofn",
+          "km": 553.1342081288026,
+          "requiredLitres": 725.5068556188963,
+          "availableLitres": 900,
+          "reserveLitres": 145.10137112377927
+        },
+        {
+          "to": "reykjavik",
+          "km": 502.559943322529,
+          "requiredLitres": 658.2587596446015,
+          "availableLitres": 900,
+          "reserveLitres": 131.6517519289203
+        },
+        {
+          "to": "isafjordur",
+          "km": 346.7530058928593,
+          "requiredLitres": 455.501104256042,
+          "availableLitres": 900,
+          "reserveLitres": 91.1002208512084
+        },
+        {
+          "to": "tasiilaq",
+          "km": 681.7087515498089,
+          "requiredLitres": 886.4311473815131,
+          "availableLitres": 900,
+          "reserveLitres": 177.28622947630262
+        },
+        {
+          "to": "prins-christian-sund",
+          "km": 680.3802583453322,
+          "requiredLitres": 877.5727741497104,
+          "availableLitres": 900,
+          "reserveLitres": 175.51455482994209
+        },
+        {
+          "to": "paamiut",
+          "km": 539.9284368575462,
+          "requiredLitres": 712.4781056196709,
+          "availableLitres": 900,
+          "reserveLitres": 142.4956211239342
+        },
+        {
+          "to": "nuuk",
+          "km": 269.3811000091301,
+          "requiredLitres": 355.8171895198638,
+          "availableLitres": 900,
+          "reserveLitres": 71.16343790397276
+        },
+        {
+          "to": "sisimiut",
+          "km": 356.48390338562933,
+          "requiredLitres": 464.64817906288005,
+          "availableLitres": 900,
+          "reserveLitres": 92.92963581257601
+        },
+        {
+          "to": "cape-dyer",
+          "km": 364.0445771071637,
+          "requiredLitres": 485.64083856061336,
+          "availableLitres": 900,
+          "reserveLitres": 97.12816771212267
+        },
+        {
+          "to": "resolution-harbour",
+          "km": 669.421248970979,
+          "requiredLitres": 873.3880418095727,
+          "availableLitres": 900,
+          "reserveLitres": 174.67760836191454
+        },
+        {
+          "to": "nain",
+          "km": 634.1471393448006,
+          "requiredLitres": 813.6456829243963,
+          "availableLitres": 900,
+          "reserveLitres": 162.72913658487926
+        },
+        {
+          "to": "cartwright",
+          "km": 497.18517847261455,
+          "requiredLitres": 644.2402319040042,
+          "availableLitres": 900,
+          "reserveLitres": 128.84804638080084
+        },
+        {
+          "to": "st-anthony",
+          "km": 374.8887214370354,
+          "requiredLitres": 501.4134159867673,
+          "availableLitres": 900,
+          "reserveLitres": 100.28268319735346
+        },
+        {
+          "to": "st-johns",
+          "km": 481.0995759770196,
+          "requiredLitres": 615.8799958740697,
+          "availableLitres": 900,
+          "reserveLitres": 123.17599917481392
+        },
+        {
+          "to": "saint-pierre",
+          "km": 375.4100887688434,
+          "requiredLitres": 505.7544222881456,
+          "availableLitres": 900,
+          "reserveLitres": 101.15088445762912
+        },
+        {
+          "to": "halifax",
+          "km": 635.8148976177441,
+          "requiredLitres": 828.6256138221416,
+          "availableLitres": 900,
+          "reserveLitres": 165.72512276442833
+        },
+        {
+          "to": "portland-maine",
+          "km": 651.7788911199158,
+          "requiredLitres": 850.3129299845771,
+          "availableLitres": 900,
+          "reserveLitres": 170.0625859969154
+        },
+        {
+          "to": "boston",
+          "km": 192.93844886988444,
+          "requiredLitres": 272.4793235136498,
+          "availableLitres": 900,
+          "reserveLitres": 54.49586470272995
+        },
+        {
+          "to": "new-york",
+          "km": 522.8456975255676,
+          "requiredLitres": 687.9495250902878,
+          "availableLitres": 900,
+          "reserveLitres": 137.58990501805755
+        }
+      ]
+    },
+    {
+      "shipId": "spirit",
+      "from": "marseille",
+      "to": "haifa",
+      "planningMs": 479.5896670000002,
+      "distanceKm": 4637.269474025783,
+      "stages": [
+        {
+          "to": "genoa",
+          "km": 382.90047905190136,
+          "requiredLitres": 505.63901336250944,
+          "availableLitres": 900,
+          "reserveLitres": 101.12780267250189
+        },
+        {
+          "to": "livorno",
+          "km": 177.40183846852557,
+          "requiredLitres": 250.36627307399073,
+          "availableLitres": 900,
+          "reserveLitres": 50.073254614798145
+        },
+        {
+          "to": "salerno",
+          "km": 591.5410667063766,
+          "requiredLitres": 766.477503135219,
+          "availableLitres": 900,
+          "reserveLitres": 153.2955006270438
+        },
+        {
+          "to": "vibo-valentia",
+          "km": 246.21933012544963,
+          "requiredLitres": 323.41230528889025,
+          "availableLitres": 900,
+          "reserveLitres": 64.68246105777806
+        },
+        {
+          "to": "crotone",
+          "km": 502.3358258056754,
+          "requiredLitres": 661.2575037158153,
+          "availableLitres": 900,
+          "reserveLitres": 132.25150074316306
+        },
+        {
+          "to": "brindisi",
+          "km": 424.2925780812019,
+          "requiredLitres": 558.7873169374669,
+          "availableLitres": 900,
+          "reserveLitres": 111.75746338749339
+        },
+        {
+          "to": "katakolon",
+          "km": 611.4203725438882,
+          "requiredLitres": 790.9756083042746,
+          "availableLitres": 900,
+          "reserveLitres": 158.1951216608549
+        },
+        {
+          "to": "sitia",
+          "km": 668.1166130243229,
+          "requiredLitres": 861.5039461655227,
+          "availableLitres": 900,
+          "reserveLitres": 172.30078923310455
+        },
+        {
+          "to": "rhodes",
+          "km": 240.0242212537714,
+          "requiredLitres": 314.87308195541755,
+          "availableLitres": 900,
+          "reserveLitres": 62.97461639108351
+        },
+        {
+          "to": "limassol",
+          "km": 523.216127035444,
+          "requiredLitres": 668.4630296147242,
+          "availableLitres": 900,
+          "reserveLitres": 133.69260592294484
+        },
+        {
+          "to": "haifa",
+          "km": 269.8010219292256,
+          "requiredLitres": 351.7795888122181,
+          "availableLitres": 900,
+          "reserveLitres": 70.35591776244362
+        }
+      ]
+    },
+    {
+      "shipId": "spirit",
+      "from": "acapulco",
+      "to": "los-cabos",
+      "planningMs": 185.7950000000019,
+      "distanceKm": 1505.4278203876113,
+      "stages": [
+        {
+          "to": "manzanillo",
+          "km": 536.0573493888467,
+          "requiredLitres": 698.3669625237621,
+          "availableLitres": 900,
+          "reserveLitres": 139.67339250475243
+        },
+        {
+          "to": "mazatlan",
+          "km": 609.4077276729894,
+          "requiredLitres": 786.0815455476138,
+          "availableLitres": 900,
+          "reserveLitres": 157.21630910952277
+        },
+        {
+          "to": "los-cabos",
+          "km": 359.96274332577525,
+          "requiredLitres": 479.0481448141055,
+          "availableLitres": 900,
+          "reserveLitres": 95.80962896282111
+        }
+      ]
+    },
+    {
+      "shipId": "spirit",
+      "from": "cancun",
+      "to": "veracruz",
+      "planningMs": 185.6698749999996,
+      "distanceKm": 1109.890662248804,
+      "stages": [
+        {
+          "to": "celestun",
+          "km": 475.5129182128606,
+          "requiredLitres": 632.0998869125704,
+          "availableLitres": 900,
+          "reserveLitres": 126.41997738251408
+        },
+        {
+          "to": "veracruz",
+          "km": 634.3777440359435,
+          "requiredLitres": 824.3264210670088,
+          "availableLitres": 900,
+          "reserveLitres": 164.86528421340176
+        }
+      ]
+    }
+  ]
+}

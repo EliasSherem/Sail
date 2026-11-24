@@ -1,0 +1,3551 @@
+[
+  {
+    "id": "cadiz",
+    "seed": {
+      "lat": 36.53,
+      "lon": -6.32
+    },
+    "berth": {
+      "lat": 36.53,
+      "lon": -6.319999999999936
+    },
+    "offsetMeters": 0,
+    "landClearance": 1004
+  },
+  {
+    "id": "lisbon",
+    "seed": {
+      "lat": 38.66,
+      "lon": -9.31
+    },
+    "berth": {
+      "lat": 38.66,
+      "lon": -9.309999999999945
+    },
+    "offsetMeters": 0,
+    "landClearance": 1374
+  },
+  {
+    "id": "porto",
+    "seed": {
+      "lat": 41.16,
+      "lon": -8.71
+    },
+    "berth": {
+      "lat": 41.16,
+      "lon": -8.710000000000036
+    },
+    "offsetMeters": 0,
+    "landClearance": 3793
+  },
+  {
+    "id": "vigo",
+    "seed": {
+      "lat": 42.22,
+      "lon": -8.78
+    },
+    "berth": {
+      "lat": 42.21999999999999,
+      "lon": -8.779999999999973
+    },
+    "offsetMeters": 0,
+    "landClearance": 2466
+  },
+  {
+    "id": "a-coruna",
+    "seed": {
+      "lat": 43.39,
+      "lon": -8.37
+    },
+    "berth": {
+      "lat": 43.38999999999999,
+      "lon": -8.370000000000005
+    },
+    "offsetMeters": 0,
+    "landClearance": 1481
+  },
+  {
+    "id": "brest",
+    "seed": {
+      "lat": 48.35,
+      "lon": -4.61
+    },
+    "berth": {
+      "lat": 48.35,
+      "lon": -4.610000000000014
+    },
+    "offsetMeters": 0,
+    "landClearance": 2594
+  },
+  {
+    "id": "cork",
+    "seed": {
+      "lat": 51.78,
+      "lon": -8.24
+    },
+    "berth": {
+      "lat": 51.78000000000001,
+      "lon": -8.240000000000009
+    },
+    "offsetMeters": 0,
+    "landClearance": 2562
+  },
+  {
+    "id": "falmouth",
+    "seed": {
+      "lat": 50.12,
+      "lon": -5.04
+    },
+    "berth": {
+      "lat": 50.12,
+      "lon": -5.039999999999964
+    },
+    "offsetMeters": 0,
+    "landClearance": 3789
+  },
+  {
+    "id": "killybegs",
+    "seed": {
+      "lat": 54.6,
+      "lon": -8.45
+    },
+    "berth": {
+      "lat": 54.6,
+      "lon": -8.450000000000045
+    },
+    "offsetMeters": 0,
+    "landClearance": 1958
+  },
+  {
+    "id": "stornoway",
+    "seed": {
+      "lat": 58.17,
+      "lon": -6.35
+    },
+    "berth": {
+      "lat": 58.170000000000016,
+      "lon": -6.350000000000023
+    },
+    "offsetMeters": 0,
+    "landClearance": 1975
+  },
+  {
+    "id": "torshavn",
+    "seed": {
+      "lat": 61.99,
+      "lon": -6.74
+    },
+    "berth": {
+      "lat": 61.98998805842965,
+      "lon": -6.68255083097813
+    },
+    "offsetMeters": 3000,
+    "landClearance": 1371
+  },
+  {
+    "id": "hofn",
+    "seed": {
+      "lat": 64.22,
+      "lon": -15.2
+    },
+    "berth": {
+      "lat": 64.22,
+      "lon": -15.200000000000045
+    },
+    "offsetMeters": 0,
+    "landClearance": 5296
+  },
+  {
+    "id": "vestmannaeyjar",
+    "seed": {
+      "lat": 63.43,
+      "lon": -20.25
+    },
+    "berth": {
+      "lat": 63.43,
+      "lon": -20.25
+    },
+    "offsetMeters": 0,
+    "landClearance": 1556
+  },
+  {
+    "id": "reykjavik",
+    "seed": {
+      "lat": 64.17,
+      "lon": -21.99
+    },
+    "berth": {
+      "lat": 64.17,
+      "lon": -21.99000000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 1813
+  },
+  {
+    "id": "isafjordur",
+    "seed": {
+      "lat": 66.1,
+      "lon": -23.08
+    },
+    "berth": {
+      "lat": 66.1,
+      "lon": -23.079999999999927
+    },
+    "offsetMeters": 0,
+    "landClearance": 1000
+  },
+  {
+    "id": "tasiilaq",
+    "seed": {
+      "lat": 65.57,
+      "lon": -37.62
+    },
+    "berth": {
+      "lat": 65.57,
+      "lon": -37.620000000000005
+    },
+    "offsetMeters": 0,
+    "landClearance": 3099
+  },
+  {
+    "id": "prins-christian-sund",
+    "seed": {
+      "lat": 60.05,
+      "lon": -43.1
+    },
+    "berth": {
+      "lat": 60.04999999999999,
+      "lon": -43.10000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 3536
+  },
+  {
+    "id": "nanortalik",
+    "seed": {
+      "lat": 60.12,
+      "lon": -45.26
+    },
+    "berth": {
+      "lat": 60.12,
+      "lon": -45.25999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 2857
+  },
+  {
+    "id": "qaqortoq",
+    "seed": {
+      "lat": 60.7,
+      "lon": -46.03
+    },
+    "berth": {
+      "lat": 60.70381526674929,
+      "lon": -46.0377974720335
+    },
+    "offsetMeters": 600,
+    "landClearance": 803
+  },
+  {
+    "id": "paamiut",
+    "seed": {
+      "lat": 61.97,
+      "lon": -49.7
+    },
+    "berth": {
+      "lat": 61.969999999999985,
+      "lon": -49.69999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 3796
+  },
+  {
+    "id": "nuuk",
+    "seed": {
+      "lat": 64.15,
+      "lon": -51.76
+    },
+    "berth": {
+      "lat": 64.15,
+      "lon": -51.75999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 3781
+  },
+  {
+    "id": "sisimiut",
+    "seed": {
+      "lat": 66.93,
+      "lon": -53.7
+    },
+    "berth": {
+      "lat": 66.92999940344113,
+      "lon": -53.71377018529989
+    },
+    "offsetMeters": 600,
+    "landClearance": 654
+  },
+  {
+    "id": "qikiqtarjuaq",
+    "seed": {
+      "lat": 67.54,
+      "lon": -64.02
+    },
+    "berth": {
+      "lat": 67.54953681138336,
+      "lon": -64.04497805644917
+    },
+    "offsetMeters": 1500,
+    "landClearance": 830
+  },
+  {
+    "id": "pangnirtung",
+    "seed": {
+      "lat": 66.12,
+      "lon": -65.76
+    },
+    "berth": {
+      "lat": 66.12866897411489,
+      "lon": -65.78553545210406
+    },
+    "offsetMeters": 1500,
+    "landClearance": 850
+  },
+  {
+    "id": "iqaluit",
+    "seed": {
+      "lat": 63.72,
+      "lon": -68.53
+    },
+    "berth": {
+      "lat": 63.720000000000006,
+      "lon": -68.52999999999997
+    },
+    "offsetMeters": 0,
+    "landClearance": 2077
+  },
+  {
+    "id": "saglek",
+    "seed": {
+      "lat": 58.48,
+      "lon": -62.62
+    },
+    "berth": {
+      "lat": 58.480922665576465,
+      "lon": -62.61515046036038
+    },
+    "offsetMeters": 300,
+    "landClearance": 692
+  },
+  {
+    "id": "nain",
+    "seed": {
+      "lat": 56.53,
+      "lon": -61.67
+    },
+    "berth": {
+      "lat": 56.53,
+      "lon": -61.670000000000016
+    },
+    "offsetMeters": 0,
+    "landClearance": 815
+  },
+  {
+    "id": "cartwright",
+    "seed": {
+      "lat": 53.7,
+      "lon": -57.03
+    },
+    "berth": {
+      "lat": 53.7,
+      "lon": -57.02999999999997
+    },
+    "offsetMeters": 0,
+    "landClearance": 874
+  },
+  {
+    "id": "st-johns",
+    "seed": {
+      "lat": 47.56,
+      "lon": -52.66
+    },
+    "berth": {
+      "lat": 47.56,
+      "lon": -52.65999999999997
+    },
+    "offsetMeters": 0,
+    "landClearance": 1788
+  },
+  {
+    "id": "halifax",
+    "seed": {
+      "lat": 44.61,
+      "lon": -63.55
+    },
+    "berth": {
+      "lat": 44.61,
+      "lon": -63.55000000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 2639
+  },
+  {
+    "id": "boston",
+    "seed": {
+      "lat": 42.32,
+      "lon": -70.9
+    },
+    "berth": {
+      "lat": 42.32381537747526,
+      "lon": -70.89483940418756
+    },
+    "offsetMeters": 600,
+    "landClearance": 671
+  },
+  {
+    "id": "funchal",
+    "seed": {
+      "lat": 32.62,
+      "lon": -16.92
+    },
+    "berth": {
+      "lat": 32.620000000000005,
+      "lon": -16.920000000000073
+    },
+    "offsetMeters": 0,
+    "landClearance": 5848
+  },
+  {
+    "id": "las-palmas",
+    "seed": {
+      "lat": 28.13,
+      "lon": -15.4
+    },
+    "berth": {
+      "lat": 28.12999996604008,
+      "lon": -15.396940671393281
+    },
+    "offsetMeters": 300,
+    "landClearance": 739
+  },
+  {
+    "id": "ponta-delgada",
+    "seed": {
+      "lat": 37.72,
+      "lon": -25.67
+    },
+    "berth": {
+      "lat": 37.72,
+      "lon": -25.670000000000073
+    },
+    "offsetMeters": 0,
+    "landClearance": 1909
+  },
+  {
+    "id": "horta",
+    "seed": {
+      "lat": 38.52,
+      "lon": -28.61
+    },
+    "berth": {
+      "lat": 38.52000000000001,
+      "lon": -28.610000000000014
+    },
+    "offsetMeters": 0,
+    "landClearance": 2994
+  },
+  {
+    "id": "bermuda",
+    "seed": {
+      "lat": 32.27,
+      "lon": -64.8
+    },
+    "berth": {
+      "lat": 32.257323612088186,
+      "lon": -64.7945441580531
+    },
+    "offsetMeters": 1500,
+    "landClearance": 783
+  },
+  {
+    "id": "miami",
+    "seed": {
+      "lat": 25.76,
+      "lon": -80.1
+    },
+    "berth": {
+      "lat": 25.76,
+      "lon": -80.10000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 3346
+  },
+  {
+    "id": "nassau",
+    "seed": {
+      "lat": 25.1,
+      "lon": -77.33
+    },
+    "berth": {
+      "lat": 25.1,
+      "lon": -77.32999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 3911
+  },
+  {
+    "id": "havana",
+    "seed": {
+      "lat": 23.16,
+      "lon": -82.36
+    },
+    "berth": {
+      "lat": 23.16,
+      "lon": -82.36000000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 2147
+  },
+  {
+    "id": "cancun",
+    "seed": {
+      "lat": 21.15,
+      "lon": -86.77
+    },
+    "berth": {
+      "lat": 21.140770260062343,
+      "lon": -86.74281803451504
+    },
+    "offsetMeters": 3000,
+    "landClearance": 854
+  },
+  {
+    "id": "veracruz",
+    "seed": {
+      "lat": 19.2,
+      "lon": -96.1
+    },
+    "berth": {
+      "lat": 19.199999999999996,
+      "lon": -96.10000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 1532
+  },
+  {
+    "id": "san-juan",
+    "seed": {
+      "lat": 18.47,
+      "lon": -66.12
+    },
+    "berth": {
+      "lat": 18.469999999999995,
+      "lon": -66.12
+    },
+    "offsetMeters": 0,
+    "landClearance": 1487
+  },
+  {
+    "id": "cartagena-colombia",
+    "seed": {
+      "lat": 10.32,
+      "lon": -75.58
+    },
+    "berth": {
+      "lat": 10.317464744518537,
+      "lon": -75.58093792279055
+    },
+    "offsetMeters": 300,
+    "landClearance": 686
+  },
+  {
+    "id": "colon",
+    "seed": {
+      "lat": 9.39,
+      "lon": -79.925
+    },
+    "berth": {
+      "lat": 9.39,
+      "lon": -79.925
+    },
+    "offsetMeters": 0,
+    "landClearance": 4674
+  },
+  {
+    "id": "balboa",
+    "seed": {
+      "lat": 8.92,
+      "lon": -79.53
+    },
+    "berth": {
+      "lat": 8.92,
+      "lon": -79.53
+    },
+    "offsetMeters": 0,
+    "landClearance": 700
+  },
+  {
+    "id": "acapulco",
+    "seed": {
+      "lat": 16.83,
+      "lon": -99.92
+    },
+    "berth": {
+      "lat": 16.83,
+      "lon": -99.92000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 3104
+  },
+  {
+    "id": "los-cabos",
+    "seed": {
+      "lat": 22.87,
+      "lon": -109.9
+    },
+    "berth": {
+      "lat": 22.87,
+      "lon": -109.89999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 2527
+  },
+  {
+    "id": "manzanillo",
+    "seed": {
+      "lat": 19.03,
+      "lon": -104.32
+    },
+    "berth": {
+      "lat": 19.03234194888931,
+      "lon": -104.3340530816306
+    },
+    "offsetMeters": 1500,
+    "landClearance": 846
+  },
+  {
+    "id": "san-diego",
+    "seed": {
+      "lat": 32.66,
+      "lon": -117.2
+    },
+    "berth": {
+      "lat": 32.66,
+      "lon": -117.20000000000005
+    },
+    "offsetMeters": 0,
+    "landClearance": 1724
+  },
+  {
+    "id": "los-angeles",
+    "seed": {
+      "lat": 33.69,
+      "lon": -118.25
+    },
+    "berth": {
+      "lat": 33.68999999999999,
+      "lon": -118.25
+    },
+    "offsetMeters": 0,
+    "landClearance": 3035
+  },
+  {
+    "id": "san-francisco",
+    "seed": {
+      "lat": 37.79,
+      "lon": -122.52
+    },
+    "berth": {
+      "lat": 37.79,
+      "lon": -122.51999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 1074
+  },
+  {
+    "id": "seattle",
+    "seed": {
+      "lat": 47.59,
+      "lon": -122.39
+    },
+    "berth": {
+      "lat": 47.59000000000001,
+      "lon": -122.38999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 833
+  },
+  {
+    "id": "vancouver",
+    "seed": {
+      "lat": 49.26,
+      "lon": -123.23
+    },
+    "berth": {
+      "lat": 49.2581542254565,
+      "lon": -123.23776908490873
+    },
+    "offsetMeters": 600,
+    "landClearance": 739
+  },
+  {
+    "id": "callao",
+    "seed": {
+      "lat": -12.06,
+      "lon": -77.17
+    },
+    "berth": {
+      "lat": -12.059999849206788,
+      "lon": -77.17919616915822
+    },
+    "offsetMeters": 1000,
+    "landClearance": 718
+  },
+  {
+    "id": "valparaiso",
+    "seed": {
+      "lat": -33.01,
+      "lon": -71.63
+    },
+    "berth": {
+      "lat": -33.00999999999999,
+      "lon": -71.63
+    },
+    "offsetMeters": 0,
+    "landClearance": 2259
+  },
+  {
+    "id": "rio-de-janeiro",
+    "seed": {
+      "lat": -22.98,
+      "lon": -43.15
+    },
+    "berth": {
+      "lat": -22.98,
+      "lon": -43.14999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 2409
+  },
+  {
+    "id": "santos",
+    "seed": {
+      "lat": -24.02,
+      "lon": -46.3
+    },
+    "berth": {
+      "lat": -24.02,
+      "lon": -46.30000000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 1230
+  },
+  {
+    "id": "buenos-aires",
+    "seed": {
+      "lat": -34.61,
+      "lon": -58.32
+    },
+    "berth": {
+      "lat": -34.61,
+      "lon": -58.31999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 3322
+  },
+  {
+    "id": "montevideo",
+    "seed": {
+      "lat": -34.93,
+      "lon": -56.22
+    },
+    "berth": {
+      "lat": -34.93,
+      "lon": -56.22000000000003
+    },
+    "offsetMeters": 0,
+    "landClearance": 1138
+  },
+  {
+    "id": "dakar",
+    "seed": {
+      "lat": 14.67,
+      "lon": -17.43
+    },
+    "berth": {
+      "lat": 14.667464743926372,
+      "lon": -17.42904615889404
+    },
+    "offsetMeters": 300,
+    "landClearance": 740
+  },
+  {
+    "id": "casablanca",
+    "seed": {
+      "lat": 33.62,
+      "lon": -7.6
+    },
+    "berth": {
+      "lat": 33.62,
+      "lon": -7.600000000000023
+    },
+    "offsetMeters": 0,
+    "landClearance": 1306
+  },
+  {
+    "id": "rotterdam",
+    "seed": {
+      "lat": 51.99,
+      "lon": 4
+    },
+    "berth": {
+      "lat": 51.99,
+      "lon": 4
+    },
+    "offsetMeters": 0,
+    "landClearance": 1101
+  },
+  {
+    "id": "hamburg",
+    "seed": {
+      "lat": 53.96,
+      "lon": 8.65
+    },
+    "berth": {
+      "lat": 53.96,
+      "lon": 8.649999999999977
+    },
+    "offsetMeters": 0,
+    "landClearance": 7509
+  },
+  {
+    "id": "bergen",
+    "seed": {
+      "lat": 60.39,
+      "lon": 5.29
+    },
+    "berth": {
+      "lat": 60.39461131737663,
+      "lon": 5.264340760427103
+    },
+    "offsetMeters": 1500,
+    "landClearance": 784
+  },
+  {
+    "id": "oslo",
+    "seed": {
+      "lat": 59.89,
+      "lon": 10.72
+    },
+    "berth": {
+      "lat": 59.89,
+      "lon": 10.720000000000027
+    },
+    "offsetMeters": 0,
+    "landClearance": 958
+  },
+  {
+    "id": "piraeus",
+    "seed": {
+      "lat": 37.92,
+      "lon": 23.61
+    },
+    "berth": {
+      "lat": 37.92,
+      "lon": 23.610000000000014
+    },
+    "offsetMeters": 0,
+    "landClearance": 4632
+  },
+  {
+    "id": "istanbul",
+    "seed": {
+      "lat": 40.96,
+      "lon": 28.98
+    },
+    "berth": {
+      "lat": 40.959999999999994,
+      "lon": 28.980000000000018
+    },
+    "offsetMeters": 0,
+    "landClearance": 4638
+  },
+  {
+    "id": "port-said",
+    "seed": {
+      "lat": 31.3,
+      "lon": 32.34
+    },
+    "berth": {
+      "lat": 31.3,
+      "lon": 32.34
+    },
+    "offsetMeters": 0,
+    "landClearance": 3281
+  },
+  {
+    "id": "haifa",
+    "seed": {
+      "lat": 32.84,
+      "lon": 35
+    },
+    "berth": {
+      "lat": 32.852676150711375,
+      "lon": 34.994507844639884
+    },
+    "offsetMeters": 1500,
+    "landClearance": 730
+  },
+  {
+    "id": "ashdod",
+    "seed": {
+      "lat": 31.84,
+      "lon": 34.63
+    },
+    "berth": {
+      "lat": 31.840000000000003,
+      "lon": 34.629999999999995
+    },
+    "offsetMeters": 0,
+    "landClearance": 1001
+  },
+  {
+    "id": "suez",
+    "seed": {
+      "lat": 29.91,
+      "lon": 32.57
+    },
+    "berth": {
+      "lat": 29.91,
+      "lon": 32.57
+    },
+    "offsetMeters": 0,
+    "landClearance": 1849
+  },
+  {
+    "id": "eilat",
+    "seed": {
+      "lat": 29.53,
+      "lon": 34.96
+    },
+    "berth": {
+      "lat": 29.53,
+      "lon": 34.960000000000036
+    },
+    "offsetMeters": 0,
+    "landClearance": 1694
+  },
+  {
+    "id": "jeddah",
+    "seed": {
+      "lat": 21.47,
+      "lon": 39.13
+    },
+    "berth": {
+      "lat": 21.47,
+      "lon": 39.129999999999995
+    },
+    "offsetMeters": 0,
+    "landClearance": 1048
+  },
+  {
+    "id": "dubai",
+    "seed": {
+      "lat": 25.28,
+      "lon": 55.26
+    },
+    "berth": {
+      "lat": 25.28,
+      "lon": 55.25999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 3112
+  },
+  {
+    "id": "mumbai",
+    "seed": {
+      "lat": 18.89,
+      "lon": 72.82
+    },
+    "berth": {
+      "lat": 18.89,
+      "lon": 72.81999999999994
+    },
+    "offsetMeters": 0,
+    "landClearance": 1486
+  },
+  {
+    "id": "colombo",
+    "seed": {
+      "lat": 6.97,
+      "lon": 79.82
+    },
+    "berth": {
+      "lat": 6.97,
+      "lon": 79.81999999999994
+    },
+    "offsetMeters": 0,
+    "landClearance": 4622
+  },
+  {
+    "id": "singapore",
+    "seed": {
+      "lat": 1.23,
+      "lon": 103.8
+    },
+    "berth": {
+      "lat": 1.23,
+      "lon": 103.79999999999995
+    },
+    "offsetMeters": 0,
+    "landClearance": 3874
+  },
+  {
+    "id": "hong-kong",
+    "seed": {
+      "lat": 22.24,
+      "lon": 114.17
+    },
+    "berth": {
+      "lat": 22.226009160181178,
+      "lon": 114.15488694279543
+    },
+    "offsetMeters": 2200,
+    "landClearance": 737
+  },
+  {
+    "id": "shanghai",
+    "seed": {
+      "lat": 30.59,
+      "lon": 122.08
+    },
+    "berth": {
+      "lat": 30.583640636131506,
+      "lon": 122.0873867450515
+    },
+    "offsetMeters": 1000,
+    "landClearance": 754
+  },
+  {
+    "id": "busan",
+    "seed": {
+      "lat": 35.05,
+      "lon": 129.06
+    },
+    "berth": {
+      "lat": 35.04999999999999,
+      "lon": 129.05999999999995
+    },
+    "offsetMeters": 0,
+    "landClearance": 1714
+  },
+  {
+    "id": "auckland",
+    "seed": {
+      "lat": -36.82,
+      "lon": 174.8
+    },
+    "berth": {
+      "lat": -36.82190772280474,
+      "lon": 174.80238318697843
+    },
+    "offsetMeters": 300,
+    "landClearance": 697
+  },
+  {
+    "id": "brisbane",
+    "seed": {
+      "lat": -27.34,
+      "lon": 153.2
+    },
+    "berth": {
+      "lat": -27.34,
+      "lon": 153.20000000000005
+    },
+    "offsetMeters": 0,
+    "landClearance": 4117
+  },
+  {
+    "id": "fremantle",
+    "seed": {
+      "lat": -32.05,
+      "lon": 115.73
+    },
+    "berth": {
+      "lat": -32.04999999999999,
+      "lon": 115.73000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 1430
+  },
+  {
+    "id": "st-anthony",
+    "seed": {
+      "lat": 51.36,
+      "lon": -55.56
+    },
+    "berth": {
+      "lat": 51.35999801355491,
+      "lon": -55.53839643830628
+    },
+    "offsetMeters": 1500,
+    "landClearance": 744
+  },
+  {
+    "id": "saint-pierre",
+    "seed": {
+      "lat": 46.76,
+      "lon": -56.13
+    },
+    "berth": {
+      "lat": 46.76,
+      "lon": -56.129999999999995
+    },
+    "offsetMeters": 0,
+    "landClearance": 2917
+  },
+  {
+    "id": "la-spezia",
+    "seed": {
+      "lat": 44.1,
+      "lon": 9.8333333
+    },
+    "berth": {
+      "lat": 44.09100679636276,
+      "lon": 9.83333330000005
+    },
+    "offsetMeters": 1000,
+    "landClearance": 809
+  },
+  {
+    "id": "livorno",
+    "seed": {
+      "lat": 43.542,
+      "lon": 10.29
+    },
+    "berth": {
+      "lat": 43.541999999999994,
+      "lon": 10.289999999999964
+    },
+    "offsetMeters": 0,
+    "landClearance": 1185
+  },
+  {
+    "id": "piombino",
+    "seed": {
+      "lat": 42.933,
+      "lon": 10.557
+    },
+    "berth": {
+      "lat": 42.928866386138,
+      "lon": 10.561737001684605
+    },
+    "offsetMeters": 600,
+    "landClearance": 713
+  },
+  {
+    "id": "civitavecchia",
+    "seed": {
+      "lat": 42.102,
+      "lon": 11.771
+    },
+    "berth": {
+      "lat": 42.102,
+      "lon": 11.770999999999958
+    },
+    "offsetMeters": 0,
+    "landClearance": 720
+  },
+  {
+    "id": "anzio",
+    "seed": {
+      "lat": 41.446,
+      "lon": 12.637
+    },
+    "berth": {
+      "lat": 41.442184394659165,
+      "lon": 12.63191012385937
+    },
+    "offsetMeters": 600,
+    "landClearance": 654
+  },
+  {
+    "id": "gaeta",
+    "seed": {
+      "lat": 41.223,
+      "lon": 13.577
+    },
+    "berth": {
+      "lat": 41.210773835834104,
+      "lon": 13.584578234780793
+    },
+    "offsetMeters": 1500,
+    "landClearance": 665
+  },
+  {
+    "id": "naples",
+    "seed": {
+      "lat": 40.833,
+      "lon": 14.275
+    },
+    "berth": {
+      "lat": 40.82760407781765,
+      "lon": 14.274999999999977
+    },
+    "offsetMeters": 600,
+    "landClearance": 791
+  },
+  {
+    "id": "salerno",
+    "seed": {
+      "lat": 40.6666667,
+      "lon": 14.75
+    },
+    "berth": {
+      "lat": 40.653176894544124,
+      "lon": 14.75
+    },
+    "offsetMeters": 1500,
+    "landClearance": 1017
+  },
+  {
+    "id": "vibo-valentia",
+    "seed": {
+      "lat": 38.723,
+      "lon": 16.13
+    },
+    "berth": {
+      "lat": 38.730788201310176,
+      "lon": 16.12423582288818
+    },
+    "offsetMeters": 1000,
+    "landClearance": 760
+  },
+  {
+    "id": "palermo",
+    "seed": {
+      "lat": 38.119,
+      "lon": 13.38
+    },
+    "berth": {
+      "lat": 38.125358878344805,
+      "lon": 13.388083721478324
+    },
+    "offsetMeters": 1000,
+    "landClearance": 827
+  },
+  {
+    "id": "messina",
+    "seed": {
+      "lat": 38.2,
+      "lon": 15.5666667
+    },
+    "berth": {
+      "lat": 38.19323074168987,
+      "lon": 15.590322578957512
+    },
+    "offsetMeters": 2200,
+    "landClearance": 671
+  },
+  {
+    "id": "catania",
+    "seed": {
+      "lat": 37.5,
+      "lon": 15.1
+    },
+    "berth": {
+      "lat": 37.49999945842738,
+      "lon": 15.111335685043514
+    },
+    "offsetMeters": 1000,
+    "landClearance": 850
+  },
+  {
+    "id": "crotone",
+    "seed": {
+      "lat": 39.078,
+      "lon": 17.136
+    },
+    "berth": {
+      "lat": 39.084358868672055,
+      "lon": 17.14419248046306
+    },
+    "offsetMeters": 1000,
+    "landClearance": 657
+  },
+  {
+    "id": "taranto",
+    "seed": {
+      "lat": 40.4666667,
+      "lon": 17.2
+    },
+    "berth": {
+      "lat": 40.4666667,
+      "lon": 17.200000000000045
+    },
+    "offsetMeters": 0,
+    "landClearance": 3960
+  },
+  {
+    "id": "brindisi",
+    "seed": {
+      "lat": 40.65,
+      "lon": 17.9833333
+    },
+    "berth": {
+      "lat": 40.66398867462864,
+      "lon": 18.001776713722506
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1167
+  },
+  {
+    "id": "corfu",
+    "seed": {
+      "lat": 39.6166667,
+      "lon": 19.9333333
+    },
+    "berth": {
+      "lat": 39.616666647419564,
+      "lon": 19.936835654611173
+    },
+    "offsetMeters": 300,
+    "landClearance": 755
+  },
+  {
+    "id": "argostoli",
+    "seed": {
+      "lat": 38.1833333,
+      "lon": 20.5166667
+    },
+    "berth": {
+      "lat": 38.16534023440954,
+      "lon": 20.477043004204347
+    },
+    "offsetMeters": 4000,
+    "landClearance": 962
+  },
+  {
+    "id": "katakolon",
+    "seed": {
+      "lat": 37.65,
+      "lon": 21.3166667
+    },
+    "berth": {
+      "lat": 37.645385133068515,
+      "lon": 21.300657387992715
+    },
+    "offsetMeters": 1500,
+    "landClearance": 890
+  },
+  {
+    "id": "kalamata",
+    "seed": {
+      "lat": 37.0166667,
+      "lon": 22.1166667
+    },
+    "berth": {
+      "lat": 37.007673496362756,
+      "lon": 22.116666699999996
+    },
+    "offsetMeters": 1000,
+    "landClearance": 954
+  },
+  {
+    "id": "kissamos",
+    "seed": {
+      "lat": 35.5166667,
+      "lon": 23.6333333
+    },
+    "berth": {
+      "lat": 35.530156505455864,
+      "lon": 23.633333300000004
+    },
+    "offsetMeters": 1500,
+    "landClearance": 839
+  },
+  {
+    "id": "heraklion",
+    "seed": {
+      "lat": 35.35,
+      "lon": 25.15
+    },
+    "berth": {
+      "lat": 35.35,
+      "lon": 25.149999999999977
+    },
+    "offsetMeters": 0,
+    "landClearance": 1667
+  },
+  {
+    "id": "sitia",
+    "seed": {
+      "lat": 35.2166667,
+      "lon": 26.1333333
+    },
+    "berth": {
+      "lat": 35.21666669999999,
+      "lon": 26.133333300000004
+    },
+    "offsetMeters": 0,
+    "landClearance": 1069
+  },
+  {
+    "id": "rhodes",
+    "seed": {
+      "lat": 36.45,
+      "lon": 28.2333333
+    },
+    "berth": {
+      "lat": 36.45,
+      "lon": 28.233333300000027
+    },
+    "offsetMeters": 0,
+    "landClearance": 3626
+  },
+  {
+    "id": "fethiye",
+    "seed": {
+      "lat": 36.6333333,
+      "lon": 29.1
+    },
+    "berth": {
+      "lat": 36.642556698866834,
+      "lon": 29.06840310274913
+    },
+    "offsetMeters": 3000,
+    "landClearance": 941
+  },
+  {
+    "id": "antalya",
+    "seed": {
+      "lat": 36.8333333,
+      "lon": 30.6166667
+    },
+    "berth": {
+      "lat": 36.82065689025599,
+      "lon": 30.622430218646173
+    },
+    "offsetMeters": 1500,
+    "landClearance": 737
+  },
+  {
+    "id": "alanya",
+    "seed": {
+      "lat": 36.5333333,
+      "lon": 32
+    },
+    "berth": {
+      "lat": 36.5333333,
+      "lon": 32
+    },
+    "offsetMeters": 0,
+    "landClearance": 2055
+  },
+  {
+    "id": "limassol",
+    "seed": {
+      "lat": 34.6666667,
+      "lon": 33.05
+    },
+    "berth": {
+      "lat": 34.6539903009212,
+      "lon": 33.0556087770542
+    },
+    "offsetMeters": 1500,
+    "landClearance": 942
+  },
+  {
+    "id": "larnaca",
+    "seed": {
+      "lat": 34.9166667,
+      "lon": 33.65
+    },
+    "berth": {
+      "lat": 34.90799496981002,
+      "lon": 33.66260107661196
+    },
+    "offsetMeters": 1500,
+    "landClearance": 1043
+  },
+  {
+    "id": "progreso",
+    "seed": {
+      "lat": 21.2833333,
+      "lon": -89.6666667
+    },
+    "berth": {
+      "lat": 21.310312910911737,
+      "lon": -89.66666670000001
+    },
+    "offsetMeters": 3000,
+    "landClearance": 940
+  },
+  {
+    "id": "lazaro-cardenas",
+    "seed": {
+      "lat": 17.9333333,
+      "lon": -102.1666667
+    },
+    "berth": {
+      "lat": 17.913548251998062,
+      "lon": -102.16666670000001
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1006
+  },
+  {
+    "id": "puerto-vallarta",
+    "seed": {
+      "lat": 20.6166667,
+      "lon": -105.2666667
+    },
+    "berth": {
+      "lat": 20.615743921859632,
+      "lon": -105.26937541243365
+    },
+    "offsetMeters": 300,
+    "landClearance": 673
+  },
+  {
+    "id": "mazatlan",
+    "seed": {
+      "lat": 23.2,
+      "lon": -106.4166667
+    },
+    "berth": {
+      "lat": 23.180921173456003,
+      "lon": -106.4374196222916
+    },
+    "offsetMeters": 3000,
+    "landClearance": 909
+  },
+  {
+    "id": "la-paz",
+    "seed": {
+      "lat": 24.1666667,
+      "lon": -110.3166667
+    },
+    "berth": {
+      "lat": 24.180105167259075,
+      "lon": -110.31795548928329
+    },
+    "offsetMeters": 1500,
+    "landClearance": 883
+  },
+  {
+    "id": "ensenada",
+    "seed": {
+      "lat": 31.8666667,
+      "lon": -116.6333333
+    },
+    "berth": {
+      "lat": 31.85267549692453,
+      "lon": -116.64980376371341
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1249
+  },
+  {
+    "id": "rio-lagartos",
+    "seed": {
+      "lat": 21.5994611,
+      "lon": -88.1606615
+    },
+    "berth": {
+      "lat": 21.612950905455865,
+      "lon": -88.1606615
+    },
+    "offsetMeters": 1500,
+    "landClearance": 958
+  },
+  {
+    "id": "celestun",
+    "seed": {
+      "lat": 20.8479587,
+      "lon": -90.4069771
+    },
+    "berth": {
+      "lat": 20.84795739909923,
+      "lon": -90.42814826398183
+    },
+    "offsetMeters": 2200,
+    "landClearance": 804
+  },
+  {
+    "id": "campeche",
+    "seed": {
+      "lat": 19.8288689,
+      "lon": -90.5817894
+    },
+    "berth": {
+      "lat": 19.835634697089546,
+      "lon": -90.60155389271256
+    },
+    "offsetMeters": 2200,
+    "landClearance": 813
+  },
+  {
+    "id": "champoton",
+    "seed": {
+      "lat": 19.3580347,
+      "lon": -90.7215274
+    },
+    "berth": {
+      "lat": 19.3580324682934,
+      "lon": -90.75012368170349
+    },
+    "offsetMeters": 3000,
+    "landClearance": 973
+  },
+  {
+    "id": "ciudad-carmen",
+    "seed": {
+      "lat": 18.641667,
+      "lon": -91.841667
+    },
+    "berth": {
+      "lat": 18.641667,
+      "lon": -91.84166700000003
+    },
+    "offsetMeters": 0,
+    "landClearance": 1064
+  },
+  {
+    "id": "dos-bocas",
+    "seed": {
+      "lat": 18.4379359,
+      "lon": -93.1927776
+    },
+    "berth": {
+      "lat": 18.451425705455865,
+      "lon": -93.1927776
+    },
+    "offsetMeters": 1500,
+    "landClearance": 1068
+  },
+  {
+    "id": "coatzacoalcos",
+    "seed": {
+      "lat": 18.1458109,
+      "lon": -94.4096564
+    },
+    "berth": {
+      "lat": 18.164402632589177,
+      "lon": -94.41677819283649
+    },
+    "offsetMeters": 2200,
+    "landClearance": 710
+  },
+  {
+    "id": "alvarado",
+    "seed": {
+      "lat": 18.7673288,
+      "lon": -95.7659538
+    },
+    "berth": {
+      "lat": 18.7673288,
+      "lon": -95.76595380000003
+    },
+    "offsetMeters": 0,
+    "landClearance": 3827
+  },
+  {
+    "id": "zihuatanejo",
+    "seed": {
+      "lat": 17.6350663,
+      "lon": -101.558779
+    },
+    "berth": {
+      "lat": 17.626615426664344,
+      "lon": -101.56200638203006
+    },
+    "offsetMeters": 1000,
+    "landClearance": 663
+  },
+  {
+    "id": "san-carlos",
+    "seed": {
+      "lat": 24.7886111,
+      "lon": -112.1177778
+    },
+    "berth": {
+      "lat": 24.7886111,
+      "lon": -112.1177778
+    },
+    "offsetMeters": 0,
+    "landClearance": 2891
+  },
+  {
+    "id": "bahia-tortugas",
+    "seed": {
+      "lat": 27.6833333,
+      "lon": -114.8833333
+    },
+    "berth": {
+      "lat": 27.6833333,
+      "lon": -114.8833333
+    },
+    "offsetMeters": 0,
+    "landClearance": 1403
+  },
+  {
+    "id": "san-quintin",
+    "seed": {
+      "lat": 30.4358333,
+      "lon": -115.9869444
+    },
+    "berth": {
+      "lat": 30.435833300000006,
+      "lon": -115.98694439999997
+    },
+    "offsetMeters": 0,
+    "landClearance": 862
+  },
+  {
+    "id": "gijon",
+    "seed": {
+      "lat": 43.55,
+      "lon": -5.666666666666667
+    },
+    "berth": {
+      "lat": 43.56978504800194,
+      "lon": -5.666666666666629
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1090
+  },
+  {
+    "id": "santander",
+    "seed": {
+      "lat": 43.46666666666667,
+      "lon": -3.783333333333333
+    },
+    "berth": {
+      "lat": 43.46666666666667,
+      "lon": -3.783333333333303
+    },
+    "offsetMeters": 0,
+    "landClearance": 796
+  },
+  {
+    "id": "la-rochelle",
+    "seed": {
+      "lat": 46.15,
+      "lon": -1.15
+    },
+    "berth": {
+      "lat": 46.145308627462974,
+      "lon": -1.1883494674900703
+    },
+    "offsetMeters": 3000,
+    "landClearance": 745
+  },
+  {
+    "id": "newlyn",
+    "seed": {
+      "lat": 50.1,
+      "lon": -5.55
+    },
+    "berth": {
+      "lat": 50.09766347816513,
+      "lon": -5.547897083901262
+    },
+    "offsetMeters": 300,
+    "landClearance": 793
+  },
+  {
+    "id": "galway",
+    "seed": {
+      "lat": 53.266666666666666,
+      "lon": -9.05
+    },
+    "berth": {
+      "lat": 53.266666666666666,
+      "lon": -9.049999999999955
+    },
+    "offsetMeters": 0,
+    "landClearance": 677
+  },
+  {
+    "id": "oban",
+    "seed": {
+      "lat": 56.416666666666664,
+      "lon": -5.466666666666667
+    },
+    "berth": {
+      "lat": 56.42127833965597,
+      "lon": -5.489585992669504
+    },
+    "offsetMeters": 1500,
+    "landClearance": 707
+  },
+  {
+    "id": "scrabster",
+    "seed": {
+      "lat": 58.61666666666667,
+      "lon": -3.55
+    },
+    "berth": {
+      "lat": 58.61666666666667,
+      "lon": -3.5499999999999545
+    },
+    "offsetMeters": 0,
+    "landClearance": 1899
+  },
+  {
+    "id": "stromness",
+    "seed": {
+      "lat": 58.96666666666667,
+      "lon": -3.3
+    },
+    "berth": {
+      "lat": 58.95399008739455,
+      "lon": -3.3089461905516373
+    },
+    "offsetMeters": 1500,
+    "landClearance": 750
+  },
+  {
+    "id": "lerwick",
+    "seed": {
+      "lat": 60.166999999999994,
+      "lon": -1.15
+    },
+    "berth": {
+      "lat": 60.186785048001916,
+      "lon": -1.1499999999999773
+    },
+    "offsetMeters": 2200,
+    "landClearance": 671
+  },
+  {
+    "id": "sorvagur",
+    "seed": {
+      "lat": 62.083333333333336,
+      "lon": -7.25
+    },
+    "berth": {
+      "lat": 62.07101109452449,
+      "lon": -7.322171354524016
+    },
+    "offsetMeters": 4000,
+    "landClearance": 1149
+  },
+  {
+    "id": "budir",
+    "seed": {
+      "lat": 64.93333333333334,
+      "lon": -14.016666666666667
+    },
+    "berth": {
+      "lat": 64.92409377514825,
+      "lon": -13.956847333136352
+    },
+    "offsetMeters": 3000,
+    "landClearance": 729
+  },
+  {
+    "id": "seydisfjordur",
+    "seed": {
+      "lat": 65.26666666666667,
+      "lon": -14
+    },
+    "berth": {
+      "lat": 65.28354292503202,
+      "lon": -13.88883862937655
+    },
+    "offsetMeters": 5500,
+    "landClearance": 777
+  },
+  {
+    "id": "qutdleq",
+    "seed": {
+      "lat": 61.516666666666666,
+      "lon": -42.21666666666667
+    },
+    "berth": {
+      "lat": 61.516666666666666,
+      "lon": -42.2166666666667
+    },
+    "offsetMeters": 0,
+    "landClearance": 9848
+  },
+  {
+    "id": "north-sydney",
+    "seed": {
+      "lat": 46.21666666666667,
+      "lon": -60.25
+    },
+    "berth": {
+      "lat": 46.20830221697864,
+      "lon": -60.224089098828756
+    },
+    "offsetMeters": 2200,
+    "landClearance": 895
+  },
+  {
+    "id": "port-hawkesbury",
+    "seed": {
+      "lat": 45.61666666666667,
+      "lon": -61.36666666666667
+    },
+    "berth": {
+      "lat": 45.61319808240977,
+      "lon": -61.37257592132198
+    },
+    "offsetMeters": 600,
+    "landClearance": 672
+  },
+  {
+    "id": "portland-maine",
+    "seed": {
+      "lat": 43.666666666666664,
+      "lon": -70.25
+    },
+    "berth": {
+      "lat": 43.66666666666667,
+      "lon": -70.25
+    },
+    "offsetMeters": 0,
+    "landClearance": 1149
+  },
+  {
+    "id": "newport-rhode-island",
+    "seed": {
+      "lat": 41.5,
+      "lon": -71.33333333333333
+    },
+    "berth": {
+      "lat": 41.49907719333712,
+      "lon": -71.33671833719097
+    },
+    "offsetMeters": 300,
+    "landClearance": 678
+  },
+  {
+    "id": "portimao",
+    "seed": {
+      "lat": 37.112,
+      "lon": -8.533
+    },
+    "berth": {
+      "lat": 37.10930203890883,
+      "lon": -8.533000000000015
+    },
+    "offsetMeters": 300,
+    "landClearance": 769
+  },
+  {
+    "id": "bayonne",
+    "seed": {
+      "lat": 43.533,
+      "lon": -1.529
+    },
+    "berth": {
+      "lat": 43.5343489352825,
+      "lon": -1.5322229333775113
+    },
+    "offsetMeters": 300,
+    "landClearance": 873
+  },
+  {
+    "id": "lorient",
+    "seed": {
+      "lat": 47.673,
+      "lon": -3.386
+    },
+    "berth": {
+      "lat": 47.673,
+      "lon": -3.3859999999999673
+    },
+    "offsetMeters": 0,
+    "landClearance": 3410
+  },
+  {
+    "id": "dingle",
+    "seed": {
+      "lat": 52.1,
+      "lon": -10.27
+    },
+    "berth": {
+      "lat": 52.10000000000001,
+      "lon": -10.269999999999982
+    },
+    "offsetMeters": 0,
+    "landClearance": 1233
+  },
+  {
+    "id": "kangerlussuaq-east",
+    "seed": {
+      "lat": 68.083333,
+      "lon": -31.666667
+    },
+    "berth": {
+      "lat": 68.083333,
+      "lon": -31.666667000000018
+    },
+    "offsetMeters": 0,
+    "landClearance": 1250
+  },
+  {
+    "id": "kulusuk",
+    "seed": {
+      "lat": 65.575,
+      "lon": -37.16
+    },
+    "berth": {
+      "lat": 65.57842834144512,
+      "lon": -37.207126857287165
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1240
+  },
+  {
+    "id": "skjoldungen",
+    "seed": {
+      "lat": 63.37,
+      "lon": -41.18
+    },
+    "berth": {
+      "lat": 63.370000000000005,
+      "lon": -41.18000000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 2328
+  },
+  {
+    "id": "timmiarmiut",
+    "seed": {
+      "lat": 62.53,
+      "lon": -42.25
+    },
+    "berth": {
+      "lat": 62.521633082064874,
+      "lon": -42.28886175278262
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1051
+  },
+  {
+    "id": "cape-dyer",
+    "seed": {
+      "lat": 66.558333,
+      "lon": -61.659444
+    },
+    "berth": {
+      "lat": 66.558333,
+      "lon": -61.65944400000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 1869
+  },
+  {
+    "id": "brevoort",
+    "seed": {
+      "lat": 63.316667,
+      "lon": -64.133333
+    },
+    "berth": {
+      "lat": 63.320155470105476,
+      "lon": -64.10431292096291
+    },
+    "offsetMeters": 1500,
+    "landClearance": 822
+  },
+  {
+    "id": "resolution-harbour",
+    "seed": {
+      "lat": 61.3,
+      "lon": -64.85
+    },
+    "berth": {
+      "lat": 61.300000000000004,
+      "lon": -64.85000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 3751
+  },
+  {
+    "id": "hopedale",
+    "seed": {
+      "lat": 55.459,
+      "lon": -60.204
+    },
+    "berth": {
+      "lat": 55.458999999999996,
+      "lon": -60.20400000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 835
+  },
+  {
+    "id": "bonavista",
+    "seed": {
+      "lat": 48.655,
+      "lon": -53.115
+    },
+    "berth": {
+      "lat": 48.66767605945956,
+      "lon": -53.12198608078353
+    },
+    "offsetMeters": 1500,
+    "landClearance": 705
+  },
+  {
+    "id": "yarmouth-canada",
+    "seed": {
+      "lat": 43.802,
+      "lon": -66.17
+    },
+    "berth": {
+      "lat": 43.802,
+      "lon": -66.17000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 3094
+  },
+  {
+    "id": "morro-bay",
+    "seed": {
+      "lat": 35.366667,
+      "lon": -120.85
+    },
+    "berth": {
+      "lat": 35.36572983304138,
+      "lon": -120.85651638817649
+    },
+    "offsetMeters": 600,
+    "landClearance": 658
+  },
+  {
+    "id": "eureka",
+    "seed": {
+      "lat": 40.8,
+      "lon": -124.183333
+    },
+    "berth": {
+      "lat": 40.80184532040582,
+      "lon": -124.19003139147736
+    },
+    "offsetMeters": 600,
+    "landClearance": 651
+  },
+  {
+    "id": "astoria",
+    "seed": {
+      "lat": 46.2,
+      "lon": -123.833333
+    },
+    "berth": {
+      "lat": 46.2,
+      "lon": -123.83333300000004
+    },
+    "offsetMeters": 0,
+    "landClearance": 976
+  },
+  {
+    "id": "acajutla",
+    "seed": {
+      "lat": 13.583333,
+      "lon": -89.833333
+    },
+    "berth": {
+      "lat": 13.557895015623428,
+      "lon": -89.85949876771303
+    },
+    "offsetMeters": 4000,
+    "landClearance": 1448
+  },
+  {
+    "id": "puerto-caldera",
+    "seed": {
+      "lat": 9.916667,
+      "lon": -84.716667
+    },
+    "berth": {
+      "lat": 9.916667,
+      "lon": -84.71666700000003
+    },
+    "offsetMeters": 0,
+    "landClearance": 986
+  },
+  {
+    "id": "golfito",
+    "seed": {
+      "lat": 8.633333,
+      "lon": -83.166667
+    },
+    "berth": {
+      "lat": 8.629532219903739,
+      "lon": -83.17491093867648
+    },
+    "offsetMeters": 1000,
+    "landClearance": 693
+  },
+  {
+    "id": "puerto-armuelles",
+    "seed": {
+      "lat": 8.266667,
+      "lon": -82.85
+    },
+    "berth": {
+      "lat": 8.248075078378774,
+      "lon": -82.84316238832582
+    },
+    "offsetMeters": 2200,
+    "landClearance": 668
+  },
+  {
+    "id": "buenaventura",
+    "seed": {
+      "lat": 3.883333,
+      "lon": -77.066667
+    },
+    "berth": {
+      "lat": 3.886408814480283,
+      "lon": -77.07513732558118
+    },
+    "offsetMeters": 1000,
+    "landClearance": 677
+  },
+  {
+    "id": "tumaco",
+    "seed": {
+      "lat": 1.816667,
+      "lon": -78.75
+    },
+    "berth": {
+      "lat": 1.816667,
+      "lon": -78.75
+    },
+    "offsetMeters": 0,
+    "landClearance": 973
+  },
+  {
+    "id": "esmeraldas",
+    "seed": {
+      "lat": 1,
+      "lon": -79.65
+    },
+    "berth": {
+      "lat": 1,
+      "lon": -79.64999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 699
+  },
+  {
+    "id": "manta",
+    "seed": {
+      "lat": -0.95,
+      "lon": -80.716667
+    },
+    "berth": {
+      "lat": -0.923939690045796,
+      "lon": -80.7236507449033
+    },
+    "offsetMeters": 3000,
+    "landClearance": 1055
+  },
+  {
+    "id": "cabo-blanco",
+    "seed": {
+      "lat": -4.25,
+      "lon": -81.233333
+    },
+    "berth": {
+      "lat": -4.2404612081245485,
+      "lon": -81.2428979167434
+    },
+    "offsetMeters": 1500,
+    "landClearance": 679
+  },
+  {
+    "id": "salaverry",
+    "seed": {
+      "lat": -8.233333,
+      "lon": -78.983333
+    },
+    "berth": {
+      "lat": -8.234681973651735,
+      "lon": -78.98569384381767
+    },
+    "offsetMeters": 300,
+    "landClearance": 880
+  },
+  {
+    "id": "chimbote",
+    "seed": {
+      "lat": -9.083333,
+      "lon": -78.616667
+    },
+    "berth": {
+      "lat": -9.083333,
+      "lon": -78.616667
+    },
+    "offsetMeters": 0,
+    "landClearance": 2969
+  },
+  {
+    "id": "san-nicolas",
+    "seed": {
+      "lat": -15.25,
+      "lon": -75.233333
+    },
+    "berth": {
+      "lat": -15.269076599504869,
+      "lon": -75.25310854840842
+    },
+    "offsetMeters": 3000,
+    "landClearance": 988
+  },
+  {
+    "id": "matarani",
+    "seed": {
+      "lat": -17,
+      "lon": -72.116667
+    },
+    "berth": {
+      "lat": -17.01348834844848,
+      "lon": -72.14110137677596
+    },
+    "offsetMeters": 3000,
+    "landClearance": 1255
+  },
+  {
+    "id": "arica",
+    "seed": {
+      "lat": -18.466667,
+      "lon": -70.333333
+    },
+    "berth": {
+      "lat": -18.466667,
+      "lon": -70.33333299999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 2747
+  },
+  {
+    "id": "iquique",
+    "seed": {
+      "lat": -20.2,
+      "lon": -70.166667
+    },
+    "berth": {
+      "lat": -20.2,
+      "lon": -70.16666700000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 2195
+  },
+  {
+    "id": "antofagasta",
+    "seed": {
+      "lat": -23.65,
+      "lon": -70.416667
+    },
+    "berth": {
+      "lat": -23.64999850402211,
+      "lon": -70.43826609043856
+    },
+    "offsetMeters": 2200,
+    "landClearance": 887
+  },
+  {
+    "id": "caldera-chile",
+    "seed": {
+      "lat": -27.05,
+      "lon": -70.833333
+    },
+    "berth": {
+      "lat": -27.040460861719712,
+      "lon": -70.8440424262617
+    },
+    "offsetMeters": 1500,
+    "landClearance": 700
+  },
+  {
+    "id": "coquimbo",
+    "seed": {
+      "lat": -29.95,
+      "lon": -71.333333
+    },
+    "berth": {
+      "lat": -29.9360088745328,
+      "lon": -71.3494770240693
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1336
+  },
+  {
+    "id": "talcahuano",
+    "seed": {
+      "lat": -36.7,
+      "lon": -73.1
+    },
+    "berth": {
+      "lat": -36.69076824954496,
+      "lon": -73.06838330309643
+    },
+    "offsetMeters": 3000,
+    "landClearance": 965
+  },
+  {
+    "id": "corral",
+    "seed": {
+      "lat": -39.866667,
+      "lon": -73.433333
+    },
+    "berth": {
+      "lat": -39.84718244534554,
+      "lon": -73.42885809281597
+    },
+    "offsetMeters": 2200,
+    "landClearance": 852
+  },
+  {
+    "id": "norfolk",
+    "seed": {
+      "lat": 36.85,
+      "lon": -76.3
+    },
+    "berth": {
+      "lat": 36.863284829101886,
+      "lon": -76.30292784672281
+    },
+    "offsetMeters": 1500,
+    "landClearance": 656
+  },
+  {
+    "id": "morehead-city",
+    "seed": {
+      "lat": 34.716667,
+      "lon": -76.7
+    },
+    "berth": {
+      "lat": 34.716667,
+      "lon": -76.69999999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 1006
+  },
+  {
+    "id": "charleston",
+    "seed": {
+      "lat": 32.783333,
+      "lon": -79.916667
+    },
+    "berth": {
+      "lat": 32.783333,
+      "lon": -79.91666700000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 2152
+  },
+  {
+    "id": "jacksonville",
+    "seed": {
+      "lat": 30.316667,
+      "lon": -81.65
+    },
+    "berth": {
+      "lat": 30.316161437076705,
+      "lon": -81.28537619416551
+    },
+    "offsetMeters": 35000,
+    "landClearance": 9013
+  },
+  {
+    "id": "canaveral",
+    "seed": {
+      "lat": 28.7,
+      "lon": -80.616667
+    },
+    "berth": {
+      "lat": 28.700000000000003,
+      "lon": -80.616667
+    },
+    "offsetMeters": 0,
+    "landClearance": 3733
+  },
+  {
+    "id": "key-west",
+    "seed": {
+      "lat": 24.55,
+      "lon": -81.816667
+    },
+    "berth": {
+      "lat": 24.549077217340287,
+      "lon": -81.81945420114766
+    },
+    "offsetMeters": 300,
+    "landClearance": 656
+  },
+  {
+    "id": "matthew-town",
+    "seed": {
+      "lat": 20.95,
+      "lon": -73.683333
+    },
+    "berth": {
+      "lat": 20.95,
+      "lon": -73.683333
+    },
+    "offsetMeters": 0,
+    "landClearance": 1333
+  },
+  {
+    "id": "haina",
+    "seed": {
+      "lat": 18.416667,
+      "lon": -70.016667
+    },
+    "berth": {
+      "lat": 18.403990667519977,
+      "lon": -70.01180451847995
+    },
+    "offsetMeters": 1500,
+    "landClearance": 910
+  },
+  {
+    "id": "rocky-point",
+    "seed": {
+      "lat": 17.816667,
+      "lon": -77.15
+    },
+    "berth": {
+      "lat": 17.816667,
+      "lon": -77.14999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 3182
+  },
+  {
+    "id": "trujillo-honduras",
+    "seed": {
+      "lat": 15.916667,
+      "lon": -85.95
+    },
+    "berth": {
+      "lat": 15.935258749600942,
+      "lon": -85.95703731082978
+    },
+    "offsetMeters": 2200,
+    "landClearance": 776
+  },
+  {
+    "id": "st-johns-antigua",
+    "seed": {
+      "lat": 17.116667,
+      "lon": -61.85
+    },
+    "berth": {
+      "lat": 17.11666678264552,
+      "lon": -61.859409996465274
+    },
+    "offsetMeters": 1000,
+    "landClearance": 785
+  },
+  {
+    "id": "fort-de-france",
+    "seed": {
+      "lat": 14.6,
+      "lon": -61.066667
+    },
+    "berth": {
+      "lat": 14.600000000000001,
+      "lon": -61.066666999999995
+    },
+    "offsetMeters": 0,
+    "landClearance": 848
+  },
+  {
+    "id": "point-lisas",
+    "seed": {
+      "lat": 10.4,
+      "lon": -61.5
+    },
+    "berth": {
+      "lat": 10.4,
+      "lon": -61.5
+    },
+    "offsetMeters": 0,
+    "landClearance": 3144
+  },
+  {
+    "id": "rio-grande",
+    "seed": {
+      "lat": -32.05,
+      "lon": -52.083333
+    },
+    "berth": {
+      "lat": -32.04999999999999,
+      "lon": -52.08333300000004
+    },
+    "offsetMeters": 0,
+    "landClearance": 1345
+  },
+  {
+    "id": "itajai",
+    "seed": {
+      "lat": -26.916667,
+      "lon": -48.633333
+    },
+    "berth": {
+      "lat": -26.9166652656998,
+      "lon": -48.61114414180355
+    },
+    "offsetMeters": 2200,
+    "landClearance": 1281
+  },
+  {
+    "id": "vitoria",
+    "seed": {
+      "lat": -20.316667,
+      "lon": -40.333333
+    },
+    "berth": {
+      "lat": -20.2975883587571,
+      "lon": -40.35367354119546
+    },
+    "offsetMeters": 3000,
+    "landClearance": 725
+  },
+  {
+    "id": "ilheus",
+    "seed": {
+      "lat": -14.783333,
+      "lon": -39.016667
+    },
+    "berth": {
+      "lat": -14.783333,
+      "lon": -39.016666999999984
+    },
+    "offsetMeters": 0,
+    "landClearance": 3359
+  },
+  {
+    "id": "salvador",
+    "seed": {
+      "lat": -12.966667,
+      "lon": -38.516667
+    },
+    "berth": {
+      "lat": -12.966667,
+      "lon": -38.516666999999984
+    },
+    "offsetMeters": 0,
+    "landClearance": 774
+  },
+  {
+    "id": "recife",
+    "seed": {
+      "lat": -8.05,
+      "lon": -34.866667
+    },
+    "berth": {
+      "lat": -8.06948445408544,
+      "lon": -34.870136995412906
+    },
+    "offsetMeters": 2200,
+    "landClearance": 924
+  },
+  {
+    "id": "natal",
+    "seed": {
+      "lat": -5.783333,
+      "lon": -35.2
+    },
+    "berth": {
+      "lat": -5.783332356641933,
+      "lon": -35.17288236205104
+    },
+    "offsetMeters": 3000,
+    "landClearance": 1160
+  },
+  {
+    "id": "fortaleza",
+    "seed": {
+      "lat": -3.716667,
+      "lon": -38.483333
+    },
+    "berth": {
+      "lat": -3.6896873890882644,
+      "lon": -38.483333000000016
+    },
+    "offsetMeters": 3000,
+    "landClearance": 781
+  },
+  {
+    "id": "agadir",
+    "seed": {
+      "lat": 30.433333,
+      "lon": -9.633333
+    },
+    "berth": {
+      "lat": 30.433332850730544,
+      "lon": -9.639591179624517
+    },
+    "offsetMeters": 600,
+    "landClearance": 794
+  },
+  {
+    "id": "laayoune",
+    "seed": {
+      "lat": 27.083333,
+      "lon": -13.433333
+    },
+    "berth": {
+      "lat": 27.083333,
+      "lon": -13.433332999999948
+    },
+    "offsetMeters": 0,
+    "landClearance": 989
+  },
+  {
+    "id": "dakhla",
+    "seed": {
+      "lat": 23.7,
+      "lon": -15.916667
+    },
+    "berth": {
+      "lat": 23.7,
+      "lon": -15.916666999999961
+    },
+    "offsetMeters": 0,
+    "landClearance": 4093
+  },
+  {
+    "id": "nouadhibou",
+    "seed": {
+      "lat": 20.916667,
+      "lon": -17.05
+    },
+    "berth": {
+      "lat": 20.90968189808527,
+      "lon": -17.02210248309177
+    },
+    "offsetMeters": 3000,
+    "landClearance": 1299
+  },
+  {
+    "id": "nouakchott",
+    "seed": {
+      "lat": 18.033333,
+      "lon": -16.033333
+    },
+    "berth": {
+      "lat": 18.033329323528168,
+      "lon": -16.071164212658687
+    },
+    "offsetMeters": 4000,
+    "landClearance": 1379
+  },
+  {
+    "id": "banjul",
+    "seed": {
+      "lat": 13.45,
+      "lon": -16.566667
+    },
+    "berth": {
+      "lat": 13.45,
+      "lon": -16.566667000000052
+    },
+    "offsetMeters": 0,
+    "landClearance": 2602
+  },
+  {
+    "id": "conakry",
+    "seed": {
+      "lat": 9.516667,
+      "lon": -13.716667
+    },
+    "berth": {
+      "lat": 9.507673796362756,
+      "lon": -13.71666700000003
+    },
+    "offsetMeters": 1000,
+    "landClearance": 757
+  },
+  {
+    "id": "freetown",
+    "seed": {
+      "lat": 8.5,
+      "lon": -13.233333
+    },
+    "berth": {
+      "lat": 8.5,
+      "lon": -13.233333000000016
+    },
+    "offsetMeters": 0,
+    "landClearance": 2575
+  },
+  {
+    "id": "monrovia",
+    "seed": {
+      "lat": 6.316667,
+      "lon": -10.816667
+    },
+    "berth": {
+      "lat": 6.316667,
+      "lon": -10.816667000000052
+    },
+    "offsetMeters": 0,
+    "landClearance": 3693
+  },
+  {
+    "id": "cape-palmas",
+    "seed": {
+      "lat": 4.366667,
+      "lon": -7.716667
+    },
+    "berth": {
+      "lat": 4.358516379893321,
+      "lon": -7.720478715414174
+    },
+    "offsetMeters": 1000,
+    "landClearance": 675
+  },
+  {
+    "id": "sekondi",
+    "seed": {
+      "lat": 4.95,
+      "lon": -1.7
+    },
+    "berth": {
+      "lat": 4.95,
+      "lon": -1.7000000000000455
+    },
+    "offsetMeters": 0,
+    "landClearance": 1055
+  },
+  {
+    "id": "lagos",
+    "seed": {
+      "lat": 6.4,
+      "lon": 3.4
+    },
+    "berth": {
+      "lat": 6.4,
+      "lon": 3.3999999999999773
+    },
+    "offsetMeters": 0,
+    "landClearance": 1729
+  },
+  {
+    "id": "malabo",
+    "seed": {
+      "lat": 3.75,
+      "lon": 8.783333
+    },
+    "berth": {
+      "lat": 3.755395922182347,
+      "lon": 8.78333299999997
+    },
+    "offsetMeters": 600,
+    "landClearance": 938
+  },
+  {
+    "id": "bata",
+    "seed": {
+      "lat": 1.866667,
+      "lon": 9.766667
+    },
+    "berth": {
+      "lat": 1.8666669482444824,
+      "lon": 9.75317003218288
+    },
+    "offsetMeters": 1500,
+    "landClearance": 818
+  },
+  {
+    "id": "port-gentil",
+    "seed": {
+      "lat": -0.7,
+      "lon": 8.8
+    },
+    "berth": {
+      "lat": -0.7,
+      "lon": 8.799999999999955
+    },
+    "offsetMeters": 0,
+    "landClearance": 2319
+  },
+  {
+    "id": "pointe-noire",
+    "seed": {
+      "lat": -4.783333,
+      "lon": 11.833333
+    },
+    "berth": {
+      "lat": -4.793225309461936,
+      "lon": 11.816138512415137
+    },
+    "offsetMeters": 2200,
+    "landClearance": 933
+  },
+  {
+    "id": "luanda",
+    "seed": {
+      "lat": -8.8,
+      "lon": 13.25
+    },
+    "berth": {
+      "lat": -8.798092248500634,
+      "lon": 13.248069538594564
+    },
+    "offsetMeters": 300,
+    "landClearance": 662
+  },
+  {
+    "id": "lobito",
+    "seed": {
+      "lat": -12.333333,
+      "lon": 13.566667
+    },
+    "berth": {
+      "lat": -12.333333,
+      "lon": 13.566667000000052
+    },
+    "offsetMeters": 0,
+    "landClearance": 720
+  },
+  {
+    "id": "namibe",
+    "seed": {
+      "lat": -15.2,
+      "lon": 12.15
+    },
+    "berth": {
+      "lat": -15.174561845840708,
+      "lon": 12.123644435072606
+    },
+    "offsetMeters": 4000,
+    "landClearance": 868
+  },
+  {
+    "id": "walvis-bay",
+    "seed": {
+      "lat": -22.95,
+      "lon": 14.5
+    },
+    "berth": {
+      "lat": -22.94538562107953,
+      "lon": 14.486234565209315
+    },
+    "offsetMeters": 1500,
+    "landClearance": 829
+  },
+  {
+    "id": "luderitz",
+    "seed": {
+      "lat": -26.65,
+      "lon": 15.15
+    },
+    "berth": {
+      "lat": -26.64618444308223,
+      "lon": 15.145731122223651
+    },
+    "offsetMeters": 600,
+    "landClearance": 693
+  },
+  {
+    "id": "saldanha",
+    "seed": {
+      "lat": -33.033333,
+      "lon": 17.966667
+    },
+    "berth": {
+      "lat": -33.033333000000006,
+      "lon": 17.96666700000003
+    },
+    "offsetMeters": 0,
+    "landClearance": 920
+  },
+  {
+    "id": "sharm-el-sheikh",
+    "seed": {
+      "lat": 27.85,
+      "lon": 34.283333
+    },
+    "berth": {
+      "lat": 27.843640658293015,
+      "lon": 34.29052478012716
+    },
+    "offsetMeters": 1000,
+    "landClearance": 943
+  },
+  {
+    "id": "hurghada",
+    "seed": {
+      "lat": 27.216667,
+      "lon": 33.85
+    },
+    "berth": {
+      "lat": 27.216667,
+      "lon": 33.85000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 1182
+  },
+  {
+    "id": "al-qusayr",
+    "seed": {
+      "lat": 26.1,
+      "lon": 34.283333
+    },
+    "berth": {
+      "lat": 26.099996888128317,
+      "lon": 34.313376187048334
+    },
+    "offsetMeters": 3000,
+    "landClearance": 849
+  },
+  {
+    "id": "duba",
+    "seed": {
+      "lat": 27.316667,
+      "lon": 35.9
+    },
+    "berth": {
+      "lat": 27.31643915925375,
+      "lon": 35.64695116671123
+    },
+    "offsetMeters": 25000,
+    "landClearance": 2587
+  },
+  {
+    "id": "al-mukha",
+    "seed": {
+      "lat": 13.316667,
+      "lon": 43.25
+    },
+    "berth": {
+      "lat": 13.316666984964714,
+      "lon": 43.24722749145383
+    },
+    "offsetMeters": 300,
+    "landClearance": 883
+  },
+  {
+    "id": "muscat",
+    "seed": {
+      "lat": 23.633333,
+      "lon": 58.583333
+    },
+    "berth": {
+      "lat": 23.647322393992475,
+      "lon": 58.59860555076284
+    },
+    "offsetMeters": 2200,
+    "landClearance": 829
+  },
+  {
+    "id": "sohar",
+    "seed": {
+      "lat": 24.516667,
+      "lon": 56.633333
+    },
+    "berth": {
+      "lat": 24.516667,
+      "lon": 56.63333299999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 2987
+  },
+  {
+    "id": "fujairah",
+    "seed": {
+      "lat": 25.1730556,
+      "lon": 56.3691667
+    },
+    "berth": {
+      "lat": 25.173052614566874,
+      "lon": 56.398977528866
+    },
+    "offsetMeters": 3000,
+    "landClearance": 910
+  },
+  {
+    "id": "karachi",
+    "seed": {
+      "lat": 24.783333,
+      "lon": 66.983333
+    },
+    "berth": {
+      "lat": 24.783333,
+      "lon": 66.98333300000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 5674
+  },
+  {
+    "id": "okha",
+    "seed": {
+      "lat": 22.4680556,
+      "lon": 69.0797222
+    },
+    "berth": {
+      "lat": 22.4680556,
+      "lon": 69.07972219999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 662
+  },
+  {
+    "id": "veraval",
+    "seed": {
+      "lat": 20.9,
+      "lon": 70.366667
+    },
+    "berth": {
+      "lat": 20.9,
+      "lon": 70.366667
+    },
+    "offsetMeters": 0,
+    "landClearance": 2846
+  },
+  {
+    "id": "penang",
+    "seed": {
+      "lat": 5.416667,
+      "lon": 100.35
+    },
+    "berth": {
+      "lat": 5.416667,
+      "lon": 100.35000000000002
+    },
+    "offsetMeters": 0,
+    "landClearance": 3784
+  },
+  {
+    "id": "port-klang",
+    "seed": {
+      "lat": 3,
+      "lon": 101.4
+    },
+    "berth": {
+      "lat": 2.999999408176846,
+      "lon": 101.3639778183159
+    },
+    "offsetMeters": 4000,
+    "landClearance": 725
+  },
+  {
+    "id": "sabang",
+    "seed": {
+      "lat": 5.883333,
+      "lon": 95.316667
+    },
+    "berth": {
+      "lat": 5.883333,
+      "lon": 95.31666700000005
+    },
+    "offsetMeters": 0,
+    "landClearance": 1172
+  },
+  {
+    "id": "belawan",
+    "seed": {
+      "lat": 3.783333,
+      "lon": 98.683333
+    },
+    "berth": {
+      "lat": 3.8469222059168504,
+      "lon": 98.74706814404158
+    },
+    "offsetMeters": 10000,
+    "landClearance": 2582
+  },
+  {
+    "id": "phuket",
+    "seed": {
+      "lat": 7.833333,
+      "lon": 98.4
+    },
+    "berth": {
+      "lat": 7.828174645166504,
+      "lon": 98.40743609825415
+    },
+    "offsetMeters": 1000,
+    "landClearance": 795
+  },
+  {
+    "id": "salina-cruz",
+    "seed": {
+      "lat": 16.165,
+      "lon": -95.193
+    },
+    "berth": {
+      "lat": 16.14521495199806,
+      "lon": -95.19299999999998
+    },
+    "offsetMeters": 2200,
+    "landClearance": 825
+  },
+  {
+    "id": "puerto-quetzal",
+    "seed": {
+      "lat": 13.9184,
+      "lon": -90.7842
+    },
+    "berth": {
+      "lat": 13.909406796362756,
+      "lon": -90.7842
+    },
+    "offsetMeters": 1000,
+    "landClearance": 756
+  },
+  {
+    "id": "corinto",
+    "seed": {
+      "lat": 12.4833,
+      "lon": -87.1667
+    },
+    "berth": {
+      "lat": 12.4833,
+      "lon": -87.16669999999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 1298
+  },
+  {
+    "id": "belize-city",
+    "seed": {
+      "lat": 17.475,
+      "lon": -88.195
+    },
+    "berth": {
+      "lat": 17.474999999999998,
+      "lon": -88.195
+    },
+    "offsetMeters": 0,
+    "landClearance": 2943
+  },
+  {
+    "id": "puerto-limon",
+    "seed": {
+      "lat": 9.99,
+      "lon": -83.025
+    },
+    "berth": {
+      "lat": 9.99,
+      "lon": -83.02499999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 3006
+  },
+  {
+    "id": "yanbu",
+    "seed": {
+      "lat": 24.0667,
+      "lon": 38.05
+    },
+    "berth": {
+      "lat": 24.062085588578675,
+      "lon": 38.03611738847121
+    },
+    "offsetMeters": 1500,
+    "landClearance": 716
+  },
+  {
+    "id": "jazan",
+    "seed": {
+      "lat": 17.2833,
+      "lon": 42.3333
+    },
+    "berth": {
+      "lat": 17.28329950589141,
+      "lon": 42.31917229232636
+    },
+    "offsetMeters": 1500,
+    "landClearance": 1040
+  },
+  {
+    "id": "aden",
+    "seed": {
+      "lat": 12.7667,
+      "lon": 45.0333
+    },
+    "berth": {
+      "lat": 12.761304077817655,
+      "lon": 45.033300000000054
+    },
+    "offsetMeters": 600,
+    "landClearance": 774
+  },
+  {
+    "id": "mukalla",
+    "seed": {
+      "lat": 14.5167,
+      "lon": 49.1167
+    },
+    "berth": {
+      "lat": 14.511304077817655,
+      "lon": 49.11670000000004
+    },
+    "offsetMeters": 600,
+    "landClearance": 832
+  },
+  {
+    "id": "salalah",
+    "seed": {
+      "lat": 16.95,
+      "lon": 54.0167
+    },
+    "berth": {
+      "lat": 16.940461025144305,
+      "lon": 54.02667141179745
+    },
+    "offsetMeters": 1500,
+    "landClearance": 1024
+  },
+  {
+    "id": "duqm",
+    "seed": {
+      "lat": 19.65,
+      "lon": 57.7
+    },
+    "berth": {
+      "lat": 19.64999943296588,
+      "lon": 57.71432397108481
+    },
+    "offsetMeters": 1500,
+    "landClearance": 872
+  },
+  {
+    "id": "gwadar",
+    "seed": {
+      "lat": 25.1167,
+      "lon": 62.3333
+    },
+    "berth": {
+      "lat": 25.08072718545102,
+      "lon": 62.33330000000001
+    },
+    "offsetMeters": 4000,
+    "landClearance": 1226
+  },
+  {
+    "id": "mormugao",
+    "seed": {
+      "lat": 15.4167,
+      "lon": 73.7833
+    },
+    "berth": {
+      "lat": 15.416699999999999,
+      "lon": 73.78330000000005
+    },
+    "offsetMeters": 0,
+    "landClearance": 980
+  },
+  {
+    "id": "new-mangalore",
+    "seed": {
+      "lat": 12.9333,
+      "lon": 74.8167
+    },
+    "berth": {
+      "lat": 12.933298541284204,
+      "lon": 74.7890181356671
+    },
+    "offsetMeters": 3000,
+    "landClearance": 1153
+  },
+  {
+    "id": "kochi",
+    "seed": {
+      "lat": 9.97,
+      "lon": 76.2583
+    },
+    "berth": {
+      "lat": 9.97,
+      "lon": 76.25829999999996
+    },
+    "offsetMeters": 0,
+    "landClearance": 1069
+  },
+  {
+    "id": "puerto-montt",
+    "seed": {
+      "lat": -41.4833333,
+      "lon": -72.9666667
+    },
+    "berth": {
+      "lat": -41.49600940634286,
+      "lon": -72.96050678859285
+    },
+    "offsetMeters": 1500,
+    "landClearance": 854
+  },
+  {
+    "id": "puerto-chacabuco",
+    "seed": {
+      "lat": -45.4666667,
+      "lon": -72.8333333
+    },
+    "berth": {
+      "lat": -45.44758600739157,
+      "lon": -72.8605261650547
+    },
+    "offsetMeters": 3000,
+    "landClearance": 822
+  },
+  {
+    "id": "puerto-natales",
+    "seed": {
+      "lat": -51.7166667,
+      "lon": -72.5666667
+    },
+    "berth": {
+      "lat": -51.7166667,
+      "lon": -72.56666669999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 946
+  },
+  {
+    "id": "punta-arenas",
+    "seed": {
+      "lat": -53.1666667,
+      "lon": -70.9
+    },
+    "berth": {
+      "lat": -53.1666657576929,
+      "lon": -70.8849985598469
+    },
+    "offsetMeters": 1000,
+    "landClearance": 841
+  },
+  {
+    "id": "ushuaia",
+    "seed": {
+      "lat": -54.8166667,
+      "lon": -68.3
+    },
+    "berth": {
+      "lat": -54.8166667,
+      "lon": -68.30000000000001
+    },
+    "offsetMeters": 0,
+    "landClearance": 910
+  },
+  {
+    "id": "puerto-williams",
+    "seed": {
+      "lat": -54.9333333,
+      "lon": -67.6
+    },
+    "berth": {
+      "lat": -54.924340096362755,
+      "lon": -67.60000000000002
+    },
+    "offsetMeters": 1000,
+    "landClearance": 673
+  },
+  {
+    "id": "cape-horn",
+    "seed": {
+      "lat": -55.943,
+      "lon": -67.2093333
+    },
+    "berth": {
+      "lat": -55.943,
+      "lon": -67.20933330000003
+    },
+    "offsetMeters": 0,
+    "landClearance": 5136
+  },
+  {
+    "id": "fildes-bay",
+    "seed": {
+      "lat": -62.2158333,
+      "lon": -58.9597222
+    },
+    "berth": {
+      "lat": -62.2158333,
+      "lon": -58.95972219999999
+    },
+    "offsetMeters": 0,
+    "landClearance": 842
+  },
+  {
+    "id": "deception-island",
+    "seed": {
+      "lat": -62.9833333,
+      "lon": -60.5666667
+    },
+    "berth": {
+      "lat": -62.98333329999999,
+      "lon": -60.56666670000004
+    },
+    "offsetMeters": 0,
+    "landClearance": 1191
+  },
+  {
+    "id": "port-lockroy",
+    "seed": {
+      "lat": -64.8166667,
+      "lon": -63.5
+    },
+    "berth": {
+      "lat": -64.8166667,
+      "lon": -63.5
+    },
+    "offsetMeters": 0,
+    "landClearance": 771
+  },
+  {
+    "id": "bahia-blanca",
+    "seed": {
+      "lat": -38.7833333,
+      "lon": -62.2666667
+    },
+    "berth": {
+      "lat": -38.81593412012842,
+      "lon": -62.24715505161657
+    },
+    "offsetMeters": 4000,
+    "landClearance": 1139
+  },
+  {
+    "id": "puerto-madryn",
+    "seed": {
+      "lat": -42.7666667,
+      "lon": -65.0333333
+    },
+    "berth": {
+      "lat": -42.76664695257752,
+      "lon": -64.96595702490532
+    },
+    "offsetMeters": 5500,
+    "landClearance": 1887
+  },
+  {
+    "id": "puerto-deseado",
+    "seed": {
+      "lat": -47.75,
+      "lon": -65.9
+    },
+    "berth": {
+      "lat": -47.74999999999999,
+      "lon": -65.89999999999998
+    },
+    "offsetMeters": 0,
+    "landClearance": 949
+  },
+  {
+    "id": "rio-gallegos",
+    "seed": {
+      "lat": -51.6166667,
+      "lon": -68.9666667
+    },
+    "berth": {
+      "lat": -51.61666661980829,
+      "lon": -68.96232159593461
+    },
+    "offsetMeters": 300,
+    "landClearance": 854
+  }
+]
